@@ -66,7 +66,7 @@ export interface Translation {
 
 export const translations: Record<string, Translation> = {
   es: {
-    appTitle: "Emojialo",
+    appTitle: "Imaginalo",
     howToPlay: "¿CÓMO JUGAR?",
     lookAtGrid: "Mirá la grilla",
     findDifferent: "Buscá el diferente",
@@ -117,7 +117,7 @@ export const translations: Record<string, Translation> = {
   },
 
   en: {
-    appTitle: "Emojialo",
+    appTitle: "Imaginalo",
     howToPlay: "HOW TO PLAY?",
     lookAtGrid: "Look at the grid",
     findDifferent: "Find the different one",
@@ -168,7 +168,7 @@ export const translations: Record<string, Translation> = {
   },
 
   pt: {
-    appTitle: "Emojialo",
+    appTitle: "Imaginalo",
     howToPlay: "COMO JOGAR?",
     lookAtGrid: "Olhe a grade",
     findDifferent: "Encontre o diferente",
@@ -219,7 +219,7 @@ export const translations: Record<string, Translation> = {
   },
 
   fr: {
-    appTitle: "Emojialo",
+    appTitle: "Imaginalo",
     howToPlay: "COMMENT JOUER?",
     lookAtGrid: "Regardez la grille",
     findDifferent: "Trouvez le différent",
