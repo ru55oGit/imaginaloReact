@@ -1,0 +1,1108 @@
+{
+  "listado": [
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "volver al|futuro",
+      "pregunta": "1",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "beethoven",
+      "pregunta": "2",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "beetlejuice",
+      "pregunta": "3",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "capitan|america",
+      "pregunta": "4",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "chucky",
+      "pregunta": "5",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "click",
+      "pregunta": "6",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "jamaica|bajo cero",
+      "pregunta": "7",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "tonto y|retonto",
+      "pregunta": "8",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el silencio de|los inocentes",
+      "pregunta": "9",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el joven manos|de tijera",
+      "pregunta": "10",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "rescate en la|antartida",
+      "pregunta": "11",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el laberinto|del fauno",
+      "pregunta": "12",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "et",
+      "pregunta": "13",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "fantasia",
+      "pregunta": "14",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "bee movie",
+      "pregunta": "15",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "quisiera|ser grande",
+      "pregunta": "16",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "iron man",
+      "pregunta": "17",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "gremlins",
+      "pregunta": "18",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "linterna|verde",
+      "pregunta": "19",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "guardianes de|la galaxia",
+      "pregunta": "20",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "gladiador",
+      "pregunta": "21",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "intensamente",
+      "pregunta": "22",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "indiana|jones",
+      "pregunta": "23",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "kill bill",
+      "pregunta": "24",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "una aventura|extraordinaria",
+      "pregunta": "25",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "superman",
+      "pregunta": "26",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "meteoro",
+      "pregunta": "27",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "madagascar",
+      "pregunta": "28",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "ouija",
+      "pregunta": "29",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "up",
+      "pregunta": "30",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "rocky",
+      "pregunta": "31",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "cars",
+      "pregunta": "32",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "twister",
+      "pregunta": "33",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "transformers",
+      "pregunta": "34",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "milagro en|la calle 8",
+      "pregunta": "35",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "jerry|maguire",
+      "pregunta": "36",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "coco",
+      "pregunta": "37",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "anaconda",
+      "pregunta": "38",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la bella y|la bestia",
+      "pregunta": "39",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "austin|powers",
+      "pregunta": "40",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "christine",
+      "pregunta": "41",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el avispon|verde",
+      "pregunta": "42",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "godzilla",
+      "pregunta": "43",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "hellboy",
+      "pregunta": "44",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "monstruos|vs aliens",
+      "pregunta": "45",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "matrix",
+      "pregunta": "46",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "stuart|little",
+      "pregunta": "47",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "rapido|y furioso",
+      "pregunta": "48",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "una noche en|el museo",
+      "pregunta": "49",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "mad max",
+      "pregunta": "50",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "troya",
+      "pregunta": "51",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "rio",
+      "pregunta": "52",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "memento",
+      "pregunta": "53",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "cupido|motorizado",
+      "pregunta": "54",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "las cronicas|de narnia",
+      "pregunta": "55",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el origen",
+      "pregunta": "56",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "garfield",
+      "pregunta": "57",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "buscando|a nemo",
+      "pregunta": "58",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "starsky|y hutch",
+      "pregunta": "59",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "porkys",
+      "pregunta": "60",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "little miss|sunshine",
+      "pregunta": "61",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "spiderman",
+      "pregunta": "62",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el gran|torino",
+      "pregunta": "63",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la dama y|el vagabundo",
+      "pregunta": "64",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "101|dalmatas",
+      "pregunta": "65",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "los juegos|del hambre",
+      "pregunta": "66",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "kung fu|panda",
+      "pregunta": "67",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "pinocho",
+      "pregunta": "68",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "zathura",
+      "pregunta": "69",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "depredador",
+      "pregunta": "70",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "space jam",
+      "pregunta": "71",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la sirenita",
+      "pregunta": "72",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "dumbo",
+      "pregunta": "73",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "king kong",
+      "pregunta": "74",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "300",
+      "pregunta": "75",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el llanero|solitario",
+      "pregunta": "76",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "tiburon",
+      "pregunta": "77",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "los|increibles",
+      "pregunta": "78",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "las pesadillas|de freddie",
+      "pregunta": "79",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "dia de la|independencia",
+      "pregunta": "80",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "aladdin",
+      "pregunta": "81",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "toy story",
+      "pregunta": "82",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "v de vendetta",
+      "pregunta": "83",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el padrino",
+      "pregunta": "84",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "megamente",
+      "pregunta": "85",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "monster inc",
+      "pregunta": "86",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la guerra de|las galaxias",
+      "pregunta": "87",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "dias de|trueno",
+      "pregunta": "88",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "daniel el|travieso",
+      "pregunta": "89",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "los cuatro|fantasticos",
+      "pregunta": "90",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la estafa|maestra",
+      "pregunta": "91",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "babe",
+      "pregunta": "92",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "ratatouille",
+      "pregunta": "93",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "lassie",
+      "pregunta": "94",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "batman",
+      "pregunta": "95",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el increible|hulk",
+      "pregunta": "96",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "vecinos|invasores",
+      "pregunta": "97",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "las tortugas|ninjas",
+      "pregunta": "98",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "sherlock|holmes",
+      "pregunta": "99",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "marcianos|al ataque",
+      "pregunta": "100",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el regalo|prometido",
+      "pregunta": "101",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "los|picapiedras",
+      "pregunta": "102",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "los pinguinos|de madagascar",
+      "pregunta": "103",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "frozen",
+      "pregunta": "104",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el planeta|de los simios",
+      "pregunta": "105",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "james bond",
+      "pregunta": "106",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el rey leon",
+      "pregunta": "107",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "scooby doo",
+      "pregunta": "108",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "top secret",
+      "pregunta": "109",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "alien",
+      "pregunta": "110",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "los duques|de hazzard",
+      "pregunta": "111",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "los sospechosos|de siempre",
+      "pregunta": "112",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "lego|la pelicula",
+      "pregunta": "113",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "mary poppins",
+      "pregunta": "114",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "los pitufos",
+      "pregunta": "115",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "ghost rider",
+      "pregunta": "116",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "bambi",
+      "pregunta": "117",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "van helsing",
+      "pregunta": "118",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "robocop",
+      "pregunta": "119",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la era|del hielo",
+      "pregunta": "120",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "zoolander",
+      "pregunta": "121",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el oso yogi",
+      "pregunta": "122",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "tron",
+      "pregunta": "123",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "red social",
+      "pregunta": "124",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la mascara",
+      "pregunta": "125",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "happy feet",
+      "pregunta": "126",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "mi novia|polly",
+      "pregunta": "127",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "malefica",
+      "pregunta": "128",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el|castigador",
+      "pregunta": "129",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "ted",
+      "pregunta": "130",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "angry birds|la pelicula",
+      "pregunta": "131",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "como entrenar|a mi dragon",
+      "pregunta": "132",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "zootopia",
+      "pregunta": "133",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "los minions",
+      "pregunta": "134",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "jumanji",
+      "pregunta": "135",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la momia",
+      "pregunta": "136",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "faivel un|cuento americano",
+      "pregunta": "137",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "milagros|inesperados",
+      "pregunta": "138",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la llamada",
+      "pregunta": "139",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "60 segundos",
+      "pregunta": "140",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "rambo",
+      "pregunta": "141",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "karate|kid",
+      "pregunta": "142",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "wall e",
+      "pregunta": "143",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la maquina|del tiempo",
+      "pregunta": "144",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "naufrago",
+      "pregunta": "145",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la familia|de mi novia",
+      "pregunta": "146",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "viernes 13",
+      "pregunta": "147",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "hombres de|negro",
+      "pregunta": "148",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "los piratas|del caribe",
+      "pregunta": "149",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "brigada a",
+      "pregunta": "150",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el juego|del miedo",
+      "pregunta": "151",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "pajaros",
+      "pregunta": "152",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "cortocircuito",
+      "pregunta": "153",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "yo robot",
+      "pregunta": "154",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "los muppets",
+      "pregunta": "155",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "titanic",
+      "pregunta": "156",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "avatar",
+      "pregunta": "157",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "scream",
+      "pregunta": "158",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "grandes|heroes",
+      "pregunta": "159",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "terminator",
+      "pregunta": "160",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la guerra de|los mundos",
+      "pregunta": "161",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "atrapame|si puedes",
+      "pregunta": "162",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "x men",
+      "pregunta": "163",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la mascara|del zorro",
+      "pregunta": "164",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "liberen|a willy",
+      "pregunta": "165",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "forrest|gump",
+      "pregunta": "166",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "los|cazafantasmas",
+      "pregunta": "167",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "top gun",
+      "pregunta": "168",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el fantasma|de la opera",
+      "pregunta": "169",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "maxima|velocidad",
+      "pregunta": "170",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "star trek",
+      "pregunta": "171",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "borat",
+      "pregunta": "172",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "shrek",
+      "pregunta": "173",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el vuelo",
+      "pregunta": "174",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "resident|evil",
+      "pregunta": "175",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "la masacre|de texas",
+      "pregunta": "176",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "jurassic|park",
+      "pregunta": "177",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "thor",
+      "pregunta": "178",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el grinch",
+      "pregunta": "179",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "psicosis",
+      "pregunta": "180",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "casper",
+      "pregunta": "181",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "harry|potter",
+      "pregunta": "182",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "el santo",
+      "pregunta": "183",
+      "categorias": "Peliculas"
+    },
+    {
+      "titulo:": "Peliculas",
+      "respuesta": "los locos|adams",
+      "pregunta": "184",
+      "categorias": "Peliculas"
+    }
+  ]
+}

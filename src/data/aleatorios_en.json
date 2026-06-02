@@ -1,0 +1,6208 @@
+{
+  "preguntas": [
+    {
+      "titulo": "Shadows",
+      "respuesta": "Bumblebee|Man",
+      "pregunta": "101",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "the karate|kid",
+      "pregunta": "142",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Motorcycle|Diaries",
+      "pregunta": "45",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "the Polar|Express",
+      "pregunta": "63",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "toy story",
+      "pregunta": "123",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Lego|Movie",
+      "pregunta": "113",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "goofy",
+      "pregunta": "35",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "top gun",
+      "pregunta": "168",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "the mask",
+      "pregunta": "125",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mcdonalds",
+      "pregunta": "45",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "bee movie",
+      "pregunta": "57",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "garfield",
+      "pregunta": "1",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "stella|artois",
+      "pregunta": "33",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "the last|straw",
+      "pregunta": "3",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "marvin|the martian",
+      "pregunta": "144",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "get in shape",
+      "pregunta": "106",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Night at|the Museum",
+      "pregunta": "65",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "airline",
+      "pregunta": "18",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Philippines",
+      "pregunta": "88",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The|Punisher",
+      "pregunta": "129",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Woody|Woodpecker",
+      "pregunta": "38",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Cameroon",
+      "pregunta": "47",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "touche|turtle",
+      "pregunta": "148",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Yosemite|Sam",
+      "pregunta": "61",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "top cat",
+      "pregunta": "82",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Blood|Diamond",
+      "pregunta": "7",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "bugs|bunny",
+      "pregunta": "108",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "hewlett|packard",
+      "pregunta": "75",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "droopy",
+      "pregunta": "161",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "men in black",
+      "pregunta": "10",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "north|korea",
+      "pregunta": "17",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Jingle All|the Way",
+      "pregunta": "101",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Lady and|the Tramp",
+      "pregunta": "32",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "godzilla",
+      "pregunta": "43",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "big",
+      "pregunta": "16",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "milhouse",
+      "pregunta": "25",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "saw",
+      "pregunta": "151",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Beauty and|the Beast",
+      "pregunta": "39",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "chief|Quimby",
+      "pregunta": "17",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "headquarters",
+      "pregunta": "6",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Barney|Rubble",
+      "pregunta": "135",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "up",
+      "pregunta": "12",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "amy|winehouse",
+      "pregunta": "16",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "stuart|little",
+      "pregunta": "47",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Time|Machine",
+      "pregunta": "144",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "king kong",
+      "pregunta": "74",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "keyboard",
+      "pregunta": "16",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "lg",
+      "pregunta": "98",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "turbo",
+      "pregunta": "67",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "address",
+      "pregunta": "76",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Betty|Rubble",
+      "pregunta": "151",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "indiana|jones",
+      "pregunta": "37",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "kung fu|panda",
+      "pregunta": "67",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "gravity",
+      "pregunta": "50",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "pepe le pew",
+      "pregunta": "123",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Motorcycle|Diaries",
+      "pregunta": "45",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "quiksilver",
+      "pregunta": "58",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "costa|rica",
+      "pregunta": "55",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Stand by Me",
+      "pregunta": "58",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "mad max",
+      "pregunta": "50",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "france",
+      "pregunta": "7",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Nine|Queens",
+      "pregunta": "81",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "boba fett",
+      "pregunta": "46",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "quicksilver",
+      "pregunta": "89",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "titanic",
+      "pregunta": "59",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "creed",
+      "pregunta": "72",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "froddo",
+      "pregunta": "86",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "israel",
+      "pregunta": "74",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "broken heart",
+      "pregunta": "117",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "batteries|not included",
+      "pregunta": "35",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The X Files",
+      "pregunta": "76",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Cast Away",
+      "pregunta": "127",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "bewitch",
+      "pregunta": "74",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "lionel|messi",
+      "pregunta": "2",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Stephen|Curry",
+      "pregunta": "69",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "frank|grimes",
+      "pregunta": "81",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "hit below|the belt",
+      "pregunta": "44",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "american pie",
+      "pregunta": "9",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Child's|Play",
+      "pregunta": "5",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Ring",
+      "pregunta": "49",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "airport",
+      "pregunta": "21",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "jurassic|park",
+      "pregunta": "124",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Itchy",
+      "pregunta": "106",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "leftovers",
+      "pregunta": "93",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "beethoven",
+      "pregunta": "2",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "head in|the sand",
+      "pregunta": "120",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "buzz|lightyear",
+      "pregunta": "114",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "shang chi",
+      "pregunta": "38",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "peru",
+      "pregunta": "60",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "super 8",
+      "pregunta": "117",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "bart|simpson",
+      "pregunta": "111",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Flight",
+      "pregunta": "64",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "harry|potter",
+      "pregunta": "24",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Flight",
+      "pregunta": "64",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "make up|for lost time",
+      "pregunta": "40",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "taz",
+      "pregunta": "90",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "taz",
+      "pregunta": "138",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "honduras",
+      "pregunta": "69",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "pearl|harbor",
+      "pregunta": "42",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Hachi|A Dog's Tale",
+      "pregunta": "79",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Finding|Nemo",
+      "pregunta": "21",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "101|Dalmatians",
+      "pregunta": "83",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "click",
+      "pregunta": "6",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "madagascar",
+      "pregunta": "28",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Wile E|Coyote",
+      "pregunta": "131",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "How to Train|Your Dragon",
+      "pregunta": "132",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Butterfly|Effect",
+      "pregunta": "43",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "super|size me",
+      "pregunta": "125",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "superman",
+      "pregunta": "129",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Lebanon",
+      "pregunta": "82",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "x box",
+      "pregunta": "12",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Mighty|Mouse",
+      "pregunta": "78",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "woody",
+      "pregunta": "60",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "mr bean",
+      "pregunta": "92",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "argel",
+      "pregunta": "52",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "marty|mcfly",
+      "pregunta": "70",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mizuno",
+      "pregunta": "74",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Runaway|Bride",
+      "pregunta": "103",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "chanel",
+      "pregunta": "46",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Independence|Day",
+      "pregunta": "80",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "new|Zealand",
+      "pregunta": "14",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "uruguay",
+      "pregunta": "13",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Iceland",
+      "pregunta": "80",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Guardians|of the Galaxy",
+      "pregunta": "20",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "zoolander",
+      "pregunta": "121",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Twilight",
+      "pregunta": "54",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "mr Sparkle",
+      "pregunta": "98",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "croatia",
+      "pregunta": "59",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "grogu",
+      "pregunta": "67",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Hunger|Games",
+      "pregunta": "23",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "A Clockwork|Orange",
+      "pregunta": "99",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "angels|and demons",
+      "pregunta": "28",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "jasper",
+      "pregunta": "75",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Fantastic|Four",
+      "pregunta": "90",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Paranormal|Activity",
+      "pregunta": "108",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "checo|perez",
+      "pregunta": "14",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Speed|Racer",
+      "pregunta": "27",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "belarus",
+      "pregunta": "34",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "audi",
+      "pregunta": "44",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "sharknado",
+      "pregunta": "31",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Singin' in|the Rain",
+      "pregunta": "89",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "robocop",
+      "pregunta": "119",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "fisher|price",
+      "pregunta": "22",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "tickled pink",
+      "pregunta": "68",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Usual|Suspects",
+      "pregunta": "112",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "drive",
+      "pregunta": "83",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "suzuki",
+      "pregunta": "32",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "borat",
+      "pregunta": "172",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "green|with envy",
+      "pregunta": "63",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "eyelid",
+      "pregunta": "24",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "tanzania",
+      "pregunta": "83",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "gucci",
+      "pregunta": "39",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "babe",
+      "pregunta": "61",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "rio",
+      "pregunta": "52",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Secret|Squirrel",
+      "pregunta": "6",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "George|Jetson",
+      "pregunta": "33",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Meet|the Parents",
+      "pregunta": "146",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "rainbow",
+      "pregunta": "19",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Turkey",
+      "pregunta": "70",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "The Wonder|Twin",
+      "pregunta": "42",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Devil|Wears Prada",
+      "pregunta": "17",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "et",
+      "pregunta": "8",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "homer|simpson",
+      "pregunta": "121",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "artie|ziff",
+      "pregunta": "43",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "iran",
+      "pregunta": "29",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "the|lion king",
+      "pregunta": "15",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The|Godfather",
+      "pregunta": "69",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "pretty|please",
+      "pregunta": "37",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "megamind",
+      "pregunta": "85",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Dennis|the Menace",
+      "pregunta": "89",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Friday|the 13th",
+      "pregunta": "147",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Quick Draw|McGraw",
+      "pregunta": "28",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Days|of Thunder",
+      "pregunta": "88",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "demogorgon",
+      "pregunta": "40",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "the ant",
+      "pregunta": "37",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "eleven",
+      "pregunta": "44",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Curious Case|of Benjamin Button",
+      "pregunta": "92",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "new balance",
+      "pregunta": "79",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "angels|and demons",
+      "pregunta": "28",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "apple",
+      "pregunta": "8",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "dracula",
+      "pregunta": "121",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "rose",
+      "pregunta": "91",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "cobra",
+      "pregunta": "111",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "porky's",
+      "pregunta": "60",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "rocky",
+      "pregunta": "31",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "high seas",
+      "pregunta": "108",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "v for|vendetta",
+      "pregunta": "83",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "all over|again",
+      "pregunta": "43",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "negan",
+      "pregunta": "59",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "cry all the|way to the bank",
+      "pregunta": "88",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "thor",
+      "pregunta": "100",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "bee movie",
+      "pregunta": "15",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "one life|to live",
+      "pregunta": "84",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "coffee break",
+      "pregunta": "98",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Hans|Moleman",
+      "pregunta": "80",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "kent|brockman",
+      "pregunta": "53",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "denmark",
+      "pregunta": "33",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Twilight",
+      "pregunta": "54",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Psycho",
+      "pregunta": "180",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Puss in|Boots",
+      "pregunta": "36",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "roger|federer",
+      "pregunta": "56",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "lionel|hutz",
+      "pregunta": "90",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "homesick",
+      "pregunta": "34",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "luigi",
+      "pregunta": "107",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "nbc",
+      "pregunta": "94",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "hot under|the collar",
+      "pregunta": "116",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "mario bros",
+      "pregunta": "13",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "cars",
+      "pregunta": "25",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "zootopia",
+      "pregunta": "133",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "space jam",
+      "pregunta": "85",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "voldemort",
+      "pregunta": "13",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "flat tire",
+      "pregunta": "47",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "gil",
+      "pregunta": "110",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Devil|Wears Prada",
+      "pregunta": "17",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Lady and|the Tramp",
+      "pregunta": "64",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "winnie|the pooh",
+      "pregunta": "156",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "giorgio|armani",
+      "pregunta": "77",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "lightning|mcqueen",
+      "pregunta": "105",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "avatar",
+      "pregunta": "157",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "belle",
+      "pregunta": "64",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "World War Z",
+      "pregunta": "120",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "harry potter",
+      "pregunta": "19",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Little|Mermaid",
+      "pregunta": "119",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "home is where|the heart is",
+      "pregunta": "111",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "memento",
+      "pregunta": "53",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Officer|Charlie Dibble",
+      "pregunta": "116",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "heidi",
+      "pregunta": "94",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pringles",
+      "pregunta": "68",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "china",
+      "pregunta": "3",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "marge|simpson",
+      "pregunta": "117",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "martin|prince",
+      "pregunta": "100",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Armageddon",
+      "pregunta": "47",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "pluto",
+      "pregunta": "26",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "life of pi",
+      "pregunta": "1",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "japan",
+      "pregunta": "8",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "jurassic|park",
+      "pregunta": "177",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Judy|Jetson",
+      "pregunta": "74",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "candidate",
+      "pregunta": "7",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "World War Z",
+      "pregunta": "120",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Henery|Hawk",
+      "pregunta": "15",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "sherlock|holmes",
+      "pregunta": "99",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pritt",
+      "pregunta": "43",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "ghana",
+      "pregunta": "66",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "austin|powers",
+      "pregunta": "40",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Benny|the Ball",
+      "pregunta": "68",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "once in|a blue moon",
+      "pregunta": "96",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "sheldon|cooper",
+      "pregunta": "47",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Black Hawk|down",
+      "pregunta": "97",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "anaconda",
+      "pregunta": "38",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "portugal",
+      "pregunta": "56",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "daredevil",
+      "pregunta": "75",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "kung fu|panda",
+      "pregunta": "5",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pizza hut",
+      "pregunta": "95",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "falling|temperature",
+      "pregunta": "119",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Ethiopia",
+      "pregunta": "41",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Kuririn",
+      "pregunta": "157",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "the matrix",
+      "pregunta": "46",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Over|the Hedge",
+      "pregunta": "97",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "chester",
+      "pregunta": "42",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "War of|the Worlds",
+      "pregunta": "161",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Kearney",
+      "pregunta": "16",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "terri and|sherri",
+      "pregunta": "160",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "cowhide",
+      "pregunta": "25",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "american pie",
+      "pregunta": "9",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "popstar",
+      "pregunta": "26",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "a play|on words",
+      "pregunta": "105",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "nepal",
+      "pregunta": "97",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "the|godfather",
+      "pregunta": "84",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "fat chance",
+      "pregunta": "118",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Italian|Job",
+      "pregunta": "78",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "larry|burns",
+      "pregunta": "87",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "National|Treasure",
+      "pregunta": "114",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "National|Treasure",
+      "pregunta": "114",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "the wrong end|of the stick",
+      "pregunta": "70",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "vans",
+      "pregunta": "89",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Lake|House",
+      "pregunta": "129",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "You've|Got Mail",
+      "pregunta": "94",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "minimize",
+      "pregunta": "4",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Little|Mermaid",
+      "pregunta": "119",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "the new|york times",
+      "pregunta": "1",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "nigeria",
+      "pregunta": "67",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "dumbo",
+      "pregunta": "158",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "texaco",
+      "pregunta": "99",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "moe",
+      "pregunta": "127",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "cletus",
+      "pregunta": "46",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Zathura",
+      "pregunta": "69",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "linkedin",
+      "pregunta": "65",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "resident|evil",
+      "pregunta": "175",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "inspector|gadget",
+      "pregunta": "99",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "norway",
+      "pregunta": "73",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "motorola",
+      "pregunta": "31",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "fast|food",
+      "pregunta": "38",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "baloo",
+      "pregunta": "139",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "the aardvark",
+      "pregunta": "102",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "tweety",
+      "pregunta": "154",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "nike",
+      "pregunta": "25",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "beanbag",
+      "pregunta": "11",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "quarterback",
+      "pregunta": "99",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "gravity",
+      "pregunta": "50",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "snowman",
+      "pregunta": "15",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "brainwave",
+      "pregunta": "14",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "godzilla",
+      "pregunta": "128",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Slovenia",
+      "pregunta": "35",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "it",
+      "pregunta": "60",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "dr house",
+      "pregunta": "102",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "wilson",
+      "pregunta": "67",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The|Incredibles",
+      "pregunta": "78",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "puma",
+      "pregunta": "42",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "indiana|jones",
+      "pregunta": "31",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Texas|Chainsaw Massacre",
+      "pregunta": "176",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Curious Case|of Benjamin Button",
+      "pregunta": "92",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Lion|King",
+      "pregunta": "107",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "little miss|sunshine",
+      "pregunta": "61",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "bulgaria",
+      "pregunta": "75",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "the a|team",
+      "pregunta": "150",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Fast and|Furious",
+      "pregunta": "24",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "diego|maradona",
+      "pregunta": "43",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "citroen",
+      "pregunta": "51",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Pinocchio",
+      "pregunta": "68",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "spaceship",
+      "pregunta": "79",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "scream",
+      "pregunta": "158",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "wall e",
+      "pregunta": "143",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The King|Speak",
+      "pregunta": "2626",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Maleficent",
+      "pregunta": "128",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "instagram",
+      "pregunta": "52",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "wall e",
+      "pregunta": "5",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "wonder|woman",
+      "pregunta": "57",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "astro",
+      "pregunta": "19",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "ford",
+      "pregunta": "14",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Mindy|Simmons",
+      "pregunta": "55",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "national|geographic",
+      "pregunta": "100",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "credibility|gap",
+      "pregunta": "53",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "mcbain",
+      "pregunta": "104",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "American|Beauty",
+      "pregunta": "14",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "skate on|thin ice",
+      "pregunta": "54",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Psycho",
+      "pregunta": "3",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "alex|morgan",
+      "pregunta": "41",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Nine|Queens",
+      "pregunta": "81",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "telegram",
+      "pregunta": "38",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "ecuador",
+      "pregunta": "62",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The|Italian Job",
+      "pregunta": "91",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "et",
+      "pregunta": "13",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Pirates of|the Caribbean",
+      "pregunta": "149",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "daniel|larusso",
+      "pregunta": "19",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Teenage Mutant|Ninja Turtles",
+      "pregunta": "70",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Johnny|Bravo",
+      "pregunta": "142",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "captain|america",
+      "pregunta": "4",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "datebook",
+      "pregunta": "5",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "the matrix",
+      "pregunta": "112",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "et",
+      "pregunta": "8",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "aladdin",
+      "pregunta": "122",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "down payment",
+      "pregunta": "95",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Smurfs",
+      "pregunta": "110",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "the pink|panther",
+      "pregunta": "69",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "pikachu",
+      "pregunta": "73",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "oman",
+      "pregunta": "89",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "shell",
+      "pregunta": "34",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "bee movie",
+      "pregunta": "57",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "mary poppins",
+      "pregunta": "22",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "liberia",
+      "pregunta": "84",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "tom",
+      "pregunta": "87",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "he man",
+      "pregunta": "10",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Jebediah|springfield",
+      "pregunta": "51",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "forgive and|forget",
+      "pregunta": "51",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "panama",
+      "pregunta": "51",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "snatch",
+      "pregunta": "62",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "foreign|movie",
+      "pregunta": "64",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "pennywise",
+      "pregunta": "3",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "a shot|in the dark",
+      "pregunta": "86",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "tulips",
+      "pregunta": "91",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "cashbox",
+      "pregunta": "35",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ted mosby",
+      "pregunta": "95",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Jessica|Lovejoy",
+      "pregunta": "52",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Hangover",
+      "pregunta": "82",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Genzo|Wakabayashi",
+      "pregunta": "115",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "wordpress",
+      "pregunta": "3",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Sylvester",
+      "pregunta": "132",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Piccolo",
+      "pregunta": "112",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "twister",
+      "pregunta": "113",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Alice in|Wonderland",
+      "pregunta": "104",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "earphones",
+      "pregunta": "27",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "south|korea",
+      "pregunta": "10",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "atom|ant",
+      "pregunta": "64",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "starsky|and hutch",
+      "pregunta": "59",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "over my|dead body",
+      "pregunta": "115",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Runaway|Bride",
+      "pregunta": "103",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Wednesday",
+      "pregunta": "20",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "too little|too late",
+      "pregunta": "77",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "banknote",
+      "pregunta": "22",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "bahamas",
+      "pregunta": "42",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "carrie",
+      "pregunta": "12",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Peter|Pan",
+      "pregunta": "169",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "pinocchio",
+      "pregunta": "38",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "ebay",
+      "pregunta": "93",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Along|came Polly",
+      "pregunta": "127",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "top gun",
+      "pregunta": "93",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "bic",
+      "pregunta": "48",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "dumbo",
+      "pregunta": "77",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "the wasp",
+      "pregunta": "89",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "kazakhstan",
+      "pregunta": "16",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "the 33",
+      "pregunta": "87",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "jamaica",
+      "pregunta": "28",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Chief|Wiggum",
+      "pregunta": "77",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Phantom|of the Opera",
+      "pregunta": "102",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Sixth|Sense",
+      "pregunta": "91",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Ariel",
+      "pregunta": "167",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "yogi|bear",
+      "pregunta": "65",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Notebook",
+      "pregunta": "115",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "invictus",
+      "pregunta": "95",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Frieza",
+      "pregunta": "8",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "scooby|doo",
+      "pregunta": "126",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "doctor|dolittle",
+      "pregunta": "2",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "see eye|to eye",
+      "pregunta": "112",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "300",
+      "pregunta": "75",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "buttercup",
+      "pregunta": "13",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "coco",
+      "pregunta": "37",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "way|overpriced",
+      "pregunta": "75",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "hermione|granger",
+      "pregunta": "50",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "krusty",
+      "pregunta": "92",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "thor",
+      "pregunta": "100",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "the Polar|Express",
+      "pregunta": "63",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "spiderman",
+      "pregunta": "20",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "greece",
+      "pregunta": "25",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "nelson",
+      "pregunta": "145",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Peter|Griffin",
+      "pregunta": "153",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "the|lion king",
+      "pregunta": "15",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "duffman",
+      "pregunta": "72",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "pancake",
+      "pregunta": "20",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "pinocchio",
+      "pregunta": "38",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Hunger|Games",
+      "pregunta": "66",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "selma",
+      "pregunta": "166",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "lacoste",
+      "pregunta": "16",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Ratatouille",
+      "pregunta": "52",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Ukraine",
+      "pregunta": "32",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Green|Hornet",
+      "pregunta": "42",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "levis",
+      "pregunta": "26",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "101|Dalmatians",
+      "pregunta": "65",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Gone in|60 Seconds",
+      "pregunta": "140",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "deadpool",
+      "pregunta": "66",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "12 Monkeys",
+      "pregunta": "51",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "kung fu|panda",
+      "pregunta": "5",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "batman",
+      "pregunta": "55",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "scary|movie",
+      "pregunta": "41",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "reading between|the lines",
+      "pregunta": "36",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "batman",
+      "pregunta": "95",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Diamond|Joe",
+      "pregunta": "34",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "titanic",
+      "pregunta": "59",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "space jam",
+      "pregunta": "71",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "hungary",
+      "pregunta": "11",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "happy feet",
+      "pregunta": "84",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "broken|promise",
+      "pregunta": "62",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "rocky|balboa",
+      "pregunta": "80",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "tiger|woods",
+      "pregunta": "10",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Switzerland",
+      "pregunta": "23",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Phantom|of the Opera",
+      "pregunta": "102",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "adidas",
+      "pregunta": "21",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Black Hawk|down",
+      "pregunta": "97",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ted lasso",
+      "pregunta": "93",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "hannibal|lecter",
+      "pregunta": "35",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The|Godfather",
+      "pregunta": "69",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Predator",
+      "pregunta": "70",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "lilo",
+      "pregunta": "76",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "mary poppins",
+      "pregunta": "22",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Rwanda",
+      "pregunta": "78",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Lake|House",
+      "pregunta": "129",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "batman",
+      "pregunta": "74",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Penguins|of Madagascar",
+      "pregunta": "103",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "frozen",
+      "pregunta": "104",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Braveheart",
+      "pregunta": "75",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "the stakes|are high",
+      "pregunta": "90",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Big Hero|6",
+      "pregunta": "159",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "12 Monkeys",
+      "pregunta": "51",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "vegeta",
+      "pregunta": "86",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "russia",
+      "pregunta": "4",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "volskwagen",
+      "pregunta": "27",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "speed racer",
+      "pregunta": "23",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "scooby doo",
+      "pregunta": "108",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "apollo 13",
+      "pregunta": "4",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "free willy",
+      "pregunta": "11",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Addams|Family",
+      "pregunta": "184",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "couch|potato",
+      "pregunta": "49",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "A Clockwork|Orange",
+      "pregunta": "99",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "rambo",
+      "pregunta": "141",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "walter|white",
+      "pregunta": "26",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Hachi|A Dog's Tale",
+      "pregunta": "79",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "A Nightmare|on Elm Street",
+      "pregunta": "79",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Smurfs",
+      "pregunta": "115",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "albert|einstein",
+      "pregunta": "6",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "farmland",
+      "pregunta": "30",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "South|Africa",
+      "pregunta": "30",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Night at|the Museum",
+      "pregunta": "65",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "timberland",
+      "pregunta": "85",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "too funny|for words",
+      "pregunta": "72",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ahsoka",
+      "pregunta": "77",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "frozen",
+      "pregunta": "105",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "toyota",
+      "pregunta": "96",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Jungle|Book",
+      "pregunta": "106",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "the 33",
+      "pregunta": "87",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "titanic",
+      "pregunta": "156",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "astro boy",
+      "pregunta": "63",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "keeping you|out of trouble",
+      "pregunta": "80",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mercado|libre",
+      "pregunta": "92",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "twister",
+      "pregunta": "33",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "rocky",
+      "pregunta": "71",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "kappa",
+      "pregunta": "80",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Finland",
+      "pregunta": "77",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "uzbekistan",
+      "pregunta": "27",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "herbert|powell",
+      "pregunta": "67",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "masha and|the bear",
+      "pregunta": "31",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "forrest|gump",
+      "pregunta": "44",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "funzo",
+      "pregunta": "70",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "elsa",
+      "pregunta": "58",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "monaco",
+      "pregunta": "99",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "ferrari",
+      "pregunta": "23",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Slovakia",
+      "pregunta": "39",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "lighthouse",
+      "pregunta": "33",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Ghostbusters",
+      "pregunta": "167",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "pakistan",
+      "pregunta": "96",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "i robot",
+      "pregunta": "154",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "stretching|the truth",
+      "pregunta": "78",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "star wars",
+      "pregunta": "87",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "alien",
+      "pregunta": "110",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Sex and|the City",
+      "pregunta": "66",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Tunisia",
+      "pregunta": "93",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "opel",
+      "pregunta": "64",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "dodge",
+      "pregunta": "53",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The King|Speak",
+      "pregunta": "2626",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "what goes up|must come down",
+      "pregunta": "61",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Britney|Spears",
+      "pregunta": "53",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "wimbledon",
+      "pregunta": "96",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Yogi Bear",
+      "pregunta": "122",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Gone in|60 Seconds",
+      "pregunta": "116",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pepsi",
+      "pregunta": "20",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Lone|Ranger",
+      "pregunta": "76",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "indiana|jones",
+      "pregunta": "23",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "barney",
+      "pregunta": "49",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "le coq|sportif",
+      "pregunta": "63",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "toothpaste",
+      "pregunta": "9",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "paraguay",
+      "pregunta": "53",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Short|Circuit",
+      "pregunta": "153",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "rocky",
+      "pregunta": "71",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "flash",
+      "pregunta": "122",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "head over|heels",
+      "pregunta": "56",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Psycho",
+      "pregunta": "3",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "mary poppins",
+      "pregunta": "114",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "star trek",
+      "pregunta": "171",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "doctor|dolittle",
+      "pregunta": "2",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "umbro",
+      "pregunta": "28",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "twitter",
+      "pregunta": "4",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "sirius|black",
+      "pregunta": "73",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Life of Pi",
+      "pregunta": "25",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "battle cat",
+      "pregunta": "76",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "scratchy",
+      "pregunta": "133",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "uter",
+      "pregunta": "47",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "pickpocket",
+      "pregunta": "31",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "axl|rose",
+      "pregunta": "63",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "australia",
+      "pregunta": "9",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "dracula",
+      "pregunta": "121",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "jaws",
+      "pregunta": "77",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "chevrolet",
+      "pregunta": "13",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "james bond",
+      "pregunta": "106",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "van helsing",
+      "pregunta": "118",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "pineapple",
+      "pregunta": "8",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "firefox",
+      "pregunta": "24",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "bmw",
+      "pregunta": "97",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pinterest",
+      "pregunta": "59",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "colombia",
+      "pregunta": "21",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Gorillas in|the Mist",
+      "pregunta": "16",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mercedes|benz",
+      "pregunta": "19",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Hunger|Games",
+      "pregunta": "23",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Otto Mann",
+      "pregunta": "119",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Green|Mile",
+      "pregunta": "138",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "edna|krabappel",
+      "pregunta": "48",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Night at|the Museum",
+      "pregunta": "49",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "the muppets",
+      "pregunta": "155",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "nickelodeon",
+      "pregunta": "7",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "estonia",
+      "pregunta": "87",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "forrest|gump",
+      "pregunta": "166",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Men|in Black",
+      "pregunta": "148",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "alfred|hitchcock",
+      "pregunta": "37",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Finding|Nemo",
+      "pregunta": "21",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "patty",
+      "pregunta": "140",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Malaysia",
+      "pregunta": "85",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Teenage Mutant|Ninja Turtles",
+      "pregunta": "70",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Ellen|DeGeneres",
+      "pregunta": "39",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "kosovo",
+      "pregunta": "44",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "blind date",
+      "pregunta": "2",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "to sum|it up",
+      "pregunta": "81",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "mexico",
+      "pregunta": "61",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "scent",
+      "pregunta": "46",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Midnight|in Paris",
+      "pregunta": "86",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "speed",
+      "pregunta": "54",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "dropbox",
+      "pregunta": "82",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "rayban",
+      "pregunta": "87",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "converse",
+      "pregunta": "40",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Fred|Flintstone ",
+      "pregunta": "152",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "el chavo|del 8",
+      "pregunta": "1",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "hawkeye",
+      "pregunta": "72",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "ouija",
+      "pregunta": "29",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Lady and|the Tramp",
+      "pregunta": "32",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "lenny",
+      "pregunta": "147",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "toy story",
+      "pregunta": "82",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "garfield",
+      "pregunta": "57",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Simba",
+      "pregunta": "170",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "rambo",
+      "pregunta": "34",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "john|lennon",
+      "pregunta": "49",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "headcount",
+      "pregunta": "1",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "babe",
+      "pregunta": "61",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "invictus",
+      "pregunta": "95",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "frankenstein",
+      "pregunta": "34",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Jabberjaw",
+      "pregunta": "130",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "carl|carlson",
+      "pregunta": "45",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Cool|Runnings",
+      "pregunta": "118",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "jaws",
+      "pregunta": "30",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Home Alone",
+      "pregunta": "33",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "American|Beauty",
+      "pregunta": "14",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "go up|in smoke",
+      "pregunta": "58",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "no one|to blame",
+      "pregunta": "92",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Saudi|Arabia",
+      "pregunta": "64",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "turn the|other cheek",
+      "pregunta": "65",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "fanta",
+      "pregunta": "41",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "poland",
+      "pregunta": "20",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "elton|john",
+      "pregunta": "83",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "mars|attacks",
+      "pregunta": "100",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "speedy|gonzalez",
+      "pregunta": "149",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "a friend|in need",
+      "pregunta": "60",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "gatorade",
+      "pregunta": "56",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "visa",
+      "pregunta": "86",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "facebook",
+      "pregunta": "2",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "poochie",
+      "pregunta": "159",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "shoplifter",
+      "pregunta": "17",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Flight",
+      "pregunta": "174",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Da|Vinci Code",
+      "pregunta": "98",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "nestle",
+      "pregunta": "66",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "intel",
+      "pregunta": "90",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "joker",
+      "pregunta": "25",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "fooling|around",
+      "pregunta": "101",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "ted",
+      "pregunta": "90",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "captain|america",
+      "pregunta": "57",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "ireland",
+      "pregunta": "72",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "blinky",
+      "pregunta": "2",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Blood|Diamond",
+      "pregunta": "7",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "troy",
+      "pregunta": "51",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "gremlins",
+      "pregunta": "18",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "men in black",
+      "pregunta": "10",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Maude|Flanders",
+      "pregunta": "113",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Blossom",
+      "pregunta": "71",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "lou",
+      "pregunta": "150",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Ratatouille",
+      "pregunta": "52",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "for instance",
+      "pregunta": "73",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Inside Out",
+      "pregunta": "22",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ms marvel",
+      "pregunta": "82",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Sweden",
+      "pregunta": "31",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "firestone",
+      "pregunta": "57",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "dove",
+      "pregunta": "60",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "barking up|the wrong tree",
+      "pregunta": "89",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Crocodile|Dundee",
+      "pregunta": "29",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Italian|Job",
+      "pregunta": "78",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Bahrain",
+      "pregunta": "38",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "kill bill",
+      "pregunta": "24",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "sonic",
+      "pregunta": "62",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "majin boo",
+      "pregunta": "18",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "flash",
+      "pregunta": "96",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Porky Pig",
+      "pregunta": "21",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Dumb|and Dumber",
+      "pregunta": "8",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "carrefour",
+      "pregunta": "61",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "elvis|presley",
+      "pregunta": "28",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "x men",
+      "pregunta": "18",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "nice to|meet you",
+      "pregunta": "39",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "john|wick",
+      "pregunta": "11",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "el salvador",
+      "pregunta": "58",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "goku",
+      "pregunta": "100",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "superman",
+      "pregunta": "26",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "sixth|sense",
+      "pregunta": "82",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "apollo 13",
+      "pregunta": "4",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "eat pray love",
+      "pregunta": "6",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "united|states",
+      "pregunta": "2",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Exorcist",
+      "pregunta": "109",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "argentina",
+      "pregunta": "1",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "lion o",
+      "pregunta": "62",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Smurfs",
+      "pregunta": "110",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Mongolia",
+      "pregunta": "98",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Da|Vinci Code",
+      "pregunta": "98",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "super|size me",
+      "pregunta": "125",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "scotland",
+      "pregunta": "48",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "the grinch",
+      "pregunta": "179",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "bambi",
+      "pregunta": "117",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Catch Me|If You Can",
+      "pregunta": "162",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "wonder|woman",
+      "pregunta": "48",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "skeletor",
+      "pregunta": "98",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Gorillas in|the Mist",
+      "pregunta": "16",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "rat|race",
+      "pregunta": "50",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "a kick|in the butt",
+      "pregunta": "107",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "ice age",
+      "pregunta": "40",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Mask|of Zorro",
+      "pregunta": "164",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Kylo|Ren",
+      "pregunta": "81",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "working|over time",
+      "pregunta": "87",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "127 Hours",
+      "pregunta": "53",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "volcano",
+      "pregunta": "46",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Brainy|Smurf",
+      "pregunta": "83",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "rip curl",
+      "pregunta": "73",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "scary|movie",
+      "pregunta": "41",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "seymour|skinner",
+      "pregunta": "162",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Cyprus",
+      "pregunta": "49",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "transformers",
+      "pregunta": "34",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Armageddon",
+      "pregunta": "47",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "mojo",
+      "pregunta": "134",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Saint",
+      "pregunta": "183",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "somalia",
+      "pregunta": "90",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Angry|Birds Movie",
+      "pregunta": "131",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "back to|square one",
+      "pregunta": "71",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Braveheart",
+      "pregunta": "75",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "aladdin",
+      "pregunta": "81",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "pinky",
+      "pregunta": "128",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Minions",
+      "pregunta": "134",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "carolina|herrera",
+      "pregunta": "49",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "safety|in numbers",
+      "pregunta": "59",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "aladdin",
+      "pregunta": "122",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "direct tv",
+      "pregunta": "50",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "side show",
+      "pregunta": "69",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "spike lee",
+      "pregunta": "22",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Gladiator",
+      "pregunta": "21",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "king kong",
+      "pregunta": "56",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "lewis|hamilton",
+      "pregunta": "55",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "toothbrush",
+      "pregunta": "10",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mitsubishi",
+      "pregunta": "62",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "back to|the future",
+      "pregunta": "1",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "vietnam",
+      "pregunta": "40",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Tibet",
+      "pregunta": "92",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Bosnia|Herzegovina",
+      "pregunta": "91",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "whatsapp",
+      "pregunta": "10",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "shaggy",
+      "pregunta": "21",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Ghostbusters",
+      "pregunta": "39",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "ghost rider",
+      "pregunta": "116",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "rambo",
+      "pregunta": "34",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "batman",
+      "pregunta": "55",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "hellboy",
+      "pregunta": "44",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Jungle|Book",
+      "pregunta": "106",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "speed",
+      "pregunta": "170",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "dr dolittle",
+      "pregunta": "103",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "opera",
+      "pregunta": "88",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Dukes|of Hazzard",
+      "pregunta": "111",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Butterfly|Effect",
+      "pregunta": "43",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "red bull",
+      "pregunta": "69",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Planet of|the Apes",
+      "pregunta": "13",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "papa|smurf",
+      "pregunta": "96",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "the Brain",
+      "pregunta": "120",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Exorcist",
+      "pregunta": "109",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "gabon",
+      "pregunta": "79",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "guatemala",
+      "pregunta": "63",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "ted",
+      "pregunta": "130",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Scorpion|King",
+      "pregunta": "48",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "pearl|harbor",
+      "pregunta": "42",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "kang",
+      "pregunta": "91",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "muhammad|ali",
+      "pregunta": "17",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Sex and|the City",
+      "pregunta": "66",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "fast|and Furious",
+      "pregunta": "48",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Trinidad|and Tobago",
+      "pregunta": "94",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "jordan",
+      "pregunta": "81",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Kojiro|Hyuga",
+      "pregunta": "24",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "donald|duck",
+      "pregunta": "23",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "up",
+      "pregunta": "12",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "king kong",
+      "pregunta": "56",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "samsung",
+      "pregunta": "36",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Puss in|Boots",
+      "pregunta": "36",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "frozen",
+      "pregunta": "105",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "fiji",
+      "pregunta": "43",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Patriots|Day",
+      "pregunta": "126",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "daenerys|targaryen",
+      "pregunta": "61",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "see|for yourself",
+      "pregunta": "66",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "jaws",
+      "pregunta": "30",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "manpower",
+      "pregunta": "29",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "odie",
+      "pregunta": "137",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "stan|lee",
+      "pregunta": "36",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Romania",
+      "pregunta": "37",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "the karate|kid",
+      "pregunta": "107",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "thailand",
+      "pregunta": "26",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "maggie|simpson",
+      "pregunta": "32",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "india",
+      "pregunta": "50",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "kenya",
+      "pregunta": "18",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "reebok",
+      "pregunta": "37",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Planet|of the Apes",
+      "pregunta": "105",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Home Alone",
+      "pregunta": "33",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Monsters|vs aliens",
+      "pregunta": "45",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "monica|geller",
+      "pregunta": "94",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "small talk",
+      "pregunta": "67",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "You've|Got Mail",
+      "pregunta": "94",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "101|Dalmatians",
+      "pregunta": "83",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Ring",
+      "pregunta": "139",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "wikipedia",
+      "pregunta": "91",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "son goku",
+      "pregunta": "124",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "rosie",
+      "pregunta": "30",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "cast away",
+      "pregunta": "145",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Morocco",
+      "pregunta": "46",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Egypt",
+      "pregunta": "54",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "montgomery|burns",
+      "pregunta": "56",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "maleficent",
+      "pregunta": "164",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "500 Days|of Summer",
+      "pregunta": "27",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Notebook",
+      "pregunta": "115",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "jack in|the box",
+      "pregunta": "94",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "bobby",
+      "pregunta": "136",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "jem",
+      "pregunta": "66",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Groundskeeper|Willie",
+      "pregunta": "95",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Czech|Republic",
+      "pregunta": "36",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "chile",
+      "pregunta": "71",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Ice Age",
+      "pregunta": "120",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Ralph|Wiggum",
+      "pregunta": "59",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Air Force|One",
+      "pregunta": "101",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "vito|corleone",
+      "pregunta": "9",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "somewhere over|the rainbow",
+      "pregunta": "110",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "dr emmett|brown",
+      "pregunta": "79",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "angus|young",
+      "pregunta": "8",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Daffy|Duck",
+      "pregunta": "109",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "brazil",
+      "pregunta": "15",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "babe",
+      "pregunta": "92",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "finding|nemo",
+      "pregunta": "58",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "back in|five minutes",
+      "pregunta": "85",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "serbia",
+      "pregunta": "65",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "lebron|james",
+      "pregunta": "18",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Cool|Runnings",
+      "pregunta": "7",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "slash",
+      "pregunta": "32",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Stand by Me",
+      "pregunta": "58",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Incredible|Hulk",
+      "pregunta": "96",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Superintendent|Chalmers",
+      "pregunta": "163",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "iron man",
+      "pregunta": "17",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "A Bug's|Life",
+      "pregunta": "80",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "scream",
+      "pregunta": "88",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "thor",
+      "pregunta": "178",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Elroy|Jetson",
+      "pregunta": "60",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "cars",
+      "pregunta": "32",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "The inspector",
+      "pregunta": "39",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "harry|potter",
+      "pregunta": "182",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "lotto",
+      "pregunta": "78",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "the karate|kid",
+      "pregunta": "107",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Pinocchio",
+      "pregunta": "172",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "green|Lantern",
+      "pregunta": "19",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "lassie",
+      "pregunta": "94",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "birds",
+      "pregunta": "152",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "louis|vuitton",
+      "pregunta": "55",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Pan's|Labyrinth",
+      "pregunta": "12",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "huckleberry|hound",
+      "pregunta": "36",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "campfire",
+      "pregunta": "12",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "starbucks",
+      "pregunta": "76",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "life of pi",
+      "pregunta": "1",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ant man",
+      "pregunta": "33",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "armband",
+      "pregunta": "32",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "back up",
+      "pregunta": "100",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "marilyn|monroe",
+      "pregunta": "7",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Cast Away",
+      "pregunta": "127",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ed|sheeran",
+      "pregunta": "30",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Space|Ghost",
+      "pregunta": "40",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Back to|the Future",
+      "pregunta": "74",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "wimbledon",
+      "pregunta": "96",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "italy",
+      "pregunta": "6",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Mike|Wheeler",
+      "pregunta": "65",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Hefty|Smurf",
+      "pregunta": "20",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "jurassic|park",
+      "pregunta": "124",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Midnight|in Paris",
+      "pregunta": "86",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "dr hibbert",
+      "pregunta": "22",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "x men",
+      "pregunta": "18",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Cool|Runnings",
+      "pregunta": "118",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "babar",
+      "pregunta": "4",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "miguel",
+      "pregunta": "29",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "harry potter",
+      "pregunta": "19",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "disco|stu",
+      "pregunta": "5",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Zootopia",
+      "pregunta": "68",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Mozambique",
+      "pregunta": "100",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "inception",
+      "pregunta": "56",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Edward|Scissorhands",
+      "pregunta": "10",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "play|station",
+      "pregunta": "17",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "michael|jordan",
+      "pregunta": "27",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "bridgestone",
+      "pregunta": "47",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "mater",
+      "pregunta": "118",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "ratatouille",
+      "pregunta": "93",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "lisa|simpson",
+      "pregunta": "27",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "fantasia",
+      "pregunta": "14",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "spiderman",
+      "pregunta": "20",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "500 Days|of Summer",
+      "pregunta": "27",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "bacardi",
+      "pregunta": "30",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "germany",
+      "pregunta": "5",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "tron",
+      "pregunta": "123",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "lion o",
+      "pregunta": "99",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "eat pray love",
+      "pregunta": "6",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "dr strange",
+      "pregunta": "45",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "canada",
+      "pregunta": "19",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "casper",
+      "pregunta": "181",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "top gun",
+      "pregunta": "93",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "cobra",
+      "pregunta": "111",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "lego",
+      "pregunta": "70",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "seat",
+      "pregunta": "35",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Mummy",
+      "pregunta": "136",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Phantom|of the Opera",
+      "pregunta": "169",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Zootopia",
+      "pregunta": "68",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "honda",
+      "pregunta": "71",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "scream",
+      "pregunta": "88",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Dominican|Republic",
+      "pregunta": "76",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "SpongeBob|SquarePants",
+      "pregunta": "171",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "majin buu",
+      "pregunta": "88",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "chief|wiggum",
+      "pregunta": "68",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "shaggy",
+      "pregunta": "143",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "a monkey|on your back",
+      "pregunta": "104",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "top secret",
+      "pregunta": "109",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "twister",
+      "pregunta": "113",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "kirk|van houten",
+      "pregunta": "54",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "baker|smurf",
+      "pregunta": "9",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Patriots|Day",
+      "pregunta": "126",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "burger king",
+      "pregunta": "84",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "dumbo",
+      "pregunta": "77",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "free willy",
+      "pregunta": "165",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "sharknado",
+      "pregunta": "31",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Captain|Tsubasa",
+      "pregunta": "11",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Chronicles|of Narnia",
+      "pregunta": "55",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Back to|the Future",
+      "pregunta": "74",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "An American|Tail",
+      "pregunta": "137",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "madagascar",
+      "pregunta": "86",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Ironman",
+      "pregunta": "51",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "happy feet",
+      "pregunta": "84",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The|Flintstones",
+      "pregunta": "102",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The X Files",
+      "pregunta": "76",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "bolivia",
+      "pregunta": "57",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "apu",
+      "pregunta": "7",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "put two and|two together",
+      "pregunta": "109",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "ted",
+      "pregunta": "90",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "storm|in a teacup",
+      "pregunta": "48",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "popeye",
+      "pregunta": "146",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "turbo",
+      "pregunta": "67",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Netherlands",
+      "pregunta": "12",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "the matrix",
+      "pregunta": "112",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "tony|hawk",
+      "pregunta": "54",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Social|Network",
+      "pregunta": "124",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Edward|Scissorhands",
+      "pregunta": "73",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Santa's|Little Helper",
+      "pregunta": "44",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "dumbo",
+      "pregunta": "73",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "dr nick",
+      "pregunta": "84",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "ned|flanders",
+      "pregunta": "125",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Edward|Scissorhands",
+      "pregunta": "73",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "shrek",
+      "pregunta": "173",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "cartoon|network",
+      "pregunta": "6",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "beetlejuice",
+      "pregunta": "3",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "christine",
+      "pregunta": "41",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "akira",
+      "pregunta": "29",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "vanity|smurf",
+      "pregunta": "41",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "jimbo",
+      "pregunta": "79",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Gone in|60 Seconds",
+      "pregunta": "116",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Alice in|Wonderland",
+      "pregunta": "104",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "freddie|mercury",
+      "pregunta": "15",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Scorpion|King",
+      "pregunta": "48",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "crossroads",
+      "pregunta": "42",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Speed",
+      "pregunta": "35",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Teenage Mutant|Ninja Turtles",
+      "pregunta": "98",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "super 8",
+      "pregunta": "117",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Richie|Rich",
+      "pregunta": "71",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "son gohan",
+      "pregunta": "14",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "happy feet",
+      "pregunta": "126",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "trip around|the world",
+      "pregunta": "55",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "up",
+      "pregunta": "30",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "austria",
+      "pregunta": "68",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "mickey|mouse",
+      "pregunta": "12",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "jerry|maguire",
+      "pregunta": "36",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "A Bug's|Life",
+      "pregunta": "80",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "127 Hours",
+      "pregunta": "53",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Singin' in|the Rain",
+      "pregunta": "89",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Paranormal|Activity",
+      "pregunta": "108",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "star|lord",
+      "pregunta": "4",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "belgium",
+      "pregunta": "24",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "rolex",
+      "pregunta": "81",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "snatch",
+      "pregunta": "62",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "freebie",
+      "pregunta": "23",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "gran|torino",
+      "pregunta": "63",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "apple pie",
+      "pregunta": "41",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "better safe|than sorry",
+      "pregunta": "83",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "up for grabs",
+      "pregunta": "52",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "fat|tony",
+      "pregunta": "165",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "creed",
+      "pregunta": "72",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Bono",
+      "pregunta": "52",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "ice age",
+      "pregunta": "40",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "right under|the nose",
+      "pregunta": "114",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "jumanji",
+      "pregunta": "135",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "godzilla",
+      "pregunta": "128",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Sixth|Sense",
+      "pregunta": "91",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "chrome",
+      "pregunta": "5",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Ryo|Ishizaki",
+      "pregunta": "141",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "amazon",
+      "pregunta": "9",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "asleep at|the wheel",
+      "pregunta": "97",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "minolta",
+      "pregunta": "72",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "cars",
+      "pregunta": "25",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "professor|frink",
+      "pregunta": "58",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "neo",
+      "pregunta": "84",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Herbie|Fully Loaded",
+      "pregunta": "54",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Tonga",
+      "pregunta": "95",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Hangover",
+      "pregunta": "82",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "cristiano|ronaldo",
+      "pregunta": "85",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Little|Mermaid",
+      "pregunta": "72",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "middle aged",
+      "pregunta": "57",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "forrest|gump",
+      "pregunta": "44",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "season",
+      "pregunta": "28",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "free willy",
+      "pregunta": "11",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "space jam",
+      "pregunta": "85",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "coca cola",
+      "pregunta": "29",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "The Silence|of the Lambs",
+      "pregunta": "9",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Jane|Jetson",
+      "pregunta": "97",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "jerry",
+      "pregunta": "155",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Crocodile|Dundee",
+      "pregunta": "29",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "gargamel",
+      "pregunta": "3",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "spiderman",
+      "pregunta": "62",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "birdman",
+      "pregunta": "85",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "orko",
+      "pregunta": "103",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "Eight|Below",
+      "pregunta": "11",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "Singapore",
+      "pregunta": "45",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Air Force|One",
+      "pregunta": "101",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "monsters inc",
+      "pregunta": "86",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "The Ring",
+      "pregunta": "49",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "volcano",
+      "pregunta": "46",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "it",
+      "pregunta": "60",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Luann|Van Houten",
+      "pregunta": "88",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Will|Byers",
+      "pregunta": "78",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Muttley",
+      "pregunta": "50",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Foghorn|Leghorn",
+      "pregunta": "93",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "peugeot",
+      "pregunta": "18",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Shadows",
+      "respuesta": "Helen|Lovejoy",
+      "pregunta": "168",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "kodak",
+      "pregunta": "15",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Planet of|the Apes",
+      "pregunta": "13",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Fast and|Furious",
+      "pregunta": "24",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mini",
+      "pregunta": "11",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Ghostbusters",
+      "pregunta": "39",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "x men",
+      "pregunta": "163",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Flags",
+      "respuesta": "cuba",
+      "pregunta": "22",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "indiana|jones",
+      "pregunta": "37",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "jon snow",
+      "pregunta": "97",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "reduction",
+      "pregunta": "45",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "toy story",
+      "pregunta": "123",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Movies",
+      "respuesta": "terminator",
+      "pregunta": "160",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Movies with emojis",
+      "respuesta": "Speed",
+      "pregunta": "35",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "look out|for number one",
+      "pregunta": "113",
+      "categoria": "wuzzles"
+    }
+  ]
+}

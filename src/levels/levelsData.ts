@@ -33,6 +33,12 @@ export const ALL_LEVELS: Record<number, Level> = {
 
 export const TOTAL_LEVELS = Object.keys(ALL_LEVELS).length;
 export const PROGRESS_KEY = "game_progress"; // TODO: Cambiar por un nombre único de tu juego
+export const LAST_PLAYED_AT_KEY = "game_last_played_at";
+export const LAST_PLAYED_CATEGORY_KEY = "game_last_played_category";
+
+// Home preview keys by category
+export const ADIVINANZAS_PROGRESS_KEY = "adivinanzas_progress";
+export const BANDERAS_PROGRESS_KEY = "banderas_progress";
 
 export const getLevelData = (level: number): Level | undefined => {
   return ALL_LEVELS[level];

@@ -1,0 +1,724 @@
+{
+  "listado": [
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "headcount",
+      "pregunta": "1",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "blind date",
+      "pregunta": "2",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "the last|straw",
+      "pregunta": "3",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "minimize",
+      "pregunta": "4",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "datebook",
+      "pregunta": "5",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "headquarters",
+      "pregunta": "6",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "candidate",
+      "pregunta": "7",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "pineapple",
+      "pregunta": "8",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "toothpaste",
+      "pregunta": "9",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "toothbrush",
+      "pregunta": "10",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "beanbag",
+      "pregunta": "11",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "campfire",
+      "pregunta": "12",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "buttercup",
+      "pregunta": "13",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "brainwave",
+      "pregunta": "14",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "snowman",
+      "pregunta": "15",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "keyboard",
+      "pregunta": "16",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "shoplifter",
+      "pregunta": "17",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "airline",
+      "pregunta": "18",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "rainbow",
+      "pregunta": "19",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "pancake",
+      "pregunta": "20",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "airport",
+      "pregunta": "21",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "banknote",
+      "pregunta": "22",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "freebie",
+      "pregunta": "23",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "eyelid",
+      "pregunta": "24",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "cowhide",
+      "pregunta": "25",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "popstar",
+      "pregunta": "26",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "earphones",
+      "pregunta": "27",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "season",
+      "pregunta": "28",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "manpower",
+      "pregunta": "29",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "farmland",
+      "pregunta": "30",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "pickpocket",
+      "pregunta": "31",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "armband",
+      "pregunta": "32",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "lighthouse",
+      "pregunta": "33",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "homesick",
+      "pregunta": "34",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "cashbox",
+      "pregunta": "35",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "reading between|the lines",
+      "pregunta": "36",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "pretty|please",
+      "pregunta": "37",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "fast|food",
+      "pregunta": "38",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "nice to|meet you",
+      "pregunta": "39",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "make up|for lost time",
+      "pregunta": "40",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "apple pie",
+      "pregunta": "41",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "crossroads",
+      "pregunta": "42",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "all over|again",
+      "pregunta": "43",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "hit below|the belt",
+      "pregunta": "44",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "reduction",
+      "pregunta": "45",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "scent",
+      "pregunta": "46",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "flat tire",
+      "pregunta": "47",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "storm|in a teacup",
+      "pregunta": "48",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "couch|potato",
+      "pregunta": "49",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "rat|race",
+      "pregunta": "50",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "forgive and|forget",
+      "pregunta": "51",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "up for grabs",
+      "pregunta": "52",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "credibility|gap",
+      "pregunta": "53",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "skate on|thin ice",
+      "pregunta": "54",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "trip around|the world",
+      "pregunta": "55",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "head over|heels",
+      "pregunta": "56",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "middle aged",
+      "pregunta": "57",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "go up|in smoke",
+      "pregunta": "58",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "safety|in numbers",
+      "pregunta": "59",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "a friend|in need",
+      "pregunta": "60",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "what goes up|must come down",
+      "pregunta": "61",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "broken|promise",
+      "pregunta": "62",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "green|with envy",
+      "pregunta": "63",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "foreign|movie",
+      "pregunta": "64",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "turn the|other cheek",
+      "pregunta": "65",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "see|for yourself",
+      "pregunta": "66",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "small talk",
+      "pregunta": "67",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "tickled pink",
+      "pregunta": "68",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "side show",
+      "pregunta": "69",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "the wrong end|of the stick",
+      "pregunta": "70",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "back to|square one",
+      "pregunta": "71",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "too funny|for words",
+      "pregunta": "72",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "for instance",
+      "pregunta": "73",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "bewitch",
+      "pregunta": "74",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "way|overpriced",
+      "pregunta": "75",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "address",
+      "pregunta": "76",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "too little|too late",
+      "pregunta": "77",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "stretching|the truth",
+      "pregunta": "78",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "spaceship",
+      "pregunta": "79",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "keeping you|out of trouble",
+      "pregunta": "80",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "to sum|it up",
+      "pregunta": "81",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "sixth|sense",
+      "pregunta": "82",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "better safe|than sorry",
+      "pregunta": "83",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "one life|to live",
+      "pregunta": "84",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "back in|five minutes",
+      "pregunta": "85",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "a shot|in the dark",
+      "pregunta": "86",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "working|over time",
+      "pregunta": "87",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "cry all the|way to the bank",
+      "pregunta": "88",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "barking up|the wrong tree",
+      "pregunta": "89",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "the stakes|are high",
+      "pregunta": "90",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "tulips",
+      "pregunta": "91",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "no one|to blame",
+      "pregunta": "92",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "leftovers",
+      "pregunta": "93",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "jack in|the box",
+      "pregunta": "94",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "down payment",
+      "pregunta": "95",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "once in|a blue moon",
+      "pregunta": "96",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "asleep at|the wheel",
+      "pregunta": "97",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "coffee break",
+      "pregunta": "98",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "quarterback",
+      "pregunta": "99",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "back up",
+      "pregunta": "100",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "fooling|around",
+      "pregunta": "101",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "dr house",
+      "pregunta": "102",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "dr dolittle",
+      "pregunta": "103",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "a monkey|on your back",
+      "pregunta": "104",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "a play|on words",
+      "pregunta": "105",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "get in shape",
+      "pregunta": "106",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "a kick|in the butt",
+      "pregunta": "107",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "high seas",
+      "pregunta": "108",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "put two and|two together",
+      "pregunta": "109",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "somewhere over|the rainbow",
+      "pregunta": "110",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "home is where|the heart is",
+      "pregunta": "111",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "see eye|to eye",
+      "pregunta": "112",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "look out|for number one",
+      "pregunta": "113",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "right under|the nose",
+      "pregunta": "114",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "over my|dead body",
+      "pregunta": "115",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "hot under|the collar",
+      "pregunta": "116",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "broken heart",
+      "pregunta": "117",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "fat chance",
+      "pregunta": "118",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "falling|temperature",
+      "pregunta": "119",
+      "categoria": "wuzzles"
+    },
+    {
+      "titulo": "Image Puzzles",
+      "respuesta": "head in|the sand",
+      "pregunta": "120",
+      "categoria": "wuzzles"
+    }
+  ]
+}

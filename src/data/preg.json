@@ -1,0 +1,5854 @@
+{
+  "listado": [
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el ojo defectuoso de Popeye?",
+      "respuesta": "derecho",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién le disparó al Sr. Burns?",
+      "respuesta": "Maggie",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el segundo nombre de Homero Simpson?",
+      "respuesta": "jay",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el pueblo vecino y enemigo de Springfield?",
+      "respuesta": "Shelbyville",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el apellido de soltera de Marge Simpson?",
+      "respuesta": "Bouvier",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el planeta más cercano al sol?",
+      "respuesta": "Mercurio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué planeta demora 284 años terrestres en dar una vuelta alrededor del sol?",
+      "respuesta": "pluton",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué continente tiene el área de clima cálido o desértico más extenso de todos?",
+      "respuesta": "Africa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Como se llama el personaje de Leonardo Di Caprio en Titanic?",
+      "respuesta": "Jack|Dawson",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué premiada serie de televisión tiene como protagonista a un publicista?",
+      "respuesta": "Mad Men",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cual es el nombre del personaje que interpreta Kristen Stewart en la saga \"Crepúsculo\"?",
+      "respuesta": "bella",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué película de Disney pertenece la canción \"Un mundo ideal\"?",
+      "respuesta": "Aladdin",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué animal es la mascota de Jazmín en Aladdin?",
+      "respuesta": "Tigre",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A quién se considera el Rey del Pop?",
+      "respuesta": "Michael|Jackson",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué personaje del videojuego Mortal Kombat tiene poderes de hielo?",
+      "respuesta": "Sub Zero",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué famosa película de Disney es el personaje Jafar ?",
+      "respuesta": "Aladdin",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál fue el primer festival de rock gratuito en durar más de 3 días en 1969?",
+      "respuesta": "Woodstock ",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué actor protagonizó la película \"Grease\"?",
+      "respuesta": "John|Travolta",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué familia pertenece Dobby,el elfo doméstico en la historia de Harry Potter?",
+      "respuesta": "Malfoy",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué año se fundó The Walt Disney Company?",
+      "respuesta": "1923",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A que serie pertenecen los personajes Fass, Murdock, Hannibal y Baracus?",
+      "respuesta": "Brigada A",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En que ciudad vive el millonario Bruno Diaz?",
+      "respuesta": "Ciudad|Gotica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaba el ayudante mudo del Zorro?",
+      "respuesta": "Bernardo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué animal es Chatrán?",
+      "respuesta": "gato",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué marca son los artefactos que usa el Coyote para tratar de detener al Correcaminos?",
+      "respuesta": "ACME",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el enemigo de Popeye?",
+      "respuesta": "Brutus",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el indio que era amigo del Llanero Solitario?",
+      "respuesta": "Toro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el planeta del que vino ALF?",
+      "respuesta": "Melmac",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué guerra regresa el personaje de Rambo I?",
+      "respuesta": "Vietnam",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaba el Auto Fantástico?",
+      "respuesta": "Kidd",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué pelicula de Disney el protagonista es un osito de peluche?",
+      "respuesta": "Winnie|Pooh",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre adopta Anakin Skywalker cuando se convierte al lado oscuro?",
+      "respuesta": "Darth|Vader",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué marca es Cupido Motorizado?",
+      "respuesta": "Volkswagen",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la mala en \"La noche de las narice frías\"?",
+      "respuesta": "Cruela|de vil",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué famoso oso vive en el Parque Yellowstone?",
+      "respuesta": "Yogi",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué come popeye para tener mas fuerza?",
+      "respuesta": "Espinaca",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la bruja en la película de Disney \"La Bella Durmiente\"?",
+      "respuesta": "Malefica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la chica linda que conduce un auto en la carrera de \"Los autos locos\"?",
+      "respuesta": "penelope|glamour",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué famosos dibujos animados creó Matt Groening?",
+      "respuesta": "Los Simpson",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué ciudad viven Los Simpsons?",
+      "respuesta": "Springfield",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la marca de la cerveza predilecta de Homero Simpson?",
+      "respuesta": "Duff",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el auto de Batman?",
+      "respuesta": "Batimovil",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el personaje de Harrison Ford en la saga de \"Star Wars\"?",
+      "respuesta": "Han Solo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el gato de ALF?",
+      "respuesta": "Suertudo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el principal enemigo de He-man?",
+      "respuesta": "Skeletor",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué animal es Dumbo?",
+      "respuesta": "elefante",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la profesión de Indiana Jones?",
+      "respuesta": "Arqueologo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la rana de los Muppets?",
+      "respuesta": "Rene",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaban los pequeños seres del cine que se volvían malos si comían después de medianoche?",
+      "respuesta": "Gremlins",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué animales eran Bernardo y Bianca, en la película de Disney?",
+      "respuesta": "Ratones",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el chico que lee el cuento en la película \"La historia sin fin\"?",
+      "respuesta": "Bastian",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quiénes son Curly, Larry y Moe?",
+      "respuesta": "Los tres|chiflados",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos son los cazafantasmas?",
+      "respuesta": "4",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el aire en movimiento?",
+      "respuesta": "Viento",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Hueso que esta al lado del Radio",
+      "respuesta": "Cubito",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Animal marino que puede captar rastros de sangre desde una distancia de medio kilómetro ",
+      "respuesta": "tiburon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cúantos días duraba el año, según el calendario Azteca?",
+      "respuesta": "365",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el artefacto que se usa para ver la superficie del mar en un submarino?",
+      "respuesta": "periscopio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina una conjunto de cerdos?",
+      "respuesta": "Piara",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Metal que está dentro del termómetro",
+      "respuesta": "mercurio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué elemento está compuesto, en su mayor parte, el sol?",
+      "respuesta": "hidrogeno",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama un ángulo que mide 90º?",
+      "respuesta": "recto",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama a una manada de pavos?",
+      "respuesta": "pavada",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Forma de que figura geométrica tiene la muesca de la cabeza de los tornillos con cabeza Allen?",
+      "respuesta": "hexagono",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina a un conjunto de pájaros?",
+      "respuesta": "bandada",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el ángulo que mide 180º?",
+      "respuesta": "llano",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué material esta compuesto el núcleo de la tierra?",
+      "respuesta": "hierro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué nombre se conoce comúnmente a la raza de perros dachshund?",
+      "respuesta": "salchicha",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué estan hechas las uñas?",
+      "respuesta": "calcio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué órgano del cuerpo se almacena la orina?",
+      "respuesta": "vejiga",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué central nuclear soviética hubo un gran accidente en 1986?",
+      "respuesta": "chernobyl",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué ave tiene una bolsa debajo del pico donde guarda los pescados antes de comérselos?",
+      "respuesta": "pelicano",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la piedra preciosa más dura?",
+      "respuesta": "diamante",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En cuántas zonas horarias esta dividida la tierra?",
+      "respuesta": "24",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la punta de un cono?",
+      "respuesta": "apice",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos decímetros cúbicos tiene un litro?",
+      "respuesta": "1",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaba la perra astronauta que fue enviada al espacio en el Sputnik II?",
+      "respuesta": "Laika",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Cuerpo celeste de núcleo poco denso que suele ir rodeado de un rastro luminoso",
+      "respuesta": "cometa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué planeta está más alejado del sol?",
+      "respuesta": "neptuno",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama a los animales que pueden vivir en la tierra y en el agua?",
+      "respuesta": "anfibios",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos planetas hay entre el sol y la tierra?",
+      "respuesta": "2",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos vértices tiene un cubo?",
+      "respuesta": "8",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Si se corta un cuadrado por una de sus diagonales, que 2 figuras se obtienen?",
+      "respuesta": "triangulos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De que color es el rubí?",
+      "respuesta": "rojo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el ave rosada que suele pararse en el agua poco profunda?",
+      "respuesta": "flamenco",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos pulmones tiene un ser humano?",
+      "respuesta": "2",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué planeta del sistema solar comienza con una vocal?",
+      "respuesta": "urano",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De que preciado material estan hecho los colmillos de un elefante?",
+      "respuesta": "marfil",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la planta del café?",
+      "respuesta": "cafeto",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué número esta rodeado por todos los demás en el teclado de un celular?",
+      "respuesta": "5",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué parte del cuerpo están el iris y la pupila?",
+      "respuesta": "ojo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A quien se denomina como el padre del psicoanálisis?",
+      "respuesta": "sigmund|freud",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina la ciencia que estudia el cuerpo humano?",
+      "respuesta": "anatomia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué parte del cuerpo te duele cuando te da otitis?",
+      "respuesta": "oidos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué mueve las turbinas de una central hidroeléctrica?",
+      "respuesta": "agua",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué galaxia está nuestro Sistema Solar?",
+      "respuesta": "via lactea",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Que fase lunar viene después de la luna nueva?",
+      "respuesta": "cuarto|creciente",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué fruta inspiro a Newton a redactar la ley de la gravedad?",
+      "respuesta": "manzana",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Hueso del cuerpo humano tiene nombre de aparato eléctrico",
+      "respuesta": "radio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama cuando la luna se pone delante del Sol?",
+      "respuesta": "Eclipse|Solar",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las partículas que transmiten la corriente eléctrica?",
+      "respuesta": "electrones",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué sigla se denomina la agencia espacial norteamericana?",
+      "respuesta": "nasa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué planeta se lo llama \"el planeta de los anillos\"?",
+      "respuesta": "saturno",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama un conjunto de abejas?",
+      "respuesta": "enjambre",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el color del medio del arco iris?",
+      "respuesta": "verde",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos años se festejan en el sesquicentenario?",
+      "respuesta": "150",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué tipo de escritura usaban los egipcios?",
+      "respuesta": "jeroglifica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué significa Foto en Griego?",
+      "respuesta": "luz",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué es lo opuesto a \"cóncavo\"?",
+      "respuesta": "convexo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué número le tiene miedo una persona que padece \"Triscaidecafobia\"?",
+      "respuesta": "13",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama a un conjunto de barcos que navegan juntos?",
+      "respuesta": "flota",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la segunda letra del alfabeto Griego?",
+      "respuesta": "beta",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la letra griega cuyo valor matemático es 3,1416?",
+      "respuesta": "PI",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el código formado por rayas y puntos?",
+      "respuesta": "morse",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué colecciona un filatelista?",
+      "respuesta": "estampillas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la casa de hielo de los esquimales?",
+      "respuesta": "iglu",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país se inventaron el papel y la tinta?",
+      "respuesta": "china",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De que carácteristica carece algo insípido?",
+      "respuesta": "sabor",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos meses no tienen la letra \"R\" en su nombre?",
+      "respuesta": "4",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las rueditas metálicas que usan los jinetes en las botas para hacer correr al caballo?",
+      "respuesta": "espuelas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántas hojas tiene un libro de 300 páginas?",
+      "respuesta": "150",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos eran los apóstoles?",
+      "respuesta": "12",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué calle de New York están la bolsa y los principales bancos?",
+      "respuesta": "wall street",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué tenia Quasimodo en la espalda?",
+      "respuesta": "joroba",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama a la milésima parte de un milímetro?",
+      "respuesta": "micron",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué es lo contrario de \"nómade\"?",
+      "respuesta": "sedentario",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué marca deportiva creó un señor llamado Adolf Dassler?",
+      "respuesta": "adidas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el fruto de la vid?",
+      "respuesta": "uva",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se dice \"lo mismo\" en latín?",
+      "respuesta": "idem",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el país más austral de América del Norte?",
+      "respuesta": "Mexico",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con cuántos países limita Ecuador?",
+      "respuesta": "2",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué país europeo tiene su bandera igual a la de la Cruz Roja, pero con los colores invertidos?",
+      "respuesta": "suiza",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las granjas colectivas israelíes?",
+      "respuesta": "kibutz",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaban los pilotos-suicidas japoneses?",
+      "respuesta": "kamikazes",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué país americano está más cerca de Europa?",
+      "respuesta": "canada",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país nació el papa Juan Pablo II?",
+      "respuesta": "polonia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué tipo de animal es un galápago?",
+      "respuesta": "tortuga",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué continente es originaria la arveja?",
+      "respuesta": "america",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Sobre qué ciudad fue lanzada la primera bomba atómica?",
+      "respuesta": "hiroshima",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué ciudad asesinaron a John F. Kennedy?",
+      "respuesta": "dallas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la pendiente de una montaña?",
+      "respuesta": "ladera",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la isla mas grande del mundo?",
+      "respuesta": "groenlandia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué punto cardinal marca siempre la aguja de la brújula?",
+      "respuesta": "norte",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Dónde queda las base norteamericana de Guantánamo?",
+      "respuesta": "cuba",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué siglo se produjo el descubrimiento de América?",
+      "respuesta": "xv",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De que color es el caballo blanco de San Martin?",
+      "respuesta": "blanco",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la capital de Buenos Aires?",
+      "respuesta": "La Plata",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país viven los lusitanos?",
+      "respuesta": "portugal",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo  se llama el agujero de los volcanes?",
+      "respuesta": "crater",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De que nacionalidad es el futbolista Cristiano Ronaldo?",
+      "respuesta": "Portugues",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué país pertenece la isla de Tasmania?",
+      "respuesta": "Australia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el código internacional para Cuba?",
+      "respuesta": "CU",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué comida odia Mafalda?",
+      "respuesta": "sopa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué famosa artista estaba casada con su colega, Diego Rivera?",
+      "respuesta": "Frida|Kahlo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántas cavidades estomacales tiene una vaca?",
+      "respuesta": "4",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la fórmula química del agua?",
+      "respuesta": "H2O",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué metal es líquido a temperatura ambiente?",
+      "respuesta": "Mercurio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaba el papá de Simba en la película El Rey León?",
+      "respuesta": "Mufasa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En el mundial de que año debutó Maradona?",
+      "respuesta": "82",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Instrumento musical tiene nombre y forma geométricos",
+      "respuesta": "triangulo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Organo que segrega la hormona de la insulina",
+      "respuesta": "pancreas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Arbol donde crecen los dátiles",
+      "respuesta": "palmera",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el planeta más grande de nuestro sistema solar?",
+      "respuesta": "Jupiter",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el satélite natural de la tierra?",
+      "respuesta": "luna",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el planeta más caluroso del sistema solar?",
+      "respuesta": "Venus",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué año se estrenó la película de Disney \"Pinocho\"?",
+      "respuesta": "1940",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la mascota de SEGA?",
+      "respuesta": "Sonic",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué marca de calzoncillo usaba Martin Mc Fly en \"Volver al Futuro\"?",
+      "respuesta": "Calvin|Klein",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el hueso que esta al lado del Radio?",
+      "respuesta": "Cubito",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina una conjunto de peces?",
+      "respuesta": "Cardumen",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué raza de perros tiene el mismo nombre que un estado mexicano?",
+      "respuesta": "chihuahua",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué hueso del cuerpo humano tiene nombre de aparato eléctrico?",
+      "respuesta": "radio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál era el nombre del científico Einstein?",
+      "respuesta": "Albert",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos lados tiene un rombo?",
+      "respuesta": "4",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién era la novia de Romeo?",
+      "respuesta": "Julieta",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la embarcación típica de los canales de Venecia?",
+      "respuesta": "gondola",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama a la persona que puede escribir con cualquiera de las dos manos?",
+      "respuesta": "ambidiestro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Parte del cuerpo que se puede dilatar hasta siete veces su tamaño normal",
+      "respuesta": "pupila",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los números que se leen igual de atrás a adelante?",
+      "respuesta": "capicua",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la bebida alcohólica típica de México?",
+      "respuesta": "tequila",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál era la única parte débil del cuerpo del héroe griego Aquiles?",
+      "respuesta": "talon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué continente está el Himalaya?",
+      "respuesta": "Asia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la cordillera que separa Francia de España?",
+      "respuesta": "pirineos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaban los soberanos en el Egipto antiguo?",
+      "respuesta": "Faraones",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué indígena peruano descuartizaron los españoles atándolo a cuatro caballos?",
+      "respuesta": "tupac amaru",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántas monedas le pagaron a Judas por entregar a Cristo?",
+      "respuesta": "30",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cúal es la unidad de medida de los ángulos?",
+      "respuesta": "grado",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el saque que no se puede devolver en el tenis?",
+      "respuesta": "ace",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Sinónimo de plegaria",
+      "respuesta": "rezo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denominan las personas que no creen en Dios?",
+      "respuesta": "ateas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Prefijo: contra",
+      "respuesta": "anti",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Poco común",
+      "respuesta": "raro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Taza grande sin asa",
+      "respuesta": "bol",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Sinónimo de vivienda",
+      "respuesta": "casa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Líquido amarillento que segregan los tejidos inflamados",
+      "respuesta": "pus",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Sinónimo de venerada",
+      "respuesta": "adorada",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Símbolo del cobalto",
+      "respuesta": "co",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Modo del verbo que indica realidad u objetividad y expresa acciones",
+      "respuesta": "indicativo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Reviente de golpe una cosa con estruendo",
+      "respuesta": "estalle",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Utensilio formado por una tela o laminilla agujereada para tamizar líquidos",
+      "respuesta": "colador",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Enredo de una obra dramática",
+      "respuesta": "trama",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Cincuenta y uno en numeración romana",
+      "respuesta": "li",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Espejo de agua con vegetación en el desierto",
+      "respuesta": "oasis",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Preposición que indica carencia",
+      "respuesta": "sin",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Roturar la tierra",
+      "respuesta": "arar",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Sigla de Acido ribonucleico",
+      "respuesta": "ARN",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Barata, de poco precio",
+      "respuesta": "economica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Planta de cuya raíz se extrae una harina con la que se elabaro la tapioca",
+      "respuesta": "mandioca",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Mamífero plantígrado",
+      "respuesta": "oso",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Relativos al riñon",
+      "respuesta": "renales",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Adjetivo que define a persona o cosa que por su rareza provoca risa",
+      "respuesta": "ridicula",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Calzado formal",
+      "respuesta": "zapato",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Sinónimo de afeitar",
+      "respuesta": "rasurar",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Estrella luminosa, centro de nuestro sistema planetario",
+      "respuesta": "sol",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Dar en el blanco",
+      "respuesta": "acertar",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Aleación de hierro y carbono, en diferentes proporciones, que adquiere con el temple gran dureza y elasticidad",
+      "respuesta": "acero",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Especie de enigma para entretenerse en adivinarlo",
+      "respuesta": "acertijo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "De Persia o relativo a esta antigua nación de Asia",
+      "respuesta": "persa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Constante, obstinado, que persevera",
+      "respuesta": "perseverante",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Ceremonia en la que una pareja contrae matrimonio",
+      "respuesta": "casamiento",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Caída, desde cierta altura, del agua de un río u otra corriente por un desnivel brusco del cauce",
+      "respuesta": "cascada",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Respecto de una persona, hijo o hija de su hermano o hermana",
+      "respuesta": "sobrino",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Que no está borracho",
+      "respuesta": "sobrio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Acto de velar a un difunto durante la noche",
+      "respuesta": "velatorio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Barco de vela",
+      "respuesta": "velero",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Relación entre el espacio recorrido y el tiempo empleado en recorrerlo",
+      "respuesta": "velocidad",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Corriente, frecuente, admitido como normal por la mayoría",
+      "respuesta": "comun",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Hecho o dicho irracional u opuesto a la razón",
+      "respuesta": "absurdo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Que tiene sabor agrio",
+      "respuesta": "acido",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Persona que se dedica a la caza o es aficionada a ella",
+      "respuesta": "cazador",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Dícese del perro de caza",
+      "respuesta": "perdiguero",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Alimento que conserva sus propiedades solo durante un espacio de tiempo determinado",
+      "respuesta": "perecedero",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Que se rompe o quiebra con facilidad",
+      "respuesta": "fragil",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Sustancia mineral más o menos dura y compacta que no es terrosa ni de aspecto metálico",
+      "respuesta": "piedra",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Burla, dicho o hecho que se hace a alguien para reírse de él sin intención de molestarle",
+      "respuesta": "broma",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Opuesto a la verdad",
+      "respuesta": "mentira",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Obra literaria en prosa, que narra sucesos total o parcialmente ficticios",
+      "respuesta": "novela",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Conjunto de hilos torcidos que forman un solo cuerpo más o menos grueso, largo y flexible",
+      "respuesta": "cuerda",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Amabilidad, suavidad de carácter",
+      "respuesta": "bondad",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Establecimiento donde se imparte enseñanza, especialmente la obligatoria, colegio",
+      "respuesta": "escuela",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Discípulo respecto de su maestro, de la materia que está aprendiendo o del establecimiento donde asiste",
+      "respuesta": "alumno",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Conjunto de hojas de papel manuscritas o impresas que, cosidas o encuadernadas, forman un volumen",
+      "respuesta": "libro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Saquito de tela cosido a una abertura en las prendas, destinado a guardar pequeños objetos",
+      "respuesta": "bolsillo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Objeto al que se atribuye virtud sobrenatural, generalmente para la suerte",
+      "respuesta": "amuleto",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Mercado extraordinario que tiene lugar en un sitio y unas fechas señaladas",
+      "respuesta": "feria",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Persona que hace por su cuenta objetos de uso doméstico imprimiéndoles un sello personal",
+      "respuesta": "artesano",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Persona que se dedica profesionalmente al tapizado y otras tareas de decoración",
+      "respuesta": "tapicero",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Persona que fabrica o vende helados o tiene una heladería",
+      "respuesta": "heladero",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Órgano muscular hueco, impulsor de la circulación de la sangre en los vertebrados y otros animales",
+      "respuesta": "corazon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Dispositivo que se aplica dentro o sobre el oído para recibir sonidos",
+      "respuesta": "auricular",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Pieza con un hueco labrado en espiral que ajusta exactamente en el filete de un tornillo",
+      "respuesta": "tuerca",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Del mar o relativo a él",
+      "respuesta": "marino",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Ave de cresta roja, pico corto, grueso y arqueado, y unas formaciones carnosas rojas colgantes bajo el pico",
+      "respuesta": "gallo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Grupo de jugadores que se colocan uno al lado del otro, delante de la portería, para defenderla del saque de una falta",
+      "respuesta": "barrera",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Cada una de las cuatro partes en que se divide el año",
+      "respuesta": "estacion",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Calzoncillo similar a un pantalón corto",
+      "respuesta": "boxer",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Baliza flotante sujeta al fondo del mar, de un lago, etc., usada como señal",
+      "respuesta": "boya",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Deporte en que dos adversarios luchan con los puños enfundados en guantes especiales",
+      "respuesta": "boxeo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Líquido blanco que segregan las mamas de las hembras de los mamíferos y que sirve de alimento para sus crías",
+      "respuesta": "leche",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Bola hueca de metal con una ranura con trocitos de metal en su interior que la hacen sonar al moverla",
+      "respuesta": "cascabel",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Materia en combustión",
+      "respuesta": "fuego",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Pieza que cierra la parte superior de un objeto o recipiente",
+      "respuesta": "tapa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Deporte practicado entre dos equipos de once jugadores c/u, que se disputan una pelota con los pies",
+      "respuesta": "futbol",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Cada una de las piezas duras que forman el esqueleto de los vertebrados",
+      "respuesta": "hueso",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Persona alojada en casa ajena, en un hospedaje o pensión",
+      "respuesta": "huesped",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Persona que se dedica profesionalmente a trabajar sumergido en el agua",
+      "respuesta": "buzo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Instrumento musical de cuerda compuesto por una caja de resonancia, un mástil y seis cuerdas",
+      "respuesta": "guitarra",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Aparato destinado a registrar imágenes animadas para el cine, la televisión o el vídeo",
+      "respuesta": "camara",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Reptil escamoso de cola prensil cuya piel cambia de color para adaptarse al de los objetos que le rodean",
+      "respuesta": "camaleon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Mueble para dormir o descansar, acondicionado con colchón, sábanas, mantas, almohada, etc",
+      "respuesta": "cama",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Prenda holgada que se usa al levantarse de la cama o para estar en casa",
+      "respuesta": "bata",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Vasija de cuello estrecho, que sirve para contener líquidos",
+      "respuesta": "botella",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Gorro de metal o plástico resistente que protege la cabeza",
+      "respuesta": "casco",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Pieza del ajedrez que es la única que salta sobre las demás",
+      "respuesta": "caballo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Parte posterior del pie humano",
+      "respuesta": "talon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Zapato de madera de una pieza que usan en varios países los campesinos",
+      "respuesta": "zueco",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Monumento destinado al enterramiento de varias personas",
+      "respuesta": "panteon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Pieza de metal acuñada, generalmente redonda, que sirve de medida común de cambio",
+      "respuesta": "moneda",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Arma defensiva de metal, madera o cuero para cubrirse y resguardar el cuerpo, que se llevaba en el brazo",
+      "respuesta": "escudo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Dícese de la bebida compuesta por una mezcla de licores a los que se añaden otros ingredientes",
+      "respuesta": "coctel",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Persona que se dedica profesionalmente a preparar los alimentos",
+      "respuesta": "cocinero",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Estado gaseoso que adoptan los fluidos por la acción del calor",
+      "respuesta": "vapor",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Producto que en forma gaseosa se desprende de una combustión incompleta",
+      "respuesta": "humo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Apoyo cilíndrico y largo, que sirve para sostener techos o adornar edificios",
+      "respuesta": "columna",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Pieza valiosa que rodea el cuello como adorno o como símbolo de distinción",
+      "respuesta": "collar",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Mamífero carnívoro doméstico de la familia de los cánidos",
+      "respuesta": "perro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Juego de mesa conformado por un tablero dividido en 64 cuadrados y 12 piezas redondas por jugador",
+      "respuesta": "damas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Aro que se coloca en la cabeza como premio, adorno o símbolo de dignidad",
+      "respuesta": "corona",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Fruto de planta tropical, carnoso, amarillento, muy fragante y terminado en una corona de hojas",
+      "respuesta": "anana",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Conjunto de personas reunidas para cantar, especialmente si lo hacen de una forma habitual o profesional",
+      "respuesta": "coro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Plataforma elevada en ciertos espectáculos públicos. Grada.",
+      "respuesta": "tribuna",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Figura geométrica formada por tres rectas que se cortan mutuamente, formando tres ángulos",
+      "respuesta": "triangulo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Triángulo que tiene sus tres lados desiguales",
+      "respuesta": "escaleno",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Pieza metálica larga y delgada, con cabeza y punta, que sirve para fijar o asegurar una cosa a otra",
+      "respuesta": "clavo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Corteza exterior de los huevos y de varias frutas",
+      "respuesta": "cascara",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Fruto comestible alargado y curvo, con una cáscara verde que amarillea cuando madura",
+      "respuesta": "banana",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Señal o rastro que deja en la tierra un cuerpo que pisa o se apoya",
+      "respuesta": "huella",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Persona que ha perdido a uno de sus padres o a ambos",
+      "respuesta": "huerfano",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Abertura en una prenda de vestir por la que asoma el cuello y parte del pecho o de la espalda",
+      "respuesta": "escote",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Arácnido con cuatro pares de patas y la parte posterior en forma de cola que acaba en un aguijón venenoso",
+      "respuesta": "escorpion",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Vehículo blindado de combate,que se desplaza sobre todo tipo de terrenos",
+      "respuesta": "tanque",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Baile de origen argentino,de compás de 2x4,que se baila por parejas",
+      "respuesta": "tango",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Recta que tiene un solo punto común con una curva o una superficie sin cortarla",
+      "respuesta": "tangente",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cúantos lados tiene un pentágono?",
+      "respuesta": "5",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cúantos lados tiene un hexágono?",
+      "respuesta": "6",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cúantos lados tiene un heptágono?",
+      "respuesta": "7",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cúantos lados tiene un octógono?",
+      "respuesta": "8",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cúantos lados tiene un eneágono?",
+      "respuesta": "9",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cúantos lados tiene un decágono?",
+      "respuesta": "10",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cúantos lados tiene un endecágono?",
+      "respuesta": "11",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cúantos lados tiene un dodecágono?",
+      "respuesta": "12",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías el \"Cristo Redentor\"?",
+      "respuesta": "Brasil",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"La torre Eiffel\"?",
+      "respuesta": "Francia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"El Taj Mahal\"?",
+      "respuesta": "India",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"Las ruinas del Machu Picchu\"?",
+      "respuesta": "Peru",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"La torre de Pisa\"?",
+      "respuesta": "Italia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"El Coliseo Romano\"?",
+      "respuesta": "Italia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"Las pirámides de Chichén Itzá\"?",
+      "respuesta": "Mexico",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"El Kremlin, La Catedral de San Basilio y la Plaza Roja\"?",
+      "respuesta": "Rusia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"El Palacio de Versalles\"?",
+      "respuesta": "Francia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"El Golden Gate\"?",
+      "respuesta": "Estados|Unidos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"El Palacio Imperial de Kioto\"?",
+      "respuesta": "Japon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"La Acrópolis de Atenas\"?",
+      "respuesta": "Grecia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"La gran pirámide de Guiza\"?",
+      "respuesta": "Egipto",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"Los Guerreros de Terracota\"?",
+      "respuesta": "China",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"El Monte Rushmore\"?",
+      "respuesta": "Estados|Unidos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En dónde situarías \"La Capilla Sixtina\"?",
+      "respuesta": "Ciudad del|Vaticano",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías el canal construido por el hombre para unir el Océano Pacífico con el Océano Atlántico?",
+      "respuesta": "Panama",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías \"La Opera de Sídney\"?",
+      "respuesta": "Australia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país actual situarías \"Los antiguos Jardines Colgantes de Babilonia\"?",
+      "respuesta": "Irak",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país situarías la ciudad de Cali?",
+      "respuesta": "Colombia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el protagonista de la saga Indiana Jones?",
+      "respuesta": "Harrison|Ford",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué mes cae el día de San Valentín?",
+      "respuesta": "Febrero",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaba el personaje que interpretaba Al Pacino en \"Scarface\"?",
+      "respuesta": "Tony|Montana",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con cuántos países limita Argentina?",
+      "respuesta": "5",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el ayudante virtual de Iron Man?",
+      "respuesta": "Jarvis",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué animal es la comida preferida de Alf?",
+      "respuesta": "gato",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaba el primer gato de Los Simpsons?",
+      "respuesta": "Bola|de nieve",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la nacionalidad de la cantante Shakira?",
+      "respuesta": "Colombiana",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién se hizo famoso,gracias a su frase \"que hay de nuevo viejo\"?",
+      "respuesta": "Bugs|bunny",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la princesa de Disney conocida como \"La Sirenita\"?",
+      "respuesta": "Ariel",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el primer hijo de Goku de Dragon Ball?",
+      "respuesta": "Gohan",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el pájaro símbolo de los Juegos del Hambre?",
+      "respuesta": "Sinsajo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el robot alcohólico de la serie \"Futurama\"?",
+      "respuesta": "Bender",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué Beatle fue asesinado por un fan?",
+      "respuesta": "John|Lennon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué personaje de Disney perdió su zapato de cristal?",
+      "respuesta": "Cenicienta",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De que tiene forma Italia?",
+      "respuesta": "Bota",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántas estrellas tiene la bandera de China?",
+      "respuesta": "5",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué continente está la India?",
+      "respuesta": "Asia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué país pertenece la Isla de Pascua?",
+      "respuesta": "Chile",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué continente/s se encuentra Turquía?",
+      "respuesta": "Asia y|Europa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país está Ushuaia, la ciudad más austral del mundo?",
+      "respuesta": "Argentina",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De que color es la última cinta en las artes marciales ?",
+      "respuesta": "Negra",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué jugador de fútbol le apodan ‘El Apache’?",
+      "respuesta": "Carlos|Tevez",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos cuadros tiene un tablero de ajedres?",
+      "respuesta": "64",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el estadio del F.C. Barcelona?",
+      "respuesta": "Camp Nou",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién ganó el mundial de fútbol del año 2002?",
+      "respuesta": "Brasil",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué color es el cero en el cilindro de la ruleta?",
+      "respuesta": "Verde",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Como se denomina la primer leche materna?",
+      "respuesta": "calostro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántas caras tiene un icosaedro?",
+      "respuesta": "20",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué órgano del cuerpo humano produce la bilis?",
+      "respuesta": "Higado",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el autor de \"El retrato de Dorian Gray\"?",
+      "respuesta": "Oscar|Wilde",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién pintó La Capilla Sixtina?",
+      "respuesta": "Miguel|Angel",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién es el autor de \"El amor en los tiempos de cólera\"?",
+      "respuesta": "Garcia|Marquez",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué país es el panda el animal nacional?",
+      "respuesta": "China",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el hueso más pequeño del cuerpo?",
+      "respuesta": "estribo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En que país quedan las líneas de Nazca?",
+      "respuesta": "Peru",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se mide la fuerza del viento en el mar?",
+      "respuesta": "Nudos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el símbolo del Sodio?",
+      "respuesta": "NA",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Miedo a qué produce la hemofobia?",
+      "respuesta": "sangre",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿La primera selección de fútbol en ganar un mundial fue...?",
+      "respuesta": "Uruguay",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país se disputó el Mundial de 1962?",
+      "respuesta": "Chile",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué famosa marca deportiva tiene como slogan \"Just do it\"?",
+      "respuesta": "Nike",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué instrumento musical tiene nombre y forma geométricos?",
+      "respuesta": "triangulo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué órgano segrega la hormona insulina?",
+      "respuesta": "pancreas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué árbol crecen los dátiles?",
+      "respuesta": "palmera",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué tienen las ranas en la boca que no tienen los sapos?",
+      "respuesta": "Dientes",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con cuántos ceros se escriben 10 millones?",
+      "respuesta": "7",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la cordillera que separa Argentina de Chile?",
+      "respuesta": "Los Andes",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denominan a las tierras llanas que se encuentran a elevada altitud?",
+      "respuesta": "mesetas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre damos a la parte mas alta de una montaña?",
+      "respuesta": "cima",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el mayor número que se puede formar con las cifras 5,9 y 2?",
+      "respuesta": "952",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre recibe la región del sur de la Argentina?",
+      "respuesta": "Patagonia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el nombre del océano de mayor extensión?",
+      "respuesta": "Pacifico",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Por qué punto cardinal se pone el sol?",
+      "respuesta": "Oeste",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las líneas imaginarias que pasan por los polos y cortan el Ecuador?",
+      "respuesta": "Meridianos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos centavos hay en 2 pesos?",
+      "respuesta": "200",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué hemisferio está ubicado el continente europeo?",
+      "respuesta": "Norte",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué mar baña las costas de España?",
+      "respuesta": "mediterraneo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina a la esfera que representa a nuestro planeta?",
+      "respuesta": "globo|terraqueo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo llamamos a los lagos pequeños?",
+      "respuesta": "lagunas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En las fronteras de qué países se encuentran las Cataratas del Niágara?",
+      "respuesta": "canada y|estados unidos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre reciben las islas muy pequeñas?",
+      "respuesta": "islotes",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denominan a las rectas que no se cortan nunca?",
+      "respuesta": "paralelas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué forman un conjunto de islas?",
+      "respuesta": "archipielago",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos minutos son 300 segundos?",
+      "respuesta": "5",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo llamamos a las grandes extensiones de tierra firme?",
+      "respuesta": "continentes",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el país mas poblados de la Tierra?",
+      "respuesta": "China",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país se encuentra la ciudad de Montreal?",
+      "respuesta": "canada",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país se encuentra Santa Cruz de la Sierra?",
+      "respuesta": "bolivia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué provincia argentina se encuentran las Cataratas del Iguazú?",
+      "respuesta": "Misiones",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos años dura un lustro?",
+      "respuesta": "5",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con cuántos ceros se escribe un billón?",
+      "respuesta": "12",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el teorema que relaciona los lados de un triángulo rectángulo?",
+      "respuesta": "Teorema de|pitagoras",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina a la suma de los lados de un polígono?",
+      "respuesta": "perimetro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman dos rectas que tienen un punto en común?",
+      "respuesta": "secantes",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la división cuyo resto da cero?",
+      "respuesta": "entera",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuánto suman los números del 3 al 6, incluyendo a ambos?",
+      "respuesta": "18",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el mayor número par que se puede escribir con 4 cifras?",
+      "respuesta": "9998",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué provincia argentina queda la Quebrada de Humahuaca?",
+      "respuesta": "Jujuy",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la recta perpendicular en el punto medio de un segmento?",
+      "respuesta": "mediatriz",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En que estado queda el Gran Cañon del Colorado?",
+      "respuesta": "Arizona",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los extremos del eje de una esfera?",
+      "respuesta": "polos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuáles son los cuadrilateros que tienen todos sus lados iguales?",
+      "respuesta": "Cuadrado|y rombo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué provincia argentina se encuentra la ciudad de Bariloche?",
+      "respuesta": "Rio negro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuánto mide cada uno de los tres ángulos de un triangulo equilatero?",
+      "respuesta": "60 grados",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos cuartos hay en 2kg y medio?",
+      "respuesta": "10",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué océanos bañan las costas de Estados Unidos?",
+      "respuesta": "pacifico y| atlantico",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la línea que pasa por el centro de la circunferencia?",
+      "respuesta": "diametro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la recta que tiene un punto en común con una circunferencia?",
+      "respuesta": "tangente",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos minutos hay en una hora y tres cuartos?",
+      "respuesta": "105",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué clase de ángulo es uno que mide 135°?",
+      "respuesta": "obtuso",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama un triángulo que tiene un ángulo obtuso?",
+      "respuesta": "obtusangulo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las partes de una fracción?",
+      "respuesta": "numerador y|denominador",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la unidad principal del volumen?",
+      "respuesta": "metro cubico",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama a un polígono que tiene tres lados y vértices?",
+      "respuesta": "triangulo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuánto mide el radio de una circunferencia de 30cm de diámetro?",
+      "respuesta": "15 cm",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "El divisor es 20, el cociente es 5 y el resto es 0 ¿Cuánto vale el dividendo?",
+      "respuesta": "100",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país esta el Lago Titicaca?",
+      "respuesta": "Bolivia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué clase de figuras son las bases de un cilindro?",
+      "respuesta": "circulos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuáles son los primeros 5 números primos?",
+      "respuesta": "1 2 3 5 7",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la ganancia obtenida por el préstamo de un capital?",
+      "respuesta": "interes",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama un decimal cuyas cifras se repiten a partir de la coma?",
+      "respuesta": "periodico",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué provincia argentina está ubicado el Glaciar Perito Moreno?",
+      "respuesta": "Santa Cruz",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el 40% de 40?",
+      "respuesta": "16",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos grados miden los 3 ángulos de un triángulo?",
+      "respuesta": "180",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué figura forman un conjunto de puntos cuya distancia al centro es la misma?",
+      "respuesta": "circulo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre recibe la expresión formada por la suma de varios monomios?",
+      "respuesta": "polinomios",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuánto mide un ángulo llano?",
+      "respuesta": "180 grados",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántas horas son 3600 segundos?",
+      "respuesta": "1",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre recibe un segmento circular formado por un diámetro?",
+      "respuesta": "semicirculo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre recibe un ángulo más pequeño que un ángulo recto?",
+      "respuesta": "agudo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el río más largo de la Argentina?",
+      "respuesta": "parana",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el ángulo que mide el doble que el ángulo recto?",
+      "respuesta": "llano",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el punto donde se unen las caras laterales de una pirámide?",
+      "respuesta": "vertice",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el triángulo que tiene todos sus ángulos agudos?",
+      "respuesta": "acutangulo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país se encuentra el lago Ness?",
+      "respuesta": "escocia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la capital administrativa de Sudáfrica?",
+      "respuesta": "pretoria",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la recta que divide el ángulo en 2 partes iguales?",
+      "respuesta": "bisectriz",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los lados que forman un ángulo recto en el triángulo rectángulo?",
+      "respuesta": "catetos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el aparato para medir el viento?",
+      "respuesta": "anemometro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué tipo de energía produce el viento?",
+      "respuesta": "eolica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué nombre se conoce al \"Partido nacional socialista obrero alemán\"?",
+      "respuesta": "Partido nazi",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué teoría formuló Albert Einstein?",
+      "respuesta": "la teoria de|la relatividad",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De dónde se obtiene la penicilina?",
+      "respuesta": "de un hongo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el aparato que mide la temperatura?",
+      "respuesta": "termometro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué se mide la energía de los alimentos?",
+      "respuesta": "calorias",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaba antiguamente Estambul?",
+      "respuesta": "constantinopla",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuáles son los 3 estados de la materia?",
+      "respuesta": "liquido solido|gaseoso",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el principal componente de la sal?",
+      "respuesta": "cloruro|de sodio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué rayos se sacan las radiografías?",
+      "respuesta": "rayos x",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién era el rey de España cuando se produjo la Revolución de Mayo de 1810?",
+      "respuesta": "Fernando VII",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué vacuna hay que aplicarse ante un corte con un metal oxidado?",
+      "respuesta": "antitetanica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién fue el creador de la doctrina islámica?",
+      "respuesta": "mahoma",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué significa la sigla T.N.T?",
+      "respuesta": "trinitro|tolueno",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué forman dos moléculoas de hidrógeno y una de oxígeno?",
+      "respuesta": "agua",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué color es la glicerina?",
+      "respuesta": "Incolora",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el agua en estado sólido?",
+      "respuesta": "hielo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el agua en estado gaseoso?",
+      "respuesta": "vapor",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "El plástico es un derivado del...",
+      "respuesta": "petroleo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la ciencia que estudia las rocas?",
+      "respuesta": "geologia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la ciencia que estudia la química del ser humano?",
+      "respuesta": "bioquimica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué estado debe estar un material para contrariar la fuerza de la gravedad?",
+      "respuesta": "gaseoso",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la unidad de medida del peso en Inglaterra?",
+      "respuesta": "libra",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué material son la mayoría de los cables eléctricos?",
+      "respuesta": "cobre",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué unidad se mide la electricidad?",
+      "respuesta": "voltios",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los cuerpos que no permiten el paso de la luz?",
+      "respuesta": "opacos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina a los cuerpos que recobran la forma original luego de ser deformados?",
+      "respuesta": "elasticos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué país fue presidente Nelson Mandela?",
+      "respuesta": "sudafrica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Médico argentino que recibio el premio Nobel de Química",
+      "respuesta": "Luis Federico|leloir",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la fotografía obtenida con un rayo láser?",
+      "respuesta": "holograma",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Por el contacto con que elemento se produce la oxidación de la manzana?",
+      "respuesta": "aire",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué fuerza se aplica en un secaropa que no es a calor?",
+      "respuesta": "centrifuga",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la fuerza contraria a la centrífuga?",
+      "respuesta": "centripeta",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el componente básico del aire?",
+      "respuesta": "oxigeno",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué unidad se mide la presión atmosférica?",
+      "respuesta": "milibares",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué sucede con un metal cuando se le aplica calor?",
+      "respuesta": "se dilata",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué elementos integran el monóxido de carbono?",
+      "respuesta": "Carbono y|oxigeno",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina al trabajo de los líquidos?",
+      "respuesta": "hidraulico",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina al trabajo del aire?",
+      "respuesta": "neumatico",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Onda que tiene un centro de máximo efecto y un área de influencia que disminuye a medida que nos alejamos del centro",
+      "respuesta": "expansiva",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué energía se forman los relámpagos?",
+      "respuesta": "estatica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Mediante qué evento se forma la electricidad estática?",
+      "respuesta": "rozamiento",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué polos de un imán se repelen?",
+      "respuesta": "los iguales",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué polos de un imán se atraen?",
+      "respuesta": "los opuestos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos polos tiene un imán?",
+      "respuesta": "2",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama al resultante de la unión de dos metales?",
+      "respuesta": "aleacion",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué carga queda un cuerpo que recibe electrones?",
+      "respuesta": "negativa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué se transforma el oxígeno luego de ser quemado?",
+      "respuesta": "dioxido de|carbono",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué tipo de emisión transmite un control remoto?",
+      "respuesta": "infrarroja",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué carga queda un cuerpo que cede electrones?",
+      "respuesta": "positiva",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Mediante qué energía vuela un globo aerostático?",
+      "respuesta": "aire|caliente",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué material se fabrican las minas de los lápices?",
+      "respuesta": "carbon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama al gas que usan los dirigibles?",
+      "respuesta": "helio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el metal mas pesado?",
+      "respuesta": "mercurio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué estado se encuentra el metal Mercurio?",
+      "respuesta": "liquido",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la fórmula del amoníaco?",
+      "respuesta": "nh3",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la fuerza resultante de la acción de la gravedad sobre un cuerpo?",
+      "respuesta": "peso",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué unidad se mide la frecuencia?",
+      "respuesta": "hertz",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué año termino la segunda guerra mundial?",
+      "respuesta": "1945",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué otro nombre se les da a los grados centígrados?",
+      "respuesta": "celsius",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina el producto de la fuerza por el desplazamiento?",
+      "respuesta": "trabajo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina al cociente entre la fuerza aplicada y la superficie sobre la que actúa?",
+      "respuesta": "presion",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En quá año finalizo la guerra civil española?",
+      "respuesta": "1939",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué país se disputo la República Argentina el canal de Beagle?",
+      "respuesta": "chile",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién era el presidente de Estados Unidos cuando estallo la Segunda Guerra Mundial?",
+      "respuesta": "roosevelt",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál era el nombre del grupo guerrillero más importante del Uruguay?",
+      "respuesta": "tupamaros",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué año se abrio el canal de Panamá?",
+      "respuesta": "1914",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué nacionalidad era Albert Einstein?",
+      "respuesta": "aleman",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama a la capacidad de los cuerpos en movimiento para producir trabajo?",
+      "respuesta": "energia|cinetica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país murió el Che Guevara?",
+      "respuesta": "bolivia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué país perpetró el genocidio contra los armenios a principios del siglo XX?",
+      "respuesta": "turquia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué tratado se firmó al finalizar la Primera Guerra Mundial?",
+      "respuesta": "el tratado|de versalles",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Dónde nació Adolf Hitler?",
+      "respuesta": "Austria",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el más ligero de los gases?",
+      "respuesta": "hidrogeno",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el símbolo del Helio?",
+      "respuesta": "he",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién fué elegido para suceder a G. Bush a partir del año 2009?",
+      "respuesta": "Barack Obama",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién fué elegido para suceder a Barack Obama a partir del año 2017?",
+      "respuesta": "Donald Trump",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién sucedió en el poder a Fidel Castro?",
+      "respuesta": "raul castro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el símbolo del Hierro?",
+      "respuesta": "Fe",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué científico del siglo XVII estableció la base de la mecánica clásica?",
+      "respuesta": "newton",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la unidad de intensidad eléctrica?",
+      "respuesta": "Ampere",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué países formaron el Eje durante la Segunda Guerra Mundial?",
+      "respuesta": "italia japon|y alemania",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién gobernaba la Unión Soviética durante la Segunda Guerra Mundial?",
+      "respuesta": "Stalin",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué máquina simple consta de un disco y una cuerda que se desliza por él?",
+      "respuesta": "la polea",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué gas es imprescindible para la vida?",
+      "respuesta": "oxigeno",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los científicos que estudian los astros?",
+      "respuesta": "astronomos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué ciencia estudia los fenómenos atmosféricos?",
+      "respuesta": "meteorologia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué clase de carga eléctrica tiene un electrón?",
+      "respuesta": "negativa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaba la amante de Hitler?",
+      "respuesta": "eva braun",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman el aparato que se usa para medir la presión atmosférica?",
+      "respuesta": "barometro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué presidente argentino de facto le declaró la guerra a Inglaterra al tomar las Islas Malvinas?",
+      "respuesta": "galtieri",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama al cambio de dirección que experimenta la luz al atravesar la superficie de separación de dos medios transparentes?",
+      "respuesta": "refraccion",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama al camino recorrido por un móvil cuando se traslada de un punto a otro?",
+      "respuesta": "trayectoria",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué dispositivo se utiliza para observar el espacio exterior desde la Tierra?",
+      "respuesta": "telescopio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué piedra preciosa se obtiene si un pedazo de carbón se cristaliza?",
+      "respuesta": "diamante",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la carga eléctrica de los neutrones?",
+      "respuesta": "neutra",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el punto donde se aplica una fuerza?",
+      "respuesta": "punto de|aplicacion",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama a la fuerza ejercida por el aire atmosférica?",
+      "respuesta": "presion|atmosferica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el macho de la vaca?",
+      "respuesta": "toro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la sílaba de una palabra que pronunciamos con más fuerza?",
+      "respuesta": "tonica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la parte trasera de un barco?",
+      "respuesta": "popa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el animal que tiene el cuello más largo?",
+      "respuesta": "jirafa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué color es la capa de Superman?",
+      "respuesta": "roja",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el enemigo de Peter Pan?",
+      "respuesta": "capitan|garfio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué color son los pitufos?",
+      "respuesta": "azules",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué tiene dibujado Batman en el pecho?",
+      "respuesta": "murcielago",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denominan los aviones sin motores?",
+      "respuesta": "planeadores",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el país al que viajó Peter Pan?",
+      "respuesta": "nunca jamas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué alimento dulce producen las abejas?",
+      "respuesta": "miel",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Los cítricos son ricos en vitamina...",
+      "respuesta": "C",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la novia del Pato Donald?",
+      "respuesta": "daisy",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el chimpancé que acompaña a Tarzan?",
+      "respuesta": "chita",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué ruido hace el Correcaminos cuando es perseguido por el Coyote?",
+      "respuesta": "bip bip",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué perdio la Cenicienta al salir del palacio?",
+      "respuesta": "el zapato|de cristal",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el dedo más gordo de la mano?",
+      "respuesta": "pulgar",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué mes empieza la primavera en el hemisferio sur?",
+      "respuesta": "septiembre",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué familia de instrumentos pertenece el tambor?",
+      "respuesta": "percusion",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué familia de instrumentos pertenece el violín?",
+      "respuesta": "cuerda",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué familia de instrumentos pertenece la flauta?",
+      "respuesta": "viento",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las antiguas construcciones egipcias consideradas una de las maravillas del mundo?",
+      "respuesta": "piramides",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué sistema usan los no videntes para leer?",
+      "respuesta": "braille",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué siglo se inventó la fotografía?",
+      "respuesta": "xix",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué deporte se utilizan 4 paredes?",
+      "respuesta": "squash",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué toma Asterix para ser más fuerte?",
+      "respuesta": "la pocima|magica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién descubrió América?",
+      "respuesta": "Cristobal|Colon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el animal comunmente denominado \"cerdo salvaje\"?",
+      "respuesta": "jabali",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el miedo a las alturas?",
+      "respuesta": "Acrofobia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama cada uno de los anillos de una cadena?",
+      "respuesta": "Eslabon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué familia de instrumentos pertenece el Arpa?",
+      "respuesta": "Cuerda",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué colores tiene la bandera de Brasil?",
+      "respuesta": "Verde Azul|y amarillo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaba el cantante de la banda Soda Stereo?",
+      "respuesta": "Gustavo|Cerati",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué compañía invento el primer casete?",
+      "respuesta": "Phillips",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el lugar donde se corren las carreras de caballo?",
+      "respuesta": "Hipodromo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama al criador de abejas?",
+      "respuesta": "Apicultor",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama a las personas que se instruyen por sí mismas?",
+      "respuesta": "Autodidactas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué significa la sigla UE?",
+      "respuesta": "Union|Europea",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el amigo de Pedro Picapiedras?",
+      "respuesta": "Pablo|Marmol",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué ciudad se jugaron las primeras olimpiadas?",
+      "respuesta": "Atenas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién invento el teléfono?",
+      "respuesta": "Graham|Bell",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántas fichas hay en un juego de ajedrez?",
+      "respuesta": "32",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las extremidades de un pulpo?",
+      "respuesta": "Tentaculos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamó el primer satelite artificial?",
+      "respuesta": "Sputnik",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las canciones de Navidad?",
+      "respuesta": "Villancicos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué animal es el símbolo mundial de la paz?",
+      "respuesta": "paloma",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué ciudad española se desarrollaron las olimpiadas de 1992?",
+      "respuesta": "Barcelona",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamo el famoso avión supersónico que voló por última vez hace más de una década?",
+      "respuesta": "Concorde",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama al sonido que hace la vaca?",
+      "respuesta": "Mugido",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué nacionalidad es el futbolista mundialmente conocido como Pelé?",
+      "respuesta": "Brasilera",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué hizo el príncipe para despertar a la Bella Durmiente?",
+      "respuesta": "le dio|un beso",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántas cuerdas tiene una guitarra española?",
+      "respuesta": "6",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Enemigo de qué súper héroe es el Dr Octopus?",
+      "respuesta": "spiderman",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el antónimo de diurno?",
+      "respuesta": "nocturno",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama al miedo al encierro?",
+      "respuesta": "Claustrofobia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denominaban a los astronautas soviéticos?",
+      "respuesta": "Cosmonautas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué famosa liga integraban Batman, Superman, Aquaman, etc.?",
+      "respuesta": "la liga de|la justicia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué seres vivos purifican las atmósfera?",
+      "respuesta": "las plantas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qúe parte del cuerpo afecta una jaqueca?",
+      "respuesta": "cabeza",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el fruto del olivo?",
+      "respuesta": "aceituna",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué es fanático un Melómano?",
+      "respuesta": "musica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué superficie son las canchas de tenis de Roland Garros?",
+      "respuesta": "polvo de|ladrillo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿El salmón es un pez de mar o de rio?",
+      "respuesta": "rio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el manjar preferido de Asterix y sus amigos?",
+      "respuesta": "jabali",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el fruto del nogal?",
+      "respuesta": "nuez",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué superficie es la cancha de tenis de Wimbledon?",
+      "respuesta": "cesped",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la fuerza que nos lleva hacia adelante cuando frena un tren por ejemplo?",
+      "respuesta": "inercia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se escribe paz en inglés?",
+      "respuesta": "Peace",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué rama del arte se dedico Goya?",
+      "respuesta": "pintura",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál era la identidad secreta de Don Diego de la Vega?",
+      "respuesta": "El Zorro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué año fue arrojada la bomba atómica sobre Hiroshima?",
+      "respuesta": "1945",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué dos ciudades bíblicas destruyó Dios por tener muchos pecadores?",
+      "respuesta": "Sodoma y|Gomorra",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos minutos dura cada período de un partido de básquet de la NBA?",
+      "respuesta": "12",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué piezas del ajedrez se mueven en un enroque?",
+      "respuesta": "rey y torre",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién lidera el grupo de rock Rolling Stones?",
+      "respuesta": "Mick Jagger",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué región rumana era el conde Drácula?",
+      "respuesta": "transilvania",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaba la esposa de Ulises?",
+      "respuesta": "Penelope",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el animal mitológico de un cuerno?",
+      "respuesta": "Unicornio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué conocido pacifista hindú fue asesinado en 1948?",
+      "respuesta": "Mahatma|Gandhi",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las distintas partes de una obra de teatro?",
+      "respuesta": "actos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué obra de Shakespeare se inicia con una tormenta en el mar?",
+      "respuesta": "la tempestad",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué año se demolió el muro de Berlín?",
+      "respuesta": "1989",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué país sudamericano le declaró la guerra el Eje en 1943?",
+      "respuesta": "Bolivia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos tentáculos tiene un calamar?",
+      "respuesta": "10",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué año se declaró la independencia argentina?",
+      "respuesta": "1816",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué palabras claves abren la cueva de Alí Babá?",
+      "respuesta": "Abrete|Sesamo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el hermano de Gretel en el famoso cuento infantil?",
+      "respuesta": "Hansel",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué dictador cubano derrocó la revolución liderada por Fidel Castro?",
+      "respuesta": "Fulgencio|Batista",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué se dedicó Ernesto Sabato?",
+      "respuesta": "Escritor",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién escribió La Ilíada?",
+      "respuesta": "Homero",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Que dos piezas estan al lado del rey al empezar una partida de ajedrez?",
+      "respuesta": "alfil y reina",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la pieza mas importante del ajedrez?",
+      "respuesta": "rey",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En ajedrez, que pieza tiene una cruz en la parte superior?",
+      "respuesta": "rey",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos años tiene una persona octogenaria?",
+      "respuesta": "80",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaba en las americas, al hijo de una española y un negro?",
+      "respuesta": "mulato",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se inicia el famoso monólogo de Hamlet?",
+      "respuesta": "ser o no ser",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denominan las palabras de una sola sílaba?",
+      "respuesta": "monosilabas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Enemigos de que súper héroe son el Pingüino y el Capitán Frío?",
+      "respuesta": "Batman",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el sonido que hace el burro?",
+      "respuesta": "Rebuzne",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué ciudad proceden los Beatles?",
+      "respuesta": "Liverpool",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué instrumento tocaba Louis Amstrong?",
+      "respuesta": "trompeta",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Las aguas de qué mar dividió Moisés según la Biblia?",
+      "respuesta": "Rojo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién tenía en el talón su punto débil?",
+      "respuesta": "Aquiles",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos minutos dura cada tiempo de un partido de Rugby?",
+      "respuesta": "40",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué general derrocó al presidente chileno Salvador Allende?",
+      "respuesta": "Augusto|Pinochet",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Abraham Lincoln fué asesinado en un...",
+      "respuesta": "teatro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién fué el mayor cómico del cine mudo?",
+      "respuesta": "Charles|Chaplin",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el roedor de cola aplanada que fabrica represas de madera?",
+      "respuesta": "castor",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué instrumento musical tocaba Sherlock Holmes?",
+      "respuesta": "Violin",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos meses hay en una década?",
+      "respuesta": "120",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos días hay en una década?",
+      "respuesta": "3650",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la recolección y transporte de la uva?",
+      "respuesta": "vendimia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos jugadores hay por equipo en el basquet?",
+      "respuesta": "5",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué rasgo facial le falta a la Mona Lisa?",
+      "respuesta": "las cejas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué personaje de ficción decidió no crecer?",
+      "respuesta": "Peter Pan",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el nombre de la pasante que protagonizó un escándalo sexual con el presidente Clinton?",
+      "respuesta": "Monica|Lewinsky",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué empresa inventó la primera película de celuloide para fotografía?",
+      "respuesta": "kodak",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué nombre se conoce el escándalo que alejó a Nixon del poder?",
+      "respuesta": "El caso|watergate",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué figura bíblica es conocida como el padre de la raza humana?",
+      "respuesta": "Adan",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién era el ayudante de Sherlock Holmes?",
+      "respuesta": "Watson",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué significa P.D. al final de una carta?",
+      "respuesta": "Postdata",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se escribe 34 en números romanos?",
+      "respuesta": "XXXIV",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué famoso escritor chileno ganó el premio Nobel de literatura?",
+      "respuesta": "Pablo|Neruda",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Dónde estaba la Corte del Rey Arturo?",
+      "respuesta": "Camelot",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué país pertenece la ciudad de Baden Baden?",
+      "respuesta": "Alemania",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál era el nombre del avión que transportó la bomba que fue arrojada sobre Hiroshima?",
+      "respuesta": "Enola Gay",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué compositor argentino, compuso, las famosa canción \"Sólo le pido a Dios\"?",
+      "respuesta": "Leon Gieco",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "La sigla FMI significa: Fondo...",
+      "respuesta": "Monetario|Internacional",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos jugadores forman un equipo de Voley?",
+      "respuesta": "6",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué profesión tenía el revolucionario argentino Ernesto \"Che\" Guevara?",
+      "respuesta": "Medico",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué mujer asesina inglesa se la apodaba \"La dama de hierro\"?",
+      "respuesta": "Margaret|Tatcher",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué nacionalidad eran los hermanos Ladislao y Geoy Biro, inventores de la birome?",
+      "respuesta": "Hungaros",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Dónde nació el emperador francés Napoleón Bonaparte?",
+      "respuesta": "Corcega",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién pintó el Guernica?",
+      "respuesta": "Pablo|Picasso",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos quilates tiene una pieza de oro puro?",
+      "respuesta": "24",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el apellido de los hermanos que fueron los primeros hombres en volar un avión?",
+      "respuesta": "Wright",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué novela de Julio Cortázar pertenece el personaje La Maga?",
+      "respuesta": "Rayuela",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el gigante de la mitología griega con un solo ojo?",
+      "respuesta": "ciclope",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué se convirtió la mujer de Lot al mirar atrás según la Biblia?",
+      "respuesta": "estatua|de sal",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llamaba el modelo de auto que Ford presentó en 1908 y que sería famoso en todo el mundo?",
+      "respuesta": "Ford T",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué ciudad de Alemania se celebraron las olimpiadas de 1936?",
+      "respuesta": "Berlin",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el novio de la muñeca Barbie?",
+      "respuesta": "Ken",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la novia de Popeye?",
+      "respuesta": "Olivia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos jugadores tiene un equipo de béisbol?",
+      "respuesta": "9",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién mata a Abel según la Biblia?",
+      "respuesta": "Cain",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué hizo Dalila para debilitar a Sansón según la Biblia?",
+      "respuesta": "le corto|el pelo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el barco del capitán J. Cousteau?",
+      "respuesta": "Calypso",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos puntos tiene un dado?",
+      "respuesta": "21",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuáles son los nombres de los reyes magos?",
+      "respuesta": "Gaspar Melchor|y Baltasar",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién escribió Mujercitas?",
+      "respuesta": "Louisa May|Alcott",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país queda el Monte Everest?",
+      "respuesta": "Nepal",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué animal es Moby Dick?",
+      "respuesta": "Ballena",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué estudia un ornitólogo?",
+      "respuesta": "aves",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la nariz del elefante?",
+      "respuesta": "trompa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país nació el fútbol?",
+      "respuesta": "Inglaterra",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué empresa produjo la primera película sonora?",
+      "respuesta": "Warner Bros",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país nació el basquet?",
+      "respuesta": "Estados|Unidos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué siglo termina la Edad Moderna?",
+      "respuesta": "XVIII",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué siglo termina la Edad Media?",
+      "respuesta": "XV",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el pájaro más pequeño?",
+      "respuesta": "Colibri",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué color es la pantera más famosa de la televisión?",
+      "respuesta": "Rosa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué laboratorio comenzó con la venta de aspirina?",
+      "respuesta": "Bayer",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué presidente norteamericano usaba silla de ruedas?",
+      "respuesta": "Franklin|Roosevelt",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál fue el primer país con emisiones regulares de televisión?",
+      "respuesta": "Inglaterra",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién fue el creador de la Teoría de la Selección Natural?",
+      "respuesta": "Charles|Darwin",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué se mide con la escala que Richter confeccionó en 1935?",
+      "respuesta": "terremotos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el asistente del Sr Burns en Los Simpson?",
+      "respuesta": "Smithers",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre recibe el que transporta los palos de golf?",
+      "respuesta": "caddie",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el nombre del dueño de la fábrica en la película Charly y la fábrica de chocolates?",
+      "respuesta": "Willy Wonka",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién fue el actor principal de la película Taxi Driver?",
+      "respuesta": "Robert|De Niro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué ciencia estudia las civilizaciones antiguas?",
+      "respuesta": "Arqueologia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos colores tiene el arco iris?",
+      "respuesta": "7",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la bebida típica de México?",
+      "respuesta": "Tequila",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el aparato que \"envía papel por teléfono\"?",
+      "respuesta": "fax",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué club brasilero de fútbol debutó Pelé?",
+      "respuesta": "Santos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las zonas de unión entre dos huesos contiguos?",
+      "respuesta": "Articulaciones",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el segundo planeta mas grande del sistema solar?",
+      "respuesta": "Saturno",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el fruto del peral?",
+      "respuesta": "pera",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre recibe el conjunto de los huesos del cuerpo?",
+      "respuesta": "Esqueleto",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuáles son las unidades basicas que forman nuestro cuerpo?",
+      "respuesta": "celulas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A dónde se dirige la sangre que sale del ventrículo derecho?",
+      "respuesta": "los pulmones",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Por qué aurícula  ingresa al corazón la sangre recogida del cuerpo?",
+      "respuesta": "derecha",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las sustancias defensivas que fabrica nuestro organismo?",
+      "respuesta": "Anticuerpos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué aparatos registran los movimientos sísmicos?",
+      "respuesta": "Sismografos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre recibe la parte central de un átomo?",
+      "respuesta": "Nucleo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo llamamos al movimiento de la Tierra alrededor del Sol?",
+      "respuesta": "Traslacion",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Entre qué planetas se halla la Tierra?",
+      "respuesta": "Marte y|Venus",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué órganos son los encargados de nuestra respiración?",
+      "respuesta": "los pulmones",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Por dónde reciben las plantas la energía del Sol?",
+      "respuesta": "las hojas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el líquido que circula dentro de las plantas?",
+      "respuesta": "Savia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el movimiento que realiza la Tierra sobre su propio eje?",
+      "respuesta": "Rotacion",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué es la rana antes de su metamorfosis?",
+      "respuesta": "Renacuajo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el ave más grande?",
+      "respuesta": "Avestruz",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué parte del cuerpo está \"la línea de la vida\"?",
+      "respuesta": "las manos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué constelación se encuentra la Estrella Polar?",
+      "respuesta": "La Osa Menor",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuánto tarda la Tierra en dar una vuelta sobre sí misma?",
+      "respuesta": "24 horas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los extremos de la Tierra?",
+      "respuesta": "Polos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quiénes producen la miel?",
+      "respuesta": "Las abejas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué estación viene después de la primavera?",
+      "respuesta": "Verano",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué especie de animales pertenecen los tigres, leones y gatos?",
+      "respuesta": "Felinos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué esta cubierto el cuerpo de los pájaros?",
+      "respuesta": "Plumas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la cría de la rana?",
+      "respuesta": "Renacuajo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué tipo de agua tienen los mares?",
+      "respuesta": "Salada",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué tipo de agua tienen los lagos y lagunas?",
+      "respuesta": "Dulce",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los animales que comen hierbas?",
+      "respuesta": "Herbivoros",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el médico encargado de revisar los ojos?",
+      "respuesta": "Oftalmologo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué tipo de desastre natural es un tsunami?",
+      "respuesta": "maremoto",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuáles son las siglas del ácido desoxirribonucleico?",
+      "respuesta": "ADN",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama al acto que da lugar al nacimiento?",
+      "respuesta": "Parto",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la marca que deja el cordón umbilical?",
+      "respuesta": "Ombligo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la membrana que separa al oído externo del interno?",
+      "respuesta": "timpano",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Tipo de qué cosa es un \"cumulus nimbus\"?",
+      "respuesta": "nubes",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina a las nubes que se encuentran al nivel del suelo?",
+      "respuesta": "Niebla",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la parte de la planta por dónde éstas toman agua?",
+      "respuesta": "raiz",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los animales que se alimentan de carne?",
+      "respuesta": "Carnivoros",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué células nerviosas son las encargadas de transmitir información?",
+      "respuesta": "Las neuronas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la unidad biológica formada por un lugar y los seres que lo habitan?",
+      "respuesta": "Ecosistema",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué tipo de reproducción tienen las aves?",
+      "respuesta": "Ovipara",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los huesos en forma de arco que protegen a los pulmones?",
+      "respuesta": "Costillas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué intestino pasan los alimentos luego del estómago?",
+      "respuesta": "delgado",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la cría de la oveja?",
+      "respuesta": "Cordero",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el lugar donde viven las abejas?",
+      "respuesta": "Colmenas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los huesos que forman la columna vertebral?",
+      "respuesta": "Vertebras",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la capa de gases que cubre la Tierra?",
+      "respuesta": "Atmosfera",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A través de qué conducto llega el aire a los pulmones?",
+      "respuesta": "Traquea",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué aparato pertenece el corazón?",
+      "respuesta": "Circulatorio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué órgano del sistema nervioso controla el equilibrio?",
+      "respuesta": "Cerebelo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuánto tarda la Luna en dar una vuelta a la Tierra?",
+      "respuesta": "28 dias",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama lo que recubre el cuerpo de los reptiles?",
+      "respuesta": "Escamas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el óvulo fecundado?",
+      "respuesta": "Cigoto",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama al conducto que lleva la comida al estómago?",
+      "respuesta": "Esofago",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué sistema pertenece el cerebro?",
+      "respuesta": "Nervioso",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los bloques de hielo que flotan en el mar?",
+      "respuesta": "Icebergs",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el planeta más alejado del Sol?",
+      "respuesta": "Pluton",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre recibe la articulación por la que se dobla el brazo?",
+      "respuesta": "Codo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál de los 5 sentidos se asocia a la lengua?",
+      "respuesta": "Gusto",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál de los 5 sentidos se asocia a la nariz?",
+      "respuesta": "Olfato",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la parte coloreada del ojo?",
+      "respuesta": "Iris",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el líquido que sale por los poros de la piel?",
+      "respuesta": "Sudor",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina un conjunto de estrellas?",
+      "respuesta": "Constelacion",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién descubrio la penicilina?",
+      "respuesta": "Fleming",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la unidad de presión en el sistema internacional?",
+      "respuesta": "pascal",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué zonas de la Tierra es mayor la fuerza de gravedad?",
+      "respuesta": "los polos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el músculo que se contrae rítmicamente sin parar durante toda la vida?",
+      "respuesta": "corazon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la vena mas grande del cuerpo humano?",
+      "respuesta": "Cava",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman a los animales sin esqueleto?",
+      "respuesta": "Invertebrados",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué sustancia segregan las glándulas sudoríparas?",
+      "respuesta": "Sudor",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué vitamina tienen las naranjas y los limones?",
+      "respuesta": "C",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el fenómeno acústico producido cuando una onda se refleja y regresa hacia su emisor?",
+      "respuesta": "Eco",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué órganos expulsan el dióxido de carbono de nuestro cuerpo?",
+      "respuesta": "Los pulmones",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina el desgaste de la superficie terrestre?",
+      "respuesta": "Erosion",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman a los animales que cazan para obtener alimento?",
+      "respuesta": "Depredadores",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué células de la sangre defienden al organismo de las infecciones?",
+      "respuesta": "Los globulos|blancos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el período normal de gestación de la especie humana?",
+      "respuesta": "nueve|meses",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A cuál de los sentidos afecta la miopía?",
+      "respuesta": "Vista",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué animal produce las perlas?",
+      "respuesta": "Ostras",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los órganos respiratorios de los peces?",
+      "respuesta": "Branquias",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué se transporta por medio de un oleoducto?",
+      "respuesta": "Petroleo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué aparato pertenecen las venas y las arterias?",
+      "respuesta": "Circulatorio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las extremidades del cuerpo humano?",
+      "respuesta": "Brazos y|piernas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el tejido que une el músculo al hueso?",
+      "respuesta": "Tendon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el hueso más largo del cuerpo?",
+      "respuesta": "Femur",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué color es la clorofila?",
+      "respuesta": "Verde",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre reciben los productos cuyos residuos pueden volver a ser utilizados?",
+      "respuesta": "Reciclables",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los movimientos sísmicos que se producen en el mar?",
+      "respuesta": "Maremotos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama al proceso por el cual los vegetales convierten la energía solar en alimento?",
+      "respuesta": "Fotosintesis",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las ramas en que se divide la tráquea?",
+      "respuesta": "Bronquios",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los aparatos que producen corriente eléctrica?",
+      "respuesta": "Generadores",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué escala se mide la magnitud de un terremoto?",
+      "respuesta": "Richter",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre recibe la parte líquida de la sangre?",
+      "respuesta": "Plasma",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denominan los cuerpos que dejan pasar la corriente eléctrica?",
+      "respuesta": "Conductores",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿La sacarina es de origen animal, vegetal o mineral?",
+      "respuesta": "Vegetal",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los restos de los seres vivos petrificados?",
+      "respuesta": "Fosiles",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué ciencia estudia los fósiles?",
+      "respuesta": "Paleontologia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué órganos del aparato reproductor femenino se generan los óvulos?",
+      "respuesta": "Ovarios",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué aparatos se introducen a los niños prematuros para proveerles calor?",
+      "respuesta": "Incubadora",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el líquido que envuelve al feto?",
+      "respuesta": "Amniotico",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué sexo corresponde a la pareja de cromosomas XX?",
+      "respuesta": "Femenino",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué otro nombre reciben las grasas?",
+      "respuesta": "Lipidos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué magnitud se mide en Km/h?",
+      "respuesta": "Velocidad",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el macho de una colmena?",
+      "respuesta": "Zangano",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el aparato que mide la cantidad de lluvia caída?",
+      "respuesta": "Pluviometro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la flor del limonero?",
+      "respuesta": "Azahar",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la glándula que controla el resto de las glándulas?",
+      "respuesta": "Hipofisis",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las partes más pequeñas en que pueden dividirse las moléculas?",
+      "respuesta": "Atomos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las sustancias que fabrican los linfocitos contra las enfermedades?",
+      "respuesta": "Anticuerpos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos equinoccios hay por año?",
+      "respuesta": "2",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué glándulas masculinas se producen los espermatozoides?",
+      "respuesta": "Testiculos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué sexo corresponde a la pareja de cromosomas XY?",
+      "respuesta": "Masculino",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué bebida a base de lúpulo y levadura sufre el proceso de pasteurización?",
+      "respuesta": "Cerveza",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el punto donde se encuentra el centro del terremoto?",
+      "respuesta": "Epicentro",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué elementos estan hecho los panales naturales de las abejas?",
+      "respuesta": "Cera",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la obstrucción de un vaso sanguíneo?",
+      "respuesta": "Trombosis",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Con qué sustancia se mezcla el alimento en la boca?",
+      "respuesta": "Saliva",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre recibe el espacio hasta donde llega la atracción de un imán?",
+      "respuesta": "Campo|Magnetico",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama al proceso por el cual una célula se divide en dos células idénticas?",
+      "respuesta": "Mitosis",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los sonidos que no podemos oír debido a su alta frecuencia?",
+      "respuesta": "Ultrasonidos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la teoría que explica la formación del universo postulando que está en permanente expansión?",
+      "respuesta": "Big bang",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué continente es originario el árbol del cacao?",
+      "respuesta": "America|Central",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las papilas que recubren la lengua?",
+      "respuesta": "Gustativas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la mezcla de estaño y cobre?",
+      "respuesta": "Bronce",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina la capa de la Tierra en que habitan los seres vivos?",
+      "respuesta": "Biosfera",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué propiedad tiene el imán para atraer a otros cuerpos?",
+      "respuesta": "Magnetismo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las aves que se alimentan de insectos?",
+      "respuesta": "Insectivoras",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama al endurecimiento de las arterias?",
+      "respuesta": "Arteriosclerosis",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la línea imaginaria que rodea la Tierra por parte más ancha?",
+      "respuesta": "Ecuador",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué órganos destruye la tuberculosis?",
+      "respuesta": "Los pulmones",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué producen los estambres de las flores?",
+      "respuesta": "Polen",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué hay dentro del pistilo de la flor?",
+      "respuesta": "Ovulos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la salida de sangre por rotura de un vaso sanguíneo?",
+      "respuesta": "Hemorragia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la mayor arteria del cuerpo humano?",
+      "respuesta": "Aorta",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina el conducto por el cual se alimenta el embrión?",
+      "respuesta": "cordon|umbilical",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las montañas de arenas?",
+      "respuesta": "Dunas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo llamamos a los conductos que unen las arterias y las venas?",
+      "respuesta": "Capilares",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina la rápida difusión de una enfermedad?",
+      "respuesta": "Epidemia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué elemento es fundamental para construir la bomba H?",
+      "respuesta": "Hidrogeno",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué órgano destruye la enfermedad de la cirrosis?",
+      "respuesta": "Higado",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué parte del cuerpo tiene la piel mas fina?",
+      "respuesta": "Parpado",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué enfermedad transmite la picadura del mosquito anófeles?",
+      "respuesta": "Paludismo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el movimiento de la tierra que da lugar a los días y las noches?",
+      "respuesta": "Rotacion",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama a un especialista en enfermedades de la piel?",
+      "respuesta": "Dermatologo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué produce la poliomielitis?",
+      "respuesta": "Paralisis",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las hojas que forman la corola de una flor?",
+      "respuesta": "Petalos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué elemento químico predomina en la arena?",
+      "respuesta": "Silicio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué glándula regula la producción de las hormonas?",
+      "respuesta": "hipotalamo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué continente proviene el tomate?",
+      "respuesta": "America|Central",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué país proviene la soja?",
+      "respuesta": "China",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué científico del siglo XVII usó el telescopio por primera vez para ver la luna?",
+      "respuesta": "Galileo|Galilei",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman las articulacions de los dedos?",
+      "respuesta": "Nudillos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama a un especialista en oídos, nariz y garganta?",
+      "respuesta": "Otorrino|laringolo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué insecto transmite la enfermedad del mal de chagas?",
+      "respuesta": "Vinchuca",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina al animal o planta que posee los órganos masculinos y femeninos de la reproducción?",
+      "respuesta": "Hermafrodita",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina la parte del sistema nervioso está dentro de la columna vertebral?",
+      "respuesta": "medula|espinal",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los actos involuntarios?",
+      "respuesta": "Reflejos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Infinitivo del verbo \"hay\"?",
+      "respuesta": "Haber",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el sustantivo colectivo que indica \"grupo de perros\"?",
+      "respuesta": "Jauria",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el diminutivo de pez?",
+      "respuesta": "pececito",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina a la persona que habla mucho idiomas?",
+      "respuesta": "Poliglota",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué expresan las oraciones dubitativas?",
+      "respuesta": "Dudas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el gerundio del verbo \"gritar\"?",
+      "respuesta": "Gritando",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina la palabra que indica la acción del sujeto en una oración?",
+      "respuesta": "verbo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre recibe cada renglón en un poema?",
+      "respuesta": "Verso",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre recibe la repetición de fonemas al final de los verbos?",
+      "respuesta": "Rima",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denomina la palabra que acompaña al sustantivo y expresa una cualidad de éste?",
+      "respuesta": "adjetivo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "Instrumento óptico para ampliar la imagen de objetos o seres, o de detalles de estos, tan pequeños que no se pueden ver a simple vista",
+      "respuesta": "microscopio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿La hinchada de que equipo de fútbol argentino popularizo el hit \"Mauricio Macri la p... que te pario\"?",
+      "respuesta": "San Lorenzo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se denominan a dos palabras que comparten el mismo significado?",
+      "respuesta": "Sinonimos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué forman dos vocales juntas que no integran diptongos?",
+      "respuesta": "Hiatos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué signo de puntuación se coloca al final de una frase incompleta?",
+      "respuesta": "Puntos|suspensivos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué signos ortográficos llevan necesariamente las oraciones exclamativas?",
+      "respuesta": "Signos de|admiracion",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué letra de nuestro alfabeto no existe como fonema?",
+      "respuesta": "h",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman los párrafos de un peoma?",
+      "respuesta": "Estrofas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué personaje de la mitología sostenía el mundo sobre sus hombros?",
+      "respuesta": "Atlas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la contraposición de dos ideas o pensamientos?",
+      "respuesta": "Antitesis",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es la época histórica de la que no se conservan testimonios escritos?",
+      "respuesta": "Prehistoria",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el río mas ancho del mundo?",
+      "respuesta": "El rio|de la plata",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué país sudamericano es el mayor productor de petróleo?",
+      "respuesta": "Venezuela",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién fué el primer presidente norteamericano?",
+      "respuesta": "George|Washington",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué ciudad norteamericana se encuentra Hollywood?",
+      "respuesta": "Los angeles",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué país es reconocido mundialmente por sus relojes?",
+      "respuesta": "Suiza",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Sobre qué océano está Chile?",
+      "respuesta": "Pacifico",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el idioma oficial de Austria?",
+      "respuesta": "Aleman",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el río más largo del mundo?",
+      "respuesta": "Nilo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué torre italiana es famosa por su inclinación?",
+      "respuesta": "la torre|de pisa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué año se descubrió América?",
+      "respuesta": "1492",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A quién le debe su nombre el continente americano?",
+      "respuesta": "Americo|Vespucio",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué imperio antiguo fué emperador Calígula?",
+      "respuesta": "Romano",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llaman a las pinturas prehistóricas de las cuevas?",
+      "respuesta": "pinturas|rupestres",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué fecha fueron los atentados que derribaron las Torres Gemelas de NY?",
+      "respuesta": "11 9 2001",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿De qué puerto zarpó Colón hacia las Indias cuando finalmente llegó a América?",
+      "respuesta": "Puerto de|palos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué año se produjo la Revolución Francesa?",
+      "respuesta": "1789",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A qué continente se le llama \"el continente blanco\"?",
+      "respuesta": "Antartida",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuántos continentes empiezan con la letra A?",
+      "respuesta": "4",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el continente menos poblado?",
+      "respuesta": "Antartida",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Dónde vivían los humanos en la prehistoria?",
+      "respuesta": "Cavernas",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué ciudad se encuentra el muro de los lamentos?",
+      "respuesta": "Jerusalen",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el continente mas grande?",
+      "respuesta": "Asia",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el idioma oficial de Siria?",
+      "respuesta": "Arabe",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país europeo está la ciudad de la Haya?",
+      "respuesta": "Holanda",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama el material fundido que expulsan los volcanes?",
+      "respuesta": "Lava",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué reyes españoles impulsaron la conquista de América?",
+      "respuesta": "Los Reyes|Catolicos",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién presidía la Unión Soviética durante la Segunda Guerra Mundial?",
+      "respuesta": "Stalin",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál era el dios griego que reinaba el Monte Olimpo?",
+      "respuesta": "Zeus",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se llama la desembocadura de un río que tiene varios brazos?",
+      "respuesta": "Delta",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué país es conocido como el Imperio del Sol Naciente?",
+      "respuesta": "Japon",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué batalla fue derrotado definitivamente Napoleon?",
+      "respuesta": "Waterloo",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el continente mas chico?",
+      "respuesta": "Oceania",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién es el padre de la patria de Venezuela?",
+      "respuesta": "Simon|Bolivar",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién es el padre de la patria de Argentina?",
+      "respuesta": "Jose de|San Martin",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién fué la primer mujer en presidir Chile?",
+      "respuesta": "Michelle|Bachelet",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién fue el Adelantado español que conquistó México?",
+      "respuesta": "Hernan|Cortes",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién dió la primera vuelta al mundo?",
+      "respuesta": "Sebastian|Elcano",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué estrecho separa el Océano Pacífico del Ártico?",
+      "respuesta": "Estrecho de|Bering",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué ciudad está el famoso reloj llamado Big Ben?",
+      "respuesta": "Londres",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué nombre llevan las costas altas y rocosas?",
+      "respuesta": "Acantilados",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cómo se anuncia la elección de un nuevo Papa?",
+      "respuesta": "con humo|blanco",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿A quién se le atribuyó el asesinato de Kennedy?",
+      "respuesta": "Lee Harvey|Oswald",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Quién era el emperador de Japón durante la Segunda Guerra Mundial?",
+      "respuesta": "Hiroito",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué emperador romano es conocido por haber incendiado parte de Roma?",
+      "respuesta": "Neron",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Qué revolución se inicio con la toma de la Bastilla?",
+      "respuesta": "la francesa",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿Cuál es el período mas antiguo de la prehistoria?",
+      "respuesta": "Paleolitico",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué país sucedió la batalla de Waterloo?",
+      "respuesta": "Belgica",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Cultura general",
+      "pregunta": "¿En qué año comenzó la Primera Guerra Mundial?",
+      "respuesta": "1914",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿6 x 6 - 3 + 2 x 4 ?",
+      "respuesta": "41",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿5 x 5 + 5 - 5 / 5?",
+      "respuesta": "29",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿12 x 12?",
+      "respuesta": "144",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿(1 + 4) x (5) + 5?",
+      "respuesta": "30",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿6 x 6 -6 + 16 / 2?",
+      "respuesta": "38",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿10 x 10 + 10 / 10?",
+      "respuesta": "101",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿9 x 9 + 9 + 9 + 9 / 9 + 9?",
+      "respuesta": "109",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿2 + 2 x 2 - 2 / 2 + 22?",
+      "respuesta": "27",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿4 - 4 / 4 + 4 + 4 + 4 x 4?",
+      "respuesta": "27",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿7 x 7 + 7 / 7 + 7 x 1 - 7?",
+      "respuesta": "50",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿3 - 3 + 3 x 3 x 3 + 3?",
+      "respuesta": "30",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿8 x 8 + 8 + 8 + 8 - 88 + 8?",
+      "respuesta": "8",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿2 x 4 + 6 + 8 x 10?",
+      "respuesta": "94",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿3 / 3 x 4 / 4 x 5 / 5?",
+      "respuesta": "1",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿1 + 2 + 3 x 4 + 5 x 6 - 7?",
+      "respuesta": "38",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿9 - 8 - 7 + 6 + 5 + 4 + 3 - 2 - 1?",
+      "respuesta": "9",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿1 + 1 + 1 - 1 + 1 x 1 - 1 + 1?",
+      "respuesta": "3",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿2,5 + 3,5 + 4,5 - 0,5?",
+      "respuesta": "10",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿64 / 8 - 8 + 64?",
+      "respuesta": "64",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿3 x 6 - (3 + 3 + 3)?",
+      "respuesta": "9",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿2 + 2 + 2 - 2 + 2 + 2 - 2 x 2?",
+      "respuesta": "4",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿(6 x 7 + 3) / 9?",
+      "respuesta": "5",
+      "categoria": "aleatorio"
+    },
+    {
+      "titulo": "Matematicas",
+      "pregunta": "¿7 x 7 - 38?",
+      "respuesta": "11",
+      "categoria": "aleatorio"
+    }
+  ]
+}

@@ -5,7 +5,14 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
-import { getLevelData, PROGRESS_KEY, TOTAL_LEVELS } from "../levels/levelsData";
+import {
+  ADIVINANZAS_PROGRESS_KEY,
+  getLevelData,
+  LAST_PLAYED_CATEGORY_KEY,
+  LAST_PLAYED_AT_KEY,
+  PROGRESS_KEY,
+  TOTAL_LEVELS,
+} from "../levels/levelsData";
 import { useLanguage } from "../i18n/LanguageContext";
 import { useIsMobile } from "../hooks/useIsMobile";
 
@@ -34,7 +41,13 @@ const Game: React.FC = () => {
     if (!levelData) {
       // Nivel inválido, volver a niveles
       navigate("/levels");
+      return;
     }
+
+    // Guarda la ultima vez que el usuario entro a jugar.
+    localStorage.setItem(LAST_PLAYED_AT_KEY, new Date().toISOString());
+    // La pantalla /game hoy representa Adivinanzas.
+    localStorage.setItem(LAST_PLAYED_CATEGORY_KEY, "adivinanzas");
   }, [levelData, navigate]);
 
   // Guardar progreso y avanzar al siguiente nivel
@@ -47,6 +60,7 @@ const Game: React.FC = () => {
 
     if (level >= currentProgress) {
       localStorage.setItem(PROGRESS_KEY, nextLevel.toString());
+      localStorage.setItem(ADIVINANZAS_PROGRESS_KEY, nextLevel.toString());
     }
 
     setShowSuccessModal(true);

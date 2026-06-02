@@ -1,0 +1,82 @@
+{
+  "listado": [
+    {
+      "titulo": "Jugadores de fútbol",
+      "respuesta": "Lionel|Messi",
+      "pregunta": "1",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Jugadores de fútbol",
+      "respuesta": "Cristiano|Ronaldo",
+      "pregunta": "2",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Jugadores de fútbol",
+      "respuesta": "Ronaldo",
+      "pregunta": "3",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Jugadores de fútbol",
+      "respuesta": "diego|maradona",
+      "pregunta": "4",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Jugadores de fútbol",
+      "respuesta": "enzo|francescoli",
+      "pregunta": "5",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Jugadores de fútbol",
+      "respuesta": "zinedine|zidane",
+      "pregunta": "6",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Jugadores de fútbol",
+      "respuesta": "raul",
+      "pregunta": "7",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Jugadores de fútbol",
+      "respuesta": "pele",
+      "pregunta": "8",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Jugadores de fútbol",
+      "respuesta": "Zlatan|Ibrahimovic",
+      "pregunta": "9",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Jugadores de fútbol",
+      "respuesta": "wayne|rooney",
+      "pregunta": "10",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Jugadores de fútbol",
+      "respuesta": "Franz|Beckenbauer",
+      "pregunta": "11",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Jugadores de fútbol",
+      "respuesta": "Johan|Cruyff",
+      "pregunta": "12",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Jugadores de fútbol",
+      "respuesta": "rafa|marquez",
+      "pregunta": "13",
+      "categoria": "jugadores"
+    }
+  ]
+}

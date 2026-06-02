@@ -1,0 +1,6976 @@
+{
+  "preguntas": [
+    {
+      "titulo": "Logos",
+      "respuesta": "minolta",
+      "pregunta": "72",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "216",
+      "respuesta": "artesanalmente",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "kosovo",
+      "pregunta": "44",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "estonia",
+      "pregunta": "87",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "pitufo|fortachon",
+      "pregunta": "20",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "La leyenda del|tesoro perdido",
+      "pregunta": "114",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Santos",
+      "pregunta": "53",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "visa",
+      "pregunta": "86",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "alien",
+      "pregunta": "110",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "freddie|mercury",
+      "pregunta": "15",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "225",
+      "respuesta": "malasia",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "baloo",
+      "pregunta": "139",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "majin boo",
+      "pregunta": "88",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "dracula",
+      "pregunta": "121",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "deadpool",
+      "pregunta": "66",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pringles",
+      "pregunta": "68",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "20",
+      "respuesta": "escama",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "uter",
+      "pregunta": "47",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "anaconda",
+      "pregunta": "38",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "188",
+      "respuesta": "terremoto",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Osasuna",
+      "pregunta": "33",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "133",
+      "respuesta": "falacia",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "super|size me",
+      "pregunta": "125",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "228",
+      "respuesta": "colmar",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "203",
+      "respuesta": "batidora",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el planeta|de los simios",
+      "pregunta": "105",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "mate",
+      "pregunta": "118",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "pitufo|goloso",
+      "pregunta": "9",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "droopy",
+      "pregunta": "161",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Necaxa",
+      "pregunta": "47",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "211",
+      "respuesta": "bastonazo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "rayo mcqueen",
+      "pregunta": "105",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "profesor|frink",
+      "pregunta": "58",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "toy story",
+      "pregunta": "82",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "astroboy",
+      "pregunta": "63",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "227",
+      "respuesta": "anatomicamente",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "volskwagen",
+      "pregunta": "27",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "angus|young",
+      "pregunta": "8",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "suecia",
+      "pregunta": "31",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "tiger|woods",
+      "pregunta": "10",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "nike",
+      "pregunta": "25",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "cobra",
+      "pregunta": "111",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "197",
+      "respuesta": "viatico",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "Siempre a|tu lado",
+      "pregunta": "79",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "70",
+      "respuesta": "paraguas",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "vans",
+      "pregunta": "89",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "diamantes|de sangre",
+      "pregunta": "7",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "dumbo",
+      "pregunta": "77",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "alex|morgan",
+      "pregunta": "41",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "serbia",
+      "pregunta": "65",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "atrapame|si puedes",
+      "pregunta": "162",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "119",
+      "respuesta": "los angeles",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "eslovaquia",
+      "pregunta": "39",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el planeta|de los simios",
+      "pregunta": "13",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "la mujer|maravilla",
+      "pregunta": "57",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "la casa|del lago",
+      "pregunta": "129",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "Johnny|Bravo",
+      "pregunta": "142",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "rambo",
+      "pregunta": "34",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el vuelo",
+      "pregunta": "174",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "51",
+      "respuesta": "mas vale tarde|que nunca",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "hannibal|lecter",
+      "pregunta": "35",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "australia",
+      "pregunta": "9",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "freezer",
+      "pregunta": "8",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "liberen|a willy",
+      "pregunta": "165",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "los|cazafantasmas",
+      "pregunta": "167",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "turquia",
+      "pregunta": "70",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "107",
+      "respuesta": "docena",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "Kazajistan",
+      "pregunta": "16",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el origen",
+      "pregunta": "56",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "star trek",
+      "pregunta": "171",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "lassie",
+      "pregunta": "94",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "142",
+      "respuesta": "bolivia",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "ecuador",
+      "pregunta": "62",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "172",
+      "respuesta": "remodela",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "paraguay",
+      "pregunta": "53",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Junior de|Barranquilla",
+      "pregunta": "66",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el avispon|verde",
+      "pregunta": "42",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "meteoro",
+      "pregunta": "27",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "lg",
+      "pregunta": "98",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "196",
+      "respuesta": "solista",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "scooby doo",
+      "pregunta": "108",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el diablo|viste a la moda",
+      "pregunta": "17",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "146",
+      "respuesta": "mar del|plata",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "psicosis",
+      "pregunta": "180",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "invictus",
+      "pregunta": "95",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "el chavo|del 8",
+      "pregunta": "1",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "241",
+      "respuesta": "pupilas",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "jeremias|springfield",
+      "pregunta": "51",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "231",
+      "respuesta": "cucuta",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "kappa",
+      "pregunta": "80",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "12",
+      "respuesta": "sorpresa",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "jefe|gorgory",
+      "pregunta": "77",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "india",
+      "pregunta": "50",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "Pedro|Picapiedras",
+      "pregunta": "152",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "145",
+      "respuesta": "tierra del|fuego",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "los juegos|del hambre",
+      "pregunta": "23",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Estudiantes|de la plata",
+      "pregunta": "42",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "161",
+      "respuesta": "mariguana",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "inocencia|donoso",
+      "pregunta": "88",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "leon o",
+      "pregunta": "62",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "hermione|granger",
+      "pregunta": "50",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "89",
+      "respuesta": "sintaxis",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "rafa|gorgory",
+      "pregunta": "59",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "jamaica|bajo cero",
+      "pregunta": "118",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "zootopia",
+      "pregunta": "133",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "263",
+      "respuesta": "desconcierto",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "goofy",
+      "pregunta": "35",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "michael|jordan",
+      "pregunta": "27",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "180",
+      "respuesta": "resorte",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Colon",
+      "pregunta": "78",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "la mujer|maravilla",
+      "pregunta": "48",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "175",
+      "respuesta": "petalo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "buzz|lightyear",
+      "pregunta": "114",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "171",
+      "respuesta": "sanamente",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "nbc",
+      "pregunta": "94",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Rosario|Central",
+      "pregunta": "52",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "finlandia",
+      "pregunta": "77",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el padrino",
+      "pregunta": "84",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "206",
+      "respuesta": "cachorro",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "disco|stu",
+      "pregunta": "5",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "rip curl",
+      "pregunta": "73",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "angry birds|la pelicula",
+      "pregunta": "131",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "157",
+      "respuesta": "calvario",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el curioso caso|Benjamin Button",
+      "pregunta": "92",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "silvestre",
+      "pregunta": "132",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "gravedad",
+      "pregunta": "50",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "elsa",
+      "pregunta": "58",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Tottenham|Hotspur",
+      "pregunta": "58",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "frankenstein",
+      "pregunta": "34",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "fisher|price",
+      "pregunta": "22",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "republica|dominicana",
+      "pregunta": "76",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "kill bill",
+      "pregunta": "24",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "spiderman",
+      "pregunta": "20",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "frank|grimes",
+      "pregunta": "81",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "facebook",
+      "pregunta": "2",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "star|lord",
+      "pregunta": "4",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "nueva|zelanda",
+      "pregunta": "14",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "jerry|maguire",
+      "pregunta": "36",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "223",
+      "respuesta": "sotano",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "actividad|paranormal",
+      "pregunta": "108",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "149",
+      "respuesta": "rebota",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "nestle",
+      "pregunta": "66",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "drive",
+      "pregunta": "83",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "memento",
+      "pregunta": "53",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "goku",
+      "pregunta": "100",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "244",
+      "respuesta": "milagroso",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "27",
+      "respuesta": "pancarta",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Everton",
+      "pregunta": "40",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "Simba",
+      "pregunta": "170",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "185",
+      "respuesta": "silaba",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "210",
+      "respuesta": "margarita",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "63",
+      "respuesta": "picara",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "234",
+      "respuesta": "margen",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Borussia|Dortmund",
+      "pregunta": "13",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mitsubishi",
+      "pregunta": "62",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "texaco",
+      "pregunta": "99",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "krilin",
+      "pregunta": "157",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "los piratas|del caribe",
+      "pregunta": "149",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "peru",
+      "pregunta": "60",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "91",
+      "respuesta": "empezar",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "opel",
+      "pregunta": "64",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "tomy",
+      "pregunta": "133",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "diario de|motocicleta",
+      "pregunta": "45",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "taz",
+      "pregunta": "138",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "79",
+      "respuesta": "dependencia",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "226",
+      "respuesta": "socorre",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "233",
+      "respuesta": "potente",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "muhammad|ali",
+      "pregunta": "17",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "shaggy",
+      "pregunta": "143",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "pennywise",
+      "pregunta": "3",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "tienes un|email",
+      "pregunta": "94",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "cupido|motorizado",
+      "pregunta": "54",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "motorola",
+      "pregunta": "31",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "ted",
+      "pregunta": "90",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "mary poppins",
+      "pregunta": "114",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "margo|zavala",
+      "pregunta": "55",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "115",
+      "respuesta": "novela",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "spiderman",
+      "pregunta": "62",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "tanzania",
+      "pregunta": "83",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "pikachu",
+      "pregunta": "73",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "209",
+      "respuesta": "ampliamente",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "crepusculo",
+      "pregunta": "54",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "stella|artois",
+      "pregunta": "33",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "29",
+      "respuesta": "maniatico",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "diego|maradona",
+      "pregunta": "43",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "47",
+      "respuesta": "vino|blanco",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "borat",
+      "pregunta": "172",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "la hormiga|atomica",
+      "pregunta": "64",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ted mosby",
+      "pregunta": "95",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "seymour|skinner",
+      "pregunta": "162",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "191",
+      "respuesta": "salpicadura",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "roger|federer",
+      "pregunta": "56",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "nueve reinas",
+      "pregunta": "81",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Cagliari",
+      "pregunta": "100",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Herta|Berlin",
+      "pregunta": "51",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "firestone",
+      "pregunta": "57",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "faivel un|cuento americano",
+      "pregunta": "137",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "voldemort",
+      "pregunta": "13",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "alemania",
+      "pregunta": "5",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "grandes|heroes",
+      "pregunta": "159",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "32",
+      "respuesta": "la torre|de pisa",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "alcalde|diamante",
+      "pregunta": "34",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Jugadores de Fútbol",
+      "respuesta": "pele",
+      "pregunta": "8",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Empoli",
+      "pregunta": "75",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "umbro",
+      "pregunta": "28",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "los sospechosos|de siempre",
+      "pregunta": "112",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "creed",
+      "pregunta": "72",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "122",
+      "respuesta": "montevideo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Hamburgo",
+      "pregunta": "27",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Flamengo",
+      "pregunta": "26",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "144",
+      "respuesta": "damasco",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "cristiano|ronaldo",
+      "pregunta": "85",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "Inspector|Ardilla",
+      "pregunta": "6",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "15",
+      "respuesta": "conocimiento",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "ghost rider",
+      "pregunta": "116",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Once|Caldas",
+      "pregunta": "18",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "panama",
+      "pregunta": "51",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "dr nick",
+      "pregunta": "84",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la maquina|del tiempo",
+      "pregunta": "144",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "America|de Cali",
+      "pregunta": "77",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "lionel|messi",
+      "pregunta": "2",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "los minions",
+      "pregunta": "134",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la mascara",
+      "pregunta": "125",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "247",
+      "respuesta": "calcuta",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "dr strange",
+      "pregunta": "45",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "superintendente|chalmers",
+      "pregunta": "163",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "bic",
+      "pregunta": "48",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "dove",
+      "pregunta": "60",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Jugadores de Fútbol",
+      "respuesta": "diego|maradona",
+      "pregunta": "4",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "corea|del sur",
+      "pregunta": "10",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Britney|Spears",
+      "pregunta": "53",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "red social",
+      "pregunta": "124",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Independiente|santa fe",
+      "pregunta": "85",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "kent|brockman",
+      "pregunta": "53",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "ayudante|de santa",
+      "pregunta": "44",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "top gun",
+      "pregunta": "168",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "gorilas en|la niebla",
+      "pregunta": "16",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "spike lee",
+      "pregunta": "22",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "112",
+      "respuesta": "aruba",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "bella",
+      "pregunta": "64",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "starbucks",
+      "pregunta": "76",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "lucero|sonico",
+      "pregunta": "74",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "filipinas",
+      "pregunta": "88",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "christine",
+      "pregunta": "41",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el fantasma|de la opera",
+      "pregunta": "102",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ant man",
+      "pregunta": "33",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "gargamel",
+      "pregunta": "3",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "128",
+      "respuesta": "pino",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "resident|evil",
+      "pregunta": "175",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mercedes|benz",
+      "pregunta": "19",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "11",
+      "respuesta": "sombrilla",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "nelson",
+      "pregunta": "145",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "el inspector|gadget",
+      "pregunta": "99",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "chile",
+      "pregunta": "71",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "astro",
+      "pregunta": "19",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "oman",
+      "pregunta": "89",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "patty",
+      "pregunta": "140",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "selma",
+      "pregunta": "166",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pritt",
+      "pregunta": "43",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "148",
+      "respuesta": "cataratas",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "edna|krabappel",
+      "pregunta": "48",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "winnie pooh",
+      "pregunta": "156",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "158",
+      "respuesta": "merienda",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "superman",
+      "pregunta": "26",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "252",
+      "respuesta": "sierra leona",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el gran|torino",
+      "pregunta": "63",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "101|dalmatas",
+      "pregunta": "65",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "8",
+      "respuesta": "bizcochuelo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "v de vendetta",
+      "pregunta": "83",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "24",
+      "respuesta": "encubierto",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "los 33",
+      "pregunta": "87",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pizza hut",
+      "pregunta": "95",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el santo",
+      "pregunta": "183",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "megamente",
+      "pregunta": "85",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "it",
+      "pregunta": "60",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el|castigador",
+      "pregunta": "129",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "austin|powers",
+      "pregunta": "40",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "puma",
+      "pregunta": "42",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "alfred|hitchcock",
+      "pregunta": "37",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "snatch cerdos|y diamantes",
+      "pregunta": "62",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "131",
+      "respuesta": "cartagena",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "jem",
+      "pregunta": "66",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "6",
+      "respuesta": "pantalon",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "36",
+      "respuesta": "circulo|polar artico",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "garfield",
+      "pregunta": "57",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "14",
+      "respuesta": "el gordo|y el flaco",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "wilson",
+      "pregunta": "67",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "pinocho",
+      "pregunta": "68",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "carrie",
+      "pregunta": "12",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "daredevil",
+      "pregunta": "75",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "jamaica|bajo cero",
+      "pregunta": "7",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Genoa",
+      "pregunta": "84",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "58",
+      "respuesta": "votar en|blanco",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "57",
+      "respuesta": "fuego|cruzado",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "chester",
+      "pregunta": "42",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "american pie",
+      "pregunta": "9",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "73",
+      "respuesta": "impresa",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "jurassic|park",
+      "pregunta": "124",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "wall e",
+      "pregunta": "143",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "neo",
+      "pregunta": "84",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "argentina",
+      "pregunta": "1",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "picoro",
+      "pregunta": "112",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "honduras",
+      "pregunta": "69",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "sex and|the city",
+      "pregunta": "66",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "el gordo|tony",
+      "pregunta": "165",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "174",
+      "respuesta": "arcabuz",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "beethoven",
+      "pregunta": "2",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Jugadores de Fútbol",
+      "respuesta": "Zlatan|Ibrahimovic",
+      "pregunta": "9",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "rumania",
+      "pregunta": "37",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "gladiador",
+      "pregunta": "21",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "62",
+      "respuesta": "resfrio",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "kung fu|panda",
+      "pregunta": "5",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "brasil",
+      "pregunta": "15",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "oliver|atom",
+      "pregunta": "11",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "cuenta|conmigo",
+      "pregunta": "58",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "136",
+      "respuesta": "caracas",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Real|Sociedad",
+      "pregunta": "86",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "cortocircuito",
+      "pregunta": "153",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "indiana|jones",
+      "pregunta": "37",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "el oso|hormiguero",
+      "pregunta": "102",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "new balance",
+      "pregunta": "79",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "25",
+      "respuesta": "colaboracion",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "top secret",
+      "pregunta": "109",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "164",
+      "respuesta": "remora",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "elvis|presley",
+      "pregunta": "28",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "250",
+      "respuesta": "cantina",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "208",
+      "respuesta": "recinto",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "stuart|little",
+      "pregunta": "47",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "134",
+      "respuesta": "colombia",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "117",
+      "respuesta": "barcelona",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "dia de la|independencia",
+      "pregunta": "80",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "cleto",
+      "pregunta": "46",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "251",
+      "respuesta": "cancun",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "43",
+      "respuesta": "ascensor",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "104",
+      "respuesta": "dios|mediante",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "bambi",
+      "pregunta": "117",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "leon o",
+      "pregunta": "99",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "direct tv",
+      "pregunta": "50",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "212",
+      "respuesta": "borracha",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "147",
+      "respuesta": "salubre",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "sudafrica",
+      "pregunta": "30",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "wimbledon",
+      "pregunta": "96",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "ricky|ricon",
+      "pregunta": "71",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Atlas",
+      "pregunta": "57",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "van helsing",
+      "pregunta": "118",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Boca Juniors",
+      "pregunta": "96",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "belgica",
+      "pregunta": "24",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "la naranja|mecanica",
+      "pregunta": "99",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "200",
+      "respuesta": "tributo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "sirius|black",
+      "pregunta": "73",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "king kong",
+      "pregunta": "56",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "madagascar",
+      "pregunta": "86",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Jugadores de Fútbol",
+      "respuesta": "enzo|francescoli",
+      "pregunta": "5",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "213",
+      "respuesta": "barbuda",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "239",
+      "respuesta": "tormenta",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "harry potter",
+      "pregunta": "19",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "176",
+      "respuesta": "postiza",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "shrek",
+      "pregunta": "173",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "el pajaro|loco",
+      "pregunta": "38",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "gremlins",
+      "pregunta": "18",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "don gato",
+      "pregunta": "82",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "barney",
+      "pregunta": "49",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "el guason",
+      "pregunta": "25",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "204",
+      "respuesta": "reciente",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "10",
+      "respuesta": "pantano",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "217",
+      "respuesta": "barbara",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "Kearney",
+      "pregunta": "16",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "500 dias|con ella",
+      "pregunta": "27",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "tiburon",
+      "pregunta": "30",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "giorgio|armani",
+      "pregunta": "77",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "74",
+      "respuesta": "paciente",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "92",
+      "respuesta": "rueda de|prensa",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "San Lorenzo",
+      "pregunta": "25",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "john|wick",
+      "pregunta": "11",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Jugadores de Fútbol",
+      "respuesta": "Franz|Beckenbauer",
+      "pregunta": "11",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "jurassic|park",
+      "pregunta": "177",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "190",
+      "respuesta": "taladra",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "battle cat",
+      "pregunta": "76",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Werder|Bremen",
+      "pregunta": "60",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "los pitufos",
+      "pregunta": "115",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "199",
+      "respuesta": "velocimetro",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "barein",
+      "pregunta": "38",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "national|geographic",
+      "pregunta": "100",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "258",
+      "respuesta": "soledad",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "pluto",
+      "pregunta": "26",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "235",
+      "respuesta": "pantalla",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pepsi",
+      "pregunta": "20",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "jessica|alegria",
+      "pregunta": "52",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Universidad|Catolica",
+      "pregunta": "55",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "wall e",
+      "pregunta": "5",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "gil",
+      "pregunta": "110",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "rayo de|plata",
+      "pregunta": "89",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "carrefour",
+      "pregunta": "61",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "liberen|a willy",
+      "pregunta": "11",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "ratatouille",
+      "pregunta": "52",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "169",
+      "respuesta": "remar",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "chievo|verona",
+      "pregunta": "73",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "medianoche|en paris",
+      "pregunta": "86",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "pitufo|vanidoso",
+      "pregunta": "41",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Manchester|United",
+      "pregunta": "19",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "86",
+      "respuesta": "corazonada",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la guerra de|las galaxias",
+      "pregunta": "87",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "gucci",
+      "pregunta": "39",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "jon snow",
+      "pregunta": "97",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "Bob|esponja",
+      "pregunta": "171",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "Corea|del Norte",
+      "pregunta": "17",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "rio",
+      "pregunta": "52",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "jumanji",
+      "pregunta": "135",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "los pitufos",
+      "pregunta": "110",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "croacia",
+      "pregunta": "59",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "160",
+      "respuesta": "nomina",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "guerra|mundial z",
+      "pregunta": "120",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "superman",
+      "pregunta": "129",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Wolfsburgo",
+      "pregunta": "24",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Palermo",
+      "pregunta": "64",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "101 dalmatas",
+      "pregunta": "83",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "123",
+      "respuesta": "calculo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Fiorentina",
+      "pregunta": "56",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "the wasp",
+      "pregunta": "89",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "babe",
+      "pregunta": "61",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Jugadores de Fútbol",
+      "respuesta": "Cristiano|Ronaldo",
+      "pregunta": "2",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "heidi",
+      "pregunta": "94",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "nickelodeon",
+      "pregunta": "7",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "dumbo",
+      "pregunta": "158",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "turbo",
+      "pregunta": "67",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "kirk|van houten",
+      "pregunta": "54",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "lionel|hutz",
+      "pregunta": "90",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "las cronicas|de narnia",
+      "pregunta": "55",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "35",
+      "respuesta": "triangulo de|las bermudas",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "x men",
+      "pregunta": "163",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Bono",
+      "pregunta": "52",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "80",
+      "respuesta": "porcelana",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "volver al|futuro",
+      "pregunta": "1",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "king kong",
+      "pregunta": "74",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "59",
+      "respuesta": "caleidoscopio",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "137",
+      "respuesta": "san diego",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "bee movie",
+      "pregunta": "15",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "mickey|mouse",
+      "pregunta": "12",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "china",
+      "pregunta": "3",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "50",
+      "respuesta": "cucharita",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Stuttgart",
+      "pregunta": "89",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "iron man",
+      "pregunta": "17",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "jefe|Quimby",
+      "pregunta": "17",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "37",
+      "respuesta": "guardar|bajo llave",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "louis|vuitton",
+      "pregunta": "55",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "audi",
+      "pregunta": "44",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "153",
+      "respuesta": "calamar",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "Tibet",
+      "pregunta": "92",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "46",
+      "respuesta": "berenjena",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "Trinidad|y Tobago",
+      "pregunta": "94",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "tiburon",
+      "pregunta": "77",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "Pinocho",
+      "pregunta": "172",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "armagedon",
+      "pregunta": "47",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "75",
+      "respuesta": "negrita",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "indiana|jones",
+      "pregunta": "23",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "hombre|abejorro",
+      "pregunta": "101",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "bmw",
+      "pregunta": "97",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "avatar",
+      "pregunta": "157",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "West|Ham",
+      "pregunta": "71",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "127",
+      "respuesta": "venezuela",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "coca cola",
+      "pregunta": "29",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "toy story",
+      "pregunta": "123",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "dr dolittle",
+      "pregunta": "2",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "126",
+      "respuesta": "durazno",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Newells|Old Boys",
+      "pregunta": "69",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "85",
+      "respuesta": "microscopico",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "liberia",
+      "pregunta": "84",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "rusia",
+      "pregunta": "4",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "ned|flanders",
+      "pregunta": "125",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "benji|price",
+      "pregunta": "115",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "248",
+      "respuesta": "camaron",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "bee movie",
+      "pregunta": "57",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "48",
+      "respuesta": "estetoscopio",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "66",
+      "respuesta": "edad media",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Bayer|Munich",
+      "pregunta": "5",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "linterna|verde",
+      "pregunta": "19",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "130",
+      "respuesta": "monterrey",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el silencio de|los inocentes",
+      "pregunta": "9",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "scream",
+      "pregunta": "158",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "la pantera|rosa",
+      "pregunta": "69",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "milagros|inesperados",
+      "pregunta": "138",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "olympique|de marsella",
+      "pregunta": "83",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la guerra de|los mundos",
+      "pregunta": "161",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "jefe|gorgory",
+      "pregunta": "68",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "dinamarca",
+      "pregunta": "33",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "james bond",
+      "pregunta": "106",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Merlina",
+      "pregunta": "20",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "toyota",
+      "pregunta": "96",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "maggie|simpson",
+      "pregunta": "32",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "45",
+      "respuesta": "soldado",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "monstruos|vs aliens",
+      "pregunta": "45",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "happy feet",
+      "pregunta": "84",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "scary|movie",
+      "pregunta": "41",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "cuba",
+      "pregunta": "22",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "220",
+      "respuesta": "osaka",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "le coq|sportif",
+      "pregunta": "63",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "San Pablo",
+      "pregunta": "10",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "godzilla",
+      "pregunta": "128",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "19",
+      "respuesta": "leer entre|lineas",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "lisa|simpson",
+      "pregunta": "27",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el rey leon",
+      "pregunta": "107",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "60 segundos",
+      "pregunta": "140",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "moe",
+      "pregunta": "127",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "grogu",
+      "pregunta": "67",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Velez|Sarsfield",
+      "pregunta": "44",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "albert|einstein",
+      "pregunta": "6",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "slash",
+      "pregunta": "32",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "camerun",
+      "pregunta": "47",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "arabia|saudita",
+      "pregunta": "64",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Liverpool",
+      "pregunta": "37",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Betis",
+      "pregunta": "45",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "kodak",
+      "pregunta": "15",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "checo|perez",
+      "pregunta": "14",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "236",
+      "respuesta": "diacono",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "vecinos|invasores",
+      "pregunta": "97",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "he man",
+      "pregunta": "10",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "3",
+      "respuesta": "ingenio",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "bruce|harper",
+      "pregunta": "141",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "frozen",
+      "pregunta": "105",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "estados|unidos",
+      "pregunta": "2",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Jugadores de Fútbol",
+      "respuesta": "zinedine|zidane",
+      "pregunta": "6",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el vuelo",
+      "pregunta": "64",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "219",
+      "respuesta": "marsella",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "daenerys|targaryen",
+      "pregunta": "61",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "mojo",
+      "pregunta": "134",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "quisiera|ser grande",
+      "pregunta": "16",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "¿que paso ayer?",
+      "pregunta": "82",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "40",
+      "respuesta": "limonada",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Bayer|Leverkusen",
+      "pregunta": "31",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "la caida del|halcon negro",
+      "pregunta": "97",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "194",
+      "respuesta": "arroba",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "192",
+      "respuesta": "aguacate",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "flash",
+      "pregunta": "96",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "mandibulin",
+      "pregunta": "130",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "el inspector",
+      "pregunta": "39",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "la era|de hielo",
+      "pregunta": "40",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "193",
+      "respuesta": "alarma",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Arsenal",
+      "pregunta": "30",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "141",
+      "respuesta": "isla|margarita",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "carolina|herrera",
+      "pregunta": "49",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "flash",
+      "pregunta": "122",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el codigo|da vinci",
+      "pregunta": "98",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "el coyote",
+      "pregunta": "131",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "scooby|doo",
+      "pregunta": "126",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "marge|simpson",
+      "pregunta": "117",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Sevilla",
+      "pregunta": "28",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "robocop",
+      "pregunta": "119",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Espanyol de|Barcelona",
+      "pregunta": "90",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "corinthians",
+      "pregunta": "67",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "nepal",
+      "pregunta": "97",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "dr hibbert",
+      "pregunta": "22",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "215",
+      "respuesta": "camarada",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Watford",
+      "pregunta": "99",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "Mongolia",
+      "pregunta": "98",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "189",
+      "respuesta": "torpedo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "italia",
+      "pregunta": "6",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "249",
+      "respuesta": "asfalto",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "178",
+      "respuesta": "premeditar",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "201",
+      "respuesta": "barranco",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "1",
+      "respuesta": "lunatico",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "la llamada",
+      "pregunta": "49",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "chanel",
+      "pregunta": "46",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "guatemala",
+      "pregunta": "63",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "escocia",
+      "pregunta": "48",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "dropbox",
+      "pregunta": "82",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "bugs|bunny",
+      "pregunta": "108",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "reebok",
+      "pregunta": "37",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "viernes 13",
+      "pregunta": "147",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "72",
+      "respuesta": "cantantes",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el regalo|prometido",
+      "pregunta": "101",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "el gallo|claudio",
+      "pregunta": "93",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "volver al|futuro",
+      "pregunta": "74",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "rambo",
+      "pregunta": "141",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "sam|bigotes",
+      "pregunta": "61",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "el jardinero|willy",
+      "pregunta": "95",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Monterrey",
+      "pregunta": "72",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Millonarios",
+      "pregunta": "54",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "108",
+      "respuesta": "mate|cocido",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "300",
+      "pregunta": "75",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "once",
+      "pregunta": "44",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "wordpress",
+      "pregunta": "3",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "luiggi",
+      "pregunta": "107",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "54",
+      "respuesta": "climatizado",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "shaggy",
+      "pregunta": "21",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "167",
+      "respuesta": "testosterona",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "axl|rose",
+      "pregunta": "63",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "aladdin",
+      "pregunta": "81",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "shang chi",
+      "pregunta": "38",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "terri y|sherri",
+      "pregunta": "160",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "patan",
+      "pregunta": "50",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "ebay",
+      "pregunta": "93",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el grinch",
+      "pregunta": "179",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "etiopia",
+      "pregunta": "41",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "como entrenar|a mi dragon",
+      "pregunta": "132",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "super|raton",
+      "pregunta": "78",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "boba fett",
+      "pregunta": "46",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "38",
+      "respuesta": "todo sobre|ruedas",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "peugeot",
+      "pregunta": "18",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "fiyi",
+      "pregunta": "43",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "republica|checa",
+      "pregunta": "36",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "22",
+      "respuesta": "llave|francesa",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "168",
+      "respuesta": "pirata",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "et",
+      "pregunta": "8",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "lacoste",
+      "pregunta": "16",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "bombon",
+      "pregunta": "71",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "twister",
+      "pregunta": "113",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "harry|potter",
+      "pregunta": "182",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "citroen",
+      "pregunta": "51",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "dumbo",
+      "pregunta": "73",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "starsky|y hutch",
+      "pregunta": "59",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "7",
+      "respuesta": "enfadado",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Gimnasia|de la plata",
+      "pregunta": "79",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "chevrolet",
+      "pregunta": "13",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "amazon",
+      "pregunta": "9",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "maxima|velocidad",
+      "pregunta": "35",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "el salvador",
+      "pregunta": "58",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "x box",
+      "pregunta": "12",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Cruzeiro",
+      "pregunta": "20",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "karate|kid",
+      "pregunta": "142",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "4",
+      "respuesta": "pinocho",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "ferrari",
+      "pregunta": "23",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "eslovenia",
+      "pregunta": "35",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "102",
+      "respuesta": "armonicamente",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "tweety",
+      "pregunta": "154",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "207",
+      "respuesta": "cuba",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "hombres de|negro",
+      "pregunta": "148",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "dodge",
+      "pregunta": "53",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Jugadores de Fútbol",
+      "respuesta": "wayne|rooney",
+      "pregunta": "10",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "bobby",
+      "pregunta": "136",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "259",
+      "respuesta": "vibracion",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "gatorade",
+      "pregunta": "56",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Schalke 04",
+      "pregunta": "38",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "71",
+      "respuesta": "carajo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Levante",
+      "pregunta": "63",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "rapido|y furioso",
+      "pregunta": "48",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "capitan|america",
+      "pregunta": "57",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "milagro en|la calle 8",
+      "pregunta": "35",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "106",
+      "respuesta": "singapur",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "cocodrilo|dundee",
+      "pregunta": "29",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "109",
+      "respuesta": "endosa",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "97",
+      "respuesta": "pariente",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "mr bean",
+      "pregunta": "92",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Kylo|Ren",
+      "pregunta": "81",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "demogorgon",
+      "pregunta": "40",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "Peter|Pan",
+      "pregunta": "169",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "masha|y oso",
+      "pregunta": "31",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "milhouse",
+      "pregunta": "25",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "apple",
+      "pregunta": "8",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "vegetta",
+      "pregunta": "86",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "thor",
+      "pregunta": "178",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "rescate en la|antartida",
+      "pregunta": "11",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "papa|pitufo",
+      "pregunta": "96",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "23",
+      "respuesta": "fe de|erratas",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "260",
+      "respuesta": "amorosamente",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Jugadores de Fútbol",
+      "respuesta": "Lionel|Messi",
+      "pregunta": "1",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "181",
+      "respuesta": "platano",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "las pesadillas|de freddie",
+      "pregunta": "79",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "los cuatro|fantasticos",
+      "pregunta": "90",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "138",
+      "respuesta": "palma de|mallorca",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "woody",
+      "pregunta": "60",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "230",
+      "respuesta": "ciudad del|cabo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "garfield",
+      "pregunta": "1",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el oso yogi",
+      "pregunta": "122",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "Bosnia|Herzegovina",
+      "pregunta": "91",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "262",
+      "respuesta": "barril",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Colo Colo",
+      "pregunta": "16",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "bahamas",
+      "pregunta": "42",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "135",
+      "respuesta": "noruega",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "159",
+      "respuesta": "monarca",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "austria",
+      "pregunta": "68",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "singapur",
+      "pregunta": "45",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "lenny",
+      "pregunta": "147",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "Tonga",
+      "pregunta": "95",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "lilo",
+      "pregunta": "76",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "juan|topo",
+      "pregunta": "80",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "pinky",
+      "pregunta": "128",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "una noche en|el museo",
+      "pregunta": "49",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ms marvel",
+      "pregunta": "82",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "39",
+      "respuesta": "escalpelo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "12 monos",
+      "pregunta": "51",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Atletico|Nacional",
+      "pregunta": "21",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "homero|simpson",
+      "pregunta": "121",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "pepe le pew",
+      "pregunta": "123",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Southampton",
+      "pregunta": "94",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "godzilla",
+      "pregunta": "43",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "93",
+      "respuesta": "jueves|santo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Tigre",
+      "pregunta": "65",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Will|Byers",
+      "pregunta": "78",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "lego",
+      "pregunta": "70",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el fantasma|de la opera",
+      "pregunta": "169",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "221",
+      "respuesta": "diametro",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "94",
+      "respuesta": "plano|inclinado",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "funzo",
+      "pregunta": "70",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "super|sonico",
+      "pregunta": "33",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Inter de|Porto Alegre",
+      "pregunta": "17",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "111",
+      "respuesta": "puente",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "214",
+      "respuesta": "boludo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ahsoka",
+      "pregunta": "77",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "birdman",
+      "pregunta": "85",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "fantasia",
+      "pregunta": "14",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "264",
+      "respuesta": "diezmar",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "huckleberry|hound",
+      "pregunta": "36",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "grecia",
+      "pregunta": "25",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Chelsea",
+      "pregunta": "23",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "el oso|yogi",
+      "pregunta": "65",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "levis",
+      "pregunta": "26",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "224",
+      "respuesta": "batahola",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "177",
+      "respuesta": "piston",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "bielorrusia",
+      "pregunta": "34",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "26",
+      "respuesta": "confirma",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "noruega",
+      "pregunta": "73",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "space jam",
+      "pregunta": "71",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "daniel el|travieso",
+      "pregunta": "89",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "88",
+      "respuesta": "tesoro",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "intel",
+      "pregunta": "90",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "hellboy",
+      "pregunta": "44",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "los|increibles",
+      "pregunta": "78",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "titanic",
+      "pregunta": "156",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "happy feet",
+      "pregunta": "126",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "156",
+      "respuesta": "mayordomo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "243",
+      "respuesta": "marchita",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "una noche|en el museo",
+      "pregunta": "65",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "127 horas",
+      "pregunta": "53",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "rocky|balboa",
+      "pregunta": "80",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "expreso|polar",
+      "pregunta": "63",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "52",
+      "respuesta": "analfabeta",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "apolo 13",
+      "pregunta": "4",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "205",
+      "respuesta": "boa vista",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Gremio",
+      "pregunta": "11",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "155",
+      "respuesta": "papagayo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "zoolander",
+      "pregunta": "121",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "irlanda",
+      "pregunta": "72",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "61",
+      "respuesta": "empanada",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pinterest",
+      "pregunta": "59",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "colombia",
+      "pregunta": "21",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "matrix",
+      "pregunta": "46",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "dartagnan",
+      "pregunta": "148",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "chrome",
+      "pregunta": "5",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "pablo|marmol",
+      "pregunta": "135",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el discurso|del rey",
+      "pregunta": "26",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el gato|con botas",
+      "pregunta": "36",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el joven manos|de tijera",
+      "pregunta": "73",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "sexto|sentido",
+      "pregunta": "91",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Napoli",
+      "pregunta": "2",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "jamaica",
+      "pregunta": "28",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mercado|libre",
+      "pregunta": "92",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "114",
+      "respuesta": "todo bajo|control",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "akira",
+      "pregunta": "29",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mcdonalds",
+      "pregunta": "45",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "Mozambique",
+      "pregunta": "100",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "152",
+      "respuesta": "canada",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "sharknado",
+      "pregunta": "31",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "kenia",
+      "pregunta": "18",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "tailandia",
+      "pregunta": "26",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "125",
+      "respuesta": "malaga",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "56",
+      "respuesta": "camaleon",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "los expedientes|secretos x",
+      "pregunta": "76",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "miguel",
+      "pregunta": "29",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "holanda",
+      "pregunta": "12",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "seat",
+      "pregunta": "35",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "madagascar",
+      "pregunta": "28",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "105",
+      "respuesta": "sincope",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "opera",
+      "pregunta": "88",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "space jam",
+      "pregunta": "85",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "bichos",
+      "pregunta": "80",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "jordania",
+      "pregunta": "81",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "139",
+      "respuesta": "sahara",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "pinocho",
+      "pregunta": "38",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "bridgestone",
+      "pregunta": "47",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Jugadores de Fútbol",
+      "respuesta": "raul",
+      "pregunta": "7",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "186",
+      "respuesta": "recorre",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "bacardi",
+      "pregunta": "30",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "skeletor",
+      "pregunta": "98",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "chipre",
+      "pregunta": "49",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ed|sheeran",
+      "pregunta": "30",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "sheldon|cooper",
+      "pregunta": "47",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "166",
+      "respuesta": "reglamenta",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "232",
+      "respuesta": "panama",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el exorcista",
+      "pregunta": "109",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "tonto y|retonto",
+      "pregunta": "8",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "belleza|americana",
+      "pregunta": "14",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Parma",
+      "pregunta": "80",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "john|lennon",
+      "pregunta": "49",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "los juegos|del hambre",
+      "pregunta": "66",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "82",
+      "respuesta": "verde",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "ratatouille",
+      "pregunta": "93",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "kung fu|panda",
+      "pregunta": "67",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "West|Bromwich",
+      "pregunta": "48",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "capitan|america",
+      "pregunta": "4",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "183",
+      "respuesta": "superfluo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "portugal",
+      "pregunta": "56",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "162",
+      "respuesta": "pajaro",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Barcelona",
+      "pregunta": "3",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "River|Plate",
+      "pregunta": "1",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "psicosis",
+      "pregunta": "3",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "ted",
+      "pregunta": "130",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "super 8",
+      "pregunta": "117",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "lewis|hamilton",
+      "pregunta": "55",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "yo robot",
+      "pregunta": "154",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "hewlett|packard",
+      "pregunta": "75",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "batman",
+      "pregunta": "74",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "suzuki",
+      "pregunta": "32",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Cruz|Azul",
+      "pregunta": "7",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "monaco",
+      "pregunta": "99",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "vietnam",
+      "pregunta": "40",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Roma",
+      "pregunta": "6",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "chucky",
+      "pregunta": "5",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "et",
+      "pregunta": "13",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "naufrago",
+      "pregunta": "127",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "matrix",
+      "pregunta": "112",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "thor",
+      "pregunta": "100",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "184",
+      "respuesta": "tartamudo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "krusty",
+      "pregunta": "92",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la familia|de mi novia",
+      "pregunta": "146",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "donald",
+      "pregunta": "23",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "speed",
+      "pregunta": "54",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "sonic",
+      "pregunta": "62",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "daly",
+      "pregunta": "106",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "132",
+      "respuesta": "asuncion",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "mi pobre|angelito",
+      "pregunta": "33",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "bulgaria",
+      "pregunta": "75",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "tunez",
+      "pregunta": "93",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "60",
+      "respuesta": "polenta",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Union",
+      "pregunta": "92",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "gabon",
+      "pregunta": "79",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "la hormiga",
+      "pregunta": "37",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "103",
+      "respuesta": "picante",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "marty|mcfly",
+      "pregunta": "70",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "31",
+      "respuesta": "agua|oxigenada",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "timberland",
+      "pregunta": "85",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "Ultra|sonico",
+      "pregunta": "97",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "babar",
+      "pregunta": "4",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Jugadores de Fútbol",
+      "respuesta": "rafa|marquez",
+      "pregunta": "13",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "124",
+      "respuesta": "paris",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "marruecos",
+      "pregunta": "46",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "porkys",
+      "pregunta": "60",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "batman",
+      "pregunta": "95",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "mexico",
+      "pregunta": "61",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "95",
+      "respuesta": "desencuentro",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "170",
+      "respuesta": "portero",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "67",
+      "respuesta": "canoso",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "scream",
+      "pregunta": "88",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "caza|fantasmas",
+      "pregunta": "39",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la estafa|maestra",
+      "pregunta": "91",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "110",
+      "respuesta": "postres|helados",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "zootopia",
+      "pregunta": "68",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "islandia",
+      "pregunta": "80",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Juventus",
+      "pregunta": "29",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "99",
+      "respuesta": "ni fu ni fa",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "los muppets",
+      "pregunta": "155",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "151",
+      "respuesta": "barbados",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "fanta",
+      "pregunta": "41",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Palmeiras",
+      "pregunta": "59",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "28",
+      "respuesta": "el canal de|la mancha",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "vito|corleone",
+      "pregunta": "9",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "quiksilver",
+      "pregunta": "58",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "rayban",
+      "pregunta": "87",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "porky",
+      "pregunta": "21",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "los pinguinos|de madagascar",
+      "pregunta": "103",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "firefox",
+      "pregunta": "24",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "maxima|velocidad",
+      "pregunta": "170",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "237",
+      "respuesta": "calibre",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "orco",
+      "pregunta": "103",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "telegram",
+      "pregunta": "38",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "255",
+      "respuesta": "piojo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "transformers",
+      "pregunta": "34",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ted lasso",
+      "pregunta": "93",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "163",
+      "respuesta": "repollo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "martin|prince",
+      "pregunta": "100",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Universidad|de chile",
+      "pregunta": "41",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "mc bain",
+      "pregunta": "104",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "218",
+      "respuesta": "alaska",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "honda",
+      "pregunta": "71",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "2",
+      "respuesta": "estomago",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la dama y|el vagabundo",
+      "pregunta": "64",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "tom",
+      "pregunta": "87",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "254",
+      "respuesta": "resguardar",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "buscando|a nemo",
+      "pregunta": "58",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "linkedin",
+      "pregunta": "65",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "bart|simpson",
+      "pregunta": "111",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "18",
+      "respuesta": "termometro",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "twitter",
+      "pregunta": "4",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "ford",
+      "pregunta": "14",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Sampdoria",
+      "pregunta": "43",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Lazio",
+      "pregunta": "22",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Banfield",
+      "pregunta": "81",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "mi novia|polly",
+      "pregunta": "127",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "60 segundos",
+      "pregunta": "116",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "buscando|a nemo",
+      "pregunta": "21",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "japon",
+      "pregunta": "8",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Rayo|Vallecano",
+      "pregunta": "82",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "play|station",
+      "pregunta": "17",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "uruguay",
+      "pregunta": "13",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "herbert|powell",
+      "pregunta": "67",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Villareal",
+      "pregunta": "50",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "76",
+      "respuesta": "caracol",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el rey leon",
+      "pregunta": "15",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "9",
+      "respuesta": "entretenido",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "carl|carlson",
+      "pregunta": "45",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "pearl|harbor",
+      "pregunta": "42",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "rapido y|furioso",
+      "pregunta": "24",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Bologna",
+      "pregunta": "61",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "canada",
+      "pregunta": "19",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "jerry",
+      "pregunta": "155",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "burger king",
+      "pregunta": "84",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "elton|john",
+      "pregunta": "83",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "America",
+      "pregunta": "34",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la era|del hielo",
+      "pregunta": "120",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "187",
+      "respuesta": "tramposo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "volcano",
+      "pregunta": "46",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "los|picapiedras",
+      "pregunta": "102",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "87",
+      "respuesta": "epico",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "malefica",
+      "pregunta": "128",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "little miss|sunshine",
+      "pregunta": "61",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "121",
+      "respuesta": "estados|unidos",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "francia",
+      "pregunta": "7",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "la sirenita",
+      "pregunta": "119",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "21",
+      "respuesta": "entrenadora",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "whatsapp",
+      "pregunta": "10",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "iran",
+      "pregunta": "29",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "17",
+      "respuesta": "me chupa|un huevo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "pakistan",
+      "pregunta": "96",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "malefica",
+      "pregunta": "164",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Milan",
+      "pregunta": "14",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "98",
+      "respuesta": "pentagrama",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "leicester",
+      "pregunta": "95",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "click",
+      "pregunta": "6",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el libro|de la selva",
+      "pregunta": "106",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "5",
+      "respuesta": "quincena",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "rolex",
+      "pregunta": "81",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "ucrania",
+      "pregunta": "32",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "120",
+      "respuesta": "sevilla",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "negan",
+      "pregunta": "59",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "49",
+      "respuesta": "palometa",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "froddo",
+      "pregunta": "86",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "rocky",
+      "pregunta": "31",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "guardianes de|la galaxia",
+      "pregunta": "20",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "tiro loco|mcgraw",
+      "pregunta": "28",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "las tortugas|ninjas",
+      "pregunta": "98",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "zathura",
+      "pregunta": "69",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Paris|Saint Germain",
+      "pregunta": "93",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "marvin",
+      "pregunta": "144",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "corazon|valiente",
+      "pregunta": "75",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "238",
+      "respuesta": "bombacha",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Celta de Vigo",
+      "pregunta": "98",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Inter de|Milan",
+      "pregunta": "35",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "popeye",
+      "pregunta": "146",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el rey|escorpion",
+      "pregunta": "48",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "el fantasma|del espacio",
+      "pregunta": "40",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "costa rica",
+      "pregunta": "55",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "77",
+      "respuesta": "coliflor",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "143",
+      "respuesta": "arabia",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "150",
+      "respuesta": "lisboa",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "otto",
+      "pregunta": "119",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "202",
+      "respuesta": "boliviano",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "hombres|de negro",
+      "pregunta": "10",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "avion|presidencial",
+      "pregunta": "101",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el juego|del miedo",
+      "pregunta": "151",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "68",
+      "respuesta": "lenteja",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "troya",
+      "pregunta": "51",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "hungria",
+      "pregunta": "11",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "los gemelos|fantasticos",
+      "pregunta": "42",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "cars",
+      "pregunta": "32",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Vasco da|Gama",
+      "pregunta": "76",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "195",
+      "respuesta": "velada",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Newcastle",
+      "pregunta": "62",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "artie|ziff",
+      "pregunta": "43",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "53",
+      "respuesta": "alfa romeo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la mascara|del zorro",
+      "pregunta": "164",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "lotto",
+      "pregunta": "78",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "cars",
+      "pregunta": "25",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Deportivo|Cali",
+      "pregunta": "70",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Lanus",
+      "pregunta": "32",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "el pato|lucas",
+      "pregunta": "109",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Mike|Wheeler",
+      "pregunta": "65",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Ellen|DeGeneres",
+      "pregunta": "39",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "116",
+      "respuesta": "venado",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "100",
+      "respuesta": "pilates",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "ruanda",
+      "pregunta": "78",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "tron",
+      "pregunta": "123",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Stephen|Curry",
+      "pregunta": "69",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "257",
+      "respuesta": "campera",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "israel",
+      "pregunta": "74",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "magda",
+      "pregunta": "113",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Torino",
+      "pregunta": "39",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el joven manos|de tijera",
+      "pregunta": "10",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "aladdin",
+      "pregunta": "122",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "78",
+      "respuesta": "mejor reir|que llorar",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "marcianos|al ataque",
+      "pregunta": "100",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "forrest|gump",
+      "pregunta": "44",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "hawkeye",
+      "pregunta": "72",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "83",
+      "respuesta": "viento en|popa",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "batman",
+      "pregunta": "55",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "lego|la pelicula",
+      "pregunta": "113",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Perugia",
+      "pregunta": "49",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "253",
+      "respuesta": "osamenta",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "instagram",
+      "pregunta": "52",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Siena",
+      "pregunta": "46",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "cerebro",
+      "pregunta": "120",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el laberinto|del fauno",
+      "pregunta": "12",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Ironman",
+      "pregunta": "51",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "up",
+      "pregunta": "12",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Valencia",
+      "pregunta": "4",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "alicia en el pais|de las maravillas",
+      "pregunta": "104",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "cometin|sonico",
+      "pregunta": "60",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mini",
+      "pregunta": "11",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "81",
+      "respuesta": "sobrevolar",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Atletico|de Madrid",
+      "pregunta": "12",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "la dama y|el vagabundo",
+      "pregunta": "32",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "gaspar",
+      "pregunta": "75",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "179",
+      "respuesta": "monoculo",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la bella y|la bestia",
+      "pregunta": "39",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "stan|lee",
+      "pregunta": "36",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "dia del|atentado",
+      "pregunta": "126",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "mad max",
+      "pregunta": "50",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "oddie",
+      "pregunta": "137",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "karate|kid",
+      "pregunta": "107",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "twister",
+      "pregunta": "33",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "198",
+      "respuesta": "marron",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "frozen",
+      "pregunta": "104",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "robotina",
+      "pregunta": "30",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el padrino",
+      "pregunta": "69",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "154",
+      "respuesta": "pandemonio",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "34",
+      "respuesta": "emparedado",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "cartoon|network",
+      "pregunta": "6",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el increible|hulk",
+      "pregunta": "96",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "argelia",
+      "pregunta": "52",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "comer rezar|amar",
+      "pregunta": "6",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "libano",
+      "pregunta": "82",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "261",
+      "respuesta": "camara",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "113",
+      "respuesta": "casino",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "egipto",
+      "pregunta": "54",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "173",
+      "respuesta": "resaltar",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "242",
+      "respuesta": "helsinki",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "converse",
+      "pregunta": "40",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "tony|hawk",
+      "pregunta": "54",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "x men",
+      "pregunta": "18",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "una aventura|extraordinaria",
+      "pregunta": "1",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "jimbo",
+      "pregunta": "79",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "apu",
+      "pregunta": "7",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Jugadores de Fútbol",
+      "respuesta": "Johan|Cruyff",
+      "pregunta": "12",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Fluminense",
+      "pregunta": "68",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "red bull",
+      "pregunta": "69",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "meteoro",
+      "pregunta": "23",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "the new|york times",
+      "pregunta": "1",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "Betty|Marmol",
+      "pregunta": "151",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la sirenita",
+      "pregunta": "72",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Hannover 96",
+      "pregunta": "97",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Fulham",
+      "pregunta": "87",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "rose",
+      "pregunta": "91",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "diario de|una pasion",
+      "pregunta": "115",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "top gun",
+      "pregunta": "93",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "majin boo",
+      "pregunta": "18",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "monica|geller",
+      "pregunta": "94",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "Peter|Griffin",
+      "pregunta": "153",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "los locos|adams",
+      "pregunta": "184",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "amy|winehouse",
+      "pregunta": "16",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "nigeria",
+      "pregunta": "67",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "harry|potter",
+      "pregunta": "24",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "kang",
+      "pregunta": "91",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "los duques|de hazzard",
+      "pregunta": "111",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "casper",
+      "pregunta": "181",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Racing|Club",
+      "pregunta": "9",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "steve|Hyuga",
+      "pregunta": "24",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "angeles|y demonios",
+      "pregunta": "28",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "el efecto|mariposa",
+      "pregunta": "43",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "mary poppins",
+      "pregunta": "22",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "la gran|estafa",
+      "pregunta": "78",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "13",
+      "respuesta": "pepino",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "novia|fugitiva",
+      "pregunta": "103",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "naufrago",
+      "pregunta": "145",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "lebron|james",
+      "pregunta": "18",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "182",
+      "respuesta": "sotana",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "cantando|bajo la lluvia",
+      "pregunta": "89",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "taz",
+      "pregunta": "90",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "wikipedia",
+      "pregunta": "91",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "41",
+      "respuesta": "florencia",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "222",
+      "respuesta": "acalorada",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "oficial|matute",
+      "pregunta": "116",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "rocky",
+      "pregunta": "71",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "140",
+      "respuesta": "receta",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "240",
+      "respuesta": "soltero",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "walter|white",
+      "pregunta": "26",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "65",
+      "respuesta": "apila",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "sherlock|holmes",
+      "pregunta": "99",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mizuno",
+      "pregunta": "74",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "shell",
+      "pregunta": "34",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "ouija",
+      "pregunta": "29",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "64",
+      "respuesta": "emperador",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Hellas|Verona",
+      "pregunta": "91",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Manchester|City",
+      "pregunta": "15",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "poochie",
+      "pregunta": "159",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "pajaros",
+      "pregunta": "152",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "96",
+      "respuesta": "mal educado",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "una aventura|extraordinaria",
+      "pregunta": "25",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "bolivia",
+      "pregunta": "57",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "adidas",
+      "pregunta": "21",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "el gavilan|pollero",
+      "pregunta": "15",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Independiente|de avellaneda",
+      "pregunta": "88",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "256",
+      "respuesta": "relata",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "Ariel",
+      "pregunta": "167",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "intensamente",
+      "pregunta": "22",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "16",
+      "respuesta": "revelar",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Jugadores de Fútbol",
+      "respuesta": "Ronaldo",
+      "pregunta": "3",
+      "categoria": "jugadores"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "forrest|gump",
+      "pregunta": "166",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "las tortugas|ninja",
+      "pregunta": "70",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "depredador",
+      "pregunta": "70",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "daniel|larusso",
+      "pregunta": "19",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "samsung",
+      "pregunta": "36",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "montgomery|burns",
+      "pregunta": "56",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "larry|burns",
+      "pregunta": "87",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "118",
+      "respuesta": "rio de|janeiro",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "44",
+      "respuesta": "cantero",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "165",
+      "respuesta": "recien|casados",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "beetlejuice",
+      "pregunta": "3",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "101",
+      "respuesta": "polinesia|francesa",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "terminator",
+      "pregunta": "160",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la momia",
+      "pregunta": "136",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "blinky",
+      "pregunta": "2",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "uzbekistan",
+      "pregunta": "27",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "up",
+      "pregunta": "30",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "245",
+      "respuesta": "varsovia",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Películas con Emojis",
+      "respuesta": "titanic",
+      "pregunta": "59",
+      "categoria": "emojis"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "lou",
+      "pregunta": "150",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Aston|Villa",
+      "pregunta": "74",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "90",
+      "respuesta": "sin ton|ni son",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "246",
+      "respuesta": "parlamento",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "coco",
+      "pregunta": "37",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "pitufo|filosofo",
+      "pregunta": "83",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "69",
+      "respuesta": "bolchevique",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "84",
+      "respuesta": "sobrevivir",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Real|Madrid",
+      "pregunta": "8",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "dias de|trueno",
+      "pregunta": "88",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "ghana",
+      "pregunta": "66",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "duffman",
+      "pregunta": "72",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "monster inc",
+      "pregunta": "86",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "30",
+      "respuesta": "circulo|vicioso",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "speedy|gonzalez",
+      "pregunta": "149",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "el llanero|solitario",
+      "pregunta": "76",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "129",
+      "respuesta": "mykonos",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "55",
+      "respuesta": "comida|rapida",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "marilyn|monroe",
+      "pregunta": "7",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la llamada",
+      "pregunta": "139",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "polonia",
+      "pregunta": "20",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "benito",
+      "pregunta": "68",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "Helena|Alegria",
+      "pregunta": "168",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "la masacre|de texas",
+      "pregunta": "176",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "suiza",
+      "pregunta": "23",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "brigada a",
+      "pregunta": "150",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "mr chispa",
+      "pregunta": "98",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "gohan",
+      "pregunta": "14",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "malasia",
+      "pregunta": "85",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "33",
+      "respuesta": "leche|cortada",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Escudos de fútbol",
+      "respuesta": "Malaga",
+      "pregunta": "36",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "indiana|jones",
+      "pregunta": "31",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "42",
+      "respuesta": "aire|comprimido",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Acertijos",
+      "pregunta": "229",
+      "respuesta": "la paz",
+      "categoria": "acertijos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "dr emmett|brown",
+      "pregunta": "79",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "mario bros",
+      "pregunta": "13",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "Sombras",
+      "respuesta": "goku",
+      "pregunta": "124",
+      "categoria": "sombras"
+    },
+    {
+      "titulo": "¿Qué película es?",
+      "respuesta": "babe",
+      "pregunta": "92",
+      "categoria": "peliculas"
+    },
+    {
+      "titulo": "¿Qué país es?",
+      "respuesta": "somalia",
+      "pregunta": "90",
+      "categoria": "banderas"
+    }
+  ]
+}

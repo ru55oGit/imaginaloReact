@@ -1,6 +1,12 @@
 export interface Translation {
   // Home page
   appTitle: string;
+  tagline: string;
+  goodMorning: string;
+  daysWithoutTrainingMessage: string;
+  whatPlayToday: string;
+  keepPlaying: string;
+  continueButton: string;
   howToPlay: string;
   lookAtGrid: string;
   findDifferent: string;
@@ -67,6 +73,13 @@ export interface Translation {
 export const translations: Record<string, Translation> = {
   es: {
     appTitle: "Imaginalo",
+    tagline: "pensá · adiviná · ganá",
+    goodMorning: "Buenos dias",
+    daysWithoutTrainingMessage:
+      "hace {{days}} dias que no ejercitas el cerebro.",
+    whatPlayToday: "¿A qué jugamos hoy?",
+    keepPlaying: "SEGUIR JUGANDO",
+    continueButton: "Continuar",
     howToPlay: "¿CÓMO JUGAR?",
     lookAtGrid: "Mirá la grilla",
     findDifferent: "Buscá el diferente",
@@ -118,6 +131,13 @@ export const translations: Record<string, Translation> = {
 
   en: {
     appTitle: "Imaginalo",
+    tagline: "think · guess · win",
+    goodMorning: "Good morning",
+    daysWithoutTrainingMessage:
+      "it has been {{days}} days since you trained your brain.",
+    whatPlayToday: "What are we playing today?",
+    keepPlaying: "KEEP PLAYING",
+    continueButton: "Continue",
     howToPlay: "HOW TO PLAY?",
     lookAtGrid: "Look at the grid",
     findDifferent: "Find the different one",
@@ -169,6 +189,13 @@ export const translations: Record<string, Translation> = {
 
   pt: {
     appTitle: "Imaginalo",
+    tagline: "pense · adivinhe · ganhe",
+    goodMorning: "Bom dia",
+    daysWithoutTrainingMessage:
+      "faz {{days}} dias que voce nao exercita o cerebro.",
+    whatPlayToday: "O que vamos jogar hoje?",
+    keepPlaying: "CONTINUAR JOGANDO",
+    continueButton: "Continuar",
     howToPlay: "COMO JOGAR?",
     lookAtGrid: "Olhe a grade",
     findDifferent: "Encontre o diferente",
@@ -220,6 +247,13 @@ export const translations: Record<string, Translation> = {
 
   fr: {
     appTitle: "Imaginalo",
+    tagline: "pensez · devinez · gagnez",
+    goodMorning: "Bonjour",
+    daysWithoutTrainingMessage:
+      "cela fait {{days}} jours que vous n'avez pas entraine votre cerveau.",
+    whatPlayToday: "A quoi on joue aujourd'hui ?",
+    keepPlaying: "CONTINUER A JOUER",
+    continueButton: "Continuer",
     howToPlay: "COMMENT JOUER?",
     lookAtGrid: "Regardez la grille",
     findDifferent: "Trouvez le différent",
