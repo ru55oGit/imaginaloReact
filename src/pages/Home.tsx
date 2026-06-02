@@ -133,22 +133,29 @@ export default function WelcomeScreen() {
     [LOGOS]: "LOGOS",
   };
 
-  const categoryStyles: Record<string, { icon: string; bg: string }> = {
-    [ACERTIJOS]: { icon: "🧩", bg: "#e9e3cc" },
-    [PELICULAS]: { icon: "🎬", bg: "#181a38" },
-    [LOGOS]: { icon: "🏷️", bg: "#dce5de" },
-    [EMOJIS]: { icon: "😎", bg: "#ead8e2" },
-    [SOMBRAS]: { icon: "🕶️", bg: "#e4e4e4" },
-    [FUNKOS]: { icon: "🧸", bg: "#ece2d8" },
-    [ESCUDOS]: { icon: "🛡️", bg: "#dbe5ef" },
-    [BANDERAS]: { icon: "🚩", bg: "#e8dfe1" },
-    [ALEATORIO]: { icon: "🎲", bg: "#e4e0f0" },
-  };
+  const cardPreviewByCategory = useMemo(() => {
+    const entries = allCategories.map((key) => {
+      const config = previewByCategory[key];
+      const firstPath = config.getPath(1);
+      const loader = config.modules[firstPath] ?? Object.values(config.modules)[0];
+
+      if (!loader) return [key, null] as const;
+
+      return [
+        key,
+        lazy(loader as () => Promise<{ default: ComponentType }>),
+      ] as const;
+    });
+
+    return Object.fromEntries(entries) as Record<
+      string,
+      ReturnType<typeof lazy> | null
+    >;
+  }, []);
 
   const categoryCards = allCategories.map((key) => ({
     key,
-    icon: categoryStyles[key].icon,
-    bg: categoryStyles[key].bg,
+    preview: cardPreviewByCategory[key],
     level: "NIV 1",
   }));
 
@@ -424,14 +431,21 @@ export default function WelcomeScreen() {
               <Box
                 sx={{
                   height: { xs: 90, md: 130 },
-                  backgroundColor: card.bg,
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: { xs: 44, md: 56 },
+                  overflow: "hidden",
+                  "& svg": {
+                    width: "100%",
+                    height: "100%",
+                  },
                 }}
               >
-                {card.icon}
+                {card.preview ? (
+                  <Suspense fallback={<Box sx={{ width: "100%", height: "100%" }} />}>
+                    <card.preview />
+                  </Suspense>
+                ) : null}
               </Box>
               <Box sx={{ px: 1, py: 1 }}>
                 <Typography
