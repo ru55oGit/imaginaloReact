@@ -9,7 +9,7 @@
     {
       "titulo": "Acertijos",
       "pregunta": "216",
-      "respuesta": "artesanalmente",
+      "respuesta": "artesanal|mente",
       "categoria": "acertijos"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "titulo": "Películas con Emojis",
-      "respuesta": "La leyenda del|tesoro perdido",
+      "respuesta": "La leyenda|del tesoro|perdido",
       "pregunta": "114",
       "categoria": "emojis"
     },
@@ -213,7 +213,7 @@
     {
       "titulo": "Acertijos",
       "pregunta": "227",
-      "respuesta": "anatomicamente",
+      "respuesta": "anatomica|mente",
       "categoria": "acertijos"
     },
     {

@@ -25,6 +25,7 @@ import {
   FUNKOS,
   LOGOS,
   PELICULAS,
+  QUESTIONS,
   SOMBRAS,
 } from "../constanst/categories.js";
 import VirtualKeyboard from "../components/VirtualKeyboard";
@@ -47,6 +48,9 @@ import funkosSpData from "../data/funkos_sp.json";
 import escudosData from "../data/escudos.json";
 import banderasData from "../data/banderas.json";
 import banderasEnData from "../data/banderas_en.json";
+import aleatoriosData from "../data/aleatorios.json";
+import aleatoriosEnData from "../data/aleatorios_en.json";
+import aleatoriosSpData from "../data/aleatorios_sp.json";
 import wuzzlesData from "../data/wuzzles.json";
 
 interface LocationState {
@@ -55,8 +59,14 @@ interface LocationState {
 }
 
 interface DataEntry {
+  categoria?: string;
+  pregunta?: string;
+  titulo?: string;
   respuesta?: string;
 }
+
+const JUGADORES = "jugadores";
+const WUZZLES = "wuzzles";
 
 interface DataCollection {
   listado?: DataEntry[];
@@ -114,7 +124,15 @@ const svgByCategory: Record<
     modules: import.meta.glob("../components/SVG/Banderas/banderas*.js"),
     getPath: (level) => `../components/SVG/Banderas/banderas${level}.js`,
   },
+  [JUGADORES]: {
+    modules: import.meta.glob("../components/SVG/Jugadores/jugadores*.js"),
+    getPath: (level) => `../components/SVG/Jugadores/jugadores${level}.js`,
+  },
   [ALEATORIO]: {
+    modules: import.meta.glob("../components/SVG/Wuzzles/wuzzles*.js"),
+    getPath: (level) => `../components/SVG/Wuzzles/wuzzles${level}.js`,
+  },
+  [WUZZLES]: {
     modules: import.meta.glob("../components/SVG/Wuzzles/wuzzles*.js"),
     getPath: (level) => `../components/SVG/Wuzzles/wuzzles${level}.js`,
   },
@@ -194,10 +212,32 @@ const getEntriesByCategoryAndLanguage = (
     case LOGOS:
       return getEntries(marcasData as DataCollection);
     case ALEATORIO:
-      return getEntries(wuzzlesData as DataCollection);
+      return pickEntries(
+        aleatoriosData as DataCollection,
+        aleatoriosEnData as DataCollection,
+        aleatoriosSpData as DataCollection,
+      );
     default:
       return getEntries(adivinanzasData as DataCollection);
   }
+};
+
+const parseLevelNumber = (value?: string): number | null => {
+  const parsed = Number.parseInt((value ?? "").trim(), 10);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : null;
+};
+
+const resolveRandomImageCategory = (value?: string): string => {
+  const normalized = (value ?? "").trim().toLowerCase();
+
+  if (!normalized) return ALEATORIO;
+  if (normalized === WUZZLES) return WUZZLES;
+
+  if (normalized in svgByCategory) {
+    return normalized;
+  }
+
+  return ALEATORIO;
 };
 
 const Game: React.FC = () => {
@@ -216,6 +256,8 @@ const Game: React.FC = () => {
     () => getEntriesByCategoryAndLanguage(category, currentLanguage),
     [category, currentLanguage],
   );
+  const selectedEntry = entries[level - 1];
+  const levelTitle = (selectedEntry?.titulo ?? "").toString().trim();
 
   const answer = (entries[level - 1]?.respuesta ?? "").toString().trim();
   const answerChars = useMemo(() => answer.split(""), [answer]);
@@ -237,10 +279,15 @@ const Game: React.FC = () => {
     return rows;
   }, [answerChars]);
 
-  const svgConfig = svgByCategory[effectiveCategory] ?? svgByCategory[ACERTIJOS];
-  const svgPath = svgConfig.getPath(level);
+  const randomImageCategory = resolveRandomImageCategory(selectedEntry?.categoria);
+  const randomImageLevel = parseLevelNumber(selectedEntry?.pregunta) ?? level;
+  const imageCategory = category === ALEATORIO ? randomImageCategory : effectiveCategory;
+  const imageLevel = category === ALEATORIO ? randomImageLevel : level;
+
+  const svgConfig = svgByCategory[imageCategory] ?? svgByCategory[ACERTIJOS];
+  const svgPath = svgConfig.getPath(imageLevel);
   const svgLoader =
-    svgConfig.modules[svgPath] ?? Object.values(svgConfig.modules)[level - 1];
+    svgConfig.modules[svgPath] ?? Object.values(svgConfig.modules)[imageLevel - 1];
   const PuzzleImage = useMemo(() => {
     if (!svgLoader) return null;
 
@@ -267,16 +314,27 @@ const Game: React.FC = () => {
   };
 
   const displayCategory = categoryLabelByKey[category] ?? t.categoryRiddles;
+  const headerTitle =
+    category === ALEATORIO && levelTitle ? levelTitle : displayCategory;
 
   useEffect(() => {
-    if (!answer || !PuzzleImage || level > totalLevels) {
+    if (!answer || (randomImageCategory !== QUESTIONS && !PuzzleImage) || level > totalLevels) {
       navigate("/levels", { state: { category } });
       return;
     }
 
     localStorage.setItem(LAST_PLAYED_AT_KEY, new Date().toISOString());
     localStorage.setItem(LAST_PLAYED_CATEGORY_KEY, effectiveCategory);
-  }, [answer, PuzzleImage, category, effectiveCategory, level, navigate, totalLevels]);
+  }, [
+    answer,
+    PuzzleImage,
+    category,
+    effectiveCategory,
+    level,
+    navigate,
+    randomImageCategory,
+    totalLevels,
+  ]);
 
   useEffect(() => {
     setRevealedChars(answerChars.map((char) => !isGuessableChar(char)));
@@ -400,7 +458,7 @@ const Game: React.FC = () => {
     setShowFailModal(false);
   };
 
-  if (!answer || !PuzzleImage) {
+  if (!answer || (randomImageCategory !== QUESTIONS && !PuzzleImage)) {
     return (
       <Layout>
         <Typography sx={{ color: "#fff" }}>{t.invalidLevel}</Typography>
@@ -409,7 +467,17 @@ const Game: React.FC = () => {
   }
 
   return (
-    <Layout headerTitle={displayCategory} headerRight={`${t.levelShort} ${level}`}>
+    <Layout
+      showFooter={false}
+      headerTitle={headerTitle}
+      headerRight={
+        <>
+          {t.levelShort}
+          <br />
+          {level}
+        </>
+      }
+    >
       <Box
         sx={{
           display: "flex",
@@ -454,9 +522,17 @@ const Game: React.FC = () => {
             },
           }}
         >
-          <Suspense fallback={<Box sx={{ width: "100%", height: "100%" }} />}>
-            <PuzzleImage />
-          </Suspense>
+          {randomImageCategory === QUESTIONS ? (
+            <Typography sx={{ color: "#fff", textAlign: "center", px: 2 }}>
+              {selectedEntry?.pregunta ?? ""}
+            </Typography>
+          ) : (
+            PuzzleImage && (
+              <Suspense fallback={<Box sx={{ width: "100%", height: "100%" }} />}>
+                <PuzzleImage />
+              </Suspense>
+            )
+          )}
         </Box>
 
         <Box

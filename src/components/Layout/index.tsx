@@ -420,8 +420,9 @@ const Layout: React.FC<LayoutProps> = ({
                 color: "#e74c3c",
                 fontWeight: 700,
                 background: "#fff",
-                px: 2,
+                px: 1,
                 borderRadius: 2,
+                textAlign: "center",
               }}
             >
               {headerRight}
