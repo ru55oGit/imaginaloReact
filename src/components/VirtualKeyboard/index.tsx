@@ -62,6 +62,19 @@ const VirtualKeyboard: React.FC<VirtualKeyboardProps> = ({
     onKeyPress(key);
   };
 
+  const buttonTheme = [
+    {
+      class: "correct",
+      buttons: guessedLetters
+        .filter((letter) => !wrongLetters.includes(letter))
+        .join(" "),
+    },
+    {
+      class: "incorrect",
+      buttons: wrongLetters.join(" "),
+    },
+  ].filter((entry) => entry.buttons.trim().length > 0);
+
   if (!isMobile) {
     return null;
   }
@@ -151,18 +164,7 @@ const VirtualKeyboard: React.FC<VirtualKeyboardProps> = ({
         layoutName="default"
         onChange={() => {}}
         onKeyPress={handleKeyPress}
-        buttonTheme={[
-          {
-            class: "correct",
-            buttons: guessedLetters
-              .filter((letter) => !wrongLetters.includes(letter))
-              .join(" "),
-          },
-          {
-            class: "incorrect",
-            buttons: wrongLetters.join(" "),
-          },
-        ]}
+        buttonTheme={buttonTheme}
         theme="hg-theme-default"
         disableButtonHold
         preventMouseDownDefault

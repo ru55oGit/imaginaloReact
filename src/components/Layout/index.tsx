@@ -178,8 +178,18 @@ const Layout: React.FC<LayoutProps> = ({
     const canvas = canvasRef.current;
     if (!canvas) return;
 
+    if (isGameRoute) {
+      canvas.innerHTML = "";
+      return;
+    }
+
     function spawnEmoji() {
       if (!canvas) return;
+
+      // Cap active animated nodes to keep main thread responsive.
+      if (canvas.childElementCount > 36) {
+        canvas.firstElementChild?.remove();
+      }
 
       const el = document.createElement("div");
       el.className = "rain-emoji";
@@ -209,7 +219,7 @@ const Layout: React.FC<LayoutProps> = ({
       );
     }
 
-    intervalRef.current = setInterval(spawnEmoji, 300);
+    intervalRef.current = setInterval(spawnEmoji, 550);
 
     return () => {
       if (intervalRef.current) {
@@ -219,7 +229,7 @@ const Layout: React.FC<LayoutProps> = ({
         canvas.innerHTML = "";
       }
     };
-  }, []);
+  }, [isGameRoute]);
 
   return (
     <Box
