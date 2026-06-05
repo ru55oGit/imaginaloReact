@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import Layout from "../components/Layout";
 import Box from "@mui/material/Box";
@@ -17,6 +17,9 @@ import {
   PELICULAS,
   SOMBRAS,
 } from "../constanst/categories.js";
+import aleatoriosData from "../data/aleatorios.json";
+import aleatoriosEnData from "../data/aleatorios_en.json";
+import aleatoriosSpData from "../data/aleatorios_sp.json";
 
 const CATEGORY_LEVEL_COUNT: Record<string, number> = {
   [ACERTIJOS]: 264,
@@ -27,8 +30,9 @@ const CATEGORY_LEVEL_COUNT: Record<string, number> = {
   [FUNKOS]: 100,
   [ESCUDOS]: 100,
   [BANDERAS]: 100,
-  [ALEATORIO]: 120,
 };
+
+const WUZZLES_LEVEL_COUNT = 120;
 
 const Levels: React.FC = () => {
   const navigate = useNavigate();
@@ -36,9 +40,23 @@ const Levels: React.FC = () => {
   const { t, currentLanguage } = useLanguage();
   const category =
     (location.state as { category?: string } | null)?.category ?? ACERTIJOS;
+  const randomLevelsCount = useMemo(() => {
+    if (currentLanguage === "en") {
+      return (aleatoriosEnData as { preguntas?: unknown[] }).preguntas?.length ?? 1;
+    }
+
+    if (currentLanguage === "es_sp") {
+      return (aleatoriosSpData as { preguntas?: unknown[] }).preguntas?.length ?? 1;
+    }
+
+    return (aleatoriosData as { preguntas?: unknown[] }).preguntas?.length ?? 1;
+  }, [currentLanguage]);
+
   const totalLevels =
-    category === ACERTIJOS && currentLanguage === "en"
-      ? CATEGORY_LEVEL_COUNT[ALEATORIO]
+    category === ALEATORIO
+      ? randomLevelsCount
+      : category === ACERTIJOS && currentLanguage === "en"
+      ? WUZZLES_LEVEL_COUNT
       : CATEGORY_LEVEL_COUNT[category] ?? 20;
   const progressCategoryKey =
     category === ACERTIJOS && currentLanguage === "en" ? ALEATORIO : category;

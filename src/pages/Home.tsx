@@ -25,6 +25,9 @@ import {
   SOMBRAS,
 } from "../constanst/categories.js";
 import { LAST_PLAYED_AT_KEY } from "../levels/levelsData";
+import aleatoriosData from "../data/aleatorios.json";
+import aleatoriosEnData from "../data/aleatorios_en.json";
+import aleatoriosSpData from "../data/aleatorios_sp.json";
 
 const allCategories = [
   ACERTIJOS,
@@ -42,6 +45,17 @@ const adivinanzasModules = import.meta.glob(
   "../components/SVG/Adivinanzas/adivinanzas*.js",
 );
 const wuzzlesModules = import.meta.glob("../components/SVG/Wuzzles/wuzzles*.js");
+const jugadoresModules = import.meta.glob(
+  "../components/SVG/Jugadores/jugadores*.js",
+);
+
+type RandomEntry = {
+  categoria?: string;
+  pregunta?: string;
+};
+
+const JUGADORES = "jugadores";
+const WUZZLES = "wuzzles";
 
 const previewByCategory: Record<
   string,
@@ -82,7 +96,15 @@ const previewByCategory: Record<
     modules: import.meta.glob("../components/SVG/Banderas/banderas*.js"),
     getPath: (level) => `../components/SVG/Banderas/banderas${level}.js`,
   },
+  [JUGADORES]: {
+    modules: jugadoresModules,
+    getPath: (level) => `../components/SVG/Jugadores/jugadores${level}.js`,
+  },
   [ALEATORIO]: {
+    modules: wuzzlesModules,
+    getPath: (level) => `../components/SVG/Wuzzles/wuzzles${level}.js`,
+  },
+  [WUZZLES]: {
     modules: wuzzlesModules,
     getPath: (level) => `../components/SVG/Wuzzles/wuzzles${level}.js`,
   },
@@ -132,13 +154,82 @@ export default function WelcomeScreen() {
     return `imaginalo_progress_${effectiveCategory}`;
   };
 
+  const randomEntries = useMemo<RandomEntry[]>(() => {
+    if (currentLanguage === "en") {
+      return (aleatoriosEnData as { preguntas?: RandomEntry[] }).preguntas ?? [];
+    }
+
+    if (currentLanguage === "es_sp") {
+      return (aleatoriosSpData as { preguntas?: RandomEntry[] }).preguntas ?? [];
+    }
+
+    return (aleatoriosData as { preguntas?: RandomEntry[] }).preguntas ?? [];
+  }, [currentLanguage]);
+
+  const getCategoryMaxLevel = (category: string): number => {
+    if (category === ALEATORIO) {
+      return Math.max(1, randomEntries.length);
+    }
+
+    const config = getPreviewConfigByLanguage(category);
+    return Math.max(1, Object.keys(config.modules).length);
+  };
+
+  const parseLevelNumber = (value?: string): number | null => {
+    const parsed = Number.parseInt((value ?? "").trim(), 10);
+    return Number.isFinite(parsed) && parsed > 0 ? parsed : null;
+  };
+
+  const resolveRandomCategory = (value?: string): string => {
+    const normalized = (value ?? "").trim().toLowerCase();
+
+    if (!normalized) return ALEATORIO;
+    if (normalized === WUZZLES) return WUZZLES;
+
+    if (normalized in previewByCategory) {
+      return normalized;
+    }
+
+    return ALEATORIO;
+  };
+
+  const getModuleLoaderForCategoryLevel = (category: string, level: number) => {
+    if (category === ALEATORIO) {
+      const maxLevel = getCategoryMaxLevel(ALEATORIO);
+      const safeLevel = Math.min(Math.max(level, 1), maxLevel);
+      const entry = randomEntries[safeLevel - 1];
+      const randomCategory = resolveRandomCategory(entry?.categoria);
+      const randomLevel = parseLevelNumber(entry?.pregunta) ?? 1;
+      const randomConfig =
+        previewByCategory[randomCategory] ?? previewByCategory[ACERTIJOS];
+      const randomPath = randomConfig.getPath(randomLevel);
+
+      return {
+        loader:
+          randomConfig.modules[randomPath] ??
+          Object.values(randomConfig.modules)[randomLevel - 1] ??
+          Object.values(randomConfig.modules)[0],
+        maxLevel,
+      };
+    }
+
+    const config = getPreviewConfigByLanguage(category);
+    const maxLevel = Math.max(1, Object.keys(config.modules).length);
+    const safeLevel = Math.min(Math.max(level, 1), maxLevel);
+    const path = config.getPath(safeLevel);
+
+    return {
+      loader: config.modules[path] ?? Object.values(config.modules)[0],
+      maxLevel,
+    };
+  };
+
   useEffect(() => {
     const readProgressByCategory = () => {
       const nextProgress: Record<string, number> = {};
 
       allCategories.forEach((category) => {
-        const config = getPreviewConfigByLanguage(category);
-        const maxLevel = Math.max(1, Object.keys(config.modules).length);
+        const maxLevel = getCategoryMaxLevel(category);
         const stored = parseInt(
           localStorage.getItem(getProgressStorageKey(category)) || "1",
           10,
@@ -163,11 +254,11 @@ export default function WelcomeScreen() {
       window.removeEventListener("focus", handleFocus);
       document.removeEventListener("visibilitychange", handleFocus);
     };
-  }, [currentLanguage]);
+  }, [currentLanguage, randomEntries]);
 
-  const previewConfig = getPreviewConfigByLanguage(selectedChip);
   const previewLevel = categoryProgress[selectedChip] ?? 1;
-  const maxLevel = Math.max(1, Object.keys(previewConfig.modules).length);
+  const selectedModule = getModuleLoaderForCategoryLevel(selectedChip, previewLevel);
+  const maxLevel = selectedModule.maxLevel;
   const categoryLabels: Record<string, string> = {
     [ACERTIJOS]: t.categoryRiddles,
     [PELICULAS]: t.categoryMovies,
@@ -182,9 +273,7 @@ export default function WelcomeScreen() {
   const categoryLabel = categoryLabels[selectedChip] ?? t.categoryRiddles;
   const levelProgressText = `${previewLevel} ${t.ofWord} ${maxLevel}`;
 
-  const modulePath = previewConfig.getPath(previewLevel);
-  const moduleLoader =
-    previewConfig.modules[modulePath] ?? Object.values(previewConfig.modules)[0];
+  const moduleLoader = selectedModule.loader;
   const PreviewSvg = useMemo(() => {
     if (!moduleLoader) return null;
     return lazy(moduleLoader as () => Promise<{ default: ComponentType }>);
@@ -192,10 +281,8 @@ export default function WelcomeScreen() {
 
   const cardPreviewByCategory = useMemo(() => {
     const entries = allCategories.map((key) => {
-      const config = getPreviewConfigByLanguage(key);
       const level = categoryProgress[key] ?? 1;
-      const path = config.getPath(level);
-      const loader = config.modules[path] ?? Object.values(config.modules)[0];
+      const loader = getModuleLoaderForCategoryLevel(key, level).loader;
 
       if (!loader) return [key, null] as const;
 
@@ -209,7 +296,7 @@ export default function WelcomeScreen() {
       string,
       ReturnType<typeof lazy> | null
     >;
-  }, [categoryProgress, currentLanguage]);
+  }, [categoryProgress, currentLanguage, randomEntries]);
 
   const categoryCards = allCategories.map((key) => ({
     key,
