@@ -30,25 +30,13 @@ const VirtualKeyboard: React.FC<VirtualKeyboardProps> = ({
 
     switch (currentLanguage) {
       case "es":
+      case "es_sp":
         return {
           default: [
             ...baseLayout.slice(0, 2),
             "A S D F G H J K L Ñ",
             baseLayout[3],
             "Á É Í Ó Ú",
-          ],
-        };
-      case "pt":
-        return {
-          default: [...baseLayout, "Á À Â Ã É Ê", "Í Ó Ô Õ Ú Ç"],
-        };
-      case "fr":
-        return {
-          default: [
-            ...baseLayout,
-            "À Â Ä É È Ê Ë",
-            "Í Î Ï Ó Ô Ö",
-            "Ú Ù Û Ü Ç Œ",
           ],
         };
       case "en":

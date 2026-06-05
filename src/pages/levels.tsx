@@ -1,22 +1,67 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import Layout from "../components/Layout";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
-import { ALL_LEVELS, PROGRESS_KEY, TOTAL_LEVELS } from "../levels/levelsData";
 import { useLanguage } from "../i18n/LanguageContext";
+import {
+  ACERTIJOS,
+  ALEATORIO,
+  BANDERAS,
+  EMOJIS,
+  ESCUDOS,
+  FUNKOS,
+  LOGOS,
+  PELICULAS,
+  SOMBRAS,
+} from "../constanst/categories.js";
+
+const CATEGORY_LEVEL_COUNT: Record<string, number> = {
+  [ACERTIJOS]: 264,
+  [PELICULAS]: 184,
+  [LOGOS]: 100,
+  [EMOJIS]: 129,
+  [SOMBRAS]: 172,
+  [FUNKOS]: 100,
+  [ESCUDOS]: 100,
+  [BANDERAS]: 100,
+  [ALEATORIO]: 120,
+};
 
 const Levels: React.FC = () => {
   const navigate = useNavigate();
-  const { t } = useLanguage();
+  const location = useLocation();
+  const { t, currentLanguage } = useLanguage();
+  const category =
+    (location.state as { category?: string } | null)?.category ?? ACERTIJOS;
+  const totalLevels =
+    category === ACERTIJOS && currentLanguage === "en"
+      ? CATEGORY_LEVEL_COUNT[ALEATORIO]
+      : CATEGORY_LEVEL_COUNT[category] ?? 20;
+  const progressCategoryKey =
+    category === ACERTIJOS && currentLanguage === "en" ? ALEATORIO : category;
+  const progressStorageKey = `imaginalo_progress_${progressCategoryKey}`;
+  const categoryTitleByKey: Record<string, string> = {
+    [ACERTIJOS]: t.categoryRiddles,
+    [PELICULAS]: t.categoryMovies,
+    [LOGOS]: t.categoryLogos,
+    [EMOJIS]: t.categoryEmojis,
+    [SOMBRAS]: t.categoryShadows,
+    [FUNKOS]: t.categoryFunkos,
+    [ESCUDOS]: t.categoryShields,
+    [BANDERAS]: t.categoryFlags,
+    [ALEATORIO]: t.categoryRandom,
+  };
+  const levelsTitle = categoryTitleByKey[category] ?? t.categoryRiddles;
+
   const [unlockedLevel, setUnlockedLevel] = useState(() => {
-    const savedProgress = localStorage.getItem(PROGRESS_KEY);
+    const savedProgress = localStorage.getItem(progressStorageKey);
     if (savedProgress) {
       return parseInt(savedProgress, 10);
     } else {
-      localStorage.setItem(PROGRESS_KEY, "1");
+      localStorage.setItem(progressStorageKey, "1");
       return 1;
     }
   });
@@ -24,9 +69,11 @@ const Levels: React.FC = () => {
   // Actualizar progreso cuando el componente se hace visible
   useEffect(() => {
     const handleFocus = () => {
-      const savedProgress = localStorage.getItem(PROGRESS_KEY);
+      const savedProgress = localStorage.getItem(progressStorageKey);
       if (savedProgress) {
         setUnlockedLevel(parseInt(savedProgress, 10));
+      } else {
+        setUnlockedLevel(1);
       }
     };
 
@@ -37,14 +84,14 @@ const Levels: React.FC = () => {
       window.removeEventListener("focus", handleFocus);
       document.removeEventListener("visibilitychange", handleFocus);
     };
-  }, []);
+  }, [progressStorageKey]);
 
   // Scroll animado al primer nivel bloqueado o al último si todos están desbloqueados
   useEffect(() => {
     const firstLockedLevel = unlockedLevel + 1;
 
     setTimeout(() => {
-      if (firstLockedLevel <= TOTAL_LEVELS) {
+      if (firstLockedLevel <= totalLevels) {
         const lockedElement = document.querySelector(
           `[data-level="${firstLockedLevel}"]`,
         );
@@ -57,7 +104,7 @@ const Levels: React.FC = () => {
         }
       } else {
         const lastElement = document.querySelector(
-          `[data-level="${TOTAL_LEVELS}"]`,
+          `[data-level="${totalLevels}"]`,
         );
         if (lastElement) {
           lastElement.scrollIntoView({
@@ -71,14 +118,13 @@ const Levels: React.FC = () => {
   }, [unlockedLevel]);
 
   const handleClearProgress = () => {
-    localStorage.removeItem(PROGRESS_KEY);
+    localStorage.removeItem(progressStorageKey);
     setUnlockedLevel(1);
   };
 
   const handleLevelClick = (level: number) => {
     if (level <= unlockedLevel) {
-      // TODO: Cambiar "/game" por la ruta de tu juego
-      navigate(`/game`, { state: { level } });
+      navigate(`/game`, { state: { level, category } });
     }
   };
 
@@ -97,7 +143,7 @@ const Levels: React.FC = () => {
   ];
 
   // Generar los pares de emojis según la cantidad real de niveles
-  const numberEmojis = Array.from({ length: TOTAL_LEVELS }, (_, i) => {
+  const numberEmojis = Array.from({ length: totalLevels }, (_, i) => {
     const n = i + 1;
     const isUnlocked = n <= unlockedLevel;
 
@@ -125,7 +171,7 @@ const Levels: React.FC = () => {
     );
   });
 
-  const levels = Array(TOTAL_LEVELS).fill(null);
+  const levels = Array(totalLevels).fill(null);
 
   return (
     <Layout>
@@ -139,14 +185,15 @@ const Levels: React.FC = () => {
           width: "100%",
           maxWidth: 400,
           margin: "0 auto",
+          px: 2,
         }}
       >
         {/* TODO: Cambiar por el título de tu juego */}
         <Typography
           variant="h4"
-          sx={{ mb: 3, color: "#fff", fontWeight: 700, textAlign: "center" }}
+          sx={{ mb: 2, color: "#fff", fontWeight: 700, textAlign: "center" }}
         >
-          {t.findEmoji}
+          {levelsTitle}
         </Typography>
         <Typography
           variant="body1"
@@ -158,7 +205,7 @@ const Levels: React.FC = () => {
           sx={{
             display: "grid",
             gridTemplateColumns: "repeat(4, 1fr)",
-            gap: 1,
+            gap: 0.75,
             width: "100%",
             boxSizing: "border-box",
           }}

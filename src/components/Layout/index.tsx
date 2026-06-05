@@ -18,6 +18,18 @@ import { useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useLanguage } from "../../i18n/LanguageContext";
 import { SupportedLanguage } from "../../i18n/translations";
+import { LAST_PLAYED_CATEGORY_KEY } from "../../levels/levelsData";
+import {
+  ACERTIJOS,
+  ALEATORIO,
+  BANDERAS,
+  EMOJIS,
+  ESCUDOS,
+  FUNKOS,
+  LOGOS,
+  PELICULAS,
+  SOMBRAS,
+} from "../../constanst/categories.js";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -25,6 +37,8 @@ interface LayoutProps {
   hits?: number;
   plays?: number;
   isGridScreen?: boolean;
+  headerTitle?: string;
+  headerRight?: React.ReactNode;
 }
 
 // TODO: Personalizar con los emojis/decoraciones de tu juego
@@ -85,6 +99,8 @@ const Layout: React.FC<LayoutProps> = ({
   hits,
   plays,
   isGridScreen = false,
+  headerTitle,
+  headerRight,
 }) => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -97,6 +113,10 @@ const Layout: React.FC<LayoutProps> = ({
   const [languageMenuOpen, setLanguageMenuOpen] = useState(false);
 
   const isGameRoute = GAME_ROUTES.includes(location.pathname);
+  const routeCategory =
+    (location.state as { category?: string } | null)?.category ??
+    localStorage.getItem(LAST_PLAYED_CATEGORY_KEY) ??
+    ACERTIJOS;
 
   // Funciones para manejar el dialog de salida
   const handleExitClick = () => {
@@ -136,6 +156,23 @@ const Layout: React.FC<LayoutProps> = ({
     setMenuOpen(false);
     navigate(path);
   };
+
+  const handleCategoryNavigation = (category: string) => {
+    setMenuOpen(false);
+    navigate("/levels", { state: { category } });
+  };
+
+  const categoryMenuItems = [
+    { key: ACERTIJOS, label: t.categoryRiddles },
+    { key: PELICULAS, label: t.categoryMovies },
+    { key: LOGOS, label: t.categoryLogos },
+    { key: EMOJIS, label: t.categoryEmojis },
+    { key: SOMBRAS, label: t.categoryShadows },
+    { key: FUNKOS, label: t.categoryFunkos },
+    { key: ESCUDOS, label: t.categoryShields },
+    { key: BANDERAS, label: t.categoryFlags },
+    { key: ALEATORIO, label: t.categoryRandom },
+  ];
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -250,7 +287,7 @@ const Layout: React.FC<LayoutProps> = ({
             borderBottom: "2px solid #e74c3c",
             background: "#fff",
             boxShadow: "0 2px 8px rgba(0,0,0,0.04)",
-            width: "calc(100% - 32px)",
+            width: "100%",
             position: "relative",
             zIndex: 10,
           }}
@@ -266,7 +303,9 @@ const Layout: React.FC<LayoutProps> = ({
                 zIndex: 3,
                 cursor: "pointer",
               }}
-              onClick={() => navigate(-1)}
+              onClick={() =>
+                navigate("/levels", { state: { category: routeCategory } })
+              }
               aria-label="Volver"
             >
               <svg
@@ -347,21 +386,37 @@ const Layout: React.FC<LayoutProps> = ({
               left: "50%",
               top: "50%",
               transform: "translate(-50%, -50%)",
-              fontFamily: "Lobster, cursive",
-              fontSize: 40,
+              fontFamily: headerTitle ? '"Roboto","Helvetica","Arial",sans-serif' : "Lobster, cursive",
+              fontSize: headerTitle ? 26 : 40,
               color: "#e74c3c",
               letterSpacing: 1,
               cursor: "pointer",
               zIndex: 2,
               width: "max-content",
             }}
-            onClick={() => window.location.replace("/")}
+            onClick={() => headerTitle ? null : window.location.replace("/")}
           >
-            {/* TODO: Cambiar por el nombre de tu juego */}
-            Game
+            {headerTitle ?? "Imaginalo"}
           </Box>
           {/* Counter at right */}
-          {typeof hits === "number" && typeof plays === "number" && (
+          {headerRight ? (
+            <Box
+              sx={{
+                position: "absolute",
+                right: 4,
+                top: "50%",
+                transform: "translateY(-50%)",
+                fontSize: 20,
+                color: "#e74c3c",
+                fontWeight: 700,
+                background: "#fff",
+                px: 2,
+                borderRadius: 2,
+              }}
+            >
+              {headerRight}
+            </Box>
+          ) : typeof hits === "number" && typeof plays === "number" ? (
             <Box
               sx={{
                 position: "absolute",
@@ -380,7 +435,7 @@ const Layout: React.FC<LayoutProps> = ({
             >
               {hits}/{plays}
             </Box>
-          )}
+          ) : null}
         </Box>
       )}
       <Container
@@ -439,7 +494,7 @@ const Layout: React.FC<LayoutProps> = ({
               px: 2,
             }}
           >
-            Game
+            Imaginalo
           </Box>
           <List>
             <ListItem disablePadding>
@@ -465,29 +520,32 @@ const Layout: React.FC<LayoutProps> = ({
                 />
               </ListItemButton>
             </ListItem>
-            <ListItem disablePadding>
-              <ListItemButton
-                onClick={() => handleMenuNavigation("/levels")}
-                sx={{
-                  px: 3,
-                  py: 2,
-                  backgroundColor: "#fff",
-                  borderBottom: "1px solid #e0e0e0",
-                  "&:hover": {
-                    backgroundColor: "#f5f5f5",
-                  },
-                }}
-              >
-                <ListItemText
-                  primary={t.findEmojiMenu}
-                  primaryTypographyProps={{
-                    fontSize: 22,
-                    fontWeight: 500,
-                    color: "#e74c3c",
+
+            {categoryMenuItems.map((item) => (
+              <ListItem key={item.key} disablePadding>
+                <ListItemButton
+                  onClick={() => handleCategoryNavigation(item.key)}
+                  sx={{
+                    px: 3,
+                    py: 2,
+                    backgroundColor: "#fff",
+                    borderBottom: "1px solid #e0e0e0",
+                    "&:hover": {
+                      backgroundColor: "#f5f5f5",
+                    },
                   }}
-                />
-              </ListItemButton>
-            </ListItem>
+                >
+                  <ListItemText
+                    primary={item.label}
+                    primaryTypographyProps={{
+                      fontSize: 22,
+                      fontWeight: 500,
+                      color: "#e74c3c",
+                    }}
+                  />
+                </ListItemButton>
+              </ListItem>
+            ))}
 
             {/* Opción de idiomas */}
             <ListItem disablePadding>
@@ -519,7 +577,10 @@ const Layout: React.FC<LayoutProps> = ({
             <Collapse in={languageMenuOpen} timeout="auto" unmountOnExit>
               <List component="div" disablePadding>
                 {availableLanguages.map((language) => (
-                  <ListItem key={language.code} disablePadding>
+                  <ListItem
+                    key={`${language.code}-${language.name}`}
+                    disablePadding
+                  >
                     <ListItemButton
                       onClick={() => handleLanguageChange(language.code)}
                       sx={{

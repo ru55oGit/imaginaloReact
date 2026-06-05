@@ -1,4 +1,11 @@
-import { ComponentType, Suspense, lazy, useMemo, useState } from "react";
+import {
+  ComponentType,
+  Suspense,
+  lazy,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
 import { useNavigate } from "react-router-dom";
 import Layout from "../components/Layout";
 import Button from "@mui/material/Button";
@@ -31,65 +38,63 @@ const allCategories = [
   ALEATORIO,
 ] as const;
 
+const adivinanzasModules = import.meta.glob(
+  "../components/SVG/Adivinanzas/adivinanzas*.js",
+);
+const wuzzlesModules = import.meta.glob("../components/SVG/Wuzzles/wuzzles*.js");
+
 const previewByCategory: Record<
   string,
   {
-    label: string;
     modules: Record<string, () => Promise<unknown>>;
     getPath: (level: number) => string;
   }
 > = {
   [ACERTIJOS]: {
-    label: "Adivinanzas",
-    modules: import.meta.glob("../components/SVG/Adivinanzas/adivinanzas*.js"),
+    modules: adivinanzasModules,
     getPath: (level) => `../components/SVG/Adivinanzas/adivinanzas${level}.js`,
   },
   [PELICULAS]: {
-    label: "Peliculas",
     modules: import.meta.glob("../components/SVG/Peliculas/peliculas*.js"),
     getPath: (level) => `../components/SVG/Peliculas/peliculas${level}.js`,
   },
   [LOGOS]: {
-    label: "Logos",
     modules: import.meta.glob("../components/SVG/Logos/marcas*.js"),
     getPath: (level) => `../components/SVG/Logos/marcas${level}.js`,
   },
   [EMOJIS]: {
-    label: "Emojis",
     modules: import.meta.glob("../components/SVG/Emojis/emojis*.js"),
     getPath: (level) => `../components/SVG/Emojis/emojis${level}.js`,
   },
   [SOMBRAS]: {
-    label: "Sombras",
     modules: import.meta.glob("../components/SVG/Sombras/sombras*.js"),
     getPath: (level) => `../components/SVG/Sombras/sombras${level}.js`,
   },
   [FUNKOS]: {
-    label: "Funkos",
     modules: import.meta.glob("../components/SVG/Funkos/funkos*.js"),
     getPath: (level) => `../components/SVG/Funkos/funkos${level}.js`,
   },
   [ESCUDOS]: {
-    label: "Escudos",
     modules: import.meta.glob("../components/SVG/Escudos/escudos*.js"),
     getPath: (level) => `../components/SVG/Escudos/escudos${level}.js`,
   },
   [BANDERAS]: {
-    label: "Banderas",
     modules: import.meta.glob("../components/SVG/Banderas/banderas*.js"),
     getPath: (level) => `../components/SVG/Banderas/banderas${level}.js`,
   },
   [ALEATORIO]: {
-    label: "Aleatorio",
-    modules: import.meta.glob("../components/SVG/Wuzzles/wuzzles*.js"),
+    modules: wuzzlesModules,
     getPath: (level) => `../components/SVG/Wuzzles/wuzzles${level}.js`,
   },
 };
 
 export default function WelcomeScreen() {
   const navigate = useNavigate();
-  const { t } = useLanguage();
+  const { t, currentLanguage } = useLanguage();
   const [selectedChip, setSelectedChip] = useState<string>(ACERTIJOS);
+  const [categoryProgress, setCategoryProgress] = useState<Record<string, number>>(
+    {},
+  );
 
   const lastPlayedAt = localStorage.getItem(LAST_PLAYED_AT_KEY);
   const hasPlayedBefore = Boolean(lastPlayedAt);
@@ -107,11 +112,75 @@ export default function WelcomeScreen() {
       ? `${t.goodMorning}, ${t.daysWithoutTrainingMessage.replace("{{days}}", String(inactivityDays))}`
       : t.goodMorning;
 
-  const previewConfig = previewByCategory[selectedChip] ?? previewByCategory[ACERTIJOS];
-  const previewLevel = 1;
+  const getPreviewConfigByLanguage = (category: string) => {
+    // In English, riddles use Wuzzles assets.
+    if (category === ACERTIJOS && currentLanguage === "en") {
+      return {
+        ...previewByCategory[ACERTIJOS],
+        modules: previewByCategory[ALEATORIO].modules,
+        getPath: previewByCategory[ALEATORIO].getPath,
+      };
+    }
+
+    return previewByCategory[category] ?? previewByCategory[ACERTIJOS];
+  };
+
+  const getProgressStorageKey = (category: string) => {
+    const effectiveCategory =
+      category === ACERTIJOS && currentLanguage === "en" ? ALEATORIO : category;
+
+    return `imaginalo_progress_${effectiveCategory}`;
+  };
+
+  useEffect(() => {
+    const readProgressByCategory = () => {
+      const nextProgress: Record<string, number> = {};
+
+      allCategories.forEach((category) => {
+        const config = getPreviewConfigByLanguage(category);
+        const maxLevel = Math.max(1, Object.keys(config.modules).length);
+        const stored = parseInt(
+          localStorage.getItem(getProgressStorageKey(category)) || "1",
+          10,
+        );
+        const safeLevel = Number.isFinite(stored)
+          ? Math.min(Math.max(stored, 1), maxLevel)
+          : 1;
+
+        nextProgress[category] = safeLevel;
+      });
+
+      setCategoryProgress(nextProgress);
+    };
+
+    const handleFocus = () => readProgressByCategory();
+
+    readProgressByCategory();
+    window.addEventListener("focus", handleFocus);
+    document.addEventListener("visibilitychange", handleFocus);
+
+    return () => {
+      window.removeEventListener("focus", handleFocus);
+      document.removeEventListener("visibilitychange", handleFocus);
+    };
+  }, [currentLanguage]);
+
+  const previewConfig = getPreviewConfigByLanguage(selectedChip);
+  const previewLevel = categoryProgress[selectedChip] ?? 1;
   const maxLevel = Math.max(1, Object.keys(previewConfig.modules).length);
-  const categoryLabel = previewConfig.label;
-  const levelProgressText = `${previewLevel} de ${maxLevel}`;
+  const categoryLabels: Record<string, string> = {
+    [ACERTIJOS]: t.categoryRiddles,
+    [PELICULAS]: t.categoryMovies,
+    [SOMBRAS]: t.categoryShadows,
+    [FUNKOS]: t.categoryFunkos,
+    [ESCUDOS]: t.categoryShields,
+    [BANDERAS]: t.categoryFlags,
+    [ALEATORIO]: t.categoryRandom,
+    [EMOJIS]: t.categoryEmojis,
+    [LOGOS]: t.categoryLogos,
+  };
+  const categoryLabel = categoryLabels[selectedChip] ?? t.categoryRiddles;
+  const levelProgressText = `${previewLevel} ${t.ofWord} ${maxLevel}`;
 
   const modulePath = previewConfig.getPath(previewLevel);
   const moduleLoader =
@@ -121,23 +190,12 @@ export default function WelcomeScreen() {
     return lazy(moduleLoader as () => Promise<{ default: ComponentType }>);
   }, [moduleLoader]);
 
-  const categoryLabels: Record<string, string> = {
-    [ACERTIJOS]: "ACERTIJOS",
-    [PELICULAS]: "PELICULAS",
-    [SOMBRAS]: "SOMBRAS",
-    [FUNKOS]: "FUNKOS",
-    [ESCUDOS]: "ESCUDOS",
-    [BANDERAS]: "BANDERAS",
-    [ALEATORIO]: "ALEATORIO",
-    [EMOJIS]: "EMOJIS",
-    [LOGOS]: "LOGOS",
-  };
-
   const cardPreviewByCategory = useMemo(() => {
     const entries = allCategories.map((key) => {
-      const config = previewByCategory[key];
-      const firstPath = config.getPath(1);
-      const loader = config.modules[firstPath] ?? Object.values(config.modules)[0];
+      const config = getPreviewConfigByLanguage(key);
+      const level = categoryProgress[key] ?? 1;
+      const path = config.getPath(level);
+      const loader = config.modules[path] ?? Object.values(config.modules)[0];
 
       if (!loader) return [key, null] as const;
 
@@ -151,12 +209,12 @@ export default function WelcomeScreen() {
       string,
       ReturnType<typeof lazy> | null
     >;
-  }, []);
+  }, [categoryProgress, currentLanguage]);
 
   const categoryCards = allCategories.map((key) => ({
     key,
     preview: cardPreviewByCategory[key],
-    level: "NIV 1",
+    level: `${t.levelShort} ${categoryProgress[key] ?? 1}`,
   }));
 
   return (
@@ -286,7 +344,7 @@ export default function WelcomeScreen() {
         >
           <Button
             variant="contained"
-            onClick={() => navigate("/levels")}
+            onClick={() => navigate("/levels", { state: { category: selectedChip } })}
             sx={{
               alignSelf: "flex-start",
               borderRadius: 999,
@@ -306,7 +364,7 @@ export default function WelcomeScreen() {
               },
             }}
           >
-            Jugar
+            {t.playButton}
           </Button>
 
           <Box
@@ -367,7 +425,7 @@ export default function WelcomeScreen() {
               letterSpacing: "1px",
             }}
           >
-            CATEGORIAS
+            {t.categoriesTitle}
           </Typography>
         </Box>
 
@@ -420,12 +478,27 @@ export default function WelcomeScreen() {
           {categoryCards.map((card) => (
             <Box
               key={card.key}
+              onClick={() => navigate("/levels", { state: { category: card.key } })}
+              role="button"
+              tabIndex={0}
+              onKeyDown={(event) => {
+                if (event.key === "Enter" || event.key === " ") {
+                  event.preventDefault();
+                  navigate("/levels", { state: { category: card.key } });
+                }
+              }}
               sx={{
                 borderRadius: 4,
                 overflow: "hidden",
                 backgroundColor: "#fff",
                 border: "1px solid #e3e3e3",
                 boxShadow: "0 1px 2px rgba(0, 0, 0, 0.05)",
+                cursor: "pointer",
+                transition: "transform 0.15s ease, box-shadow 0.15s ease",
+                "&:hover": {
+                  transform: "translateY(-2px)",
+                  boxShadow: "0 6px 14px rgba(0, 0, 0, 0.08)",
+                },
               }}
             >
               <Box

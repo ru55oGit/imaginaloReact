@@ -49,15 +49,17 @@ const LanguageSelector: React.FC = () => {
         <IconButton
           onClick={handleClick}
           sx={{
-            backgroundColor: "rgba(255, 255, 255, 0.2)",
+            backgroundColor: "rgba(255, 255, 255, 0.92)",
             backdropFilter: "blur(10px)",
-            border: "1px solid rgba(255, 255, 255, 0.3)",
-            color: "#fff",
+            border: "1px solid rgba(231, 76, 60, 0.35)",
+            color: "#e74c3c",
             width: 48,
             height: 48,
             fontSize: "20px",
+            boxShadow: "0 6px 14px rgba(0, 0, 0, 0.18)",
             "&:hover": {
-              backgroundColor: "rgba(255, 255, 255, 0.3)",
+              backgroundColor: "#ffffff",
+              color: "#d94836",
             },
           }}
           aria-describedby={id}
@@ -100,7 +102,10 @@ const LanguageSelector: React.FC = () => {
         >
           <List sx={{ py: 0 }}>
             {availableLanguages.map((language) => (
-              <ListItem key={language.code} disablePadding>
+              <ListItem
+                key={`${language.code}-${language.name}`}
+                disablePadding
+              >
                 <ListItemButton
                   onClick={() => handleLanguageSelect(language.code)}
                   selected={currentLanguage === language.code}

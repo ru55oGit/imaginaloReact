@@ -9,7 +9,6 @@ import {
   Translation,
   translations,
   SupportedLanguage,
-  getLanguageByCountry,
 } from "./translations";
 
 interface LanguageContextType {
@@ -30,11 +29,18 @@ const LanguageContext = createContext<LanguageContextType | undefined>(
 const LANGUAGE_STORAGE_KEY = "emojinalo_language";
 
 export const availableLanguages = [
-  { code: "es" as SupportedLanguage, name: "Español", flag: "🇦🇷" },
+  { code: "es" as SupportedLanguage, name: "Español (Latam)", flag: "🇦🇷" },
+  {
+    code: "es_sp" as SupportedLanguage,
+    name: "Español (España)",
+    flag: "🇪🇸",
+  },
   { code: "en" as SupportedLanguage, name: "English", flag: "🇺🇸" },
-  { code: "pt" as SupportedLanguage, name: "Português", flag: "🇧🇷" },
-  { code: "fr" as SupportedLanguage, name: "Français", flag: "🇫🇷" },
 ];
+
+const isSupportedLanguage = (value: string): value is SupportedLanguage => {
+  return value === "es" || value === "es_sp" || value === "en";
+};
 
 interface LanguageProviderProps {
   children: ReactNode;
@@ -52,11 +58,9 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
     if (hasInitialized) return;
 
     // Check if user has previously selected a language
-    const savedLanguage = localStorage.getItem(
-      LANGUAGE_STORAGE_KEY,
-    ) as SupportedLanguage;
+    const savedLanguage = localStorage.getItem(LANGUAGE_STORAGE_KEY);
 
-    if (savedLanguage && translations[savedLanguage]) {
+    if (savedLanguage && isSupportedLanguage(savedLanguage)) {
       setCurrentLanguage(savedLanguage);
     } else {
       // Default to Spanish for now

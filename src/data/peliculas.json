@@ -50,19 +50,19 @@
     },
     {
       "titulo:": "Peliculas",
-      "respuesta": "el silencio de|los inocentes",
+      "respuesta": "el silencio|de los|inocentes",
       "pregunta": "9",
       "categorias": "Peliculas"
     },
     {
       "titulo:": "Peliculas",
-      "respuesta": "el joven manos|de tijera",
+      "respuesta": "el joven|manos|de tijera",
       "pregunta": "10",
       "categorias": "Peliculas"
     },
     {
       "titulo:": "Peliculas",
-      "respuesta": "rescate en la|antartida",
+      "respuesta": "rescate|en la|antartida",
       "pregunta": "11",
       "categorias": "Peliculas"
     },
@@ -116,7 +116,7 @@
     },
     {
       "titulo:": "Peliculas",
-      "respuesta": "guardianes de|la galaxia",
+      "respuesta": "guardianes|de la|galaxia",
       "pregunta": "20",
       "categorias": "Peliculas"
     },
@@ -128,7 +128,7 @@
     },
     {
       "titulo:": "Peliculas",
-      "respuesta": "intensamente",
+      "respuesta": "intensa|mente",
       "pregunta": "22",
       "categorias": "Peliculas"
     },
@@ -146,7 +146,7 @@
     },
     {
       "titulo:": "Peliculas",
-      "respuesta": "una aventura|extraordinaria",
+      "respuesta": "una aventura|extra|ordinaria",
       "pregunta": "25",
       "categorias": "Peliculas"
     },

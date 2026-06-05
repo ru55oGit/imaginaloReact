@@ -1,90 +1,406 @@
-import React, { useState, useEffect } from "react";
+import React, {
+  ComponentType,
+  Suspense,
+  lazy,
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import Layout from "../components/Layout";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
-import {
-  ADIVINANZAS_PROGRESS_KEY,
-  getLevelData,
-  LAST_PLAYED_CATEGORY_KEY,
-  LAST_PLAYED_AT_KEY,
-  PROGRESS_KEY,
-  TOTAL_LEVELS,
-} from "../levels/levelsData";
+import Button from "@mui/material/Button";
+import Paper from "@mui/material/Paper";
+import { LAST_PLAYED_AT_KEY, LAST_PLAYED_CATEGORY_KEY } from "../levels/levelsData";
 import { useLanguage } from "../i18n/LanguageContext";
-import { useIsMobile } from "../hooks/useIsMobile";
+import {
+  ACERTIJOS,
+  ALEATORIO,
+  BANDERAS,
+  EMOJIS,
+  ESCUDOS,
+  FUNKOS,
+  LOGOS,
+  PELICULAS,
+  SOMBRAS,
+} from "../constanst/categories.js";
+import VirtualKeyboard from "../components/VirtualKeyboard";
+import { normalizeText } from "../utils/textNormalization";
+
+import adivinanzasData from "../data/adivinanzas.json";
+import peliculasData from "../data/peliculas.json";
+import peliculasEnData from "../data/peliculas_en.json";
+import peliculasSpData from "../data/peliculas_sp.json";
+import marcasData from "../data/marcas.json";
+import emojisData from "../data/emojis.json";
+import emojisEnData from "../data/emojis_en.json";
+import emojisSpData from "../data/emojis_sp.json";
+import sombrasData from "../data/sombras.json";
+import sombrasEnData from "../data/sombras_en.json";
+import sombrasSpData from "../data/sombras_sp.json";
+import funkosData from "../data/funkos.json";
+import funkosEnData from "../data/funkos_en.json";
+import funkosSpData from "../data/funkos_sp.json";
+import escudosData from "../data/escudos.json";
+import banderasData from "../data/banderas.json";
+import banderasEnData from "../data/banderas_en.json";
+import wuzzlesData from "../data/wuzzles.json";
 
 interface LocationState {
   level?: number;
+  category?: string;
 }
+
+interface DataEntry {
+  respuesta?: string;
+}
+
+interface DataCollection {
+  listado?: DataEntry[];
+  preguntas?: DataEntry[];
+}
+
+const LEVEL_COUNT_BY_CATEGORY: Record<string, number> = {
+  [ACERTIJOS]: 264,
+  [PELICULAS]: 184,
+  [LOGOS]: 100,
+  [EMOJIS]: 129,
+  [SOMBRAS]: 172,
+  [FUNKOS]: 100,
+  [ESCUDOS]: 100,
+  [BANDERAS]: 100,
+  [ALEATORIO]: 120,
+};
+
+const svgByCategory: Record<
+  string,
+  {
+    modules: Record<string, () => Promise<unknown>>;
+    getPath: (level: number) => string;
+  }
+> = {
+  [ACERTIJOS]: {
+    modules: import.meta.glob("../components/SVG/Adivinanzas/adivinanzas*.js"),
+    getPath: (level) => `../components/SVG/Adivinanzas/adivinanzas${level}.js`,
+  },
+  [PELICULAS]: {
+    modules: import.meta.glob("../components/SVG/Peliculas/peliculas*.js"),
+    getPath: (level) => `../components/SVG/Peliculas/peliculas${level}.js`,
+  },
+  [LOGOS]: {
+    modules: import.meta.glob("../components/SVG/Logos/marcas*.js"),
+    getPath: (level) => `../components/SVG/Logos/marcas${level}.js`,
+  },
+  [EMOJIS]: {
+    modules: import.meta.glob("../components/SVG/Emojis/emojis*.js"),
+    getPath: (level) => `../components/SVG/Emojis/emojis${level}.js`,
+  },
+  [SOMBRAS]: {
+    modules: import.meta.glob("../components/SVG/Sombras/sombras*.js"),
+    getPath: (level) => `../components/SVG/Sombras/sombras${level}.js`,
+  },
+  [FUNKOS]: {
+    modules: import.meta.glob("../components/SVG/Funkos/funkos*.js"),
+    getPath: (level) => `../components/SVG/Funkos/funkos${level}.js`,
+  },
+  [ESCUDOS]: {
+    modules: import.meta.glob("../components/SVG/Escudos/escudos*.js"),
+    getPath: (level) => `../components/SVG/Escudos/escudos${level}.js`,
+  },
+  [BANDERAS]: {
+    modules: import.meta.glob("../components/SVG/Banderas/banderas*.js"),
+    getPath: (level) => `../components/SVG/Banderas/banderas${level}.js`,
+  },
+  [ALEATORIO]: {
+    modules: import.meta.glob("../components/SVG/Wuzzles/wuzzles*.js"),
+    getPath: (level) => `../components/SVG/Wuzzles/wuzzles${level}.js`,
+  },
+};
+
+const isGuessableChar = (char: string): boolean => /[\p{L}\p{N}]/u.test(char);
+
+const getEntries = (source: DataCollection): DataEntry[] =>
+  source.listado ?? source.preguntas ?? [];
+
+const getEffectiveCategory = (category: string, language: string): string => {
+  if (category === ACERTIJOS && language === "en") {
+    return ALEATORIO;
+  }
+
+  return category;
+};
+
+const getEntriesByCategoryAndLanguage = (
+  category: string,
+  language: string,
+): DataEntry[] => {
+  const pickEntries = (
+    latam: DataCollection,
+    en?: DataCollection,
+    sp?: DataCollection,
+  ): DataEntry[] => {
+    if (language === "en") {
+      const enEntries = en ? getEntries(en) : [];
+      return enEntries.length > 0 ? enEntries : getEntries(latam);
+    }
+
+    if (language === "es_sp") {
+      const spEntries = sp ? getEntries(sp) : [];
+      return spEntries.length > 0 ? spEntries : getEntries(latam);
+    }
+
+    return getEntries(latam);
+  };
+
+  switch (category) {
+    case ACERTIJOS:
+      return language === "en"
+        ? getEntries(wuzzlesData as DataCollection)
+        : getEntries(adivinanzasData as DataCollection);
+    case PELICULAS:
+      return pickEntries(
+        peliculasData as DataCollection,
+        peliculasEnData as DataCollection,
+        peliculasSpData as DataCollection,
+      );
+    case EMOJIS:
+      return pickEntries(
+        emojisData as DataCollection,
+        emojisEnData as DataCollection,
+        emojisSpData as DataCollection,
+      );
+    case SOMBRAS:
+      return pickEntries(
+        sombrasData as DataCollection,
+        sombrasEnData as DataCollection,
+        sombrasSpData as DataCollection,
+      );
+    case FUNKOS:
+      return pickEntries(
+        funkosData as DataCollection,
+        funkosEnData as DataCollection,
+        funkosSpData as DataCollection,
+      );
+    case ESCUDOS:
+      return getEntries(escudosData as DataCollection);
+    case BANDERAS:
+      return pickEntries(
+        banderasData as DataCollection,
+        banderasEnData as DataCollection,
+      );
+    case LOGOS:
+      return getEntries(marcasData as DataCollection);
+    case ALEATORIO:
+      return getEntries(wuzzlesData as DataCollection);
+    default:
+      return getEntries(adivinanzasData as DataCollection);
+  }
+};
 
 const Game: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const { t } = useLanguage();
-  const isMobile = useIsMobile();
+  const { t, currentLanguage } = useLanguage();
 
-  // Obtener nivel desde el estado de navegación
   const state = location.state as LocationState;
-  const level = state?.level ?? 1;
+  const category = state?.category ?? ACERTIJOS;
+  const level = Math.max(1, state?.level ?? 1);
+  const effectiveCategory = getEffectiveCategory(category, currentLanguage);
+  const totalLevels = LEVEL_COUNT_BY_CATEGORY[effectiveCategory] ?? 1;
+  const progressStorageKey = `imaginalo_progress_${effectiveCategory}`;
 
-  const [hits, setHits] = useState(0);
-  const [plays, setPlays] = useState(0);
+  const entries = useMemo(
+    () => getEntriesByCategoryAndLanguage(category, currentLanguage),
+    [category, currentLanguage],
+  );
+
+  const answer = (entries[level - 1]?.respuesta ?? "").toString().trim();
+  const answerChars = useMemo(() => answer.split(""), [answer]);
+  const answerRows = useMemo(() => {
+    const rows: number[][] = [];
+    let currentRow: number[] = [];
+
+    answerChars.forEach((char, index) => {
+      if (char === "|") {
+        rows.push(currentRow);
+        currentRow = [];
+      } else {
+        currentRow.push(index);
+      }
+    });
+
+    rows.push(currentRow);
+
+    return rows;
+  }, [answerChars]);
+
+  const svgConfig = svgByCategory[effectiveCategory] ?? svgByCategory[ACERTIJOS];
+  const svgPath = svgConfig.getPath(level);
+  const svgLoader =
+    svgConfig.modules[svgPath] ?? Object.values(svgConfig.modules)[level - 1];
+  const PuzzleImage = useMemo(() => {
+    if (!svgLoader) return null;
+
+    return lazy(svgLoader as () => Promise<{ default: ComponentType }>);
+  }, [svgLoader]);
+
+  const [revealedChars, setRevealedChars] = useState<boolean[]>([]);
+  const [guessedLetters, setGuessedLetters] = useState<string[]>([]);
+  const [wrongLetters, setWrongLetters] = useState<string[]>([]);
+  const [lives, setLives] = useState(3);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
+  const [showFailModal, setShowFailModal] = useState(false);
 
-  // Cargar datos del nivel
-  const levelData = getLevelData(level);
+  const categoryLabelByKey: Record<string, string> = {
+    [ACERTIJOS]: t.categoryRiddles,
+    [PELICULAS]: t.categoryMovies,
+    [LOGOS]: t.categoryLogos,
+    [EMOJIS]: t.categoryEmojis,
+    [SOMBRAS]: t.categoryShadows,
+    [FUNKOS]: t.categoryFunkos,
+    [ESCUDOS]: t.categoryShields,
+    [BANDERAS]: t.categoryFlags,
+    [ALEATORIO]: t.categoryRandom,
+  };
+
+  const displayCategory = categoryLabelByKey[category] ?? t.categoryRiddles;
 
   useEffect(() => {
-    if (!levelData) {
-      // Nivel inválido, volver a niveles
-      navigate("/levels");
+    if (!answer || !PuzzleImage || level > totalLevels) {
+      navigate("/levels", { state: { category } });
       return;
     }
 
-    // Guarda la ultima vez que el usuario entro a jugar.
     localStorage.setItem(LAST_PLAYED_AT_KEY, new Date().toISOString());
-    // La pantalla /game hoy representa Adivinanzas.
-    localStorage.setItem(LAST_PLAYED_CATEGORY_KEY, "adivinanzas");
-  }, [levelData, navigate]);
+    localStorage.setItem(LAST_PLAYED_CATEGORY_KEY, effectiveCategory);
+  }, [answer, PuzzleImage, category, effectiveCategory, level, navigate, totalLevels]);
 
-  // Guardar progreso y avanzar al siguiente nivel
-  const handleSuccess = () => {
-    const nextLevel = level + 1;
-    const currentProgress = parseInt(
-      localStorage.getItem(PROGRESS_KEY) || "1",
-      10,
-    );
+  useEffect(() => {
+    setRevealedChars(answerChars.map((char) => !isGuessableChar(char)));
+    setGuessedLetters([]);
+    setWrongLetters([]);
+    setLives(3);
+    setShowSuccessModal(false);
+    setShowFailModal(false);
+  }, [answerChars]);
 
-    if (level >= currentProgress) {
-      localStorage.setItem(PROGRESS_KEY, nextLevel.toString());
-      localStorage.setItem(ADIVINANZAS_PROGRESS_KEY, nextLevel.toString());
-    }
+  const handleGuess = useCallback(
+    (key: string) => {
+      if (showSuccessModal || showFailModal || !answer) return;
 
-    setShowSuccessModal(true);
+      const normalizedGuess = normalizeText(key).trim().charAt(0);
+      if (!normalizedGuess || guessedLetters.includes(normalizedGuess)) return;
 
-    setTimeout(() => {
-      setShowSuccessModal(false);
-      if (nextLevel <= TOTAL_LEVELS) {
-        navigate("/game", { state: { level: nextLevel } });
-      } else {
-        // Completó todos los niveles
-        navigate("/levels");
+      let hasHit = false;
+      const nextRevealed = [...revealedChars];
+
+      answerChars.forEach((char, index) => {
+        if (
+          isGuessableChar(char) &&
+          normalizeText(char).charAt(0) === normalizedGuess
+        ) {
+          nextRevealed[index] = true;
+          hasHit = true;
+        }
+      });
+
+      const isSolved = answerChars.every(
+        (char, index) => !isGuessableChar(char) || nextRevealed[index],
+      );
+
+      setGuessedLetters((prev) => [...prev, normalizedGuess]);
+      setRevealedChars(nextRevealed);
+
+      if (hasHit) {
+        if (isSolved) {
+          setShowSuccessModal(true);
+        }
+        return;
       }
-    }, 3000);
+
+      setWrongLetters((prev) => [...prev, normalizedGuess]);
+
+      const nextLives = lives - 1;
+      setLives(nextLives);
+      if (nextLives <= 0) {
+        setShowFailModal(true);
+      }
+    },
+    [
+      answer,
+      answerChars,
+      guessedLetters,
+      lives,
+      revealedChars,
+      showFailModal,
+      showSuccessModal,
+    ],
+  );
+
+  useEffect(() => {
+    const onKeyDown = (event: KeyboardEvent) => {
+      const target = event.target as HTMLElement | null;
+      const tag = target?.tagName;
+
+      if (tag === "INPUT" || tag === "TEXTAREA") {
+        return;
+      }
+
+      if (event.key.length === 1) {
+        handleGuess(event.key);
+      }
+    };
+
+    window.addEventListener("keydown", onKeyDown);
+
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+    };
+  }, [handleGuess]);
+
+  useEffect(() => {
+    if (!showSuccessModal) return;
+
+    const timeoutId = setTimeout(() => {
+      const nextLevel = Math.min(level + 1, totalLevels);
+      const currentProgress = parseInt(
+        localStorage.getItem(progressStorageKey) || "1",
+        10,
+      );
+
+      if (level >= currentProgress) {
+        localStorage.setItem(progressStorageKey, String(nextLevel));
+      }
+
+      if (level < totalLevels) {
+        navigate("/game", { state: { level: level + 1, category } });
+      } else {
+        navigate("/levels", { state: { category } });
+      }
+    }, 900);
+
+    return () => clearTimeout(timeoutId);
+  }, [
+    category,
+    level,
+    navigate,
+    progressStorageKey,
+    showSuccessModal,
+    totalLevels,
+  ]);
+
+  const handleRetry = () => {
+    setRevealedChars(answerChars.map((char) => !isGuessableChar(char)));
+    setGuessedLetters([]);
+    setWrongLetters([]);
+    setLives(3);
+    setShowFailModal(false);
   };
 
-  // TODO: Implementar la lógica real de tu juego aquí
-  const handleGameAction = () => {
-    setPlays((p) => p + 1);
-    // Simular acierto - reemplazar con lógica real
-    setHits((h) => h + 1);
-    handleSuccess();
-  };
-
-  if (!levelData) {
+  if (!answer || !PuzzleImage) {
     return (
       <Layout>
         <Typography sx={{ color: "#fff" }}>{t.invalidLevel}</Typography>
@@ -93,111 +409,135 @@ const Game: React.FC = () => {
   }
 
   return (
-    <Layout hits={hits} plays={plays} isGridScreen>
-      {/* Contenido principal del juego */}
+    <Layout headerTitle={displayCategory} headerRight={`${t.levelShort} ${level}`}>
       <Box
         sx={{
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           width: "100%",
-          gap: 2,
+          px: 1,
+          pb: { xs: 30, md: 4 },
         }}
       >
-        {/* Instrucción del juego */}
-        {/* TODO: Cambiar el texto de instrucción según tu juego */}
-        <Typography
-          variant="h6"
-          sx={{
-            color: "#fff",
-            textAlign: "center",
-            fontWeight: 700,
-            mb: 1,
-          }}
-        >
-          {t.findDifferentEmoji2}
-        </Typography>
-
-        {/* Área principal del juego */}
-        {/* TODO: Reemplazar con tu componente de juego real */}
         <Box
           sx={{
             width: "100%",
+            maxWidth: 560,
+            display: "flex",
+            justifyContent: "flex-end",
+            alignItems: "center",
+            mb: 1.5,
+          }}
+        >
+          <Typography sx={{ color: "#fff", fontSize: 32, lineHeight: 1 }}>
+            {"🤍".repeat(lives)}
+          </Typography>
+        </Box>
+
+        <Box
+          sx={{
+            width: "80%",
+            maxWidth: 400,
+            borderRadius: 1,
+            backgroundColor: "#fff",
+            border: "4px solid #1f254d",
+            minHeight: { xs: 280, md: 420 },
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            overflow: "hidden",
+            "& svg": {
+              width: "80%",
+              height: "auto",
+              maxHeight: "100%",
+            },
+          }}
+        >
+          <Suspense fallback={<Box sx={{ width: "100%", height: "100%" }} />}>
+            <PuzzleImage />
+          </Suspense>
+        </Box>
+
+        <Box
+          sx={{
+            width: "100%",
+            maxWidth: 560,
+            mt: 2.2,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: 2,
+            gap: 0.5,
           }}
         >
-          {/* Nivel actual */}
-          <Typography
-            sx={{
-              color: "#fff",
-              fontSize: 18,
-              fontWeight: 600,
-              opacity: 0.9,
-            }}
-          >
-            Nivel {level}
-          </Typography>
-
-          {/* Placeholder del juego - TODO: Reemplazar por tu componente de juego */}
-          <Box
-            sx={{
-              width: "100%",
-              minHeight: 300,
-              backgroundColor: "rgba(255,255,255,0.1)",
-              borderRadius: 3,
-              border: "2px dashed rgba(255,255,255,0.4)",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              flexDirection: "column",
-              gap: 2,
-              p: 3,
-            }}
-          >
+          {answerRows.map((row, rowIndex) => (
             <Typography
-              sx={{ color: "#fff", textAlign: "center", opacity: 0.8 }}
-            >
-              🎮 Tu juego va aquí
-            </Typography>
-            <Typography
+              key={`row-${rowIndex}`}
+              component="div"
               sx={{
-                color: "#fff",
-                textAlign: "center",
-                fontSize: 14,
-                opacity: 0.6,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: 0.5,
+                flexWrap: "wrap",
               }}
             >
-              Reemplaza este placeholder con tu componente de juego
+              {row.map((charIndex) => {
+                const char = answerChars[charIndex];
+
+                if (char === " ") {
+                  return <Box key={`space-${charIndex}`} sx={{ width: 14 }} />;
+                }
+
+                if (!isGuessableChar(char)) {
+                  return (
+                    <Typography
+                      key={`symbol-${charIndex}`}
+                      sx={{
+                        color: "#fff",
+                        fontWeight: 700,
+                        fontSize: 28,
+                        px: 0.4,
+                      }}
+                    >
+                      {char}
+                    </Typography>
+                  );
+                }
+
+                return (
+                  <Paper
+                    key={`char-${charIndex}`}
+                    elevation={3}
+                    sx={{
+                      width: "26px",
+                      height: "26px",
+                      borderRadius: 1,
+                      border: "2px solid #1f254d",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      fontSize: "16px",
+                      fontWeight: 700,
+                      color: "#59607a",
+                      lineHeight: 1,
+                    }}
+                  >
+                    {revealedChars[charIndex] ? char.toUpperCase() : "_"}
+                  </Paper>
+                );
+              })}
             </Typography>
-
-            {/* Botón de ejemplo */}
-            <Button
-              variant="contained"
-              onClick={handleGameAction}
-              sx={{
-                mt: 2,
-                backgroundColor: "#e74c3c",
-                "&:hover": { backgroundColor: "#c0392b" },
-              }}
-            >
-              Acerté! (demo)
-            </Button>
-          </Box>
-
-          {/* Teclado virtual solo en mobile si lo necesita tu juego */}
-          {/* TODO: Descomentar si tu juego usa teclado virtual */}
-          {/* {isMobile && (
-            <VirtualKeyboard
-              onKeyPress={handleKeyPress}
-            />
-          )} */}
+          ))}
         </Box>
       </Box>
 
-      {/* Modal de éxito */}
+      <VirtualKeyboard
+        onKeyPress={handleGuess}
+        guessedLetters={guessedLetters}
+        wrongLetters={wrongLetters}
+      />
+
       <Modal
         open={showSuccessModal}
         onClose={() => {}}
@@ -211,26 +551,62 @@ const Game: React.FC = () => {
             transform: "translate(-50%, -50%)",
             backgroundColor: "#fff",
             borderRadius: 3,
-            p: 4,
+            p: 3,
             textAlign: "center",
-            minWidth: 280,
-            maxWidth: 350,
+            minWidth: 260,
             boxShadow: "0 8px 32px rgba(0,0,0,0.3)",
           }}
         >
-          <Typography variant="h4" sx={{ mb: 1, fontSize: "48px" }}>
+          <Typography variant="h4" sx={{ mb: 0.8, fontSize: "46px" }}>
             🎉
           </Typography>
           <Typography
             id="success-modal-title"
-            variant="h5"
-            sx={{ color: "#e74c3c", fontWeight: 700, mb: 1 }}
+            sx={{ color: "#e74c3c", fontWeight: 700, mb: 0.6, fontSize: 26 }}
           >
             {t.excellent}
           </Typography>
           <Typography sx={{ color: "#666", fontSize: 14 }}>
             {t.nextScreen}
           </Typography>
+        </Box>
+      </Modal>
+
+      <Modal
+        open={showFailModal}
+        onClose={handleRetry}
+        aria-labelledby="fail-modal-title"
+      >
+        <Box
+          sx={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            backgroundColor: "#fff",
+            borderRadius: 3,
+            p: 3,
+            textAlign: "center",
+            minWidth: 260,
+            boxShadow: "0 8px 32px rgba(0,0,0,0.3)",
+          }}
+        >
+          <Typography variant="h4" sx={{ mb: 0.8, fontSize: "42px" }}>
+            💔
+          </Typography>
+          <Typography
+            id="fail-modal-title"
+            sx={{ color: "#e74c3c", fontWeight: 700, mb: 1, fontSize: 24 }}
+          >
+            {t.gameOverLives}
+          </Typography>
+          <Button
+            variant="contained"
+            onClick={handleRetry}
+            sx={{ backgroundColor: "#e74c3c", "&:hover": { backgroundColor: "#c0392b" } }}
+          >
+            {t.tryAgain}
+          </Button>
         </Box>
       </Modal>
     </Layout>

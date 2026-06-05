@@ -19,6 +19,18 @@ export interface Translation {
   english: string;
   portuguese: string;
   french: string;
+  categoriesTitle: string;
+  categoryRiddles: string;
+  categoryMovies: string;
+  categoryLogos: string;
+  categoryEmojis: string;
+  categoryShadows: string;
+  categoryFunkos: string;
+  categoryShields: string;
+  categoryFlags: string;
+  categoryRandom: string;
+  ofWord: string;
+  levelShort: string;
 
   // Levels page
   findEmoji: string;
@@ -90,8 +102,20 @@ export const translations: Record<string, Translation> = {
     english: "Inglés",
     portuguese: "Portugués",
     french: "Francés",
+    categoriesTitle: "CATEGORIAS",
+    categoryRiddles: "ACERTIJOS",
+    categoryMovies: "PELICULAS",
+    categoryLogos: "LOGOS",
+    categoryEmojis: "EMOJIS",
+    categoryShadows: "SOMBRAS",
+    categoryFunkos: "FUNKOS",
+    categoryShields: "ESCUDOS",
+    categoryFlags: "BANDERAS",
+    categoryRandom: "ALEATORIO",
+    ofWord: "de",
+    levelShort: "NIV",
     findEmoji: "🤔 Encuentra el emoji",
-    findDifferentEmoji: "¡Descubre cuál es el emoji diferente!",
+    findDifferentEmoji: "Seleccioná un nivel y poné a prueba tu mente.",
     worldFlags: "🗺️ Banderas del Mundo",
     findFlagsDescription: "¡Encuentra las banderas de diferentes países!",
     moviesAndSeries: "🎬 Películas y Series",
@@ -148,8 +172,20 @@ export const translations: Record<string, Translation> = {
     english: "English",
     portuguese: "Portuguese",
     french: "French",
+    categoriesTitle: "CATEGORIES",
+    categoryRiddles: "RIDDLES",
+    categoryMovies: "MOVIES",
+    categoryLogos: "LOGOS",
+    categoryEmojis: "EMOJIS",
+    categoryShadows: "SHADOWS",
+    categoryFunkos: "FUNKOS",
+    categoryShields: "SHIELDS",
+    categoryFlags: "FLAGS",
+    categoryRandom: "RANDOM",
+    ofWord: "of",
+    levelShort: "LVL",
     findEmoji: "🤔 Find the emoji",
-    findDifferentEmoji: "Discover which emoji is different!",
+    findDifferentEmoji: "Choose a level and put your mind to the test.",
     worldFlags: "🗺️ World Flags",
     findFlagsDescription: "Find the flags of different countries!",
     moviesAndSeries: "🎬 Movies and Series",
@@ -206,6 +242,18 @@ export const translations: Record<string, Translation> = {
     english: "Inglês",
     portuguese: "Português",
     french: "Francês",
+    categoriesTitle: "CATEGORIAS",
+    categoryRiddles: "ENIGMAS",
+    categoryMovies: "FILMES",
+    categoryLogos: "LOGOS",
+    categoryEmojis: "EMOJIS",
+    categoryShadows: "SOMBRAS",
+    categoryFunkos: "FUNKOS",
+    categoryShields: "ESCUDOS",
+    categoryFlags: "BANDEIRAS",
+    categoryRandom: "ALEATORIO",
+    ofWord: "de",
+    levelShort: "NIV",
     findEmoji: "🤔 Encontre o emoji",
     findDifferentEmoji: "Descubra qual emoji é diferente!",
     worldFlags: "🗺️ Bandeiras do Mundo",
@@ -264,6 +312,18 @@ export const translations: Record<string, Translation> = {
     english: "Anglais",
     portuguese: "Portugais",
     french: "Français",
+    categoriesTitle: "CATEGORIES",
+    categoryRiddles: "ENIGMES",
+    categoryMovies: "FILMS",
+    categoryLogos: "LOGOS",
+    categoryEmojis: "EMOJIS",
+    categoryShadows: "OMBRES",
+    categoryFunkos: "FUNKOS",
+    categoryShields: "ECUSSONS",
+    categoryFlags: "DRAPEAUX",
+    categoryRandom: "ALEATOIRE",
+    ofWord: "de",
+    levelShort: "NIV",
     findEmoji: "🤔 Trouvez l'emoji",
     findDifferentEmoji: "Découvrez quel emoji est différent!",
     worldFlags: "🗺️ Drapeaux du Monde",
@@ -304,7 +364,9 @@ export const translations: Record<string, Translation> = {
   },
 };
 
-export type SupportedLanguage = "es" | "en" | "pt" | "fr";
+translations.es_sp = { ...translations.es };
+
+export type SupportedLanguage = "es" | "es_sp" | "en";
 
 export const getLanguageByCountry = (
   countryCode: string,
@@ -320,7 +382,7 @@ export const getLanguageByCountry = (
     BO: "es",
     PY: "es",
     UY: "es",
-    ES: "es",
+    ES: "es_sp",
     EC: "es",
     GT: "es",
     HN: "es",
@@ -330,41 +392,6 @@ export const getLanguageByCountry = (
     PA: "es",
     DO: "es",
     CU: "es",
-
-    // Portuguese speaking countries
-    BR: "pt",
-    PT: "pt",
-    AO: "pt",
-    MZ: "pt",
-    GW: "pt",
-    CV: "pt",
-    ST: "pt",
-    TL: "pt",
-
-    // French speaking countries
-    FR: "fr",
-    BE: "fr",
-    CH: "fr",
-    LU: "fr",
-    MC: "fr",
-    SN: "fr",
-    CI: "fr",
-    ML: "fr",
-    BF: "fr",
-    NE: "fr",
-    TD: "fr",
-    CF: "fr",
-    CG: "fr",
-    CD: "fr",
-    GA: "fr",
-    CM: "fr",
-    DJ: "fr",
-    KM: "fr",
-    MG: "fr",
-    SC: "fr",
-    VU: "fr",
-    NC: "fr",
-    PF: "fr",
 
     // English speaking countries (fallback for others)
     US: "en",
