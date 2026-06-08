@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import Layout from "../components/Layout";
 import Box from "@mui/material/Box";
@@ -60,7 +60,7 @@ const Levels: React.FC = () => {
       : CATEGORY_LEVEL_COUNT[category] ?? 20;
   const progressCategoryKey =
     category === ACERTIJOS && currentLanguage === "en" ? ALEATORIO : category;
-  const progressStorageKey = `imaginalo_progress_${progressCategoryKey}`;
+  const progressStorageKey = `imaginalo_progress_${progressCategoryKey}_${currentLanguage}`;
   const categoryTitleByKey: Record<string, string> = {
     [ACERTIJOS]: t.categoryRiddles,
     [PELICULAS]: t.categoryMovies,
@@ -84,25 +84,50 @@ const Levels: React.FC = () => {
     }
   });
 
+  const syncUnlockedLevel = useCallback(() => {
+    const savedProgress = localStorage.getItem(progressStorageKey);
+
+    if (savedProgress) {
+      const parsed = parseInt(savedProgress, 10);
+      const safeLevel = Number.isFinite(parsed)
+        ? Math.min(Math.max(parsed, 1), totalLevels)
+        : 1;
+      setUnlockedLevel(safeLevel);
+      return;
+    }
+
+    localStorage.setItem(progressStorageKey, "1");
+    setUnlockedLevel(1);
+  }, [progressStorageKey, totalLevels]);
+
+  useEffect(() => {
+    syncUnlockedLevel();
+  }, [syncUnlockedLevel]);
+
   // Actualizar progreso cuando el componente se hace visible
   useEffect(() => {
-    const handleFocus = () => {
-      const savedProgress = localStorage.getItem(progressStorageKey);
-      if (savedProgress) {
-        setUnlockedLevel(parseInt(savedProgress, 10));
-      } else {
-        setUnlockedLevel(1);
-      }
-    };
+    const handleFocus = () => syncUnlockedLevel();
+    const handleProgressUpdated = () => syncUnlockedLevel();
+    const handleLanguageChanged = () => syncUnlockedLevel();
 
     window.addEventListener("focus", handleFocus);
     document.addEventListener("visibilitychange", handleFocus);
+    window.addEventListener("imaginalo:progress-updated", handleProgressUpdated);
+    window.addEventListener("imaginalo:language-changed", handleLanguageChanged);
 
     return () => {
       window.removeEventListener("focus", handleFocus);
       document.removeEventListener("visibilitychange", handleFocus);
+      window.removeEventListener(
+        "imaginalo:progress-updated",
+        handleProgressUpdated,
+      );
+      window.removeEventListener(
+        "imaginalo:language-changed",
+        handleLanguageChanged,
+      );
     };
-  }, [progressStorageKey]);
+  }, [syncUnlockedLevel]);
 
   // Scroll animado al primer nivel bloqueado o al último si todos están desbloqueados
   useEffect(() => {
@@ -133,11 +158,12 @@ const Levels: React.FC = () => {
         }
       }
     }, 500);
-  }, [unlockedLevel]);
+  }, [totalLevels, unlockedLevel]);
 
   const handleClearProgress = () => {
     localStorage.removeItem(progressStorageKey);
     setUnlockedLevel(1);
+    window.dispatchEvent(new CustomEvent("imaginalo:progress-updated"));
   };
 
   const handleLevelClick = (level: number) => {

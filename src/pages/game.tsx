@@ -151,6 +151,11 @@ const getEffectiveCategory = (category: string, language: string): string => {
   return category;
 };
 
+const getProgressStorageKey = (category: string, language: string): string => {
+  const effectiveCategory = getEffectiveCategory(category, language);
+  return `imaginalo_progress_${effectiveCategory}_${language}`;
+};
+
 const getEntriesByCategoryAndLanguage = (
   category: string,
   language: string,
@@ -250,7 +255,7 @@ const Game: React.FC = () => {
   const level = Math.max(1, state?.level ?? 1);
   const effectiveCategory = getEffectiveCategory(category, currentLanguage);
   const totalLevels = LEVEL_COUNT_BY_CATEGORY[effectiveCategory] ?? 1;
-  const progressStorageKey = `imaginalo_progress_${effectiveCategory}`;
+  const progressStorageKey = getProgressStorageKey(category, currentLanguage);
 
   const entries = useMemo(
     () => getEntriesByCategoryAndLanguage(category, currentLanguage),
@@ -431,6 +436,7 @@ const Game: React.FC = () => {
 
       if (level >= currentProgress) {
         localStorage.setItem(progressStorageKey, String(nextLevel));
+        window.dispatchEvent(new CustomEvent("imaginalo:progress-updated"));
       }
 
       if (level < totalLevels) {

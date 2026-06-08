@@ -72,6 +72,11 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
   const setLanguage = (language: SupportedLanguage) => {
     setCurrentLanguage(language);
     localStorage.setItem(LANGUAGE_STORAGE_KEY, language);
+    window.dispatchEvent(
+      new CustomEvent("imaginalo:language-changed", {
+        detail: { language },
+      }),
+    );
   };
 
   const contextValue: LanguageContextType = {

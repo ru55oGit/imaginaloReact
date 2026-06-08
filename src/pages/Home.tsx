@@ -2,6 +2,7 @@ import {
   ComponentType,
   Suspense,
   lazy,
+  useCallback,
   useEffect,
   useMemo,
   useState,
@@ -149,9 +150,11 @@ export default function WelcomeScreen() {
 
   const getProgressStorageKey = (category: string) => {
     const effectiveCategory =
-      category === ACERTIJOS && currentLanguage === "en" ? ALEATORIO : category;
+      category === ACERTIJOS && currentLanguage === "en"
+        ? ALEATORIO
+        : category;
 
-    return `imaginalo_progress_${effectiveCategory}`;
+    return `imaginalo_progress_${effectiveCategory}_${currentLanguage}`;
   };
 
   const randomEntries = useMemo<RandomEntry[]>(() => {
@@ -224,37 +227,50 @@ export default function WelcomeScreen() {
     };
   };
 
+  const readProgressByCategory = useCallback(() => {
+    const nextProgress: Record<string, number> = {};
+
+    allCategories.forEach((category) => {
+      const maxLevel = getCategoryMaxLevel(category);
+      const stored = parseInt(
+        localStorage.getItem(getProgressStorageKey(category)) || "1",
+        10,
+      );
+      const safeLevel = Number.isFinite(stored)
+        ? Math.min(Math.max(stored, 1), maxLevel)
+        : 1;
+
+      nextProgress[category] = safeLevel;
+    });
+
+    setCategoryProgress(nextProgress);
+  }, [currentLanguage, randomEntries]);
+
   useEffect(() => {
-    const readProgressByCategory = () => {
-      const nextProgress: Record<string, number> = {};
-
-      allCategories.forEach((category) => {
-        const maxLevel = getCategoryMaxLevel(category);
-        const stored = parseInt(
-          localStorage.getItem(getProgressStorageKey(category)) || "1",
-          10,
-        );
-        const safeLevel = Number.isFinite(stored)
-          ? Math.min(Math.max(stored, 1), maxLevel)
-          : 1;
-
-        nextProgress[category] = safeLevel;
-      });
-
-      setCategoryProgress(nextProgress);
-    };
+    const handleProgressUpdated = () => readProgressByCategory();
+    const handleLanguageChanged = () => readProgressByCategory();
 
     const handleFocus = () => readProgressByCategory();
 
     readProgressByCategory();
     window.addEventListener("focus", handleFocus);
     document.addEventListener("visibilitychange", handleFocus);
+    window.addEventListener("imaginalo:progress-updated", handleProgressUpdated);
+    window.addEventListener("imaginalo:language-changed", handleLanguageChanged);
 
     return () => {
       window.removeEventListener("focus", handleFocus);
       document.removeEventListener("visibilitychange", handleFocus);
+      window.removeEventListener(
+        "imaginalo:progress-updated",
+        handleProgressUpdated,
+      );
+      window.removeEventListener(
+        "imaginalo:language-changed",
+        handleLanguageChanged,
+      );
     };
-  }, [currentLanguage, randomEntries]);
+  }, [readProgressByCategory]);
 
   const previewLevel = categoryProgress[selectedChip] ?? 1;
   const selectedModule = getModuleLoaderForCategoryLevel(selectedChip, previewLevel);
