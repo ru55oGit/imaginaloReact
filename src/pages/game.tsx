@@ -7,6 +7,8 @@ import React, {
   useMemo,
   useState,
 } from "react";
+import Hypher from "hypher";
+import spanishHyphenation from "hyphenation.es";
 import { useLocation, useNavigate } from "react-router-dom";
 import Layout from "../components/Layout";
 import Box from "@mui/material/Box";
@@ -140,6 +142,89 @@ const svgByCategory: Record<
 
 const isGuessableChar = (char: string): boolean => /[\p{L}\p{N}]/u.test(char);
 
+const ANSWER_TILE_SIZE_PX = 26;
+const ANSWER_TILE_GAP_PX = 4;
+const ANSWER_CONTAINER_HORIZONTAL_PADDING_PX = 32;
+const MIN_CHARS_PER_ROW = 6;
+
+type AnswerRenderToken =
+  | { kind: "char"; charIndex: number }
+  | { kind: "hyphen"; key: string };
+
+const isLetterChar = (char: string): boolean => /[\p{L}]/u.test(char);
+const isVowelChar = (char: string): boolean => /[aeiouáéíóúü]/i.test(char);
+const spanishHypher = new Hypher(spanishHyphenation as Record<string, unknown>);
+
+const getRecommendedBreakPoint = (
+  chars: string[],
+  maxChunkLength: number,
+): number => {
+  const safeMax = Math.max(2, Math.min(maxChunkLength, chars.length - 1));
+  const preferredMin = Math.max(2, safeMax - 3);
+
+  for (let index = safeMax; index >= preferredMin; index -= 1) {
+    const prev = chars[index - 1];
+    const next = chars[index];
+
+    if (!prev || !next) continue;
+    if (!isLetterChar(prev) || !isLetterChar(next)) continue;
+
+    const prevIsVowel = isVowelChar(prev);
+    const nextIsVowel = isVowelChar(next);
+
+    if (prevIsVowel !== nextIsVowel || (prevIsVowel && nextIsVowel)) {
+      return index;
+    }
+  }
+
+  return safeMax;
+};
+
+const getSyllableBreakPoint = (
+  word: string,
+  maxChunkLength: number,
+): number | null => {
+  if (!word || maxChunkLength < 2 || word.length <= 2) {
+    return null;
+  }
+
+  const safeMax = Math.max(2, Math.min(maxChunkLength, word.length - 1));
+  if (safeMax < 2) {
+    return null;
+  }
+
+  const syllables = spanishHypher.hyphenate(word);
+  if (!Array.isArray(syllables) || syllables.length <= 1) {
+    return null;
+  }
+
+  const breakpoints: number[] = [];
+  let consumedLength = 0;
+
+  syllables.slice(0, -1).forEach((syllable) => {
+    consumedLength += syllable.length;
+    breakpoints.push(consumedLength);
+  });
+
+  const strongCandidates = breakpoints.filter(
+    (point) => point >= 2 && point <= safeMax && word.length - point >= 2,
+  );
+
+  if (strongCandidates.length > 0) {
+    return strongCandidates[strongCandidates.length - 1];
+  }
+
+  const weakCandidates = breakpoints.filter(
+    (point) => point >= 2 && point <= safeMax,
+  );
+
+  if (weakCandidates.length > 0) {
+    return weakCandidates[weakCandidates.length - 1];
+  }
+
+  return null;
+};
+
 const getEntries = (source: DataCollection): DataEntry[] =>
   source.listado ?? source.preguntas ?? [];
 
@@ -266,23 +351,198 @@ const Game: React.FC = () => {
 
   const answer = (entries[level - 1]?.respuesta ?? "").toString().trim();
   const answerChars = useMemo(() => answer.split(""), [answer]);
+  const [viewportWidth, setViewportWidth] = useState(() => {
+    if (typeof window === "undefined") {
+      return 360;
+    }
+
+    return window.innerWidth;
+  });
+
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    const handleResize = () => setViewportWidth(window.innerWidth);
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const maxCharsPerRow = useMemo(() => {
+    const availableWidth = Math.min(
+      560,
+      Math.max(220, viewportWidth - ANSWER_CONTAINER_HORIZONTAL_PADDING_PX),
+    );
+
+    return Math.max(
+      MIN_CHARS_PER_ROW,
+      Math.floor(
+        (availableWidth + ANSWER_TILE_GAP_PX) /
+          (ANSWER_TILE_SIZE_PX + ANSWER_TILE_GAP_PX),
+      ),
+    );
+  }, [viewportWidth]);
+
   const answerRows = useMemo(() => {
-    const rows: number[][] = [];
-    let currentRow: number[] = [];
+    const rows: AnswerRenderToken[][] = [];
+    const baseRows: number[][] = [];
+    let currentBaseRow: number[] = [];
+    let hyphenCounter = 0;
 
     answerChars.forEach((char, index) => {
       if (char === "|") {
-        rows.push(currentRow);
-        currentRow = [];
+        baseRows.push(currentBaseRow);
+        currentBaseRow = [];
       } else {
-        currentRow.push(index);
+        currentBaseRow.push(index);
       }
     });
 
-    rows.push(currentRow);
+    baseRows.push(currentBaseRow);
+
+    const pushTrimmedRow = (tokens: AnswerRenderToken[]) => {
+      const next = [...tokens];
+
+      while (
+        next[0]?.kind === "char" &&
+        answerChars[next[0].charIndex] === " "
+      ) {
+        next.shift();
+      }
+
+      while (
+        next[next.length - 1]?.kind === "char" &&
+        answerChars[(next[next.length - 1] as { kind: "char"; charIndex: number }).charIndex] ===
+          " "
+      ) {
+        next.pop();
+      }
+
+      if (next.length > 0) {
+        rows.push(next);
+      }
+    };
+
+    baseRows.forEach((baseRow) => {
+      const groups: Array<{ leadingSpaceIndex: number | null; word: number[] }> = [];
+      let pendingSpaceIndex: number | null = null;
+
+      for (let index = 0; index < baseRow.length; index += 1) {
+        const charIndex = baseRow[index];
+        const char = answerChars[charIndex];
+
+        if (char === " ") {
+          if (pendingSpaceIndex === null) {
+            pendingSpaceIndex = charIndex;
+          }
+          continue;
+        }
+
+        const word: number[] = [charIndex];
+        let cursor = index + 1;
+
+        while (cursor < baseRow.length) {
+          const nextCharIndex = baseRow[cursor];
+          if (answerChars[nextCharIndex] === " ") {
+            break;
+          }
+
+          word.push(nextCharIndex);
+          cursor += 1;
+        }
+
+        groups.push({ leadingSpaceIndex: pendingSpaceIndex, word });
+        pendingSpaceIndex = null;
+        index = cursor - 1;
+      }
+
+      let currentRowTokens: AnswerRenderToken[] = [];
+      let currentRowUnits = 0;
+
+      const flushCurrentRow = () => {
+        pushTrimmedRow(currentRowTokens);
+        currentRowTokens = [];
+        currentRowUnits = 0;
+      };
+
+      groups.forEach((group) => {
+        let remainingWord = [...group.word];
+        let useLeadingSpace = group.leadingSpaceIndex !== null;
+
+        while (remainingWord.length > 0) {
+          const leadingSpaceUnits =
+            useLeadingSpace && currentRowUnits > 0 && group.leadingSpaceIndex !== null
+              ? 1
+              : 0;
+          const availableUnits = maxCharsPerRow - currentRowUnits - leadingSpaceUnits;
+
+          if (remainingWord.length <= availableUnits) {
+            if (leadingSpaceUnits > 0 && group.leadingSpaceIndex !== null) {
+              currentRowTokens.push({
+                kind: "char",
+                charIndex: group.leadingSpaceIndex,
+              });
+              currentRowUnits += 1;
+            }
+
+            remainingWord.forEach((charIndex) => {
+              currentRowTokens.push({ kind: "char", charIndex });
+            });
+            currentRowUnits += remainingWord.length;
+            remainingWord = [];
+            continue;
+          }
+
+          if (currentRowUnits > 0) {
+            flushCurrentRow();
+            useLeadingSpace = false;
+            continue;
+          }
+
+          const maxChunkLength = Math.max(2, maxCharsPerRow - 1);
+          const remainingWordChars = remainingWord.map(
+            (charIndex) => answerChars[charIndex],
+          );
+          const remainingWordText = remainingWordChars.join("");
+          const syllableBreakPoint = getSyllableBreakPoint(
+            remainingWordText,
+            maxChunkLength,
+          );
+
+          const chunkLength = Math.min(
+            syllableBreakPoint ??
+              getRecommendedBreakPoint(remainingWordChars, maxChunkLength),
+            remainingWord.length,
+          );
+
+          remainingWord.slice(0, chunkLength).forEach((charIndex) => {
+            currentRowTokens.push({ kind: "char", charIndex });
+          });
+          currentRowUnits += chunkLength;
+
+          if (chunkLength < remainingWord.length) {
+            currentRowTokens.push({
+              kind: "hyphen",
+              key: `hyphen-${hyphenCounter}`,
+            });
+            hyphenCounter += 1;
+            flushCurrentRow();
+          }
+
+          remainingWord = remainingWord.slice(chunkLength);
+          useLeadingSpace = false;
+        }
+      });
+
+      flushCurrentRow();
+    });
 
     return rows;
-  }, [answerChars]);
+  }, [answerChars, maxCharsPerRow]);
 
   const randomImageCategory = resolveRandomImageCategory(selectedEntry?.categoria);
   const randomImageLevel = parseLevelNumber(selectedEntry?.pregunta) ?? level;
@@ -561,10 +821,28 @@ const Game: React.FC = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 gap: 0.5,
-                flexWrap: "wrap",
+                flexWrap: "nowrap",
               }}
             >
-              {row.map((charIndex) => {
+              {row.map((token) => {
+                if (token.kind === "hyphen") {
+                  return (
+                    <Typography
+                      key={token.key}
+                      sx={{
+                        color: "#fff",
+                        fontWeight: 700,
+                        fontSize: 24,
+                        lineHeight: 1,
+                        px: 0.15,
+                      }}
+                    >
+                      -
+                    </Typography>
+                  );
+                }
+
+                const charIndex = token.charIndex;
                 const char = answerChars[charIndex];
 
                 if (char === " ") {
