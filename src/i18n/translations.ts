@@ -82,6 +82,9 @@ export interface Translation {
   clearProgress: string;
   recoverLives: string;
   nextFreeRetry: string;
+  adBlockerTitle: string;
+  adBlockerMessage: string;
+  adBlockerButton: string;
 }
 
 export const translations: Record<string, Translation> = {
@@ -155,6 +158,9 @@ export const translations: Record<string, Translation> = {
     clearProgress: "Borrar Progreso",
     recoverLives: "Recupera tus vidas",
     nextFreeRetry: "Reintento libre en",
+    adBlockerTitle: "Tenés un bloqueador de anuncios activo",
+    adBlockerMessage: "Este juego es gratuito gracias a los anuncios. Por favor desactivá tu bloqueador para poder jugar.",
+    adBlockerButton: "Ya lo desactivé, continuar",
   },
 
   en: {
@@ -227,6 +233,9 @@ export const translations: Record<string, Translation> = {
     clearProgress: "Clear Progress",
     recoverLives: "Recover your lives",
     nextFreeRetry: "Free retry in",
+    adBlockerTitle: "Ad blocker detected",
+    adBlockerMessage: "This game is free thanks to ads. Please disable your ad blocker to continue playing.",
+    adBlockerButton: "I disabled it, continue",
   },
 
   pt: {
@@ -299,6 +308,9 @@ export const translations: Record<string, Translation> = {
     clearProgress: "Limpar Progresso",
     recoverLives: "Recupere suas vidas",
     nextFreeRetry: "Próxima tentativa gratuita em",
+    adBlockerTitle: "Bloqueador de anúncios detectado",
+    adBlockerMessage: "Este jogo é gratuito graças aos anúncios. Desative seu bloqueador para continuar jogando.",
+    adBlockerButton: "Já desativei, continuar",
   },
 
   fr: {
@@ -371,6 +383,9 @@ export const translations: Record<string, Translation> = {
     clearProgress: "Effacer Progression",
     recoverLives: "Récupérez vos vies",
     nextFreeRetry: "Nouvel essai dans",
+    adBlockerTitle: "Bloqueur de publicités détecté",
+    adBlockerMessage: "Ce jeu est gratuit grâce aux publicités. Veuillez désactiver votre bloqueur pour continuer.",
+    adBlockerButton: "Je l'ai désactivé, continuer",
   },
 };
 
