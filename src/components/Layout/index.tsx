@@ -393,16 +393,21 @@ const Layout: React.FC<LayoutProps> = ({
           <Box
             sx={{
               position: "absolute",
-              left: "50%",
+              left: { xs: 74, md: 84 },
+              right: { xs: 88, md: 112 },
               top: "50%",
-              transform: "translate(-50%, -50%)",
+              transform: "translateY(-50%)",
               fontFamily: headerTitle ? '"Roboto","Helvetica","Arial",sans-serif' : "Lobster, cursive",
-              fontSize: headerTitle ? 26 : 40,
+              fontSize: headerTitle ? { xs: 18, md: 26 } : { xs: 32, md: 40 },
               color: "#e74c3c",
               letterSpacing: 1,
               cursor: "pointer",
               zIndex: 2,
-              width: "max-content",
+              width: "auto",
+              textAlign: "center",
+              overflow: "hidden",
+              textOverflow: "ellipsis",
+              whiteSpace: "nowrap",
             }}
             onClick={() => headerTitle ? null : window.location.replace("/")}
           >
@@ -413,16 +418,18 @@ const Layout: React.FC<LayoutProps> = ({
             <Box
               sx={{
                 position: "absolute",
-                right: 4,
+                right: { xs: 6, md: 10 },
                 top: "50%",
                 transform: "translateY(-50%)",
-                fontSize: 20,
+                fontSize: { xs: 14, md: 20 },
                 color: "#e74c3c",
                 fontWeight: 700,
                 background: "#fff",
-                px: 1,
+                px: { xs: 0.8, md: 1 },
+                minWidth: { xs: 64, md: 84 },
                 borderRadius: 2,
                 textAlign: "center",
+                lineHeight: 1.1,
               }}
             >
               {headerRight}
