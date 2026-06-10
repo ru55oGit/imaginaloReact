@@ -147,6 +147,20 @@ const ANSWER_TILE_GAP_PX = 4;
 const ANSWER_CONTAINER_HORIZONTAL_PADDING_PX = 32;
 const MIN_CHARS_PER_ROW = 6;
 
+const FAIL_TIMER_SECONDS = 5 * 60;
+
+const ADSENSE_CLIENT = "ca-pub-6825837607163963";
+// Slot ID del bloque de Display que creaste en AdSense → Por bloque de anuncios → Anuncios de display
+const ADSENSE_DISPLAY_SLOT = "5173463876";
+// Slot ID de recompensa (futuro, cuando tengas Ad Manager)
+const ADSENSE_REWARDED_SLOT = "REPLACE_WITH_YOUR_REWARDED_SLOT_ID";
+
+const formatFailTimer = (seconds: number): string => {
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  return `${m}:${s.toString().padStart(2, "0")}`;
+};
+
 type AnswerRenderToken =
   | { kind: "char"; charIndex: number }
   | { kind: "hyphen"; key: string };
@@ -565,6 +579,7 @@ const Game: React.FC = () => {
   const [lives, setLives] = useState(3);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
   const [showFailModal, setShowFailModal] = useState(false);
+  const [failTimerSeconds, setFailTimerSeconds] = useState(FAIL_TIMER_SECONDS);
 
   const categoryLabelByKey: Record<string, string> = {
     [ACERTIJOS]: t.categoryRiddles,
@@ -609,6 +624,13 @@ const Game: React.FC = () => {
     setShowSuccessModal(false);
     setShowFailModal(false);
   }, [answerChars]);
+
+  useEffect(() => {
+    if (typeof window.adConfig === "function") {
+      window.adConfig({ preloadAdBreaks: "on" });
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const handleGuess = useCallback(
     (key: string) => {
@@ -723,6 +745,77 @@ const Game: React.FC = () => {
     setLives(3);
     setShowFailModal(false);
   };
+
+  const handleWatchAd = useCallback(() => {
+    if (!Array.isArray(window.adsbygoogle)) {
+      return;
+    }
+
+    // Eliminar instancia anterior si existe
+    const prev = document.getElementById("imaginalo-rewarded-ad");
+    if (prev) prev.remove();
+
+    // Crear elemento <ins> para el anuncio de recompensa
+    const ins = document.createElement("ins");
+    ins.id = "imaginalo-rewarded-ad";
+    ins.className = "adsbygoogle";
+    ins.style.display = "none";
+    ins.setAttribute("data-ad-client", ADSENSE_CLIENT);
+    ins.setAttribute("data-ad-slot", ADSENSE_REWARDED_SLOT);
+    ins.setAttribute("data-ad-format", "rewarded");
+    document.body.appendChild(ins);
+
+    const cleanup = () => {
+      const el = document.getElementById("imaginalo-rewarded-ad");
+      if (el) el.remove();
+    };
+
+    window.adsbygoogle.push({
+      done: (grantedReward: { type: string; amount: number } | null) => {
+        cleanup();
+        if (grantedReward) {
+          setLives(3);
+          setRevealedChars(answerChars.map((char) => !isGuessableChar(char)));
+          setGuessedLetters([]);
+          setWrongLetters([]);
+          setShowFailModal(false);
+        }
+        // si no hay reward, el modal sigue abierto con el timer
+      },
+    });
+  }, [answerChars]);
+
+  // Inicializar bloque de display cuando el modal de fallo abre
+  useEffect(() => {
+    if (!showFailModal) return;
+
+    const timeoutId = setTimeout(() => {
+      try {
+        if (Array.isArray(window.adsbygoogle)) {
+          window.adsbygoogle.push({});
+        }
+      } catch {
+        // adsbygoogle no disponible en dev
+      }
+    }, 300); // esperar que el DOM del modal esté montado
+
+    return () => clearTimeout(timeoutId);
+  }, [showFailModal]);
+
+  useEffect(() => {
+    if (!showFailModal) {
+      setFailTimerSeconds(FAIL_TIMER_SECONDS);
+      return;
+    }
+
+    if (failTimerSeconds <= 0) return;
+
+    const interval = setInterval(() => {
+      setFailTimerSeconds((prev) => Math.max(0, prev - 1));
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [showFailModal, failTimerSeconds]);
 
   if (!answer || (randomImageCategory !== QUESTIONS && !PuzzleImage)) {
     return (
@@ -934,7 +1027,7 @@ const Game: React.FC = () => {
 
       <Modal
         open={showFailModal}
-        onClose={handleRetry}
+        onClose={() => {}}
         aria-labelledby="fail-modal-title"
       >
         <Box
@@ -947,7 +1040,8 @@ const Game: React.FC = () => {
             borderRadius: 3,
             p: 3,
             textAlign: "center",
-            minWidth: 260,
+            minWidth: 280,
+            maxWidth: 340,
             boxShadow: "0 8px 32px rgba(0,0,0,0.3)",
           }}
         >
@@ -956,17 +1050,44 @@ const Game: React.FC = () => {
           </Typography>
           <Typography
             id="fail-modal-title"
-            sx={{ color: "#e74c3c", fontWeight: 700, mb: 1, fontSize: 24 }}
+            sx={{ color: "#e74c3c", fontWeight: 700, mb: 1.5, fontSize: 24 }}
           >
             {t.gameOverLives}
           </Typography>
-          <Button
-            variant="contained"
-            onClick={handleRetry}
-            sx={{ backgroundColor: "#e74c3c", "&:hover": { backgroundColor: "#c0392b" } }}
-          >
-            {t.tryAgain}
-          </Button>
+          {failTimerSeconds > 0 ? (
+            <>
+              {/* Bloque de display AdSense mientras corre el timer */}
+              <Box
+                sx={{
+                  width: "100%",
+                  minHeight: 100,
+                  mb: 2,
+                  overflow: "hidden",
+                  borderRadius: 1,
+                }}
+              >
+                <ins
+                  className="adsbygoogle"
+                  style={{ display: "block" }}
+                  data-ad-client={ADSENSE_CLIENT}
+                  data-ad-slot={ADSENSE_DISPLAY_SLOT}
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"
+                />
+              </Box>
+              <Typography sx={{ color: "#999", fontSize: 13, mb: 2 }}>
+                {t.nextFreeRetry}: {formatFailTimer(failTimerSeconds)}
+              </Typography>
+            </>
+          ) : (
+            <Button
+              variant="contained"
+              onClick={handleRetry}
+              sx={{ backgroundColor: "#e74c3c", "&:hover": { backgroundColor: "#c0392b" } }}
+            >
+              {t.tryAgain}
+            </Button>
+          )}
         </Box>
       </Modal>
     </Layout>

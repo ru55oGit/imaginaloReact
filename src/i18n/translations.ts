@@ -80,6 +80,8 @@ export interface Translation {
   congratulations: string;
   completedAllScreens: string;
   clearProgress: string;
+  recoverLives: string;
+  nextFreeRetry: string;
 }
 
 export const translations: Record<string, Translation> = {
@@ -151,6 +153,8 @@ export const translations: Record<string, Translation> = {
     congratulations: "¡Felicitaciones!",
     completedAllScreens: "¡Completaste todas las pantallas!",
     clearProgress: "Borrar Progreso",
+    recoverLives: "Recupera tus vidas",
+    nextFreeRetry: "Reintento libre en",
   },
 
   en: {
@@ -221,6 +225,8 @@ export const translations: Record<string, Translation> = {
     congratulations: "Congratulations!",
     completedAllScreens: "You completed all the screens!",
     clearProgress: "Clear Progress",
+    recoverLives: "Recover your lives",
+    nextFreeRetry: "Free retry in",
   },
 
   pt: {
@@ -291,6 +297,8 @@ export const translations: Record<string, Translation> = {
     congratulations: "Parabéns!",
     completedAllScreens: "Você completou todas as telas!",
     clearProgress: "Limpar Progresso",
+    recoverLives: "Recupere suas vidas",
+    nextFreeRetry: "Próxima tentativa gratuita em",
   },
 
   fr: {
@@ -361,6 +369,8 @@ export const translations: Record<string, Translation> = {
     congratulations: "Félicitations!",
     completedAllScreens: "Vous avez terminé tous les écrans!",
     clearProgress: "Effacer Progression",
+    recoverLives: "Récupérez vos vies",
+    nextFreeRetry: "Nouvel essai dans",
   },
 };
 
