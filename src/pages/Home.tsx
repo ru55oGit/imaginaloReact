@@ -322,202 +322,185 @@ export default function WelcomeScreen() {
 
   return (
     <Layout showFooter={false}>
-      {/* Language Selector */}
-      <LanguageSelector />
-
-      {/* TODO: Cambiar por el nombre de tu juego */}
-      <Typography
-        variant="h1"
-        sx={{
-          color: "#fff",
-          fontWeight: 700,
-          letterSpacing: "2px",
-          fontFamily: "Lobster, cursive",
-          width: "100%",
-          textAlign: "center",
-          px: 2,
-          mb: 1,
-          fontSize: { xs: "4.2rem", sm: "5.3rem", md: "6.2rem" },
-          lineHeight: 0.95,
-        }}
-      >
-        {t.appTitle}
-      </Typography>
-
-      <Typography
-        variant="h6"
-        sx={{
-          color: "rgba(255, 255, 255, 0.6)",
-          fontStyle: "italic",
-          letterSpacing: "2px",
-          width: "calc(100% - 32px)",
-          maxWidth: 400,
-          textAlign: "center",
-          mt: 0.5,
-          mb: 2,
-          fontSize: { xs: 18, md: 22 },
-          lineHeight: 1.1,
-        }}
-      >
-        {t.tagline}
-      </Typography>
-
-      <Typography
-        variant="h6"
-        sx={{
-          color: "rgba(255, 255, 255, 0.72)",
-          fontWeight: 700,
-          width: "calc(100% - 32px)",
-          maxWidth: 400,
-          textAlign: "left",
-          mt: 1.5,
-          fontSize: { xs: 18, md: 24 },
-          lineHeight: 1.15,
-        }}
-      >
-        {greetingMessage}
-      </Typography>
-
-      <Typography
-        variant="h5"
-        sx={{
-          color: "#fff",
-          fontWeight: 700,
-          width: "calc(100% - 32px)",
-          maxWidth: 400,
-          textAlign: "left",
-          mt: 1,
-          mb: 2.5,
-          fontSize: { xs: 24, sm: 32, md: 32 },
-          lineHeight: 1.05,
-          letterSpacing: "-0.5px",
-        }}
-      >
-        {t.whatPlayToday}
-      </Typography>
-
       <Box
         sx={{
-          width: "calc(100% - 32px)",
-          maxWidth: 400,
-          borderRadius: { xs: 7, md: 7 },
-          backgroundColor: "#ef7063",
-          minHeight: { xs: 380, md: 460 },
+          width: "100%",
+          px: { xs: 1.5, md: 2 },
+          pb: 2,
           display: "flex",
           flexDirection: "column",
-          justifyContent: "space-between",
-          p: { xs: 1.75, md: 2.5 },
-          mb: 2.5,
-          boxShadow: "0 8px 24px rgba(0, 0, 0, 0.12)",
+          gap: 2,
         }}
       >
-        <Box
+        <LanguageSelector />
+
+        <Typography
+          variant="h1"
           sx={{
-            mt: 0.5,
-            mb: 1,
-            borderRadius: 4,
-            overflow: "hidden",
-            backgroundColor: "#ffffff",
+            color: "#fff",
+            fontWeight: 700,
+            letterSpacing: "2px",
+            fontFamily: "Lobster, cursive",
             width: "100%",
-            height: { xs: 300, md: 330 },
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            "& svg": {
-              width: "100%",
-              height: "100%",
-            },
+            textAlign: "center",
+            fontSize: { xs: "4.2rem", sm: "5.3rem", md: "6.2rem" },
+            lineHeight: 0.95,
           }}
         >
-          {PreviewSvg ? (
-            <Suspense fallback={<Box sx={{ width: "100%", height: "100%" }} />}>
-              <PreviewSvg />
-            </Suspense>
-          ) : null}
-        </Box>
+          {t.appTitle}
+        </Typography>
+
+        <Typography
+          variant="h6"
+          sx={{
+            color: "rgba(255, 255, 255, 0.6)",
+            fontStyle: "italic",
+            letterSpacing: "2px",
+            width: "100%",
+            textAlign: "center",
+            fontSize: { xs: 18, md: 22 },
+            lineHeight: 1.1,
+          }}
+        >
+          {t.tagline}
+        </Typography>
+
+        <Typography
+          variant="h6"
+          sx={{
+            color: "rgba(255, 255, 255, 0.72)",
+            fontWeight: 700,
+            width: "100%",
+            fontSize: { xs: 18, md: 24 },
+            lineHeight: 1.15,
+          }}
+        >
+          {greetingMessage}
+        </Typography>
+
+        <Typography
+          variant="h5"
+          sx={{
+            color: "#fff",
+            fontWeight: 700,
+            width: "100%",
+            fontSize: { xs: 24, sm: 32, md: 32 },
+            lineHeight: 1.05,
+            letterSpacing: "-0.5px",
+          }}
+        >
+          {t.whatPlayToday}
+        </Typography>
 
         <Box
           sx={{
-            mt: { xs: 0.5, md: 1.5 },
+            width: "100%",
+            borderRadius: 6,
+            backgroundColor: "#ef7063",
             display: "flex",
-            alignItems: "center",
+            flexDirection: "column",
             justifyContent: "space-between",
-            gap: 1.5,
+            p: { xs: 1.75, md: 2.5 },
+            boxShadow: "0 8px 24px rgba(0, 0, 0, 0.12)",
           }}
         >
-          <Button
-            variant="contained"
-            onClick={() => navigate("/levels", { state: { category: selectedChip } })}
+          <Box
             sx={{
-              alignSelf: "flex-start",
-              borderRadius: 999,
-              backgroundColor: "#fff",
-              color: "#c93d2f",
-              width: { xs: "50%", md: "42%" },
-              minWidth: { xs: 140, md: 200 },
-              px: { xs: 2.5, md: 4 },
-              py: { xs: 0.9, md: 1.2 },
-              fontWeight: 700,
-              fontSize: { xs: 20, md: 30 },
-              textTransform: "none",
-              boxShadow: "none",
-              "&:hover": {
-                backgroundColor: "#fff5f3",
-                boxShadow: "none",
+              mt: 0.5,
+              mb: 1,
+              borderRadius: 4,
+              overflow: "hidden",
+              backgroundColor: "#ffffff",
+              width: "100%",
+              height: { xs: 300, md: 330 },
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              "& svg": {
+                width: "100%",
+                height: "100%",
               },
             }}
           >
-            {t.playButton}
-          </Button>
+            {PreviewSvg ? (
+              <Suspense fallback={<Box sx={{ width: "100%", height: "100%" }} />}>
+                <PreviewSvg />
+              </Suspense>
+            ) : null}
+          </Box>
 
           <Box
             sx={{
-              flex: 1,
-              minWidth: 0,
-              textAlign: "right",
-              color: "#fff",
-              pr: { xs: 0.5, md: 1.5 },
+              mt: { xs: 0.5, md: 1.5 },
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              gap: 1.5,
             }}
           >
-            <Typography
+            <Button
+              variant="contained"
+              onClick={() => navigate("/levels", { state: { category: selectedChip } })}
               sx={{
+                alignSelf: "flex-start",
+                borderRadius: 999,
+                backgroundColor: "#fff",
+                color: "#c93d2f",
+                px: { xs: 2.5, md: 4 },
+                py: { xs: 0.9, md: 1.2 },
                 fontWeight: 700,
-                fontSize: { xs: 14, md: 18 },
-                lineHeight: 1.1,
+                fontSize: { xs: 20, md: 30 },
+                textTransform: "none",
+                boxShadow: "none",
+                "&:hover": {
+                  backgroundColor: "#fff5f3",
+                  boxShadow: "none",
+                },
               }}
             >
-              {categoryLabel}
-            </Typography>
-            <Typography
+              {t.playButton}
+            </Button>
+
+            <Box
               sx={{
-                opacity: 0.9,
-                fontWeight: 600,
-                fontSize: { xs: 13, md: 16 },
-                lineHeight: 1.2,
+                flex: 1,
+                minWidth: 0,
+                textAlign: "right",
+                color: "#fff",
+                pr: { xs: 0.5, md: 1.5 },
               }}
             >
-              {levelProgressText}
-            </Typography>
+              <Typography
+                sx={{
+                  fontWeight: 700,
+                  fontSize: { xs: 14, md: 18 },
+                  lineHeight: 1.1,
+                }}
+              >
+                {categoryLabel}
+              </Typography>
+              <Typography
+                sx={{
+                  opacity: 0.9,
+                  fontWeight: 600,
+                  fontSize: { xs: 13, md: 16 },
+                  lineHeight: 1.2,
+                }}
+              >
+                {levelProgressText}
+              </Typography>
+            </Box>
           </Box>
         </Box>
-      </Box>
 
-      <Box
-        sx={{
-          width: "100%",
-          backgroundColor: "#f2f1f1",
-          px: 2,
-          pt: 2,
-          pb: 3,
-          mt: 0.5,
-        }}
-      >
         <Box
           sx={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            mb: 1.75,
+            width: "100%",
+            backgroundColor: "#f2f1f1",
+            borderRadius: 4,
+            px: 2,
+            pt: 2,
+            pb: 3,
           }}
         >
           <Typography
@@ -526,131 +509,131 @@ export default function WelcomeScreen() {
               fontWeight: 700,
               fontSize: { xs: 18, md: 28 },
               letterSpacing: "1px",
+              mb: 1.75,
             }}
           >
             {t.categoriesTitle}
           </Typography>
-        </Box>
 
-        <Box
-          sx={{
-            display: "flex",
-            flexWrap: "nowrap",
-            gap: 1,
-            overflowX: "auto",
-            overflowY: "hidden",
-            WebkitOverflowScrolling: "touch",
-            scrollbarWidth: "none",
-            pb: 0.5,
-            mb: 1.75,
-            "&::-webkit-scrollbar": { display: "none" },
-          }}
-        >
-          {allCategories.map((tab) => (
-            <Box
-              key={tab}
-              onClick={() => setSelectedChip(tab)}
-              sx={{
-                px: 2,
-                py: 0.75,
-                borderRadius: 999,
-                border: "1px solid #d0d0d0",
-                backgroundColor: selectedChip === tab ? "#cb3d2b" : "#f9f9f9",
-                color: selectedChip === tab ? "#fff" : "#3a3a3f",
-                fontWeight: 500,
-                fontSize: { xs: 18, md: 22 },
-                whiteSpace: "nowrap",
-                flex: "0 0 auto",
-                cursor: "pointer",
-                userSelect: "none",
-                transition: "all 0.2s ease",
-              }}
-            >
-              {categoryLabels[tab]}
-            </Box>
-          ))}
-        </Box>
-
-        <Box
-          sx={{
-            display: "grid",
-            gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
-            gap: 1.25,
-          }}
-        >
-          {categoryCards.map((card) => (
-            <Box
-              key={card.key}
-              onClick={() => navigate("/levels", { state: { category: card.key } })}
-              role="button"
-              tabIndex={0}
-              onKeyDown={(event) => {
-                if (event.key === "Enter" || event.key === " ") {
-                  event.preventDefault();
-                  navigate("/levels", { state: { category: card.key } });
-                }
-              }}
-              sx={{
-                borderRadius: 4,
-                overflow: "hidden",
-                backgroundColor: "#fff",
-                border: "1px solid #e3e3e3",
-                boxShadow: "0 1px 2px rgba(0, 0, 0, 0.05)",
-                cursor: "pointer",
-                transition: "transform 0.15s ease, box-shadow 0.15s ease",
-                "&:hover": {
-                  transform: "translateY(-2px)",
-                  boxShadow: "0 6px 14px rgba(0, 0, 0, 0.08)",
-                },
-              }}
-            >
+          <Box
+            sx={{
+              display: "flex",
+              flexWrap: "nowrap",
+              gap: 1,
+              overflowX: "auto",
+              overflowY: "hidden",
+              WebkitOverflowScrolling: "touch",
+              scrollbarWidth: "none",
+              pb: 0.5,
+              mb: 1.75,
+              "&::-webkit-scrollbar": { display: "none" },
+            }}
+          >
+            {allCategories.map((tab) => (
               <Box
+                key={tab}
+                onClick={() => setSelectedChip(tab)}
                 sx={{
-                  height: { xs: 90, md: 130 },
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
+                  px: 2,
+                  py: 0.75,
+                  borderRadius: 999,
+                  border: "1px solid #d0d0d0",
+                  backgroundColor: selectedChip === tab ? "#cb3d2b" : "#f9f9f9",
+                  color: selectedChip === tab ? "#fff" : "#3a3a3f",
+                  fontWeight: 500,
+                  fontSize: { xs: 18, md: 22 },
+                  whiteSpace: "nowrap",
+                  flex: "0 0 auto",
+                  cursor: "pointer",
+                  userSelect: "none",
+                  transition: "all 0.2s ease",
+                }}
+              >
+                {categoryLabels[tab]}
+              </Box>
+            ))}
+          </Box>
+
+          <Box
+            sx={{
+              display: "grid",
+              gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
+              gap: 1.25,
+            }}
+          >
+            {categoryCards.map((card) => (
+              <Box
+                key={card.key}
+                onClick={() => navigate("/levels", { state: { category: card.key } })}
+                role="button"
+                tabIndex={0}
+                onKeyDown={(event) => {
+                  if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    navigate("/levels", { state: { category: card.key } });
+                  }
+                }}
+                sx={{
+                  borderRadius: 4,
                   overflow: "hidden",
-                  "& svg": {
-                    width: "100%",
-                    height: "100%",
+                  backgroundColor: "#fff",
+                  border: "1px solid #e3e3e3",
+                  boxShadow: "0 1px 2px rgba(0, 0, 0, 0.05)",
+                  cursor: "pointer",
+                  transition: "transform 0.15s ease, box-shadow 0.15s ease",
+                  "&:hover": {
+                    transform: "translateY(-2px)",
+                    boxShadow: "0 6px 14px rgba(0, 0, 0, 0.08)",
                   },
                 }}
               >
-                {card.preview ? (
-                  <Suspense fallback={<Box sx={{ width: "100%", height: "100%" }} />}>
-                    <card.preview />
-                  </Suspense>
-                ) : null}
-              </Box>
-              <Box sx={{ px: 1, py: 1 }}>
-                <Typography
+                <Box
                   sx={{
-                    fontWeight: 700,
-                    color: "#313236",
-                    fontSize: { xs: 14, md: 20 },
-                    lineHeight: 1.1,
+                    height: { xs: 90, md: 130 },
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    overflow: "hidden",
+                    "& svg": {
+                      width: "100%",
+                      height: "100%",
+                    },
                   }}
                 >
-                  {categoryLabels[card.key]}
-                </Typography>
-                <Typography
-                  sx={{
-                    color: "#a0a0a4",
-                    fontWeight: 600,
-                    mt: 0.35,
-                    fontSize: { xs: 14, md: 18 },
-                    lineHeight: 1.1,
-                  }}
-                >
-                  {card.level}
-                </Typography>
+                  {card.preview ? (
+                    <Suspense fallback={<Box sx={{ width: "100%", height: "100%" }} />}>
+                      <card.preview />
+                    </Suspense>
+                  ) : null}
+                </Box>
+                <Box sx={{ px: 1, py: 1 }}>
+                  <Typography
+                    sx={{
+                      fontWeight: 700,
+                      color: "#313236",
+                      fontSize: { xs: 14, md: 20 },
+                      lineHeight: 1.1,
+                    }}
+                  >
+                    {categoryLabels[card.key]}
+                  </Typography>
+                  <Typography
+                    sx={{
+                      color: "#a0a0a4",
+                      fontWeight: 600,
+                      mt: 0.35,
+                      fontSize: { xs: 14, md: 18 },
+                      lineHeight: 1.1,
+                    }}
+                  >
+                    {card.level}
+                  </Typography>
+                </Box>
               </Box>
-            </Box>
-          ))}
+            ))}
+          </Box>
         </Box>
       </Box>
-
     </Layout>
   );
 }

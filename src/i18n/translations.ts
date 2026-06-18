@@ -89,12 +89,12 @@ export interface Translation {
 
 export const translations: Record<string, Translation> = {
   es: {
-    appTitle: "Imaginalo",
+    appTitle: "Imaginado",
     tagline: "pensá · adiviná · ganá",
     goodMorning: "Buenos dias",
     daysWithoutTrainingMessage:
       "hace {{days}} dias que no ejercitas el cerebro.",
-    whatPlayToday: "¿A qué jugamos hoy?",
+    whatPlayToday: "¿Listo para jugar Imaginado 🤔?",
     keepPlaying: "SEGUIR JUGANDO",
     continueButton: "Continuar",
     howToPlay: "¿CÓMO JUGAR?",
@@ -164,7 +164,7 @@ export const translations: Record<string, Translation> = {
   },
 
   en: {
-    appTitle: "Imaginalo",
+    appTitle: "Imaginado",
     tagline: "think · guess · win",
     goodMorning: "Good morning",
     daysWithoutTrainingMessage:
@@ -239,7 +239,7 @@ export const translations: Record<string, Translation> = {
   },
 
   pt: {
-    appTitle: "Imaginalo",
+    appTitle: "Imaginado",
     tagline: "pense · adivinhe · ganhe",
     goodMorning: "Bom dia",
     daysWithoutTrainingMessage:
@@ -314,7 +314,7 @@ export const translations: Record<string, Translation> = {
   },
 
   fr: {
-    appTitle: "Imaginalo",
+    appTitle: "Imaginado",
     tagline: "pensez · devinez · gagnez",
     goodMorning: "Bonjour",
     daysWithoutTrainingMessage:
