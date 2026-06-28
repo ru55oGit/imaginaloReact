@@ -633,6 +633,30 @@ export default function WelcomeScreen() {
             ))}
           </Box>
         </Box>
+
+        <Box
+          component="section"
+          sx={{
+            width: "100%",
+            backgroundColor: "rgba(0,0,0,0.18)",
+            borderRadius: 4,
+            px: 2,
+            py: 2.5,
+          }}
+        >
+          <Typography variant="h2" sx={{ color: "#fff", fontWeight: 800, fontSize: { xs: 20, md: 26 }, mb: 1 }}>
+            ¿Qué es Imaginalo?
+          </Typography>
+          <Typography sx={{ color: "rgba(255,255,255,0.85)", fontSize: { xs: 14, md: 16 }, lineHeight: 1.7, mb: 1.5 }}>
+            Imaginalo es un juego de adivinanzas visual donde tenés que identificar películas, logos, sombras, emojis, banderas y más a partir de imágenes. Contiene cientos de niveles organizados en categorías para todos los gustos.
+          </Typography>
+          <Typography variant="h3" sx={{ color: "#fff", fontWeight: 700, fontSize: { xs: 16, md: 20 }, mb: 0.5 }}>
+            ¿Cómo jugar?
+          </Typography>
+          <Typography sx={{ color: "rgba(255,255,255,0.85)", fontSize: { xs: 14, md: 16 }, lineHeight: 1.7 }}>
+            Elegí una categoría, mirá la imagen o el emoji y escribí tu respuesta. Si no sabés, avanzá al siguiente nivel y volvé después. Cada categoría tiene decenas de niveles con dificultad creciente.
+          </Typography>
+        </Box>
       </Box>
     </Layout>
   );

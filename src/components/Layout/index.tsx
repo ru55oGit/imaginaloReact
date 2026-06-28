@@ -478,13 +478,23 @@ const Layout: React.FC<LayoutProps> = ({
           sx={{
             py: 2,
             textAlign: "center",
-            fontSize: 16,
+            fontSize: 14,
+            color: "rgba(255,255,255,0.7)",
             position: "relative",
             zIndex: 5,
+            display: "flex",
+            flexDirection: "column",
+            gap: 0.5,
           }}
         >
-          {/* TODO: Cambiar por el nombre de tu juego */}©{" "}
-          {new Date().getFullYear()} Games Boilerplate
+          <Box>© {new Date().getFullYear()} Imaginalo</Box>
+          <Box
+            component="a"
+            href="/privacidad"
+            sx={{ color: "rgba(255,255,255,0.5)", fontSize: 12, textDecoration: "underline", cursor: "pointer" }}
+          >
+            Política de Privacidad
+          </Box>
         </Box>
       )}
 
@@ -635,6 +645,24 @@ const Layout: React.FC<LayoutProps> = ({
                 ))}
               </List>
             </Collapse>
+
+            <ListItem disablePadding>
+              <ListItemButton
+                onClick={() => handleMenuNavigation("/privacidad")}
+                sx={{
+                  px: 3,
+                  py: 2,
+                  backgroundColor: "#fff",
+                  borderBottom: "1px solid #e0e0e0",
+                  "&:hover": { backgroundColor: "#f5f5f5" },
+                }}
+              >
+                <ListItemText
+                  primary="Política de Privacidad"
+                  primaryTypographyProps={{ fontSize: 18, fontWeight: 500, color: "#e74c3c" }}
+                />
+              </ListItemButton>
+            </ListItem>
           </List>
         </Box>
       </Drawer>
