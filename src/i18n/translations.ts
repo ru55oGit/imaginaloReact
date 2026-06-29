@@ -85,16 +85,22 @@ export interface Translation {
   adBlockerTitle: string;
   adBlockerMessage: string;
   adBlockerButton: string;
+
+  // About / How to play sections
+  aboutTitle: string;
+  aboutText: string;
+  howToPlayTitle: string;
+  howToPlayText: string;
 }
 
 export const translations: Record<string, Translation> = {
   es: {
-    appTitle: "Imaginado",
+    appTitle: "Imaginalo",
     tagline: "pensá · adiviná · ganá",
     goodMorning: "Buenos dias",
     daysWithoutTrainingMessage:
       "hace {{days}} dias que no ejercitas el cerebro.",
-    whatPlayToday: "¿Listo para jugar Imaginado 🤔?",
+    whatPlayToday: "¿Listo para jugar Imaginalo 🤔?",
     keepPlaying: "SEGUIR JUGANDO",
     continueButton: "Continuar",
     howToPlay: "¿CÓMO JUGAR?",
@@ -161,10 +167,14 @@ export const translations: Record<string, Translation> = {
     adBlockerTitle: "Tenés un bloqueador de anuncios activo",
     adBlockerMessage: "Este juego es gratuito gracias a los anuncios. Por favor desactivá tu bloqueador para poder jugar.",
     adBlockerButton: "Ya lo desactivé, continuar",
+    aboutTitle: "¿Qué es Imaginalo?",
+    aboutText: "Imaginalo es un juego de adivinanzas visual donde tenés que identificar películas, logos, sombras, emojis, banderas y más a partir de imágenes. Contiene cientos de niveles organizados en categorías para todos los gustos.",
+    howToPlayTitle: "¿Cómo jugar?",
+    howToPlayText: "Elegí una categoría, mirá la imagen o el emoji y escribí tu respuesta. Si no sabés, avanzá al siguiente nivel y volvé después. Cada categoría tiene decenas de niveles con dificultad creciente.",
   },
 
   en: {
-    appTitle: "Imaginado",
+    appTitle: "Imaginalo",
     tagline: "think · guess · win",
     goodMorning: "Good morning",
     daysWithoutTrainingMessage:
@@ -236,10 +246,14 @@ export const translations: Record<string, Translation> = {
     adBlockerTitle: "Ad blocker detected",
     adBlockerMessage: "This game is free thanks to ads. Please disable your ad blocker to continue playing.",
     adBlockerButton: "I disabled it, continue",
+    aboutTitle: "What is Imaginalo?",
+    aboutText: "Imaginalo is a visual guessing game where you have to identify movies, logos, silhouettes, emojis, flags and more from images. It contains hundreds of levels organized into categories for every taste.",
+    howToPlayTitle: "How to play?",
+    howToPlayText: "Choose a category, look at the image or emoji and type your answer. If you don't know, move on to the next level and come back later. Each category has dozens of levels with increasing difficulty.",
   },
 
   pt: {
-    appTitle: "Imaginado",
+    appTitle: "Imaginalo",
     tagline: "pense · adivinhe · ganhe",
     goodMorning: "Bom dia",
     daysWithoutTrainingMessage:
@@ -311,10 +325,14 @@ export const translations: Record<string, Translation> = {
     adBlockerTitle: "Bloqueador de anúncios detectado",
     adBlockerMessage: "Este jogo é gratuito graças aos anúncios. Desative seu bloqueador para continuar jogando.",
     adBlockerButton: "Já desativei, continuar",
+    aboutTitle: "O que é Imaginalo?",
+    aboutText: "Imaginalo é um jogo de adivinhação visual onde você precisa identificar filmes, logos, silhuetas, emojis, bandeiras e mais a partir de imagens. Contém centenas de níveis organizados em categorias para todos os gostos.",
+    howToPlayTitle: "Como jogar?",
+    howToPlayText: "Escolha uma categoria, olhe para a imagem ou emoji e digite sua resposta. Se não souber, avance para o próximo nível e volte depois. Cada categoria tem dezenas de níveis com dificuldade crescente.",
   },
 
   fr: {
-    appTitle: "Imaginado",
+    appTitle: "Imaginalo",
     tagline: "pensez · devinez · gagnez",
     goodMorning: "Bonjour",
     daysWithoutTrainingMessage:
@@ -386,6 +404,10 @@ export const translations: Record<string, Translation> = {
     adBlockerTitle: "Bloqueur de publicités détecté",
     adBlockerMessage: "Ce jeu est gratuit grâce aux publicités. Veuillez désactiver votre bloqueur pour continuer.",
     adBlockerButton: "Je l'ai désactivé, continuer",
+    aboutTitle: "Qu'est-ce qu'Imaginalo ?",
+    aboutText: "Imaginalo est un jeu de devinettes visuelles où vous devez identifier des films, des logos, des silhouettes, des emojis, des drapeaux et plus encore à partir d'images. Il contient des centaines de niveaux organisés en catégories pour tous les goûts.",
+    howToPlayTitle: "Comment jouer ?",
+    howToPlayText: "Choisissez une catégorie, regardez l'image ou l'emoji et tapez votre réponse. Si vous ne savez pas, passez au niveau suivant et revenez plus tard. Chaque catégorie a des dizaines de niveaux avec une difficulté croissante.",
   },
 };
 
