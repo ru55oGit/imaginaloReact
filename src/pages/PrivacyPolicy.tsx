@@ -77,8 +77,8 @@ export default function PrivacyPolicy() {
         </Typography>
         <Typography sx={{ mb: 2, lineHeight: 1.7 }}>
           Si tenés preguntas sobre esta política, podés contactarnos en{" "}
-          <a href="mailto:contacto@imaginaloapp.com" style={{ color: "#ffd" }}>
-            contacto@imaginaloapp.com
+          <a href="mailto:patricio.ezequiel.toledo@gmail.com" style={{ color: "#ffd" }}>
+            patricio.ezequiel.toledo@gmail.com
           </a>.
         </Typography>
       </Box>
