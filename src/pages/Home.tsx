@@ -12,6 +12,7 @@ import Layout from "../components/Layout";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import PlayArrowRoundedIcon from "@mui/icons-material/PlayArrowRounded";
 import LanguageSelector from "../components/LanguageSelector";
 import { useLanguage } from "../i18n/LanguageContext";
 import {
@@ -441,20 +442,21 @@ export default function WelcomeScreen() {
             <Button
               variant="contained"
               onClick={() => navigate("/levels", { state: { category: selectedChip } })}
+              startIcon={<PlayArrowRoundedIcon sx={{ fontSize: "28px !important" }} />}
               sx={{
                 alignSelf: "flex-start",
                 borderRadius: 999,
                 backgroundColor: "#fff",
                 color: "#c93d2f",
-                px: { xs: 2.5, md: 4 },
+                px: { xs: 2, md: 3.5 },
                 py: { xs: 0.9, md: 1.2 },
                 fontWeight: 700,
-                fontSize: { xs: 20, md: 30 },
+                fontSize: { xs: 18, md: 28 },
                 textTransform: "none",
-                boxShadow: "none",
+                boxShadow: "0 0 0 4px rgba(255,255,255,0.35), 0 10px 24px rgba(0,0,0,0.4)",
                 "&:hover": {
                   backgroundColor: "#fff5f3",
-                  boxShadow: "none",
+                  boxShadow: "0 0 0 4px rgba(255,255,255,0.5), 0 12px 26px rgba(0,0,0,0.45)",
                 },
               }}
             >
