@@ -149,12 +149,6 @@ const MIN_CHARS_PER_ROW = 6;
 
 const FAIL_TIMER_SECONDS = 5 * 60;
 
-const ADSENSE_CLIENT = "ca-pub-6825837607163963";
-// Slot ID del bloque de Display que creaste en AdSense → Por bloque de anuncios → Anuncios de display
-const ADSENSE_DISPLAY_SLOT = "5173463876";
-// Slot ID de recompensa (futuro, cuando tengas Ad Manager)
-const ADSENSE_REWARDED_SLOT = "REPLACE_WITH_YOUR_REWARDED_SLOT_ID";
-
 const formatFailTimer = (seconds: number): string => {
   const m = Math.floor(seconds / 60);
   const s = seconds % 60;
@@ -746,62 +740,6 @@ const Game: React.FC = () => {
     setShowFailModal(false);
   };
 
-  const handleWatchAd = useCallback(() => {
-    if (!Array.isArray(window.adsbygoogle)) {
-      return;
-    }
-
-    // Eliminar instancia anterior si existe
-    const prev = document.getElementById("imaginalo-rewarded-ad");
-    if (prev) prev.remove();
-
-    // Crear elemento <ins> para el anuncio de recompensa
-    const ins = document.createElement("ins");
-    ins.id = "imaginalo-rewarded-ad";
-    ins.className = "adsbygoogle";
-    ins.style.display = "none";
-    ins.setAttribute("data-ad-client", ADSENSE_CLIENT);
-    ins.setAttribute("data-ad-slot", ADSENSE_REWARDED_SLOT);
-    ins.setAttribute("data-ad-format", "rewarded");
-    document.body.appendChild(ins);
-
-    const cleanup = () => {
-      const el = document.getElementById("imaginalo-rewarded-ad");
-      if (el) el.remove();
-    };
-
-    window.adsbygoogle.push({
-      done: (grantedReward: { type: string; amount: number } | null) => {
-        cleanup();
-        if (grantedReward) {
-          setLives(3);
-          setRevealedChars(answerChars.map((char) => !isGuessableChar(char)));
-          setGuessedLetters([]);
-          setWrongLetters([]);
-          setShowFailModal(false);
-        }
-        // si no hay reward, el modal sigue abierto con el timer
-      },
-    });
-  }, [answerChars]);
-
-  // Inicializar bloque de display cuando el modal de fallo abre
-  useEffect(() => {
-    if (!showFailModal) return;
-
-    const timeoutId = setTimeout(() => {
-      try {
-        if (Array.isArray(window.adsbygoogle)) {
-          window.adsbygoogle.push({});
-        }
-      } catch {
-        // adsbygoogle no disponible en dev
-      }
-    }, 300); // esperar que el DOM del modal esté montado
-
-    return () => clearTimeout(timeoutId);
-  }, [showFailModal]);
-
   useEffect(() => {
     if (!showFailModal) {
       setFailTimerSeconds(FAIL_TIMER_SECONDS);
@@ -1056,25 +994,6 @@ const Game: React.FC = () => {
           </Typography>
           {failTimerSeconds > 0 ? (
             <>
-              {/* Bloque de display AdSense mientras corre el timer */}
-              <Box
-                sx={{
-                  width: "100%",
-                  minHeight: 100,
-                  mb: 2,
-                  overflow: "hidden",
-                  borderRadius: 1,
-                }}
-              >
-                <ins
-                  className="adsbygoogle"
-                  style={{ display: "block" }}
-                  data-ad-client={ADSENSE_CLIENT}
-                  data-ad-slot={ADSENSE_DISPLAY_SLOT}
-                  data-ad-format="auto"
-                  data-full-width-responsive="true"
-                />
-              </Box>
               <Typography sx={{ color: "#999", fontSize: 13, mb: 2 }}>
                 {t.nextFreeRetry}: {formatFailTimer(failTimerSeconds)}
               </Typography>
