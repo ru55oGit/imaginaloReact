@@ -131,10 +131,12 @@ export default function WelcomeScreen() {
     return Math.floor((Date.now() - lastPlayedDate.getTime()) / msPerDay);
   })();
 
+  const nowHour = new Date().getHours();
+  const timeGreeting = nowHour < 12 ? t.goodMorning : nowHour < 20 ? t.goodAfternoon : t.goodEvening;
   const greetingMessage =
     hasPlayedBefore && inactivityDays > 1
-      ? `${t.goodMorning}, ${t.daysWithoutTrainingMessage.replace("{{days}}", String(inactivityDays))}`
-      : t.goodMorning;
+      ? `${timeGreeting}, ${t.daysWithoutTrainingMessage.replace("{{days}}", String(inactivityDays))}`
+      : timeGreeting;
 
   const getPreviewConfigByLanguage = (category: string) => {
     // In English, riddles use Wuzzles assets.
@@ -335,85 +337,64 @@ export default function WelcomeScreen() {
       >
         <LanguageSelector />
 
-        <Typography
-          variant="h1"
-          sx={{
-            color: "#fff",
-            fontWeight: 700,
-            letterSpacing: "2px",
-            fontFamily: "Lobster, cursive",
-            width: "100%",
-            textAlign: "center",
-            fontSize: { xs: "4.2rem", sm: "5.3rem", md: "6.2rem" },
-            lineHeight: 0.95,
-          }}
-        >
-          {t.appTitle}
-        </Typography>
+        <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
+          <Typography
+            variant="h2"
+            sx={{
+              color: "#fff",
+              fontWeight: 700,
+              letterSpacing: "1px",
+              fontFamily: "Lobster, cursive",
+              textAlign: "center",
+              width: "100%",
+            }}
+          >
+            {t.appTitle}
+          </Typography>
 
-        <Typography
-          variant="h6"
-          sx={{
-            color: "rgba(255, 255, 255, 0.6)",
-            fontStyle: "italic",
-            letterSpacing: "2px",
-            width: "100%",
-            textAlign: "center",
-            fontSize: { xs: 18, md: 22 },
-            lineHeight: 1.1,
-          }}
-        >
-          {t.tagline}
-        </Typography>
+          <Typography
+            variant="h6"
+            sx={{
+              color: "rgba(255, 255, 255, 0.64)",
+              fontStyle: "italic",
+              letterSpacing: "2px",
+              width: "100%",
+              textAlign: "center",
+              fontSize: { xs: 18, md: 22 },
+            }}
+          >
+            {t.tagline}
+          </Typography>
+        </Box>
 
-        <Typography
-          variant="h6"
-          sx={{
-            color: "rgba(255, 255, 255, 0.72)",
-            fontWeight: 700,
-            width: "100%",
-            fontSize: { xs: 18, md: 24 },
-            lineHeight: 1.15,
-          }}
-        >
+        <Typography sx={{ color: "#ffe6e6", fontSize: 18, fontWeight: 600 }}>
           {greetingMessage}
         </Typography>
 
-        <Typography
-          variant="h5"
-          sx={{
-            color: "#fff",
-            fontWeight: 700,
-            width: "100%",
-            fontSize: { xs: 24, sm: 32, md: 32 },
-            lineHeight: 1.05,
-            letterSpacing: "-0.5px",
-          }}
-        >
+        <Typography sx={{ color: "#fff", fontSize: 24, fontWeight: 700, lineHeight: 1.4 }}>
           {t.whatPlayToday}
         </Typography>
 
         <Box
           sx={{
             width: "100%",
-            borderRadius: 6,
+            borderRadius: "24px",
             backgroundColor: "#ef7063",
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
-            p: { xs: 1.75, md: 2.5 },
-            boxShadow: "0 8px 24px rgba(0, 0, 0, 0.12)",
+            p: 2,
+            boxShadow: "0 12px 24px rgba(0,0,0,0.18)",
           }}
         >
           <Box
             sx={{
-              mt: 0.5,
-              mb: 1,
-              borderRadius: 4,
+              mb: 2,
+              borderRadius: "16px",
               overflow: "hidden",
               backgroundColor: "#ffffff",
               width: "100%",
-              height: { xs: 300, md: 330 },
+              aspectRatio: "1",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -432,7 +413,6 @@ export default function WelcomeScreen() {
 
           <Box
             sx={{
-              mt: { xs: 0.5, md: 1.5 },
               display: "flex",
               alignItems: "center",
               justifyContent: "space-between",
@@ -448,10 +428,10 @@ export default function WelcomeScreen() {
                 borderRadius: 999,
                 backgroundColor: "#fff",
                 color: "#c93d2f",
-                px: { xs: 2, md: 3.5 },
-                py: { xs: 0.9, md: 1.2 },
-                fontWeight: 700,
-                fontSize: { xs: 18, md: 28 },
+                px: 3,
+                py: 1.4,
+                fontWeight: 800,
+                fontSize: 18,
                 textTransform: "none",
                 boxShadow: "0 0 0 4px rgba(255,255,255,0.35), 0 10px 24px rgba(0,0,0,0.4)",
                 "&:hover": {
@@ -636,38 +616,20 @@ export default function WelcomeScreen() {
           </Box>
         </Box>
 
-        <Box
-          component="section"
-          sx={{
-            width: "100%",
-            backgroundColor: "rgba(0,0,0,0.18)",
-            borderRadius: 4,
-            px: 2,
-            py: 2.5,
-          }}
-        >
-          <Typography variant="h2" sx={{ color: "#fff", fontWeight: 800, fontSize: { xs: 20, md: 26 }, mb: 1 }}>
+        <Box component="section" sx={{ backgroundColor: "rgba(0,0,0,0.18)", borderRadius: "24px", px: 2, py: 2.5 }}>
+          <Typography variant="h5" sx={{ fontWeight: 800, color: "#fff", mb: 1 }}>
             {t.aboutTitle}
           </Typography>
-          <Typography sx={{ color: "rgba(255,255,255,0.85)", fontSize: { xs: 14, md: 16 }, lineHeight: 1.7, mb: 1.5 }}>
+          <Typography sx={{ color: "rgba(255,255,255,0.85)", lineHeight: 1.7 }}>
             {t.aboutText}
           </Typography>
         </Box>
 
-        <Box
-          component="section"
-          sx={{
-            width: "100%",
-            backgroundColor: "rgba(0,0,0,0.18)",
-            borderRadius: 4,
-            px: 2,
-            py: 2.5,
-          }}
-        >
-          <Typography variant="h3" sx={{ color: "#fff", fontWeight: 700, fontSize: { xs: 16, md: 20 }, mb: 0.5 }}>
+        <Box component="section" sx={{ backgroundColor: "rgba(0,0,0,0.18)", borderRadius: "24px", px: 2, py: 2.5 }}>
+          <Typography variant="h5" sx={{ fontWeight: 800, color: "#fff", mb: 1 }}>
             {t.howToPlayTitle}
           </Typography>
-          <Typography sx={{ color: "rgba(255,255,255,0.85)", fontSize: { xs: 14, md: 16 }, lineHeight: 1.7 }}>
+          <Typography sx={{ color: "rgba(255,255,255,0.85)", lineHeight: 1.7 }}>
             {t.howToPlayText}
           </Typography>
         </Box>
