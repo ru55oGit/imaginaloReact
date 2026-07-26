@@ -610,6 +610,17 @@ export default function WelcomeScreen() {
                   >
                     {card.level}
                   </Typography>
+                  <Typography
+                    sx={{
+                      color: "#6b6b70",
+                      fontWeight: 400,
+                      mt: 0.5,
+                      fontSize: { xs: 12, md: 14 },
+                      lineHeight: 1.35,
+                    }}
+                  >
+                    {t.categoryDescriptions[card.key]}
+                  </Typography>
                 </Box>
               </Box>
             ))}

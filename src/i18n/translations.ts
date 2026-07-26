@@ -31,6 +31,7 @@ export interface Translation {
   categoryShields: string;
   categoryFlags: string;
   categoryRandom: string;
+  categoryDescriptions: Record<string, string>;
   ofWord: string;
   levelShort: string;
 
@@ -127,6 +128,17 @@ export const translations: Record<string, Translation> = {
     categoryShields: "ESCUDOS",
     categoryFlags: "BANDERAS",
     categoryRandom: "ALEATORIO",
+    categoryDescriptions: {
+      acertijos: "Mirá la imagen y descubrí qué objeto, lugar o concepto representa. Acertijos visuales con dificultad creciente, ideales para pensar fuera de la caja.",
+      peliculas: "Adiviná el título de películas clásicas y actuales a partir de fotogramas, objetos o pistas visuales relacionadas con la trama.",
+      logos: "Reconocé marcas y logos de empresas conocidas a partir de fragmentos, siluetas o versiones estilizadas del isotipo.",
+      emojis: "Descubrí qué frase, título o concepto se esconde detrás de una combinación de emojis.",
+      sombras: "Identificá el objeto, animal o personaje a partir de su silueta, sin más pistas que la forma.",
+      funkos: "Reconocé personajes de películas, series y videojuegos a partir de su versión en figura Funko Pop.",
+      escudos: "Reconocé escudos de clubes de fútbol de Argentina y el mundo.",
+      banderas: "Reconocé banderas de países de todo el mundo, de las más conocidas a las más difíciles.",
+      aleatorio: "Una mezcla de todas las categorías: nunca sabés qué tipo de acertijo te va a tocar.",
+    },
     ofWord: "de",
     levelShort: "Nivel",
     findEmoji: "🤔 Encuentra el emoji",
@@ -208,6 +220,17 @@ export const translations: Record<string, Translation> = {
     categoryShields: "SHIELDS",
     categoryFlags: "FLAGS",
     categoryRandom: "RANDOM",
+    categoryDescriptions: {
+      acertijos: "Look at the image and figure out what object, place or concept it represents. Visual riddles with increasing difficulty, perfect for thinking outside the box.",
+      peliculas: "Guess the title of classic and current movies from stills, objects or visual clues related to the plot.",
+      logos: "Recognize brands and logos of well-known companies from fragments, silhouettes or stylized versions of the logo.",
+      emojis: "Figure out what phrase, title or concept is hidden behind an emoji combination.",
+      sombras: "Identify the object, animal or character from its silhouette alone.",
+      funkos: "Recognize characters from movies, series and video games from their Funko Pop figure version.",
+      escudos: "Recognize football club crests from Argentina and around the world.",
+      banderas: "Recognize country flags from around the world, from the most familiar to the trickiest.",
+      aleatorio: "A mix of every category: you never know what kind of riddle you'll get next.",
+    },
     ofWord: "of",
     levelShort: "Level",
     findEmoji: "🤔 Find the emoji",
@@ -289,6 +312,17 @@ export const translations: Record<string, Translation> = {
     categoryShields: "ESCUDOS",
     categoryFlags: "BANDEIRAS",
     categoryRandom: "ALEATORIO",
+    categoryDescriptions: {
+      acertijos: "Olhe a imagem e descubra qual objeto, lugar ou conceito ela representa. Enigmas visuais com dificuldade crescente.",
+      peliculas: "Adivinhe o título de filmes clássicos e atuais a partir de cenas, objetos ou pistas visuais relacionadas à trama.",
+      logos: "Reconheça marcas e logos de empresas conhecidas a partir de fragmentos ou versões estilizadas.",
+      emojis: "Descubra qual frase, título ou conceito está escondido atrás de uma combinação de emojis.",
+      sombras: "Identifique o objeto, animal ou personagem apenas pela silhueta.",
+      funkos: "Reconheça personagens de filmes, séries e videogames a partir da versão em figura Funko Pop.",
+      escudos: "Reconheça escudos de clubes de futebol da Argentina e do mundo.",
+      banderas: "Reconheça bandeiras de países do mundo todo, das mais conhecidas às mais difíceis.",
+      aleatorio: "Uma mistura de todas as categorias: você nunca sabe que tipo de enigma vai aparecer.",
+    },
     ofWord: "de",
     levelShort: "NIV",
     findEmoji: "🤔 Encontre o emoji",
@@ -370,6 +404,17 @@ export const translations: Record<string, Translation> = {
     categoryShields: "ECUSSONS",
     categoryFlags: "DRAPEAUX",
     categoryRandom: "ALEATOIRE",
+    categoryDescriptions: {
+      acertijos: "Regarde l'image et devine quel objet, lieu ou concept elle représente. Des énigmes visuelles à difficulté croissante.",
+      peliculas: "Devine le titre de films classiques et actuels à partir d'images, d'objets ou d'indices visuels liés à l'intrigue.",
+      logos: "Reconnais les marques et logos d'entreprises connues à partir de fragments ou de versions stylisées.",
+      emojis: "Découvre quelle phrase, quel titre ou quel concept se cache derrière une combinaison d'emojis.",
+      sombras: "Identifie l'objet, l'animal ou le personnage à partir de sa seule silhouette.",
+      funkos: "Reconnais des personnages de films, séries et jeux vidéo à partir de leur figurine Funko Pop.",
+      escudos: "Reconnais les écussons de clubs de football d'Argentine et du monde entier.",
+      banderas: "Reconnais les drapeaux de pays du monde entier, des plus connus aux plus difficiles.",
+      aleatorio: "Un mélange de toutes les catégories : tu ne sais jamais quel type d'énigme t'attend.",
+    },
     ofWord: "de",
     levelShort: "NIV",
     findEmoji: "🤔 Trouvez l'emoji",
