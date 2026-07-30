@@ -100,9 +100,9 @@ export const translations: Record<string, Translation> = {
   es: {
     appTitle: "Imaginalo",
     tagline: "pensá · adiviná · ganá",
-    goodMorning: "Buenos dias",
-    goodAfternoon: "Buenas tardes",
-    goodEvening: "Buenas noches",
+    goodMorning: "Buenos dias ☀️",
+    goodAfternoon: "Buenas tardes 🌤️",
+    goodEvening: "Buenas noches 🌙",
     daysWithoutTrainingMessage:
       "hace {{days}} dias que no ejercitas el cerebro.",
     whatPlayToday: "¿Listo para jugar Imaginalo 🤔?",
@@ -192,9 +192,9 @@ export const translations: Record<string, Translation> = {
   en: {
     appTitle: "Imaginalo",
     tagline: "think · guess · win",
-    goodMorning: "Good morning",
-    goodAfternoon: "Good afternoon",
-    goodEvening: "Good evening",
+    goodMorning: "Good morning ☀️",
+    goodAfternoon: "Good afternoon 🌤️",
+    goodEvening: "Good evening 🌙",
     daysWithoutTrainingMessage:
       "it has been {{days}} days since you trained your brain.",
     whatPlayToday: "What are we playing today?",
@@ -284,9 +284,9 @@ export const translations: Record<string, Translation> = {
   pt: {
     appTitle: "Imaginalo",
     tagline: "pense · adivinhe · ganhe",
-    goodMorning: "Bom dia",
-    goodAfternoon: "Boa tarde",
-    goodEvening: "Boa noite",
+    goodMorning: "Bom dia ☀️",
+    goodAfternoon: "Boa tarde 🌤️",
+    goodEvening: "Boa noite 🌙",
     daysWithoutTrainingMessage:
       "faz {{days}} dias que voce nao exercita o cerebro.",
     whatPlayToday: "O que vamos jogar hoje?",
@@ -376,9 +376,9 @@ export const translations: Record<string, Translation> = {
   fr: {
     appTitle: "Imaginalo",
     tagline: "pensez · devinez · gagnez",
-    goodMorning: "Bonjour",
-    goodAfternoon: "Bon après-midi",
-    goodEvening: "Bonsoir",
+    goodMorning: "Bonjour ☀️",
+    goodAfternoon: "Bon après-midi 🌤️",
+    goodEvening: "Bonsoir 🌙",
     daysWithoutTrainingMessage:
       "cela fait {{days}} jours que vous n'avez pas entraine votre cerveau.",
     whatPlayToday: "A quoi on joue aujourd'hui ?",
