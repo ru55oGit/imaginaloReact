@@ -408,6 +408,9 @@ const Layout: React.FC<LayoutProps> = ({
               overflow: "hidden",
               textOverflow: "ellipsis",
               whiteSpace: "nowrap",
+              userSelect: "none",
+              WebkitUserSelect: "none",
+              WebkitTouchCallout: "none",
             }}
             onClick={() => headerTitle ? null : window.location.replace("/")}
           >
