@@ -184,9 +184,9 @@ export const translations: Record<string, Translation> = {
     adBlockerMessage: "Este juego es gratuito gracias a los anuncios. Por favor desactivá tu bloqueador para poder jugar.",
     adBlockerButton: "Ya lo desactivé, continuar",
     aboutTitle: "¿Qué es Imaginalo?",
-    aboutText: "Imaginalo es un juego de adivinanzas visual donde tenés que identificar películas, logos, sombras, emojis, banderas y más a partir de imágenes. Contiene cientos de niveles organizados en categorías para todos los gustos.",
+    aboutText: "Imaginalo es un juego de adivinanzas visuales con más de 10 categorías distintas: siluetas de personajes, logos de marcas, escudos de clubes de fútbol, muñecos funko, banderas, jugadores de fútbol, pósters de películas, acertijos ilustrados y preguntas de trivia. Cada categoría tiene su propio estilo de pista, así que nunca se vuelve repetitivo.",
     howToPlayTitle: "¿Cómo jugar?",
-    howToPlayText: "Elegí una categoría, mirá la imagen o el emoji y escribí tu respuesta. Si no sabés, avanzá al siguiente nivel y volvé después. Cada categoría tiene decenas de niveles con dificultad creciente.",
+    howToPlayText: "Elegí una categoría —siluetas, logos, escudos, funkos, banderas, jugadores, películas, acertijos o trivia— mirá la imagen o pista y escribí tu respuesta. Si no sabés, avanzá al siguiente nivel y volvé después. Cada categoría tiene decenas de niveles con dificultad creciente.",
   },
 
   en: {
@@ -276,9 +276,9 @@ export const translations: Record<string, Translation> = {
     adBlockerMessage: "This game is free thanks to ads. Please disable your ad blocker to continue playing.",
     adBlockerButton: "I disabled it, continue",
     aboutTitle: "What is Imaginalo?",
-    aboutText: "Imaginalo is a visual guessing game where you have to identify movies, logos, silhouettes, emojis, flags and more from images. It contains hundreds of levels organized into categories for every taste.",
+    aboutText: "Imaginalo is a visual guessing game with over 10 different categories: character silhouettes, brand logos, football club crests, funko figures, flags, football players, movie posters, illustrated riddles, and trivia questions. Each category has its own clue style, so it never gets repetitive.",
     howToPlayTitle: "How to play?",
-    howToPlayText: "Choose a category, look at the image or emoji and type your answer. If you don't know, move on to the next level and come back later. Each category has dozens of levels with increasing difficulty.",
+    howToPlayText: "Pick a category — silhouettes, logos, crests, funkos, flags, players, movies, riddles, or trivia — look at the image or clue, and type your answer. If you don't know it, move on to the next level and come back later. Each category has dozens of levels with increasing difficulty.",
   },
 
   pt: {
