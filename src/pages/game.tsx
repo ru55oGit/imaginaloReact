@@ -182,8 +182,11 @@ const formatFailTimer = (seconds: number): string => {
 // premia si vuelve a la pestaña después de al menos este tiempo (sugiere que
 // realmente estuvo eligiendo un contacto/grupo, no que abrió y cerró de
 // una). Es un filtro, no una prueba: se acepta el margen de abuso porque no
-// existe alternativa técnica.
-const SHARE_RETURN_THRESHOLD_SECONDS = 10;
+// existe alternativa técnica. Bajado de 10s a 3s: probado en el celular, un
+// compartir genuino y rápido (abrir el panel, elegir WhatsApp, elegir
+// contacto, mandar) tarda menos de 10s de punta a punta, así que 10s
+// rechazaba shares reales, no solo cancelaciones.
+const SHARE_RETURN_THRESHOLD_SECONDS = 3;
 
 type AnswerRenderToken =
   | { kind: "char"; charIndex: number }
@@ -840,10 +843,15 @@ const Game: React.FC = () => {
     setSharingForLife(true);
 
     const shareUrl = `${window.location.origin}/game?category=${encodeURIComponent(category)}&level=${level}`;
+    // El link va DENTRO de "text" en vez del campo separado "url": es una
+    // precaución, no el fix de un bug confirmado — hay versiones de Android
+    // donde canShare() rechaza combinar "files" con "url" en el mismo share
+    // (por eso se prueba con dataWithFile más abajo), así que evitamos esa
+    // combinación por las dudas en vez de depender de que el navegador la
+    // soporte bien.
     const shareData: ShareData = {
       title: t.appTitle,
-      text: t.shareRiddleText,
-      url: shareUrl,
+      text: `${t.shareRiddleText}\n${shareUrl}`,
     };
 
     const imageFile = await captureSvgAsPngFile(imageBoxRef.current, "acertijo.png");
