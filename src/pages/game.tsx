@@ -5,11 +5,12 @@ import React, {
   useCallback,
   useEffect,
   useMemo,
+  useRef,
   useState,
 } from "react";
 import Hypher from "hypher";
 import spanishHyphenation from "hyphenation.es";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 import Layout from "../components/Layout";
 import HowToPlayCollapse from "../components/HowToPlayCollapse";
 import Box from "@mui/material/Box";
@@ -33,6 +34,7 @@ import {
 } from "../constanst/categories.js";
 import VirtualKeyboard from "../components/VirtualKeyboard";
 import { normalizeText } from "../utils/textNormalization";
+import { captureSvgAsPngFile } from "../utils/shareImage";
 
 import adivinanzasData from "../data/adivinanzas.json";
 import peliculasData from "../data/peliculas.json";
@@ -172,6 +174,16 @@ const formatFailTimer = (seconds: number): string => {
   const s = seconds % 60;
   return `${m}:${s.toString().padStart(2, "0")}`;
 };
+
+// No hay forma de confirmar que el usuario mandó el mensaje en WhatsApp/IG
+// una vez que el navegador le entrega el contenido a esa app — la Promise de
+// navigator.share ya se resuelve como "éxito" en ese momento, no cuando el
+// usuario aprieta enviar adentro de la otra app. Como heurística, solo se
+// premia si vuelve a la pestaña después de al menos este tiempo (sugiere que
+// realmente estuvo eligiendo un contacto/grupo, no que abrió y cerró de
+// una). Es un filtro, no una prueba: se acepta el margen de abuso porque no
+// existe alternativa técnica.
+const SHARE_RETURN_THRESHOLD_SECONDS = 10;
 
 type AnswerRenderToken =
   | { kind: "char"; charIndex: number }
@@ -359,11 +371,16 @@ const resolveRandomImageCategory = (value?: string): string => {
 const Game: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const { t, currentLanguage } = useLanguage();
 
   const state = location.state as LocationState;
-  const category = state?.category ?? ACERTIJOS;
-  const level = Math.max(1, state?.level ?? 1);
+  // Fallback a query params para que un link compartido (?category=...&level=...)
+  // lleve al mismo acertijo aunque no venga el state de react-router (por
+  // ejemplo, un amigo que abre el link desde WhatsApp en una pestaña nueva).
+  const queryLevel = searchParams.get("level");
+  const category = state?.category ?? searchParams.get("category") ?? ACERTIJOS;
+  const level = Math.max(1, state?.level ?? (queryLevel ? Number(queryLevel) : 1));
   const effectiveCategory = getEffectiveCategory(category, currentLanguage);
   const totalLevels = LEVEL_COUNT_BY_CATEGORY[effectiveCategory] ?? 1;
   const progressStorageKey = getProgressStorageKey(category, currentLanguage);
@@ -585,6 +602,9 @@ const Game: React.FC = () => {
     return lazy(svgLoader as () => Promise<{ default: ComponentType }>);
   }, [svgLoader]);
 
+  const imageBoxRef = useRef<HTMLDivElement>(null);
+  const [sharingForLife, setSharingForLife] = useState(false);
+
   const [revealedChars, setRevealedChars] = useState<boolean[]>([]);
   const [guessedLetters, setGuessedLetters] = useState<string[]>([]);
   const [wrongLetters, setWrongLetters] = useState<string[]>([]);
@@ -770,6 +790,79 @@ const Game: React.FC = () => {
     setShowFailModal(false);
   };
 
+  const grantShareReward = useCallback(() => {
+    localStorage.removeItem(FAIL_LOCKOUT_KEY);
+    setRevealedChars(answerChars.map((char) => !isGuessableChar(char)));
+    setGuessedLetters([]);
+    setWrongLetters([]);
+    setLives(3);
+    setShowFailModal(false);
+  }, [answerChars]);
+
+  // Arma un listener de un solo uso: espera a que la pestaña pase a oculta
+  // (el share le entregó el control a otra app) y despues a que vuelva a
+  // estar visible, y ahi mide cuanto tiempo estuvo afuera.
+  const armShareReturnWatcher = useCallback(() => {
+    let hiddenAt: number | null = null;
+    let timeoutId: ReturnType<typeof setTimeout>;
+
+    const cleanup = () => {
+      document.removeEventListener("visibilitychange", onVisibilityChange);
+      clearTimeout(timeoutId);
+    };
+
+    function onVisibilityChange() {
+      if (document.visibilityState === "hidden") {
+        hiddenAt = Date.now();
+        return;
+      }
+      if (document.visibilityState === "visible" && hiddenAt !== null) {
+        const elapsedSeconds = (Date.now() - hiddenAt) / 1000;
+        cleanup();
+        setSharingForLife(false);
+        if (elapsedSeconds >= SHARE_RETURN_THRESHOLD_SECONDS) {
+          grantShareReward();
+        }
+      }
+    }
+
+    document.addEventListener("visibilitychange", onVisibilityChange);
+    // Si nunca vuelve a esta pestaña, no dejamos el listener colgado para siempre.
+    timeoutId = setTimeout(() => {
+      cleanup();
+      setSharingForLife(false);
+    }, 5 * 60 * 1000);
+  }, [grantShareReward]);
+
+  const handleShareForLife = async () => {
+    if (typeof navigator === "undefined" || typeof navigator.share !== "function") return;
+
+    setSharingForLife(true);
+
+    const shareUrl = `${window.location.origin}/game?category=${encodeURIComponent(category)}&level=${level}`;
+    const shareData: ShareData = {
+      title: t.appTitle,
+      text: t.shareRiddleText,
+      url: shareUrl,
+    };
+
+    const imageFile = await captureSvgAsPngFile(imageBoxRef.current, "acertijo.png");
+    if (imageFile) {
+      const dataWithFile = { ...shareData, files: [imageFile] };
+      if (!navigator.canShare || navigator.canShare(dataWithFile)) {
+        shareData.files = [imageFile];
+      }
+    }
+
+    try {
+      await navigator.share(shareData);
+      armShareReturnWatcher();
+    } catch {
+      // Canceló el panel de compartir sin elegir nada: no hay recompensa.
+      setSharingForLife(false);
+    }
+  };
+
   useEffect(() => {
     if (!showFailModal) {
       setFailTimerSeconds(FAIL_TIMER_SECONDS);
@@ -831,6 +924,7 @@ const Game: React.FC = () => {
         </Box>
 
         <Box
+          ref={imageBoxRef}
           sx={{
             width: "80%",
             maxWidth: 400,
@@ -1026,6 +1120,21 @@ const Game: React.FC = () => {
           </Typography>
           {failTimerSeconds > 0 ? (
             <>
+              {typeof navigator !== "undefined" && typeof navigator.share === "function" && (
+                <>
+                  <Button
+                    variant="contained"
+                    onClick={handleShareForLife}
+                    disabled={sharingForLife}
+                    sx={{ mb: 1, backgroundColor: "#e74c3c", "&:hover": { backgroundColor: "#c0392b" } }}
+                  >
+                    {t.shareForLifeButton}
+                  </Button>
+                  <Typography sx={{ color: "#bbb", fontSize: 12, mb: 1.5 }}>
+                    {t.shareForLifeCaption}
+                  </Typography>
+                </>
+              )}
               <Typography sx={{ color: "#999", fontSize: 13, mb: 2 }}>
                 {t.nextFreeRetry}: {formatFailTimer(failTimerSeconds)}
               </Typography>

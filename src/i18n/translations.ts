@@ -85,6 +85,9 @@ export interface Translation {
   clearProgress: string;
   recoverLives: string;
   nextFreeRetry: string;
+  shareForLifeButton: string;
+  shareForLifeCaption: string;
+  shareRiddleText: string;
   adBlockerTitle: string;
   adBlockerMessage: string;
   adBlockerButton: string;
@@ -180,6 +183,9 @@ export const translations: Record<string, Translation> = {
     clearProgress: "Borrar Progreso",
     recoverLives: "Recupera tus vidas",
     nextFreeRetry: "Reintento libre en",
+    shareForLifeButton: "Compartir para recuperar vidas",
+    shareForLifeCaption: "Compartí este acertijo con un amigo y volvé para seguir jugando",
+    shareRiddleText: "Ey, necesito ayuda con este acertijo 👀",
     adBlockerTitle: "Tenés un bloqueador de anuncios activo",
     adBlockerMessage: "Este juego es gratuito gracias a los anuncios. Por favor desactivá tu bloqueador para poder jugar.",
     adBlockerButton: "Ya lo desactivé, continuar",
@@ -272,6 +278,9 @@ export const translations: Record<string, Translation> = {
     clearProgress: "Clear Progress",
     recoverLives: "Recover your lives",
     nextFreeRetry: "Free retry in",
+    shareForLifeButton: "Share to recover lives",
+    shareForLifeCaption: "Share this riddle with a friend and come back to keep playing",
+    shareRiddleText: "Hey, I need help with this riddle 👀",
     adBlockerTitle: "Ad blocker detected",
     adBlockerMessage: "This game is free thanks to ads. Please disable your ad blocker to continue playing.",
     adBlockerButton: "I disabled it, continue",
@@ -364,6 +373,9 @@ export const translations: Record<string, Translation> = {
     clearProgress: "Limpar Progresso",
     recoverLives: "Recupere suas vidas",
     nextFreeRetry: "Próxima tentativa gratuita em",
+    shareForLifeButton: "Compartilhar para recuperar vidas",
+    shareForLifeCaption: "Compartilhe este enigma com um amigo e volte para continuar jogando",
+    shareRiddleText: "Ei, preciso de ajuda com este enigma 👀",
     adBlockerTitle: "Bloqueador de anúncios detectado",
     adBlockerMessage: "Este jogo é gratuito graças aos anúncios. Desative seu bloqueador para continuar jogando.",
     adBlockerButton: "Já desativei, continuar",
@@ -456,6 +468,9 @@ export const translations: Record<string, Translation> = {
     clearProgress: "Effacer Progression",
     recoverLives: "Récupérez vos vies",
     nextFreeRetry: "Nouvel essai dans",
+    shareForLifeButton: "Partager pour récupérer des vies",
+    shareForLifeCaption: "Partagez cette énigme avec un ami et revenez pour continuer à jouer",
+    shareRiddleText: "Hé, j'ai besoin d'aide avec cette énigme 👀",
     adBlockerTitle: "Bloqueur de publicités détecté",
     adBlockerMessage: "Ce jeu est gratuit grâce aux publicités. Veuillez désactiver votre bloqueur pour continuer.",
     adBlockerButton: "Je l'ai désactivé, continuer",
