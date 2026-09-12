@@ -150,6 +150,23 @@ const MIN_CHARS_PER_ROW = 6;
 
 const FAIL_TIMER_SECONDS = 5 * 60;
 
+// Timestamp absoluto (no una cuenta regresiva en memoria) para que el
+// bloqueo de "sin vidas" sobreviva a un reload o a navegar a otro nivel —
+// antes "lives"/"failTimerSeconds" eran puro useState, así que recargar la
+// página los reiniciaba a 3 vidas y esquivaba la espera de 5 minutos.
+const FAIL_LOCKOUT_KEY = "imaginalo_fail_lockout_until";
+
+function getStoredLockoutRemaining(): number {
+  const raw = localStorage.getItem(FAIL_LOCKOUT_KEY);
+  if (!raw) return 0;
+  const remainingMs = Number(raw) - Date.now();
+  if (remainingMs <= 0) {
+    localStorage.removeItem(FAIL_LOCKOUT_KEY);
+    return 0;
+  }
+  return Math.ceil(remainingMs / 1000);
+}
+
 const formatFailTimer = (seconds: number): string => {
   const m = Math.floor(seconds / 60);
   const s = seconds % 60;
@@ -571,10 +588,12 @@ const Game: React.FC = () => {
   const [revealedChars, setRevealedChars] = useState<boolean[]>([]);
   const [guessedLetters, setGuessedLetters] = useState<string[]>([]);
   const [wrongLetters, setWrongLetters] = useState<string[]>([]);
-  const [lives, setLives] = useState(3);
+  const [lives, setLives] = useState(() => (getStoredLockoutRemaining() > 0 ? 0 : 3));
   const [showSuccessModal, setShowSuccessModal] = useState(false);
-  const [showFailModal, setShowFailModal] = useState(false);
-  const [failTimerSeconds, setFailTimerSeconds] = useState(FAIL_TIMER_SECONDS);
+  const [showFailModal, setShowFailModal] = useState(() => getStoredLockoutRemaining() > 0);
+  const [failTimerSeconds, setFailTimerSeconds] = useState(
+    () => getStoredLockoutRemaining() || FAIL_TIMER_SECONDS,
+  );
 
   const categoryLabelByKey: Record<string, string> = {
     [ACERTIJOS]: t.categoryRiddles,
@@ -615,9 +634,17 @@ const Game: React.FC = () => {
     setRevealedChars(answerChars.map((char) => !isGuessableChar(char)));
     setGuessedLetters([]);
     setWrongLetters([]);
-    setLives(3);
     setShowSuccessModal(false);
-    setShowFailModal(false);
+
+    const remaining = getStoredLockoutRemaining();
+    if (remaining > 0) {
+      setLives(0);
+      setFailTimerSeconds(remaining);
+      setShowFailModal(true);
+    } else {
+      setLives(3);
+      setShowFailModal(false);
+    }
   }, [answerChars]);
 
   useEffect(() => {
@@ -666,6 +693,7 @@ const Game: React.FC = () => {
       const nextLives = lives - 1;
       setLives(nextLives);
       if (nextLives <= 0) {
+        localStorage.setItem(FAIL_LOCKOUT_KEY, String(Date.now() + FAIL_TIMER_SECONDS * 1000));
         setShowFailModal(true);
       }
     },
@@ -734,6 +762,7 @@ const Game: React.FC = () => {
   ]);
 
   const handleRetry = () => {
+    localStorage.removeItem(FAIL_LOCKOUT_KEY);
     setRevealedChars(answerChars.map((char) => !isGuessableChar(char)));
     setGuessedLetters([]);
     setWrongLetters([]);
@@ -747,14 +776,14 @@ const Game: React.FC = () => {
       return;
     }
 
-    if (failTimerSeconds <= 0) return;
-
-    const interval = setInterval(() => {
-      setFailTimerSeconds((prev) => Math.max(0, prev - 1));
-    }, 1000);
+    // Deriva siempre del timestamp persistido (no de un contador en memoria)
+    // para que sea preciso aunque la pestaña haya estado en segundo plano.
+    const tick = () => setFailTimerSeconds(getStoredLockoutRemaining());
+    tick();
+    const interval = setInterval(tick, 1000);
 
     return () => clearInterval(interval);
-  }, [showFailModal, failTimerSeconds]);
+  }, [showFailModal]);
 
   if (!answer || (randomImageCategory !== QUESTIONS && !PuzzleImage)) {
     return (
