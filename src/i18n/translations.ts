@@ -97,6 +97,8 @@ export interface Translation {
   aboutText: string;
   howToPlayTitle: string;
   howToPlayText: string;
+  faqTitle: string;
+  faq: { q: string; a: string }[];
 }
 
 export const translations: Record<string, Translation> = {
@@ -193,6 +195,15 @@ export const translations: Record<string, Translation> = {
     aboutText: "Imaginalo es un juego de adivinanzas visuales con más de 10 categorías distintas: siluetas de personajes, logos de marcas, escudos de clubes de fútbol, muñecos funko, banderas, jugadores de fútbol, pósters de películas, acertijos ilustrados y preguntas de trivia. Cada categoría tiene su propio estilo de pista, así que nunca se vuelve repetitivo.",
     howToPlayTitle: "¿Cómo jugar?",
     howToPlayText: "Elegí una categoría —siluetas, logos, escudos, funkos, banderas, jugadores, películas, acertijos o trivia— mirá la imagen o pista y escribí tu respuesta. Si no sabés, avanzá al siguiente nivel y volvé después. Cada categoría tiene decenas de niveles con dificultad creciente.",
+    faqTitle: "Preguntas frecuentes",
+    faq: [
+      { q: "¿Imaginalo es gratis?", a: "Sí, jugar a Imaginalo es completamente gratis. La app se sostiene con publicidad, nunca vas a tener que pagar para jugar." },
+      { q: "¿Necesito crear una cuenta?", a: "No. Tu progreso se guarda en este dispositivo automáticamente, no hace falta registrarse ni iniciar sesión." },
+      { q: "¿Cómo funcionan las vidas?", a: "Arrancás cada categoría con 3 vidas. Cada respuesta incorrecta te resta una; si te quedás sin vidas, tenés que esperar 5 minutos para volver a intentar en esa categoría." },
+      { q: "¿Se puede recuperar vidas sin esperar?", a: "Sí. Cuando te quedás sin vidas podés compartir el acertijo (la imagen y un link) desde el mismo modal; si volvés a la app después de unos segundos, recuperás las 3 vidas al instante." },
+      { q: "¿Qué pasa si no sé una respuesta?", a: "Podés avanzar al siguiente nivel y volver más tarde. Cada categoría tiene decenas de niveles con dificultad creciente." },
+      { q: "¿En qué idiomas puedo jugar?", a: "Imaginalo está disponible en español (Latinoamérica y España) e inglés. Podés cambiar el idioma desde el selector de la parte de abajo de esta pantalla." },
+    ],
   },
 
   en: {
@@ -288,6 +299,15 @@ export const translations: Record<string, Translation> = {
     aboutText: "Imaginalo is a visual guessing game with over 10 different categories: character silhouettes, brand logos, football club crests, funko figures, flags, football players, movie posters, illustrated riddles, and trivia questions. Each category has its own clue style, so it never gets repetitive.",
     howToPlayTitle: "How to play?",
     howToPlayText: "Pick a category — silhouettes, logos, crests, funkos, flags, players, movies, riddles, or trivia — look at the image or clue, and type your answer. If you don't know it, move on to the next level and come back later. Each category has dozens of levels with increasing difficulty.",
+    faqTitle: "Frequently asked questions",
+    faq: [
+      { q: "Is Imaginalo free?", a: "Yes, playing Imaginalo is completely free. The app runs on ads, so you'll never have to pay to play." },
+      { q: "Do I need to create an account?", a: "No. Your progress is saved automatically on this device — no sign-up or login required." },
+      { q: "How do lives work?", a: "You start each category with 3 lives. Every wrong answer costs one; if you run out, you have to wait 5 minutes before trying that category again." },
+      { q: "Can I recover lives without waiting?", a: "Yes. When you run out of lives you can share the riddle (the image and a link) right from that same screen; if you come back to the app after a few seconds, you instantly get all 3 lives back." },
+      { q: "What if I don't know an answer?", a: "You can move on to the next level and come back later. Each category has dozens of levels with increasing difficulty." },
+      { q: "What languages can I play in?", a: "Imaginalo is available in Spanish (Latin America and Spain) and English. You can switch languages from the selector at the bottom of this screen." },
+    ],
   },
 
   pt: {
@@ -383,6 +403,15 @@ export const translations: Record<string, Translation> = {
     aboutText: "Imaginalo é um jogo de adivinhação visual onde você precisa identificar filmes, logos, silhuetas, emojis, bandeiras e mais a partir de imagens. Contém centenas de níveis organizados em categorias para todos os gostos.",
     howToPlayTitle: "Como jogar?",
     howToPlayText: "Escolha uma categoria, olhe para a imagem ou emoji e digite sua resposta. Se não souber, avance para o próximo nível e volte depois. Cada categoria tem dezenas de níveis com dificuldade crescente.",
+    faqTitle: "Perguntas frequentes",
+    faq: [
+      { q: "O Imaginalo é grátis?", a: "Sim, jogar Imaginalo é totalmente grátis. O app se sustenta com publicidade, você nunca vai precisar pagar para jogar." },
+      { q: "Preciso criar uma conta?", a: "Não. Seu progresso é salvo automaticamente neste dispositivo, não precisa se cadastrar nem fazer login." },
+      { q: "Como funcionam as vidas?", a: "Você começa cada categoria com 3 vidas. Cada resposta errada tira uma; se ficar sem vidas, precisa esperar 5 minutos para tentar novamente nessa categoria." },
+      { q: "É possível recuperar vidas sem esperar?", a: "Sim. Quando você fica sem vidas, pode compartilhar o enigma (a imagem e um link) direto dessa mesma tela; se voltar ao app depois de alguns segundos, recupera as 3 vidas instantaneamente." },
+      { q: "O que acontece se eu não souber uma resposta?", a: "Você pode avançar para o próximo nível e voltar depois. Cada categoria tem dezenas de níveis com dificuldade crescente." },
+      { q: "Em quais idiomas posso jogar?", a: "O Imaginalo está disponível em espanhol (América Latina e Espanha) e inglês. Você pode trocar o idioma no seletor na parte de baixo desta tela." },
+    ],
   },
 
   fr: {
@@ -478,6 +507,15 @@ export const translations: Record<string, Translation> = {
     aboutText: "Imaginalo est un jeu de devinettes visuelles où vous devez identifier des films, des logos, des silhouettes, des emojis, des drapeaux et plus encore à partir d'images. Il contient des centaines de niveaux organisés en catégories pour tous les goûts.",
     howToPlayTitle: "Comment jouer ?",
     howToPlayText: "Choisissez une catégorie, regardez l'image ou l'emoji et tapez votre réponse. Si vous ne savez pas, passez au niveau suivant et revenez plus tard. Chaque catégorie a des dizaines de niveaux avec une difficulté croissante.",
+    faqTitle: "Questions fréquentes",
+    faq: [
+      { q: "Imaginalo est-il gratuit ?", a: "Oui, jouer à Imaginalo est entièrement gratuit. L'application fonctionne grâce à la publicité, vous n'aurez jamais à payer pour jouer." },
+      { q: "Dois-je créer un compte ?", a: "Non. Votre progression est enregistrée automatiquement sur cet appareil, aucune inscription ni connexion n'est nécessaire." },
+      { q: "Comment fonctionnent les vies ?", a: "Vous commencez chaque catégorie avec 3 vies. Chaque mauvaise réponse en coûte une ; si vous n'en avez plus, vous devez attendre 5 minutes avant de réessayer cette catégorie." },
+      { q: "Peut-on récupérer des vies sans attendre ?", a: "Oui. Quand vous n'avez plus de vies, vous pouvez partager l'énigme (l'image et un lien) depuis cet écran ; si vous revenez sur l'application après quelques secondes, vous récupérez instantanément vos 3 vies." },
+      { q: "Que se passe-t-il si je ne connais pas une réponse ?", a: "Vous pouvez passer au niveau suivant et revenir plus tard. Chaque catégorie a des dizaines de niveaux avec une difficulté croissante." },
+      { q: "Dans quelles langues puis-je jouer ?", a: "Imaginalo est disponible en espagnol (Amérique latine et Espagne) et en anglais. Vous pouvez changer de langue depuis le sélecteur en bas de cet écran." },
+    ],
   },
 };
 
