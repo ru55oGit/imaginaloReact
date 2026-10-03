@@ -57,6 +57,7 @@ import aleatoriosData from "../data/aleatorios.json";
 import aleatoriosEnData from "../data/aleatorios_en.json";
 import aleatoriosSpData from "../data/aleatorios_sp.json";
 import wuzzlesData from "../data/wuzzles.json";
+import { DEBUG_ADVANCE_LEVEL_TAPS, isDebugUnlockActive } from "../utils/debugUnlock";
 
 interface LocationState {
   level?: number;
@@ -608,6 +609,19 @@ const Game: React.FC = () => {
   const imageBoxRef = useRef<HTMLDivElement>(null);
   const [sharingForLife, setSharingForLife] = useState(false);
 
+  // Modo debug (activado desde /levels tocando 4 veces el título de la
+  // categoría): tocar 2 veces seguidas el badge "Nivel N" del header pasa
+  // directo al siguiente nivel, para revisar imágenes sin volver al listado.
+  const [debugUnlockAll] = useState(() => isDebugUnlockActive());
+  const levelBadgeTapCountRef = useRef(0);
+  const levelBadgeTapTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (levelBadgeTapTimeoutRef.current) clearTimeout(levelBadgeTapTimeoutRef.current);
+    };
+  }, []);
+
   const [revealedChars, setRevealedChars] = useState<boolean[]>([]);
   const [guessedLetters, setGuessedLetters] = useState<string[]>([]);
   const [wrongLetters, setWrongLetters] = useState<string[]>([]);
@@ -894,16 +908,37 @@ const Game: React.FC = () => {
     );
   }
 
+  const handleLevelBadgeTap = () => {
+    if (!debugUnlockAll) return;
+
+    levelBadgeTapCountRef.current += 1;
+    if (levelBadgeTapTimeoutRef.current) clearTimeout(levelBadgeTapTimeoutRef.current);
+    levelBadgeTapTimeoutRef.current = setTimeout(() => {
+      levelBadgeTapCountRef.current = 0;
+    }, 1500);
+
+    if (levelBadgeTapCountRef.current >= DEBUG_ADVANCE_LEVEL_TAPS) {
+      levelBadgeTapCountRef.current = 0;
+      const nextLevel = Math.min(level + 1, totalLevels);
+      if (nextLevel !== level) {
+        navigate("/game", { state: { level: nextLevel, category } });
+      }
+    }
+  };
+
   return (
     <Layout
       showFooter={false}
       headerTitle={headerTitle}
       headerRight={
-        <>
+        <Box
+          onClick={handleLevelBadgeTap}
+          sx={{ cursor: debugUnlockAll ? "pointer" : "default", userSelect: "none" }}
+        >
           {t.levelShort}
           <br />
           {level}
-        </>
+        </Box>
       }
     >
       <Box

@@ -20,6 +20,12 @@ import {
 import aleatoriosData from "../data/aleatorios.json";
 import aleatoriosEnData from "../data/aleatorios_en.json";
 import aleatoriosSpData from "../data/aleatorios_sp.json";
+import {
+  DEBUG_ACTIVATE_TAPS,
+  DEBUG_DEACTIVATE_TAPS,
+  isDebugUnlockActive,
+  setDebugUnlockActive,
+} from "../utils/debugUnlock";
 
 const CATEGORY_LEVEL_COUNT: Record<string, number> = {
   [ACERTIJOS]: 264,
@@ -106,7 +112,10 @@ const Levels: React.FC = () => {
 
   // Actualizar progreso cuando el componente se hace visible
   useEffect(() => {
-    const handleFocus = () => syncUnlockedLevel();
+    const handleFocus = () => {
+      syncUnlockedLevel();
+      setDebugUnlockAllState(isDebugUnlockActive());
+    };
     const handleProgressUpdated = () => syncUnlockedLevel();
     const handleLanguageChanged = () => syncUnlockedLevel();
 
@@ -167,9 +176,11 @@ const Levels: React.FC = () => {
   };
 
   // Modo debug para revisar contenido: tocar el título 4 veces seguidas
-  // desbloquea todos los niveles de la categoría (sin tocar el progreso
-  // real), y tocarlo 4 veces de nuevo lo vuelve a bloquear.
-  const [debugUnlockAll, setDebugUnlockAll] = useState(false);
+  // desbloquea todos los niveles de todas las categorías (sin tocar el
+  // progreso real) y queda persistido en localStorage, así que sigue activo
+  // aunque entres a un nivel y vuelvas. Se desactiva con el mismo gesto,
+  // usando DEBUG_DEACTIVATE_TAPS como umbral.
+  const [debugUnlockAll, setDebugUnlockAllState] = useState(() => isDebugUnlockActive());
   const titleTapCountRef = useRef(0);
   const titleTapTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -186,9 +197,12 @@ const Levels: React.FC = () => {
       titleTapCountRef.current = 0;
     }, 1500);
 
-    if (titleTapCountRef.current >= 4) {
+    const requiredTaps = debugUnlockAll ? DEBUG_DEACTIVATE_TAPS : DEBUG_ACTIVATE_TAPS;
+    if (titleTapCountRef.current >= requiredTaps) {
       titleTapCountRef.current = 0;
-      setDebugUnlockAll((prev) => !prev);
+      const next = !debugUnlockAll;
+      setDebugUnlockAllState(next);
+      setDebugUnlockActive(next);
     }
   };
 
