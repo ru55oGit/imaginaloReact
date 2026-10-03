@@ -80,7 +80,7 @@ interface DataCollection {
 }
 
 const LEVEL_COUNT_BY_CATEGORY: Record<string, number> = {
-  [ACERTIJOS]: 264,
+  [ACERTIJOS]: 260,
   [PELICULAS]: 184,
   [LOGOS]: 100,
   [EMOJIS]: 129,

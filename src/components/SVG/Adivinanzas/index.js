@@ -258,10 +258,6 @@ import Adivinanzas257 from './adivinanzas257'
 import Adivinanzas258 from './adivinanzas258'
 import Adivinanzas259 from './adivinanzas259'
 import Adivinanzas260 from './adivinanzas260'
-import Adivinanzas261 from './adivinanzas261'
-import Adivinanzas262 from './adivinanzas262'
-import Adivinanzas263 from './adivinanzas263'
-import Adivinanzas264 from './adivinanzas264'
 
 export {
   Adivinanzas1,
@@ -524,8 +520,4 @@ export {
   Adivinanzas258,
   Adivinanzas259,
   Adivinanzas260,
-  Adivinanzas261,
-  Adivinanzas262,
-  Adivinanzas263,
-  Adivinanzas264,
 }

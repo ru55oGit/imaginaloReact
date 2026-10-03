@@ -28,7 +28,7 @@ import {
 } from "../utils/debugUnlock";
 
 const CATEGORY_LEVEL_COUNT: Record<string, number> = {
-  [ACERTIJOS]: 264,
+  [ACERTIJOS]: 260,
   [PELICULAS]: 184,
   [LOGOS]: 100,
   [EMOJIS]: 129,
