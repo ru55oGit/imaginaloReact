@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useCallback } from "react";
+import React, { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import Layout from "../components/Layout";
 import Box from "@mui/material/Box";
@@ -166,8 +166,36 @@ const Levels: React.FC = () => {
     window.dispatchEvent(new CustomEvent("imaginalo:progress-updated"));
   };
 
+  // Modo debug para revisar contenido: tocar el título 4 veces seguidas
+  // desbloquea todos los niveles de la categoría (sin tocar el progreso
+  // real), y tocarlo 4 veces de nuevo lo vuelve a bloquear.
+  const [debugUnlockAll, setDebugUnlockAll] = useState(false);
+  const titleTapCountRef = useRef(0);
+  const titleTapTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (titleTapTimeoutRef.current) clearTimeout(titleTapTimeoutRef.current);
+    };
+  }, []);
+
+  const handleTitleTap = () => {
+    titleTapCountRef.current += 1;
+    if (titleTapTimeoutRef.current) clearTimeout(titleTapTimeoutRef.current);
+    titleTapTimeoutRef.current = setTimeout(() => {
+      titleTapCountRef.current = 0;
+    }, 1500);
+
+    if (titleTapCountRef.current >= 4) {
+      titleTapCountRef.current = 0;
+      setDebugUnlockAll((prev) => !prev);
+    }
+  };
+
+  const effectiveUnlockedLevel = debugUnlockAll ? totalLevels : unlockedLevel;
+
   const handleLevelClick = (level: number) => {
-    if (level <= unlockedLevel) {
+    if (level <= effectiveUnlockedLevel) {
       navigate(`/game`, { state: { level, category } });
     }
   };
@@ -189,7 +217,7 @@ const Levels: React.FC = () => {
   // Generar los pares de emojis según la cantidad real de niveles
   const numberEmojis = Array.from({ length: totalLevels }, (_, i) => {
     const n = i + 1;
-    const isUnlocked = n <= unlockedLevel;
+    const isUnlocked = n <= effectiveUnlockedLevel;
 
     if (!isUnlocked) {
       return <span style={{ fontSize: "24px" }}>🔒</span>;
@@ -235,7 +263,17 @@ const Levels: React.FC = () => {
         {/* TODO: Cambiar por el título de tu juego */}
         <Typography
           variant="h4"
-          sx={{ mb: 2, color: "#fff", fontWeight: 700, textAlign: "center" }}
+          onClick={handleTitleTap}
+          sx={{
+            mb: 2,
+            color: "#fff",
+            fontWeight: 700,
+            textAlign: "center",
+            userSelect: "none",
+            backgroundColor: debugUnlockAll ? "rgba(255,255,255,0.35)" : "transparent",
+            borderRadius: 2,
+            px: 1,
+          }}
         >
           {levelsTitle}
         </Typography>
@@ -256,7 +294,7 @@ const Levels: React.FC = () => {
         >
           {levels.map((_, i) => {
             const level = i + 1;
-            const isUnlocked = level <= unlockedLevel;
+            const isUnlocked = level <= effectiveUnlockedLevel;
 
             return (
               <Button
