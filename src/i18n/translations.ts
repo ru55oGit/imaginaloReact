@@ -88,6 +88,10 @@ export interface Translation {
   shareForLifeButton: string;
   shareForLifeCaption: string;
   shareRiddleText: string;
+  rewardedAdButton: string;
+  rewardedAdConfirmButton: string;
+  rewardedAdSkipButton: string;
+  rewardedAdWaitLabel: (seconds: number) => string;
   adBlockerTitle: string;
   adBlockerMessage: string;
   adBlockerButton: string;
@@ -188,6 +192,10 @@ export const translations: Record<string, Translation> = {
     shareForLifeButton: "Compartir para recuperar vidas",
     shareForLifeCaption: "Compartí este acertijo con un amigo y volvé para seguir jugando",
     shareRiddleText: "Ey, necesito ayuda con este acertijo 👀",
+    rewardedAdButton: "Ver un anuncio para recuperar vidas",
+    rewardedAdConfirmButton: "Reclamar recompensa",
+    rewardedAdSkipButton: "Cerrar",
+    rewardedAdWaitLabel: (seconds) => `Esperá ${seconds}s...`,
     adBlockerTitle: "Tenés un bloqueador de anuncios activo",
     adBlockerMessage: "Este juego es gratuito gracias a los anuncios. Por favor desactivá tu bloqueador para poder jugar.",
     adBlockerButton: "Ya lo desactivé, continuar",
@@ -292,6 +300,10 @@ export const translations: Record<string, Translation> = {
     shareForLifeButton: "Share to recover lives",
     shareForLifeCaption: "Share this riddle with a friend and come back to keep playing",
     shareRiddleText: "Hey, I need help with this riddle 👀",
+    rewardedAdButton: "Watch an ad to recover lives",
+    rewardedAdConfirmButton: "Claim reward",
+    rewardedAdSkipButton: "Close",
+    rewardedAdWaitLabel: (seconds) => `Wait ${seconds}s...`,
     adBlockerTitle: "Ad blocker detected",
     adBlockerMessage: "This game is free thanks to ads. Please disable your ad blocker to continue playing.",
     adBlockerButton: "I disabled it, continue",
@@ -396,6 +408,10 @@ export const translations: Record<string, Translation> = {
     shareForLifeButton: "Compartilhar para recuperar vidas",
     shareForLifeCaption: "Compartilhe este enigma com um amigo e volte para continuar jogando",
     shareRiddleText: "Ei, preciso de ajuda com este enigma 👀",
+    rewardedAdButton: "Ver um anúncio para recuperar vidas",
+    rewardedAdConfirmButton: "Resgatar recompensa",
+    rewardedAdSkipButton: "Fechar",
+    rewardedAdWaitLabel: (seconds) => `Espere ${seconds}s...`,
     adBlockerTitle: "Bloqueador de anúncios detectado",
     adBlockerMessage: "Este jogo é gratuito graças aos anúncios. Desative seu bloqueador para continuar jogando.",
     adBlockerButton: "Já desativei, continuar",
@@ -500,6 +516,10 @@ export const translations: Record<string, Translation> = {
     shareForLifeButton: "Partager pour récupérer des vies",
     shareForLifeCaption: "Partagez cette énigme avec un ami et revenez pour continuer à jouer",
     shareRiddleText: "Hé, j'ai besoin d'aide avec cette énigme 👀",
+    rewardedAdButton: "Regarder une pub pour récupérer des vies",
+    rewardedAdConfirmButton: "Réclamer la récompense",
+    rewardedAdSkipButton: "Fermer",
+    rewardedAdWaitLabel: (seconds) => `Attends ${seconds}s...`,
     adBlockerTitle: "Bloqueur de publicités détecté",
     adBlockerMessage: "Ce jeu est gratuit grâce aux publicités. Veuillez désactiver votre bloqueur pour continuer.",
     adBlockerButton: "Je l'ai désactivé, continuer",

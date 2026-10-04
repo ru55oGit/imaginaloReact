@@ -19,6 +19,8 @@ import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
 import Paper from "@mui/material/Paper";
 import { LAST_PLAYED_AT_KEY, LAST_PLAYED_CATEGORY_KEY } from "../levels/levelsData";
+import { useRewardedAd } from "../ads/useRewardedAd";
+import RewardedAdModal from "../ads/RewardedAdModal";
 import { useLanguage } from "../i18n/LanguageContext";
 import {
   ACERTIJOS,
@@ -816,6 +818,16 @@ const Game: React.FC = () => {
     setShowFailModal(false);
   }, [answerChars]);
 
+  // Mismo premio que compartir (3 vidas), solo cambia cómo se gana: viendo
+  // un anuncio rewarded en vez de compartir el acertijo. Alternativa, no
+  // reemplazo — queda al lado del botón de compartir en el modal de fail.
+  const rewardedAd = useRewardedAd(
+    "imaginalo-rewarded-life",
+    "imaginalo",
+    currentLanguage,
+    grantShareReward,
+  );
+
   // Arma un listener de un solo uso: espera a que la pestaña pase a oculta
   // (el share le entregó el control a otra app) y despues a que vuelva a
   // estar visible, y ahi mide cuanto tiempo estuvo afuera.
@@ -1178,6 +1190,14 @@ const Game: React.FC = () => {
                   </Typography>
                 </>
               )}
+              <Button
+                variant="outlined"
+                onClick={rewardedAd.requestAd}
+                disabled={!rewardedAd.canShowAd}
+                sx={{ mb: 1.5, borderColor: "#4a7c59", color: "#4a7c59" }}
+              >
+                {rewardedAd.loadingAd ? "..." : t.rewardedAdButton}
+              </Button>
               <Typography sx={{ color: "#999", fontSize: 13, mb: 2 }}>
                 {t.nextFreeRetry}: {formatFailTimer(failTimerSeconds)}
               </Typography>
@@ -1193,6 +1213,18 @@ const Game: React.FC = () => {
           )}
         </Box>
       </Modal>
+
+      <RewardedAdModal
+        open={rewardedAd.showingAd}
+        adCreative={rewardedAd.adCreative}
+        canConfirmReward={rewardedAd.canConfirmReward}
+        secondsUntilCanConfirm={rewardedAd.secondsUntilCanConfirm}
+        onConfirm={rewardedAd.handleAdWatched}
+        onSkip={rewardedAd.handleAdSkipped}
+        confirmLabel={t.rewardedAdConfirmButton}
+        skipLabel={t.rewardedAdSkipButton}
+        waitLabel={t.rewardedAdWaitLabel}
+      />
     </Layout>
   );
 };
