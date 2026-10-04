@@ -16,6 +16,7 @@ import Typography from "@mui/material/Typography";
 import PlayArrowRoundedIcon from "@mui/icons-material/PlayArrowRounded";
 import LanguageSelector from "../components/LanguageSelector";
 import { useLanguage } from "../i18n/LanguageContext";
+import HouseAdBanner from "../ads/HouseAdBanner";
 import {
   ACERTIJOS,
   ALEATORIO,
@@ -654,6 +655,8 @@ export default function WelcomeScreen() {
             ))}
           </Box>
         </Box>
+
+        <HouseAdBanner slot="imaginalo-home-sold-banner" gameSlug="imaginalo" locale={currentLanguage} />
 
         <Box component="section" sx={{ backgroundColor: "rgba(0,0,0,0.18)", borderRadius: "24px", px: 2, py: 2.5 }}>
           <Typography variant="h5" sx={{ fontWeight: 800, color: "#fff", mb: 1 }}>
