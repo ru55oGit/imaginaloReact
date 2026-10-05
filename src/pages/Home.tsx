@@ -17,6 +17,7 @@ import PlayArrowRoundedIcon from "@mui/icons-material/PlayArrowRounded";
 import LanguageSelector from "../components/LanguageSelector";
 import { useLanguage } from "../i18n/LanguageContext";
 import HouseAdBanner from "../ads/HouseAdBanner";
+import { isAdFree, purchaseAdFree, syncAdFreeAfterReturn } from "../ads/adFreeEntitlement";
 import {
   ACERTIJOS,
   ALEATORIO,
@@ -120,12 +121,44 @@ const HUB_URL = "https://www.boludeando.com/";
 
 export default function WelcomeScreen() {
   const navigate = useNavigate();
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const fromHubParam = searchParams.get("from") === "boludeando";
   const [showHubHeader] = useState(() => fromHubParam || cameFromHubBefore());
   useEffect(() => {
     if (fromHubParam) markFromHub();
   }, [fromHubParam]);
+
+  const [adFree, setAdFree] = useState(false);
+  const [buyingAdFree, setBuyingAdFree] = useState(false);
+
+  useEffect(() => {
+    if (searchParams.get("adfree_return") === "1") {
+      syncAdFreeAfterReturn().then((active) => {
+        setAdFree(active);
+        setSearchParams(
+          (prev) => {
+            prev.delete("adfree_return");
+            return prev;
+          },
+          { replace: true },
+        );
+      });
+    } else {
+      isAdFree().then(setAdFree);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const handleRemoveAds = async () => {
+    setBuyingAdFree(true);
+    const returnUrl = `${window.location.origin}${window.location.pathname}?adfree_return=1`;
+    const checkoutUrl = await purchaseAdFree(returnUrl);
+    if (checkoutUrl) {
+      window.location.href = checkoutUrl;
+    } else {
+      setBuyingAdFree(false);
+    }
+  };
   const { t, currentLanguage } = useLanguage();
   const [selectedChip, setSelectedChip] = useState<string>(ACERTIJOS);
   const [categoryProgress, setCategoryProgress] = useState<Record<string, number>>(
@@ -656,7 +689,19 @@ export default function WelcomeScreen() {
           </Box>
         </Box>
 
-        <HouseAdBanner slot="imaginalo-home-sold-banner" gameSlug="imaginalo" locale={currentLanguage} />
+        {!adFree && (
+          <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 1 }}>
+            <HouseAdBanner slot="imaginalo-home-sold-banner" gameSlug="imaginalo" locale={currentLanguage} />
+            <Button
+              size="small"
+              onClick={handleRemoveAds}
+              disabled={buyingAdFree}
+              sx={{ color: "rgba(255,255,255,0.7)", textTransform: "none", fontSize: 13 }}
+            >
+              {buyingAdFree ? t.removeAdsButtonBuying : t.removeAdsButton}
+            </Button>
+          </Box>
+        )}
 
         <Box component="section" sx={{ backgroundColor: "rgba(0,0,0,0.18)", borderRadius: "24px", px: 2, py: 2.5 }}>
           <Typography variant="h5" sx={{ fontWeight: 800, color: "#fff", mb: 1 }}>

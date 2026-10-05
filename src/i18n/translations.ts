@@ -95,6 +95,8 @@ export interface Translation {
   adBlockerTitle: string;
   adBlockerMessage: string;
   adBlockerButton: string;
+  removeAdsButton: string;
+  removeAdsButtonBuying: string;
 
   // About / How to play sections
   aboutTitle: string;
@@ -199,6 +201,8 @@ export const translations: Record<string, Translation> = {
     adBlockerTitle: "Tenés un bloqueador de anuncios activo",
     adBlockerMessage: "Este juego es gratuito gracias a los anuncios. Por favor desactivá tu bloqueador para poder jugar.",
     adBlockerButton: "Ya lo desactivé, continuar",
+    removeAdsButton: "Sacar los anuncios",
+    removeAdsButtonBuying: "Redirigiendo a MercadoPago...",
     aboutTitle: "¿Qué es Imaginalo?",
     aboutText: "Imaginalo es un juego de adivinanzas visuales con más de 10 categorías distintas: siluetas de personajes, logos de marcas, escudos de clubes de fútbol, muñecos funko, banderas, jugadores de fútbol, pósters de películas, acertijos ilustrados y preguntas de trivia. Cada categoría tiene su propio estilo de pista, así que nunca se vuelve repetitivo.",
     howToPlayTitle: "¿Cómo jugar?",
@@ -307,6 +311,8 @@ export const translations: Record<string, Translation> = {
     adBlockerTitle: "Ad blocker detected",
     adBlockerMessage: "This game is free thanks to ads. Please disable your ad blocker to continue playing.",
     adBlockerButton: "I disabled it, continue",
+    removeAdsButton: "Remove ads",
+    removeAdsButtonBuying: "Redirecting to MercadoPago...",
     aboutTitle: "What is Imaginalo?",
     aboutText: "Imaginalo is a visual guessing game with over 10 different categories: character silhouettes, brand logos, football club crests, funko figures, flags, football players, movie posters, illustrated riddles, and trivia questions. Each category has its own clue style, so it never gets repetitive.",
     howToPlayTitle: "How to play?",
@@ -415,6 +421,8 @@ export const translations: Record<string, Translation> = {
     adBlockerTitle: "Bloqueador de anúncios detectado",
     adBlockerMessage: "Este jogo é gratuito graças aos anúncios. Desative seu bloqueador para continuar jogando.",
     adBlockerButton: "Já desativei, continuar",
+    removeAdsButton: "Remover anúncios",
+    removeAdsButtonBuying: "Redirecionando para o MercadoPago...",
     aboutTitle: "O que é Imaginalo?",
     aboutText: "Imaginalo é um jogo de adivinhação visual onde você precisa identificar filmes, logos, silhuetas, emojis, bandeiras e mais a partir de imagens. Contém centenas de níveis organizados em categorias para todos os gostos.",
     howToPlayTitle: "Como jogar?",
@@ -523,6 +531,8 @@ export const translations: Record<string, Translation> = {
     adBlockerTitle: "Bloqueur de publicités détecté",
     adBlockerMessage: "Ce jeu est gratuit grâce aux publicités. Veuillez désactiver votre bloqueur pour continuer.",
     adBlockerButton: "Je l'ai désactivé, continuer",
+    removeAdsButton: "Retirer les publicités",
+    removeAdsButtonBuying: "Redirection vers MercadoPago...",
     aboutTitle: "Qu'est-ce qu'Imaginalo ?",
     aboutText: "Imaginalo est un jeu de devinettes visuelles où vous devez identifier des films, des logos, des silhouettes, des emojis, des drapeaux et plus encore à partir d'images. Il contient des centaines de niveaux organisés en catégories pour tous les goûts.",
     howToPlayTitle: "Comment jouer ?",
