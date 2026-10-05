@@ -6,6 +6,9 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import { useLanguage } from "../i18n/LanguageContext";
+import HouseAdBanner from "../ads/HouseAdBanner";
+
+const LEVELS_PER_BANNER = 20;
 import {
   ACERTIJOS,
   ALEATORIO,
@@ -306,11 +309,11 @@ const Levels: React.FC = () => {
             boxSizing: "border-box",
           }}
         >
-          {levels.map((_, i) => {
+          {levels.flatMap((_, i) => {
             const level = i + 1;
             const isUnlocked = level <= effectiveUnlockedLevel;
 
-            return (
+            const button = (
               <Button
                 key={i}
                 variant="contained"
@@ -345,6 +348,20 @@ const Levels: React.FC = () => {
                 {numberEmojis[i]}
               </Button>
             );
+
+            // Un banner cada LEVELS_PER_BANNER niveles, ocupando las 4
+            // columnas del grid (menos al final, para no dejar un banner
+            // colgando justo después del último nivel).
+            if (level % LEVELS_PER_BANNER === 0 && level !== totalLevels) {
+              return [
+                button,
+                <Box key={`banner-${level}`} sx={{ gridColumn: "1 / -1", my: 0.5 }}>
+                  <HouseAdBanner slot="imaginalo-levels-banner" gameSlug="imaginalo" locale={currentLanguage} />
+                </Box>,
+              ];
+            }
+
+            return [button];
           })}
         </Box>
 

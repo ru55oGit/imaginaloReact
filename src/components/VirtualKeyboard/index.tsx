@@ -5,17 +5,26 @@ import "react-simple-keyboard/build/css/index.css";
 import { useIsMobile } from "../../hooks/useIsMobile";
 import { useLanguage } from "../../i18n/LanguageContext";
 import { normalizeText } from "../../utils/textNormalization";
+import HouseAdBanner from "../../ads/HouseAdBanner";
 
 interface VirtualKeyboardProps {
   onKeyPress: (key: string) => void;
   guessedLetters?: string[];
   wrongLetters?: string[];
+  // Arranca cerrado (muestra un banner en su lugar) hasta que el juego pide
+  // abrirlo — ver game.tsx, se abre cuando tocan un casillero en blanco.
+  open?: boolean;
+  gameSlug?: string;
+  locale?: string;
 }
 
 const VirtualKeyboard: React.FC<VirtualKeyboardProps> = ({
   onKeyPress,
   guessedLetters = [],
   wrongLetters = [],
+  open = true,
+  gameSlug = "imaginalo",
+  locale = "es",
 }) => {
   const isMobile = useIsMobile();
   const { currentLanguage } = useLanguage();
@@ -159,16 +168,22 @@ const VirtualKeyboard: React.FC<VirtualKeyboardProps> = ({
         },
       }}
     >
-      <Keyboard
-        layout={layout}
-        layoutName="default"
-        onChange={() => {}}
-        onKeyPress={handleKeyPress}
-        buttonTheme={buttonTheme}
-        theme="hg-theme-default"
-        disableButtonHold
-        preventMouseDownDefault
-      />
+      {open ? (
+        <Keyboard
+          layout={layout}
+          layoutName="default"
+          onChange={() => {}}
+          onKeyPress={handleKeyPress}
+          buttonTheme={buttonTheme}
+          theme="hg-theme-default"
+          disableButtonHold
+          preventMouseDownDefault
+        />
+      ) : (
+        <Box sx={{ display: "flex", justifyContent: "center", py: 0.5 }}>
+          <HouseAdBanner slot="imaginalo-keyboard-banner" gameSlug={gameSlug} locale={locale} />
+        </Box>
+      )}
     </Box>
   );
 };

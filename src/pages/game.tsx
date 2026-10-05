@@ -633,6 +633,10 @@ const Game: React.FC = () => {
   const [failTimerSeconds, setFailTimerSeconds] = useState(
     () => getStoredLockoutRemaining() || FAIL_TIMER_SECONDS,
   );
+  // Arranca cerrado: la gente tiende a tocar los casilleros en blanco
+  // esperando poder escribir ahí, así que el banner ocupa ese lugar hasta
+  // que tocan un casillero — ahí recién sube el teclado y lo tapa.
+  const [keyboardOpen, setKeyboardOpen] = useState(false);
 
   const categoryLabelByKey: Record<string, string> = {
     [ACERTIJOS]: t.categoryRiddles,
@@ -674,6 +678,7 @@ const Game: React.FC = () => {
     setGuessedLetters([]);
     setWrongLetters([]);
     setShowSuccessModal(false);
+    setKeyboardOpen(false);
 
     const remaining = getStoredLockoutRemaining();
     if (remaining > 0) {
@@ -1079,6 +1084,7 @@ const Game: React.FC = () => {
                   <Paper
                     key={`char-${charIndex}`}
                     elevation={3}
+                    onClick={() => setKeyboardOpen(true)}
                     sx={{
                       width: "26px",
                       height: "26px",
@@ -1091,6 +1097,7 @@ const Game: React.FC = () => {
                       fontWeight: 700,
                       color: "#59607a",
                       lineHeight: 1,
+                      cursor: "pointer",
                     }}
                   >
                     {revealedChars[charIndex] ? char.toUpperCase() : "_"}
@@ -1108,6 +1115,9 @@ const Game: React.FC = () => {
         onKeyPress={handleGuess}
         guessedLetters={guessedLetters}
         wrongLetters={wrongLetters}
+        open={keyboardOpen}
+        gameSlug="imaginalo"
+        locale={currentLanguage}
       />
 
       <Modal
