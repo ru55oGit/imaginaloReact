@@ -1,4 +1,4 @@
-// Copiado de boludeando-ads/sdk/boludeando-ads-client/src/useRewardedAd.ts el 2026-10-04.
+// Copiado de boludeando-ads/sdk/boludeando-ads-client/src/useRewardedAd.ts el 2026-10-05.
 // Si cambia la API del backend, actualizar acá y en el resto de los juegos a mano.
 import { useCallback, useEffect, useRef, useState } from "react";
 import { fetchNextAd, reportImpression, reportReward } from "./adClient";
@@ -51,7 +51,7 @@ export function useRewardedAd(
 
     setLoadingAd(true);
     const sessionId = getAdSessionId();
-    const ad = await fetchNextAd(slot, locale, sessionId);
+    const { ad } = await fetchNextAd(slot, locale, sessionId);
     setLoadingAd(false);
 
     if (!ad || !ad.rewardToken) {
