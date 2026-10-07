@@ -537,6 +537,13 @@ export default function WelcomeScreen() {
           </Box>
         </Box>
 
+        <HouseAdBanner
+          slot="imaginalo-home-double-banner"
+          gameSlug="imaginalo"
+          locale={currentLanguage}
+          format="banner_double"
+        />
+
         <Box
           sx={{
             width: "100%",
