@@ -17,6 +17,7 @@ import PlayArrowRoundedIcon from "@mui/icons-material/PlayArrowRounded";
 import LanguageSelector from "../components/LanguageSelector";
 import { useLanguage } from "../i18n/LanguageContext";
 import HouseAdBanner from "../ads/HouseAdBanner";
+import AdSlotAvailableBanner from "../ads/AdSlotAvailableBanner";
 import { isAdFree, purchaseAdFree, syncAdFreeAfterReturn } from "../ads/adFreeEntitlement";
 import {
   ACERTIJOS,
@@ -749,6 +750,12 @@ export default function WelcomeScreen() {
             ))}
           </Box>
         </Box>
+
+        {/* Banner fijo "anunciá acá" — no es un ad_slot real, nunca se
+            reemplaza por una campaña comprada. Siempre hay un lugar visible
+            para que alguien descubra que puede anunciar, incluso si todos
+            los slots de verdad ya están vendidos (2026-10-09). */}
+        {!adFree && <AdSlotAvailableBanner weeklyPrice={1000} />}
       </Box>
     </Layout>
   );
