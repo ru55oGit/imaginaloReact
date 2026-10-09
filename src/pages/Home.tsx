@@ -544,6 +544,19 @@ export default function WelcomeScreen() {
           format="banner_double"
         />
 
+        {!adFree && (
+          <Box sx={{ display: "flex", justifyContent: "center" }}>
+            <Button
+              size="small"
+              onClick={handleRemoveAds}
+              disabled={buyingAdFree}
+              sx={{ color: "rgba(255,255,255,0.7)", textTransform: "none", fontSize: 13 }}
+            >
+              {buyingAdFree ? t.removeAdsButtonBuying : t.removeAdsButton}
+            </Button>
+          </Box>
+        )}
+
         <Box
           sx={{
             width: "100%",
@@ -697,16 +710,12 @@ export default function WelcomeScreen() {
         </Box>
 
         {!adFree && (
-          <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 1 }}>
-            <Button
-              size="small"
-              onClick={handleRemoveAds}
-              disabled={buyingAdFree}
-              sx={{ color: "rgba(255,255,255,0.7)", textTransform: "none", fontSize: 13 }}
-            >
-              {buyingAdFree ? t.removeAdsButtonBuying : t.removeAdsButton}
-            </Button>
-          </Box>
+          <HouseAdBanner
+            slot="imaginalo-home-double-banner-2"
+            gameSlug="imaginalo"
+            locale={currentLanguage}
+            format="banner_double"
+          />
         )}
 
         <Box component="section" sx={{ backgroundColor: "rgba(0,0,0,0.18)", borderRadius: "24px", px: 2, py: 2.5 }}>
