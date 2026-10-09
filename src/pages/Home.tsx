@@ -698,7 +698,6 @@ export default function WelcomeScreen() {
 
         {!adFree && (
           <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 1 }}>
-            <HouseAdBanner slot="imaginalo-home-sold-banner" gameSlug="imaginalo" locale={currentLanguage} />
             <Button
               size="small"
               onClick={handleRemoveAds}
