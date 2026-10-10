@@ -414,7 +414,7 @@ const Layout: React.FC<LayoutProps> = ({
             }}
             onClick={() => headerTitle ? null : window.location.replace("/")}
           >
-            {headerTitle ?? "Imaginalo"}
+            {headerTitle ?? "Boludeando"}
           </Box>
           {/* Counter at right */}
           {headerRight ? (
