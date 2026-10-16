@@ -33,6 +33,7 @@ import {
 } from "../constanst/categories.js";
 import { LAST_PLAYED_AT_KEY } from "../levels/levelsData";
 import { markFromHub, cameFromHubBefore } from "../utils/hubOriginState";
+import { track } from "../lib/analytics";
 import aleatoriosData from "../data/aleatorios.json";
 import aleatoriosEnData from "../data/aleatorios_en.json";
 import aleatoriosSpData from "../data/aleatorios_sp.json";
@@ -119,7 +120,13 @@ const previewByCategory: Record<
 };
 
 const ACCENT = "#e74c3c";
-const HUB_URL = "https://www.boludeando.com/";
+// UTM: distingue en GA4 del hub cuánto tráfico de "volver" viene
+// específicamente del header de este juego.
+const HUB_URL = "https://www.boludeando.com/?utm_source=imaginalo&utm_medium=cross_game&utm_campaign=header_back";
+
+function handleHubLinkClick() {
+  track("select_content", { content_type: "cross_game", item_id: "boludeando_hub" });
+}
 
 export default function WelcomeScreen() {
   const navigate = useNavigate();
@@ -390,7 +397,7 @@ export default function WelcomeScreen() {
             boxShadow: "0 2px 8px rgba(0,0,0,0.04)",
             width: { xs: "100%", md: "480px" }, position: "relative",
           }}>
-            <Box component="a" href={HUB_URL} aria-label="Volver" sx={{ display: "flex", alignItems: "center", zIndex: 1 }}>
+            <Box component="a" href={HUB_URL} onClick={handleHubLinkClick} aria-label="Volver" sx={{ display: "flex", alignItems: "center", zIndex: 1 }}>
               <svg width="38" height="38" viewBox="0 0 38 38" fill="none">
                 <path d="M26 6L14 19L26 32" stroke={ACCENT} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
@@ -398,6 +405,7 @@ export default function WelcomeScreen() {
             <Box
               component="a"
               href={HUB_URL}
+              onClick={handleHubLinkClick}
               sx={{
                 position: "absolute", left: "50%", top: "50%", transform: "translate(-50%, -50%)",
                 fontFamily: "Lobster, cursive", fontSize: 28, color: ACCENT, textDecoration: "none",
@@ -505,7 +513,10 @@ export default function WelcomeScreen() {
           >
             <Button
               variant="contained"
-              onClick={() => navigate("/levels", { state: { category: selectedChip } })}
+              onClick={() => {
+                track("select_content", { content_type: "category", item_id: selectedChip });
+                navigate("/levels", { state: { category: selectedChip } });
+              }}
               startIcon={<PlayArrowRoundedIcon sx={{ fontSize: "28px !important" }} />}
               sx={{
                 alignSelf: "flex-start",
@@ -650,12 +661,16 @@ export default function WelcomeScreen() {
             {categoryCards.map((card) => (
               <Box
                 key={card.key}
-                onClick={() => navigate("/levels", { state: { category: card.key } })}
+                onClick={() => {
+                  track("select_content", { content_type: "category", item_id: card.key });
+                  navigate("/levels", { state: { category: card.key } });
+                }}
                 role="button"
                 tabIndex={0}
                 onKeyDown={(event) => {
                   if (event.key === "Enter" || event.key === " ") {
                     event.preventDefault();
+                    track("select_content", { content_type: "category", item_id: card.key });
                     navigate("/levels", { state: { category: card.key } });
                   }
                 }}

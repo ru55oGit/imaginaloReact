@@ -37,6 +37,7 @@ import {
 import VirtualKeyboard from "../components/VirtualKeyboard";
 import { normalizeText } from "../utils/textNormalization";
 import { captureSvgAsPngFile } from "../utils/shareImage";
+import { track } from "../lib/analytics";
 
 import adivinanzasData from "../data/adivinanzas.json";
 import peliculasData from "../data/peliculas.json";
@@ -673,12 +674,18 @@ const Game: React.FC = () => {
     totalLevels,
   ]);
 
+  // Marca de tiempo del nivel actual (se renueva en cada nivel nuevo y en
+  // handleRetry), para calcular duration_sec al resolverlo.
+  const levelStartedAtRef = useRef(Date.now());
+
   useEffect(() => {
     setRevealedChars(answerChars.map((char) => !isGuessableChar(char)));
     setGuessedLetters([]);
     setWrongLetters([]);
     setShowSuccessModal(false);
     setKeyboardOpen(false);
+    levelStartedAtRef.current = Date.now();
+    track("level_start", { level, mode: category });
 
     const remaining = getStoredLockoutRemaining();
     if (remaining > 0) {
@@ -689,6 +696,7 @@ const Game: React.FC = () => {
       setLives(3);
       setShowFailModal(false);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [answerChars]);
 
   useEffect(() => {
@@ -727,6 +735,8 @@ const Game: React.FC = () => {
 
       if (hasHit) {
         if (isSolved) {
+          const durationSec = Math.round((Date.now() - levelStartedAtRef.current) / 1000);
+          track("level_complete", { level, mode: category, duration_sec: durationSec, hints_used: 0 });
           setShowSuccessModal(true);
         }
         return;
@@ -739,12 +749,18 @@ const Game: React.FC = () => {
       if (nextLives <= 0) {
         localStorage.setItem(FAIL_LOCKOUT_KEY, String(Date.now() + FAIL_TIMER_SECONDS * 1000));
         setShowFailModal(true);
+        // "no_lives" es la única causa real de game over acá: se acaban
+        // las 3 vidas por errar letras.
+        const durationSec = Math.round((Date.now() - levelStartedAtRef.current) / 1000);
+        track("game_over", { level, mode: category, duration_sec: durationSec, reason: "no_lives" });
       }
     },
     [
       answer,
       answerChars,
+      category,
       guessedLetters,
+      level,
       lives,
       revealedChars,
       showFailModal,
@@ -812,6 +828,7 @@ const Game: React.FC = () => {
     setWrongLetters([]);
     setLives(3);
     setShowFailModal(false);
+    levelStartedAtRef.current = Date.now();
   };
 
   const grantShareReward = useCallback(() => {
@@ -895,6 +912,7 @@ const Game: React.FC = () => {
 
     try {
       await navigator.share(shareData);
+      track("share", { method: "native", level });
       armShareReturnWatcher();
     } catch {
       // Canceló el panel de compartir sin elegir nada: no hay recompensa.
