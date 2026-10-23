@@ -1,0 +1,924 @@
+{
+  "listado": [
+    {
+      "titulo": "Filmes",
+      "respuesta": "de volta|para o futuro",
+      "pregunta": "1"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "beethoven",
+      "pregunta": "2"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "beetlejuice",
+      "pregunta": "3"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "capitao america",
+      "pregunta": "4"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "chucky",
+      "pregunta": "5"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "click",
+      "pregunta": "6"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "jamaica|abaixo de zero",
+      "pregunta": "7"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "debi|e loide",
+      "pregunta": "8"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o silencio|dos inocentes",
+      "pregunta": "9"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "edward|maos de tesoura",
+      "pregunta": "10"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "resgate|abaixo de zero",
+      "pregunta": "11"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o|labirinto do fauno",
+      "pregunta": "12"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "et",
+      "pregunta": "13"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "fantasia",
+      "pregunta": "14"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "bee movie",
+      "pregunta": "15"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "quero|ser grande",
+      "pregunta": "16"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "homem|de ferro",
+      "pregunta": "17"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "gremlins",
+      "pregunta": "18"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "lanterna verde",
+      "pregunta": "19"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "guardioes|da galaxia",
+      "pregunta": "20"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "gladiador",
+      "pregunta": "21"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "divertida|mente",
+      "pregunta": "22"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "indiana jones",
+      "pregunta": "23"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "kill bill",
+      "pregunta": "24"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "as|aventuras de pi",
+      "pregunta": "25"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "superman",
+      "pregunta": "26"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "speed racer",
+      "pregunta": "27"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "madagascar",
+      "pregunta": "28"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "ouija",
+      "pregunta": "29"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "up",
+      "pregunta": "30"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "rocky",
+      "pregunta": "31"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "carros",
+      "pregunta": "32"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "twister",
+      "pregunta": "33"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "transformers",
+      "pregunta": "34"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o|milagre veio do espaco",
+      "pregunta": "35"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "jerry maguire",
+      "pregunta": "36"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "coco",
+      "pregunta": "37"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "anaconda",
+      "pregunta": "38"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a bela|e a fera",
+      "pregunta": "39"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "austin powers",
+      "pregunta": "40"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "christine",
+      "pregunta": "41"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o|besouro verde",
+      "pregunta": "42"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "godzilla",
+      "pregunta": "43"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "hellboy",
+      "pregunta": "44"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "monstros|vs aliens",
+      "pregunta": "45"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "matrix",
+      "pregunta": "46"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "stuart little",
+      "pregunta": "47"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "velozes|e furiosos",
+      "pregunta": "48"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "uma|noite no museu",
+      "pregunta": "49"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "mad max",
+      "pregunta": "50"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "troia",
+      "pregunta": "51"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "rio",
+      "pregunta": "52"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "memento",
+      "pregunta": "53"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "herbie|meu fusca turbinado",
+      "pregunta": "54"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "as|cronicas de narnia",
+      "pregunta": "55"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a origem",
+      "pregunta": "56"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "garfield",
+      "pregunta": "57"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "procurando nemo",
+      "pregunta": "58"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "starsky e hutch",
+      "pregunta": "59"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "porkys",
+      "pregunta": "60"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "little miss sunshine",
+      "pregunta": "61"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "homem-aranha",
+      "pregunta": "62"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "gran torino",
+      "pregunta": "63"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a dama|e o vagabundo",
+      "pregunta": "64"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "101 dalmatas",
+      "pregunta": "65"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "jogos|vorazes",
+      "pregunta": "66"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "kung fu panda",
+      "pregunta": "67"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "pinoquio",
+      "pregunta": "68"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "zathura",
+      "pregunta": "69"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "predador",
+      "pregunta": "70"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "space jam",
+      "pregunta": "71"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a pequena sereia",
+      "pregunta": "72"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "dumbo",
+      "pregunta": "73"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "king kong",
+      "pregunta": "74"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "300",
+      "pregunta": "75"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o cavaleiro|solitario",
+      "pregunta": "76"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "tubarao",
+      "pregunta": "77"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "os incriveis",
+      "pregunta": "78"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a|hora do pesadelo",
+      "pregunta": "79"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "dia da|independencia",
+      "pregunta": "80"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "aladdin",
+      "pregunta": "81"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "toy story",
+      "pregunta": "82"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "v de vinganca",
+      "pregunta": "83"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o poderoso|chefao",
+      "pregunta": "84"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "megamente",
+      "pregunta": "85"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "monstros sa",
+      "pregunta": "86"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "guerra nas|estrelas",
+      "pregunta": "87"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "dias de|trovao",
+      "pregunta": "88"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "dennis|o pimentinha",
+      "pregunta": "89"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "quarteto|fantastico",
+      "pregunta": "90"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "golpe|de mestre",
+      "pregunta": "91"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "babe",
+      "pregunta": "92"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "ratatouille",
+      "pregunta": "93"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "lassie",
+      "pregunta": "94"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "batman",
+      "pregunta": "95"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o|incrivel hulk",
+      "pregunta": "96"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "os|sem-floresta",
+      "pregunta": "97"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "tartarugas|ninja",
+      "pregunta": "98"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "sherlock holmes",
+      "pregunta": "99"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "marte|ataca",
+      "pregunta": "100"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "um|heroi de brinquedo",
+      "pregunta": "101"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "os flintstones",
+      "pregunta": "102"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "os|pinguins de madagascar",
+      "pregunta": "103"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "frozen",
+      "pregunta": "104"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o planeta|dos macacos",
+      "pregunta": "105"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "james bond",
+      "pregunta": "106"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o rei leao",
+      "pregunta": "107"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "scooby doo",
+      "pregunta": "108"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "top secret",
+      "pregunta": "109"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "alien",
+      "pregunta": "110"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "os|gatoes",
+      "pregunta": "111"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "os|suspeitos",
+      "pregunta": "112"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "uma aventura|lego",
+      "pregunta": "113"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "mary poppins",
+      "pregunta": "114"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "os pitufos",
+      "pregunta": "115"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "ghost rider",
+      "pregunta": "116"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "bambi",
+      "pregunta": "117"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "van helsing",
+      "pregunta": "118"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "robocop",
+      "pregunta": "119"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a|era do gelo",
+      "pregunta": "120"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "zoolander",
+      "pregunta": "121"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "ze|colmeia",
+      "pregunta": "122"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "tron",
+      "pregunta": "123"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a rede|social",
+      "pregunta": "124"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a mascara",
+      "pregunta": "125"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "happy feet",
+      "pregunta": "126"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "quero|ficar com polly",
+      "pregunta": "127"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "malevola",
+      "pregunta": "128"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o justiceiro",
+      "pregunta": "129"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "ted",
+      "pregunta": "130"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "angry birds|o filme",
+      "pregunta": "131"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "como treinar|o seu dragao",
+      "pregunta": "132"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "zootopia",
+      "pregunta": "133"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "minions",
+      "pregunta": "134"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "jumanji",
+      "pregunta": "135"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a|mumia",
+      "pregunta": "136"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "fievel|um conto americano",
+      "pregunta": "137"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a|espera de um milagre",
+      "pregunta": "138"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o chamado",
+      "pregunta": "139"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "60 segundos",
+      "pregunta": "140"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "rambo",
+      "pregunta": "141"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "karate kid",
+      "pregunta": "142"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "wall e",
+      "pregunta": "143"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a|maquina do tempo",
+      "pregunta": "144"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "naufrago",
+      "pregunta": "145"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "entrando|numa fria",
+      "pregunta": "146"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "sexta-feira|13",
+      "pregunta": "147"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "homens|de preto",
+      "pregunta": "148"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "piratas|do caribe",
+      "pregunta": "149"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "esquadrao|classe a",
+      "pregunta": "150"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "jogos|mortais",
+      "pregunta": "151"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "os passaros",
+      "pregunta": "152"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "curto-circuito",
+      "pregunta": "153"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "eu robo",
+      "pregunta": "154"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "os muppets",
+      "pregunta": "155"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "titanic",
+      "pregunta": "156"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "avatar",
+      "pregunta": "157"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "panico",
+      "pregunta": "158"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "operacao|big hero",
+      "pregunta": "159"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "exterminador|do futuro",
+      "pregunta": "160"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a guerra|dos mundos",
+      "pregunta": "161"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "prenda-me|se for capaz",
+      "pregunta": "162"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "x-men",
+      "pregunta": "163"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a mascara|do zorro",
+      "pregunta": "164"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "liberte|willy",
+      "pregunta": "165"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "forrest gump",
+      "pregunta": "166"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "os|caca-fantasmas",
+      "pregunta": "167"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "top gun",
+      "pregunta": "168"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o fantasma|da opera",
+      "pregunta": "169"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "velocidade|maxima",
+      "pregunta": "170"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "star trek",
+      "pregunta": "171"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "borat",
+      "pregunta": "172"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "shrek",
+      "pregunta": "173"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o voo",
+      "pregunta": "174"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "resident evil",
+      "pregunta": "175"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o massacre|da serra eletrica",
+      "pregunta": "176"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "jurassic park",
+      "pregunta": "177"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "thor",
+      "pregunta": "178"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o grinch",
+      "pregunta": "179"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "psicose",
+      "pregunta": "180"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "casper",
+      "pregunta": "181"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "harry potter",
+      "pregunta": "182"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "o santo",
+      "pregunta": "183"
+    },
+    {
+      "titulo": "Filmes",
+      "respuesta": "a familia|addams",
+      "pregunta": "184"
+    }
+  ]
+}

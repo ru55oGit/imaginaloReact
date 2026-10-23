@@ -44,13 +44,16 @@ import adivinanzasData from "../data/adivinanzas.json";
 import peliculasData from "../data/peliculas.json";
 import peliculasEnData from "../data/peliculas_en.json";
 import peliculasSpData from "../data/peliculas_sp.json";
+import peliculasPtData from "../data/peliculas_pt.json";
 import marcasData from "../data/marcas.json";
 import emojisData from "../data/emojis.json";
 import emojisEnData from "../data/emojis_en.json";
 import emojisSpData from "../data/emojis_sp.json";
+import emojisPtData from "../data/emojis_pt.json";
 import sombrasData from "../data/sombras.json";
 import sombrasEnData from "../data/sombras_en.json";
 import sombrasSpData from "../data/sombras_sp.json";
+import sombrasPtData from "../data/sombras_pt.json";
 import funkosData from "../data/funkos.json";
 import funkosEnData from "../data/funkos_en.json";
 import funkosSpData from "../data/funkos_sp.json";
@@ -318,23 +321,29 @@ const getEntriesByCategoryAndLanguage = (
         ? getEntries(wuzzlesData as DataCollection)
         : getEntries(adivinanzasData as DataCollection);
     case PELICULAS:
-      return pickEntries(
-        peliculasData as DataCollection,
-        peliculasEnData as DataCollection,
-        peliculasSpData as DataCollection,
-      );
+      return language === "pt"
+        ? getEntries(peliculasPtData as DataCollection)
+        : pickEntries(
+            peliculasData as DataCollection,
+            peliculasEnData as DataCollection,
+            peliculasSpData as DataCollection,
+          );
     case EMOJIS:
-      return pickEntries(
-        emojisData as DataCollection,
-        emojisEnData as DataCollection,
-        emojisSpData as DataCollection,
-      );
+      return language === "pt"
+        ? getEntries(emojisPtData as DataCollection)
+        : pickEntries(
+            emojisData as DataCollection,
+            emojisEnData as DataCollection,
+            emojisSpData as DataCollection,
+          );
     case SOMBRAS:
-      return pickEntries(
-        sombrasData as DataCollection,
-        sombrasEnData as DataCollection,
-        sombrasSpData as DataCollection,
-      );
+      return language === "pt"
+        ? getEntries(sombrasPtData as DataCollection)
+        : pickEntries(
+            sombrasData as DataCollection,
+            sombrasEnData as DataCollection,
+            sombrasSpData as DataCollection,
+          );
     case FUNKOS:
       return pickEntries(
         funkosData as DataCollection,
@@ -407,11 +416,11 @@ const Game: React.FC = () => {
       : requestedCategory;
   const level = Math.max(1, state?.level ?? (queryLevel ? Number(queryLevel) : 1));
   const effectiveCategory = getEffectiveCategory(category, currentLanguage);
-  // ALEATORIO en pt sólo mezcla 4 categorías (ver getEntriesByCategoryAndLanguage)
-  // así que su pool real es más chico que los 120 niveles fijos que usan
-  // es/en — sin esto, niveles >100 quedarían vacíos (aleatorios_pt.json
-  // tiene 400 entradas igual, pero el cupo fijo de LEVEL_COUNT_BY_CATEGORY
-  // no es por-idioma).
+  // ALEATORIO en pt mezcla las 7 categorías con datos pt (ver
+  // getEntriesByCategoryAndLanguage) — un pool bastante más grande que los
+  // 120 niveles fijos que usan es/en, así que usa el tamaño real de
+  // aleatorios_pt.json en vez del cupo fijo de LEVEL_COUNT_BY_CATEGORY
+  // (que no es por-idioma).
   const totalLevels =
     effectiveCategory === ALEATORIO && currentLanguage === "pt"
       ? (aleatoriosPtData as DataCollection).preguntas?.length ?? 1
