@@ -32,6 +32,7 @@ export interface Translation {
   categoryFlags: string;
   categoryRandom: string;
   categoryDescriptions: Record<string, string>;
+  categoryUnavailablePt: string;
   ofWord: string;
   levelShort: string;
 
@@ -150,6 +151,7 @@ export const translations: Record<string, Translation> = {
       banderas: "Reconocé banderas de países de todo el mundo, de las más conocidas a las más difíciles.",
       aleatorio: "Una mezcla de todas las categorías: nunca sabés qué tipo de acertijo te va a tocar.",
     },
+    categoryUnavailablePt: "No disponible en PT",
     ofWord: "de",
     levelShort: "Nivel",
     findEmoji: "🤔 Encuentra el emoji",
@@ -260,6 +262,7 @@ export const translations: Record<string, Translation> = {
       banderas: "Recognize country flags from around the world, from the most familiar to the trickiest.",
       aleatorio: "A mix of every category: you never know what kind of riddle you'll get next.",
     },
+    categoryUnavailablePt: "Not available in PT",
     ofWord: "of",
     levelShort: "Level",
     findEmoji: "🤔 Find the emoji",
@@ -370,6 +373,7 @@ export const translations: Record<string, Translation> = {
       banderas: "Reconheça bandeiras de países do mundo todo, das mais conhecidas às mais difíceis.",
       aleatorio: "Uma mistura de todas as categorias: você nunca sabe que tipo de enigma vai aparecer.",
     },
+    categoryUnavailablePt: "Indisponível em português",
     ofWord: "de",
     levelShort: "NIV",
     findEmoji: "🤔 Encontre o emoji",
@@ -480,6 +484,7 @@ export const translations: Record<string, Translation> = {
       banderas: "Reconnais les drapeaux de pays du monde entier, des plus connus aux plus difficiles.",
       aleatorio: "Un mélange de toutes les catégories : tu ne sais jamais quel type d'énigme t'attend.",
     },
+    categoryUnavailablePt: "Indisponible en PT",
     ofWord: "de",
     levelShort: "NIV",
     findEmoji: "🤔 Trouvez l'emoji",
@@ -551,7 +556,7 @@ export const translations: Record<string, Translation> = {
 
 translations.es_sp = { ...translations.es };
 
-export type SupportedLanguage = "es" | "es_sp" | "en";
+export type SupportedLanguage = "es" | "es_sp" | "en" | "pt";
 
 export const getLanguageByCountry = (
   countryCode: string,
@@ -577,6 +582,10 @@ export const getLanguageByCountry = (
     PA: "es",
     DO: "es",
     CU: "es",
+
+    // Portuguese speaking countries
+    BR: "pt",
+    PT: "pt",
 
     // English speaking countries (fallback for others)
     US: "en",

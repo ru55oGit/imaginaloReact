@@ -31,6 +31,7 @@ import {
   FUNKOS,
   LOGOS,
   PELICULAS,
+  PT_UNAVAILABLE_CATEGORIES,
   QUESTIONS,
   SOMBRAS,
 } from "../constanst/categories.js";
@@ -54,11 +55,14 @@ import funkosData from "../data/funkos.json";
 import funkosEnData from "../data/funkos_en.json";
 import funkosSpData from "../data/funkos_sp.json";
 import escudosData from "../data/escudos.json";
+import escudosPtData from "../data/escudos_pt.json";
 import banderasData from "../data/banderas.json";
 import banderasEnData from "../data/banderas_en.json";
+import banderasPtData from "../data/banderas_pt.json";
 import aleatoriosData from "../data/aleatorios.json";
 import aleatoriosEnData from "../data/aleatorios_en.json";
 import aleatoriosSpData from "../data/aleatorios_sp.json";
+import aleatoriosPtData from "../data/aleatorios_pt.json";
 import wuzzlesData from "../data/wuzzles.json";
 import { DEBUG_ADVANCE_LEVEL_TAPS, isDebugUnlockActive } from "../utils/debugUnlock";
 
@@ -338,20 +342,26 @@ const getEntriesByCategoryAndLanguage = (
         funkosSpData as DataCollection,
       );
     case ESCUDOS:
-      return getEntries(escudosData as DataCollection);
+      return language === "pt"
+        ? getEntries(escudosPtData as DataCollection)
+        : getEntries(escudosData as DataCollection);
     case BANDERAS:
-      return pickEntries(
-        banderasData as DataCollection,
-        banderasEnData as DataCollection,
-      );
+      return language === "pt"
+        ? getEntries(banderasPtData as DataCollection)
+        : pickEntries(
+            banderasData as DataCollection,
+            banderasEnData as DataCollection,
+          );
     case LOGOS:
       return getEntries(marcasData as DataCollection);
     case ALEATORIO:
-      return pickEntries(
-        aleatoriosData as DataCollection,
-        aleatoriosEnData as DataCollection,
-        aleatoriosSpData as DataCollection,
-      );
+      return language === "pt"
+        ? getEntries(aleatoriosPtData as DataCollection)
+        : pickEntries(
+            aleatoriosData as DataCollection,
+            aleatoriosEnData as DataCollection,
+            aleatoriosSpData as DataCollection,
+          );
     default:
       return getEntries(adivinanzasData as DataCollection);
   }
@@ -386,10 +396,26 @@ const Game: React.FC = () => {
   // lleve al mismo acertijo aunque no venga el state de react-router (por
   // ejemplo, un amigo que abre el link desde WhatsApp en una pestaña nueva).
   const queryLevel = searchParams.get("level");
-  const category = state?.category ?? searchParams.get("category") ?? ACERTIJOS;
+  const requestedCategory = state?.category ?? searchParams.get("category") ?? ACERTIJOS;
+  // ACERTIJOS/PELICULAS/EMOJIS/SOMBRAS no tienen datos en pt (ver
+  // getEntriesByCategoryAndLanguage) — un link viejo o compartido que
+  // apunte a una de esas categorías, estando en pt, cae a ESCUDOS en vez
+  // de mostrar contenido en español sin avisar.
+  const category =
+    currentLanguage === "pt" && PT_UNAVAILABLE_CATEGORIES.has(requestedCategory)
+      ? ESCUDOS
+      : requestedCategory;
   const level = Math.max(1, state?.level ?? (queryLevel ? Number(queryLevel) : 1));
   const effectiveCategory = getEffectiveCategory(category, currentLanguage);
-  const totalLevels = LEVEL_COUNT_BY_CATEGORY[effectiveCategory] ?? 1;
+  // ALEATORIO en pt sólo mezcla 4 categorías (ver getEntriesByCategoryAndLanguage)
+  // así que su pool real es más chico que los 120 niveles fijos que usan
+  // es/en — sin esto, niveles >100 quedarían vacíos (aleatorios_pt.json
+  // tiene 400 entradas igual, pero el cupo fijo de LEVEL_COUNT_BY_CATEGORY
+  // no es por-idioma).
+  const totalLevels =
+    effectiveCategory === ALEATORIO && currentLanguage === "pt"
+      ? (aleatoriosPtData as DataCollection).preguntas?.length ?? 1
+      : LEVEL_COUNT_BY_CATEGORY[effectiveCategory] ?? 1;
   const progressStorageKey = getProgressStorageKey(category, currentLanguage);
 
   const entries = useMemo(

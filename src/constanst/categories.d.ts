@@ -10,6 +10,7 @@ declare module "../constanst/categories.js" {
 	export const BANDERAS: string;
 	export const ALEATORIO: string;
 	export const QUESTIONS: string;
+	export const PT_UNAVAILABLE_CATEGORIES: Set<string>;
 }
 
 export {};

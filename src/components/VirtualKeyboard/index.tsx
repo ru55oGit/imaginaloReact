@@ -48,6 +48,13 @@ const VirtualKeyboard: React.FC<VirtualKeyboardProps> = ({
             "Á É Í Ó Ú",
           ],
         };
+      case "pt":
+        return {
+          // El matching de letras ya ignora acentos (ver textNormalization),
+          // así que tocar la base alcanza para acertar — esta fila es sólo
+          // para que se vea el caracter correcto al revelarse (Ç/Ã/Õ/Â/Ê).
+          default: [...baseLayout, "Ç Ã Õ Â Ê Ô Á É Í Ó Ú"],
+        };
       case "en":
       default:
         return {

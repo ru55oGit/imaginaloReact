@@ -36,10 +36,11 @@ export const availableLanguages = [
     flag: "🇪🇸",
   },
   { code: "en" as SupportedLanguage, name: "English", flag: "🇺🇸" },
+  { code: "pt" as SupportedLanguage, name: "Português", flag: "🇧🇷" },
 ];
 
 const isSupportedLanguage = (value: string): value is SupportedLanguage => {
-  return value === "es" || value === "es_sp" || value === "en";
+  return value === "es" || value === "es_sp" || value === "en" || value === "pt";
 };
 
 interface LanguageProviderProps {

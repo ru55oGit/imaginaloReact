@@ -29,6 +29,7 @@ import {
   FUNKOS,
   LOGOS,
   PELICULAS,
+  PT_UNAVAILABLE_CATEGORIES,
   SOMBRAS,
 } from "../constanst/categories.js";
 import { LAST_PLAYED_AT_KEY } from "../levels/levelsData";
@@ -168,6 +169,16 @@ export default function WelcomeScreen() {
   // usuario lo cambió acá adentro.
   const hubUrlWithLang = `${HUB_URL}&lang=${currentLanguage}`;
   const [selectedChip, setSelectedChip] = useState<string>(ACERTIJOS);
+
+  // ACERTIJOS (el default de arranque) no tiene datos en pt — si el chip
+  // activo queda apuntando a una categoría sin pt (ya sea el default o
+  // porque el usuario cambió de idioma con otro chip seleccionado), lo
+  // manda a ESCUDOS, la primera categoría habilitada.
+  useEffect(() => {
+    if (currentLanguage === "pt" && PT_UNAVAILABLE_CATEGORIES.has(selectedChip)) {
+      setSelectedChip(ESCUDOS);
+    }
+  }, [currentLanguage, selectedChip]);
   const [categoryProgress, setCategoryProgress] = useState<Record<string, number>>(
     {},
   );
@@ -627,10 +638,12 @@ export default function WelcomeScreen() {
               "&::-webkit-scrollbar": { display: "none" },
             }}
           >
-            {allCategories.map((tab) => (
+            {allCategories.map((tab) => {
+              const isUnavailable = currentLanguage === "pt" && PT_UNAVAILABLE_CATEGORIES.has(tab);
+              return (
               <Box
                 key={tab}
-                onClick={() => setSelectedChip(tab)}
+                onClick={isUnavailable ? undefined : () => setSelectedChip(tab)}
                 sx={{
                   px: 2,
                   py: 0.75,
@@ -642,14 +655,16 @@ export default function WelcomeScreen() {
                   fontSize: { xs: 18, md: 22 },
                   whiteSpace: "nowrap",
                   flex: "0 0 auto",
-                  cursor: "pointer",
+                  cursor: isUnavailable ? "not-allowed" : "pointer",
+                  opacity: isUnavailable ? 0.4 : 1,
                   userSelect: "none",
                   transition: "all 0.2s ease",
                 }}
               >
                 {categoryLabels[tab]}
               </Box>
-            ))}
+              );
+            })}
           </Box>
 
           <Box
@@ -659,16 +674,18 @@ export default function WelcomeScreen() {
               gap: 1.25,
             }}
           >
-            {categoryCards.map((card) => (
+            {categoryCards.map((card) => {
+              const isUnavailable = currentLanguage === "pt" && PT_UNAVAILABLE_CATEGORIES.has(card.key);
+              return (
               <Box
                 key={card.key}
-                onClick={() => {
+                onClick={isUnavailable ? undefined : () => {
                   track("select_content", { content_type: "category", item_id: card.key });
                   navigate("/levels", { state: { category: card.key } });
                 }}
                 role="button"
-                tabIndex={0}
-                onKeyDown={(event) => {
+                tabIndex={isUnavailable ? -1 : 0}
+                onKeyDown={isUnavailable ? undefined : (event) => {
                   if (event.key === "Enter" || event.key === " ") {
                     event.preventDefault();
                     track("select_content", { content_type: "category", item_id: card.key });
@@ -681,9 +698,10 @@ export default function WelcomeScreen() {
                   backgroundColor: "#fff",
                   border: "1px solid #e3e3e3",
                   boxShadow: "0 1px 2px rgba(0, 0, 0, 0.05)",
-                  cursor: "pointer",
+                  cursor: isUnavailable ? "not-allowed" : "pointer",
+                  opacity: isUnavailable ? 0.45 : 1,
                   transition: "transform 0.15s ease, box-shadow 0.15s ease",
-                  "&:hover": {
+                  "&:hover": isUnavailable ? {} : {
                     transform: "translateY(-2px)",
                     boxShadow: "0 6px 14px rgba(0, 0, 0, 0.08)",
                   },
@@ -741,9 +759,27 @@ export default function WelcomeScreen() {
                   >
                     {t.categoryDescriptions[card.key]}
                   </Typography>
+                  {isUnavailable && (
+                    <Typography
+                      sx={{
+                        display: "inline-block",
+                        mt: 0.75,
+                        px: 1,
+                        py: 0.25,
+                        borderRadius: 999,
+                        backgroundColor: "#e3e3e3",
+                        color: "#6b6b70",
+                        fontWeight: 700,
+                        fontSize: 11,
+                      }}
+                    >
+                      {t.categoryUnavailablePt}
+                    </Typography>
+                  )}
                 </Box>
               </Box>
-            ))}
+              );
+            })}
           </Box>
         </Box>
 

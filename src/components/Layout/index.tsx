@@ -28,6 +28,7 @@ import {
   FUNKOS,
   LOGOS,
   PELICULAS,
+  PT_UNAVAILABLE_CATEGORIES,
   SOMBRAS,
 } from "../../constanst/categories.js";
 
@@ -552,10 +553,13 @@ const Layout: React.FC<LayoutProps> = ({
               </ListItemButton>
             </ListItem>
 
-            {categoryMenuItems.map((item) => (
+            {categoryMenuItems.map((item) => {
+              const isUnavailable = currentLanguage === "pt" && PT_UNAVAILABLE_CATEGORIES.has(item.key);
+              return (
               <ListItem key={item.key} disablePadding>
                 <ListItemButton
-                  onClick={() => handleCategoryNavigation(item.key)}
+                  onClick={isUnavailable ? undefined : () => handleCategoryNavigation(item.key)}
+                  disabled={isUnavailable}
                   sx={{
                     px: 3,
                     py: 2,
@@ -576,7 +580,8 @@ const Layout: React.FC<LayoutProps> = ({
                   />
                 </ListItemButton>
               </ListItem>
-            ))}
+              );
+            })}
 
             {/* Opción de idiomas */}
             <ListItem disablePadding>

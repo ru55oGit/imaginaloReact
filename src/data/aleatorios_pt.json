@@ -1,0 +1,2404 @@
+{
+  "preguntas": [
+    {
+      "titulo": "Logos",
+      "respuesta": "minolta",
+      "pregunta": "72",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "kosovo",
+      "pregunta": "44",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "estonia",
+      "pregunta": "87",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Santos",
+      "pregunta": "53",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "visa",
+      "pregunta": "86",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "freddie|mercury",
+      "pregunta": "15",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "majin boo",
+      "pregunta": "88",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "deadpool",
+      "pregunta": "66",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pringles",
+      "pregunta": "68",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Osasuna",
+      "pregunta": "33",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Necaxa",
+      "pregunta": "47",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "volskwagen",
+      "pregunta": "27",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "angus|young",
+      "pregunta": "8",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "suecia",
+      "pregunta": "31",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "tiger|woods",
+      "pregunta": "10",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "nike",
+      "pregunta": "25",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "vans",
+      "pregunta": "89",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "alex|morgan",
+      "pregunta": "41",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "servia",
+      "pregunta": "65",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "eslovaquia",
+      "pregunta": "39",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "hannibal|lecter",
+      "pregunta": "35",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "australia",
+      "pregunta": "9",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "turquia",
+      "pregunta": "70",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "cazaquistao",
+      "pregunta": "16",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "equador",
+      "pregunta": "62",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "paraguai",
+      "pregunta": "53",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Junior de|Barranquilla",
+      "pregunta": "66",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "lg",
+      "pregunta": "98",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "el chavo|del 8",
+      "pregunta": "1",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "kappa",
+      "pregunta": "80",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "india",
+      "pregunta": "50",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Estudiantes|de la plata",
+      "pregunta": "42",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "hermione|granger",
+      "pregunta": "50",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "michael|jordan",
+      "pregunta": "27",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Colon",
+      "pregunta": "78",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "la mujer|maravilla",
+      "pregunta": "48",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "nbc",
+      "pregunta": "94",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Rosario|Central",
+      "pregunta": "52",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "finlandia",
+      "pregunta": "77",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "rip curl",
+      "pregunta": "73",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "elsa",
+      "pregunta": "58",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Tottenham|Hotspur",
+      "pregunta": "58",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "frankenstein",
+      "pregunta": "34",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "fisher|price",
+      "pregunta": "22",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "republica|dominicana",
+      "pregunta": "76",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "facebook",
+      "pregunta": "2",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "star|lord",
+      "pregunta": "4",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "nova|zelandia",
+      "pregunta": "14",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "nestle",
+      "pregunta": "66",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "drive",
+      "pregunta": "83",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "goku",
+      "pregunta": "100",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Everton",
+      "pregunta": "40",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Borussia|Dortmund",
+      "pregunta": "13",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mitsubishi",
+      "pregunta": "62",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "texaco",
+      "pregunta": "99",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "peru",
+      "pregunta": "60",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "opel",
+      "pregunta": "64",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "muhammad|ali",
+      "pregunta": "17",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "pennywise",
+      "pregunta": "3",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "motorola",
+      "pregunta": "31",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "tanzania",
+      "pregunta": "83",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "stella|artois",
+      "pregunta": "33",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "diego|maradona",
+      "pregunta": "43",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ted mosby",
+      "pregunta": "95",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "roger|federer",
+      "pregunta": "56",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Cagliari",
+      "pregunta": "100",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Herta|Berlin",
+      "pregunta": "51",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "firestone",
+      "pregunta": "57",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "voldemort",
+      "pregunta": "13",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "alemanha",
+      "pregunta": "5",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Empoli",
+      "pregunta": "75",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "umbro",
+      "pregunta": "28",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Hamburgo",
+      "pregunta": "27",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Flamengo",
+      "pregunta": "26",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "cristiano|ronaldo",
+      "pregunta": "85",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Once|Caldas",
+      "pregunta": "18",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "panama",
+      "pregunta": "51",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "America|de Cali",
+      "pregunta": "77",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "lionel|messi",
+      "pregunta": "2",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "dr strange",
+      "pregunta": "45",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "bic",
+      "pregunta": "48",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "dove",
+      "pregunta": "60",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "coreia|do sul",
+      "pregunta": "10",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Britney|Spears",
+      "pregunta": "53",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Independiente|santa fe",
+      "pregunta": "85",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "spike lee",
+      "pregunta": "22",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "bella",
+      "pregunta": "64",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "starbucks",
+      "pregunta": "76",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "filipinas",
+      "pregunta": "88",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ant man",
+      "pregunta": "33",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mercedes|benz",
+      "pregunta": "19",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "chile",
+      "pregunta": "71",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "oma",
+      "pregunta": "89",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pritt",
+      "pregunta": "43",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pizza hut",
+      "pregunta": "95",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "puma",
+      "pregunta": "42",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "alfred|hitchcock",
+      "pregunta": "37",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "wilson",
+      "pregunta": "67",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "carrie",
+      "pregunta": "12",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "daredevil",
+      "pregunta": "75",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Genoa",
+      "pregunta": "84",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "chester",
+      "pregunta": "42",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "neo",
+      "pregunta": "84",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "argentina",
+      "pregunta": "1",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "honduras",
+      "pregunta": "69",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "romenia",
+      "pregunta": "37",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "brasil",
+      "pregunta": "15",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Real|Sociedad",
+      "pregunta": "86",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "new balance",
+      "pregunta": "79",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "elvis|presley",
+      "pregunta": "28",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "leon o",
+      "pregunta": "99",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "direct tv",
+      "pregunta": "50",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "africa|do sul",
+      "pregunta": "30",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Atlas",
+      "pregunta": "57",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Boca Juniors",
+      "pregunta": "96",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "belgica",
+      "pregunta": "24",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "sirius|black",
+      "pregunta": "73",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "madagascar",
+      "pregunta": "86",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "el guason",
+      "pregunta": "25",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "giorgio|armani",
+      "pregunta": "77",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "San Lorenzo",
+      "pregunta": "25",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "john|wick",
+      "pregunta": "11",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Werder|Bremen",
+      "pregunta": "60",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "bahrein",
+      "pregunta": "38",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "national|geographic",
+      "pregunta": "100",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pepsi",
+      "pregunta": "20",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Universidad|Catolica",
+      "pregunta": "55",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "wall e",
+      "pregunta": "5",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "carrefour",
+      "pregunta": "61",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "chievo|verona",
+      "pregunta": "73",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Manchester|United",
+      "pregunta": "19",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "gucci",
+      "pregunta": "39",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "jon snow",
+      "pregunta": "97",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "coreia|do norte",
+      "pregunta": "17",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "croacia",
+      "pregunta": "59",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Wolfsburgo",
+      "pregunta": "24",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Palermo",
+      "pregunta": "64",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Fiorentina",
+      "pregunta": "56",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "the wasp",
+      "pregunta": "89",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "nickelodeon",
+      "pregunta": "7",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Bono",
+      "pregunta": "52",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "china",
+      "pregunta": "3",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Stuttgart",
+      "pregunta": "89",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "louis|vuitton",
+      "pregunta": "55",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "audi",
+      "pregunta": "44",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "tibete",
+      "pregunta": "92",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "trindade|e tobago",
+      "pregunta": "94",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "bmw",
+      "pregunta": "97",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "West|Ham",
+      "pregunta": "71",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "coca cola",
+      "pregunta": "29",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Newells|Old Boys",
+      "pregunta": "69",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "liberia",
+      "pregunta": "84",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "russia",
+      "pregunta": "4",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Bayer|Munich",
+      "pregunta": "5",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "olympique|de marsella",
+      "pregunta": "83",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "jefe|gorgory",
+      "pregunta": "68",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "dinamarca",
+      "pregunta": "33",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Merlina",
+      "pregunta": "20",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "toyota",
+      "pregunta": "96",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "cuba",
+      "pregunta": "22",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "le coq|sportif",
+      "pregunta": "63",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Sao Paulo",
+      "pregunta": "10",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "grogu",
+      "pregunta": "67",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Velez|Sarsfield",
+      "pregunta": "44",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "albert|einstein",
+      "pregunta": "6",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "slash",
+      "pregunta": "32",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "camaroes",
+      "pregunta": "47",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "arabia|saudita",
+      "pregunta": "64",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Liverpool",
+      "pregunta": "37",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Betis",
+      "pregunta": "45",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "kodak",
+      "pregunta": "15",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "checo|perez",
+      "pregunta": "14",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "estados|unidos",
+      "pregunta": "2",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "daenerys|targaryen",
+      "pregunta": "61",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Bayer|Leverkusen",
+      "pregunta": "31",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "flash",
+      "pregunta": "96",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Arsenal",
+      "pregunta": "30",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "carolina|herrera",
+      "pregunta": "49",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Sevilla",
+      "pregunta": "28",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Espanyol de|Barcelona",
+      "pregunta": "90",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "corinthians",
+      "pregunta": "67",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "nepal",
+      "pregunta": "97",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Watford",
+      "pregunta": "99",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "mongolia",
+      "pregunta": "98",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "italia",
+      "pregunta": "6",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "chanel",
+      "pregunta": "46",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "guatemala",
+      "pregunta": "63",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "escocia",
+      "pregunta": "48",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "dropbox",
+      "pregunta": "82",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "reebok",
+      "pregunta": "37",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Monterrey",
+      "pregunta": "72",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Millonarios",
+      "pregunta": "54",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "once",
+      "pregunta": "44",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "wordpress",
+      "pregunta": "3",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "shaggy",
+      "pregunta": "21",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "axl|rose",
+      "pregunta": "63",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "shang chi",
+      "pregunta": "38",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "ebay",
+      "pregunta": "93",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "etiopia",
+      "pregunta": "41",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "boba fett",
+      "pregunta": "46",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "peugeot",
+      "pregunta": "18",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "fiji",
+      "pregunta": "43",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "republica|tcheca",
+      "pregunta": "36",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "lacoste",
+      "pregunta": "16",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "bombon",
+      "pregunta": "71",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "citroen",
+      "pregunta": "51",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Gimnasia|de la plata",
+      "pregunta": "79",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "chevrolet",
+      "pregunta": "13",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "amazon",
+      "pregunta": "9",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "el|salvador",
+      "pregunta": "58",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "x box",
+      "pregunta": "12",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Cruzeiro",
+      "pregunta": "20",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "ferrari",
+      "pregunta": "23",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "eslovenia",
+      "pregunta": "35",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "dodge",
+      "pregunta": "53",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "gatorade",
+      "pregunta": "56",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Schalke 04",
+      "pregunta": "38",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Levante",
+      "pregunta": "63",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "capitan|america",
+      "pregunta": "57",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "mr bean",
+      "pregunta": "92",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Kylo|Ren",
+      "pregunta": "81",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "demogorgon",
+      "pregunta": "40",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "apple",
+      "pregunta": "8",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "woody",
+      "pregunta": "60",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "bosnia|herzegovina",
+      "pregunta": "91",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Colo Colo",
+      "pregunta": "16",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "bahamas",
+      "pregunta": "42",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "austria",
+      "pregunta": "68",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "singapura",
+      "pregunta": "45",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "tonga",
+      "pregunta": "95",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "lilo",
+      "pregunta": "76",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ms marvel",
+      "pregunta": "82",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Atletico|Nacional",
+      "pregunta": "21",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Southampton",
+      "pregunta": "94",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Tigre",
+      "pregunta": "65",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Will|Byers",
+      "pregunta": "78",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "lego",
+      "pregunta": "70",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Internacional",
+      "pregunta": "17",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ahsoka",
+      "pregunta": "77",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "grecia",
+      "pregunta": "25",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Chelsea",
+      "pregunta": "23",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "levis",
+      "pregunta": "26",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "bielorrussia",
+      "pregunta": "34",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "noruega",
+      "pregunta": "73",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "intel",
+      "pregunta": "90",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "rocky|balboa",
+      "pregunta": "80",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Gremio",
+      "pregunta": "11",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "irlanda",
+      "pregunta": "72",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "pinterest",
+      "pregunta": "59",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "colombia",
+      "pregunta": "21",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "chrome",
+      "pregunta": "5",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Napoli",
+      "pregunta": "2",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "jamaica",
+      "pregunta": "28",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mercado|libre",
+      "pregunta": "92",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mcdonalds",
+      "pregunta": "45",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "mocambique",
+      "pregunta": "100",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "quenia",
+      "pregunta": "18",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "tailandia",
+      "pregunta": "26",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "miguel",
+      "pregunta": "29",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "holanda",
+      "pregunta": "12",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "seat",
+      "pregunta": "35",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "opera",
+      "pregunta": "88",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "jordania",
+      "pregunta": "81",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "bridgestone",
+      "pregunta": "47",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "bacardi",
+      "pregunta": "30",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "skeletor",
+      "pregunta": "98",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "chipre",
+      "pregunta": "49",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ed|sheeran",
+      "pregunta": "30",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "sheldon|cooper",
+      "pregunta": "47",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Parma",
+      "pregunta": "80",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "john|lennon",
+      "pregunta": "49",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "West|Bromwich",
+      "pregunta": "48",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "portugal",
+      "pregunta": "56",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Barcelona",
+      "pregunta": "3",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "River|Plate",
+      "pregunta": "1",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "lewis|hamilton",
+      "pregunta": "55",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "hewlett|packard",
+      "pregunta": "75",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "batman",
+      "pregunta": "74",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "suzuki",
+      "pregunta": "32",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Cruz|Azul",
+      "pregunta": "7",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "monaco",
+      "pregunta": "99",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "vietna",
+      "pregunta": "40",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Roma",
+      "pregunta": "6",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "speed",
+      "pregunta": "54",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "sonic",
+      "pregunta": "62",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "bulgaria",
+      "pregunta": "75",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "tunisia",
+      "pregunta": "93",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Union",
+      "pregunta": "92",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "gabao",
+      "pregunta": "79",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "marty|mcfly",
+      "pregunta": "70",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "timberland",
+      "pregunta": "85",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "marrocos",
+      "pregunta": "46",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "mexico",
+      "pregunta": "61",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "islandia",
+      "pregunta": "80",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Juventus",
+      "pregunta": "29",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "fanta",
+      "pregunta": "41",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Palmeiras",
+      "pregunta": "59",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "vito|corleone",
+      "pregunta": "9",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "quiksilver",
+      "pregunta": "58",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "rayban",
+      "pregunta": "87",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "firefox",
+      "pregunta": "24",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "telegram",
+      "pregunta": "38",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "ted lasso",
+      "pregunta": "93",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Universidad|de chile",
+      "pregunta": "41",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "honda",
+      "pregunta": "71",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "tom",
+      "pregunta": "87",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "linkedin",
+      "pregunta": "65",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "twitter",
+      "pregunta": "4",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "ford",
+      "pregunta": "14",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Sampdoria",
+      "pregunta": "43",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Lazio",
+      "pregunta": "22",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Banfield",
+      "pregunta": "81",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "japao",
+      "pregunta": "8",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Rayo|Vallecano",
+      "pregunta": "82",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "play|station",
+      "pregunta": "17",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "uruguai",
+      "pregunta": "13",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Villareal",
+      "pregunta": "50",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Bologna",
+      "pregunta": "61",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "canada",
+      "pregunta": "19",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "burger king",
+      "pregunta": "84",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "elton|john",
+      "pregunta": "83",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "America",
+      "pregunta": "34",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "franca",
+      "pregunta": "7",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "whatsapp",
+      "pregunta": "10",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "ira",
+      "pregunta": "29",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "paquistao",
+      "pregunta": "96",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Milan",
+      "pregunta": "14",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "leicester",
+      "pregunta": "95",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "rolex",
+      "pregunta": "81",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "ucrania",
+      "pregunta": "32",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "negan",
+      "pregunta": "59",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "froddo",
+      "pregunta": "86",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Paris|Saint Germain",
+      "pregunta": "93",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Celta de Vigo",
+      "pregunta": "98",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Inter de|Milan",
+      "pregunta": "35",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "costa|rica",
+      "pregunta": "55",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "hungria",
+      "pregunta": "11",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Vasco da|Gama",
+      "pregunta": "76",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Newcastle",
+      "pregunta": "62",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "lotto",
+      "pregunta": "78",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Deportivo|Cali",
+      "pregunta": "70",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Lanus",
+      "pregunta": "32",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Mike|Wheeler",
+      "pregunta": "65",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Ellen|DeGeneres",
+      "pregunta": "39",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "ruanda",
+      "pregunta": "78",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Stephen|Curry",
+      "pregunta": "69",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "israel",
+      "pregunta": "74",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Torino",
+      "pregunta": "39",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "hawkeye",
+      "pregunta": "72",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Perugia",
+      "pregunta": "49",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "instagram",
+      "pregunta": "52",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Siena",
+      "pregunta": "46",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "Ironman",
+      "pregunta": "51",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Valencia",
+      "pregunta": "4",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mini",
+      "pregunta": "11",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Atletico|de Madrid",
+      "pregunta": "12",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "stan|lee",
+      "pregunta": "36",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "cartoon|network",
+      "pregunta": "6",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "argelia",
+      "pregunta": "52",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "libano",
+      "pregunta": "82",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "egito",
+      "pregunta": "54",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "converse",
+      "pregunta": "40",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "tony|hawk",
+      "pregunta": "54",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Fluminense",
+      "pregunta": "68",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "red bull",
+      "pregunta": "69",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "meteoro",
+      "pregunta": "23",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "the new|york times",
+      "pregunta": "1",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Hannover 96",
+      "pregunta": "97",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Fulham",
+      "pregunta": "87",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "rose",
+      "pregunta": "91",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "monica|geller",
+      "pregunta": "94",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "amy|winehouse",
+      "pregunta": "16",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "nigeria",
+      "pregunta": "67",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "harry|potter",
+      "pregunta": "24",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Racing|Club",
+      "pregunta": "9",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "lebron|james",
+      "pregunta": "18",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "taz",
+      "pregunta": "90",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "wikipedia",
+      "pregunta": "91",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "walter|white",
+      "pregunta": "26",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "mizuno",
+      "pregunta": "74",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "shell",
+      "pregunta": "34",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Hellas|Verona",
+      "pregunta": "91",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Manchester|City",
+      "pregunta": "15",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "bolivia",
+      "pregunta": "57",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "adidas",
+      "pregunta": "21",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Independiente|de avellaneda",
+      "pregunta": "88",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "daniel|larusso",
+      "pregunta": "19",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Logos",
+      "respuesta": "samsung",
+      "pregunta": "36",
+      "categoria": "logos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "uzbequistao",
+      "pregunta": "27",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Aston|Villa",
+      "pregunta": "74",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Real|Madrid",
+      "pregunta": "8",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "gana",
+      "pregunta": "66",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "marilyn|monroe",
+      "pregunta": "7",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "polonia",
+      "pregunta": "20",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "suica",
+      "pregunta": "23",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "malasia",
+      "pregunta": "85",
+      "categoria": "banderas"
+    },
+    {
+      "titulo": "Escudos de futebol",
+      "respuesta": "Malaga",
+      "pregunta": "36",
+      "categoria": "escudos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "indiana|jones",
+      "pregunta": "31",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Funkos",
+      "respuesta": "dr emmett|brown",
+      "pregunta": "79",
+      "categoria": "funkos"
+    },
+    {
+      "titulo": "Qual e o pais?",
+      "respuesta": "somalia",
+      "pregunta": "90",
+      "categoria": "banderas"
+    }
+  ]
+}

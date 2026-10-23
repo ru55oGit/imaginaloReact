@@ -23,6 +23,7 @@ import {
 import aleatoriosData from "../data/aleatorios.json";
 import aleatoriosEnData from "../data/aleatorios_en.json";
 import aleatoriosSpData from "../data/aleatorios_sp.json";
+import aleatoriosPtData from "../data/aleatorios_pt.json";
 import {
   DEBUG_ACTIVATE_TAPS,
   DEBUG_DEACTIVATE_TAPS,
@@ -56,6 +57,10 @@ const Levels: React.FC = () => {
 
     if (currentLanguage === "es_sp") {
       return (aleatoriosSpData as { preguntas?: unknown[] }).preguntas?.length ?? 1;
+    }
+
+    if (currentLanguage === "pt") {
+      return (aleatoriosPtData as { preguntas?: unknown[] }).preguntas?.length ?? 1;
     }
 
     return (aleatoriosData as { preguntas?: unknown[] }).preguntas?.length ?? 1;
