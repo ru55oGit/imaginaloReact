@@ -383,7 +383,7 @@ export const translations: Record<string, Translation> = {
     ofWord: "de",
     levelShort: "NIV",
     findEmoji: "🤔 Encontre o emoji",
-    findDifferentEmoji: "Descubra qual emoji é diferente!",
+    findDifferentEmoji: "Escolha um nível e coloque sua mente à prova.",
     worldFlags: "🗺️ Bandeiras do Mundo",
     findFlagsDescription: "Encontre as bandeiras de diferentes países!",
     moviesAndSeries: "🎬 Filmes e Séries",
