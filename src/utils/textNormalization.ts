@@ -8,11 +8,20 @@
  * @param text - Texto a normalizar
  * @returns Texto sin acentos en mayúsculas
  */
+const ENYE_PLACEHOLDER = "";
+
 export const normalizeText = (text: string): string => {
   return text
+    // La Ñ es una letra propia, no una vocal con acento (a diferencia de
+    // á/é/í/ó/ú) — sin este placeholder, la descomposición NFD de abajo
+    // le saca la virgulilla igual que a un acento y "Ñ" termina
+    // normalizando a "N" (bug real: tocar Ñ bloqueaba/marcaba la N real
+    // del teclado como si fuera la misma letra).
+    .replace(/ñ/gi, ENYE_PLACEHOLDER)
     .normalize("NFD") // Descompone caracteres acentuados
     .replace(/[\u0300-\u036f]/g, "") // Remueve diacríticos
-    .toUpperCase(); // Convierte a mayúsculas
+    .toUpperCase() // Convierte a mayúsculas
+    .split(ENYE_PLACEHOLDER).join("Ñ"); // restaura la Ñ protegida arriba
 };
 
 /**
