@@ -75,6 +75,10 @@ export interface Translation {
   cancel: string;
   confirm: string;
 
+  // Teclado virtual: barra de acciones (ver VirtualKeyboard) — ver un
+  // anuncio elimina hasta 3 letras que no están en la respuesta.
+  watchAdEliminateButton: string;
+
   // Game Over messages
   gameOverMovie: string;
   gameOverLives: string;
@@ -183,6 +187,7 @@ export const translations: Record<string, Translation> = {
     loseProgress: "Se perderá el progreso actual del juego",
     cancel: "CANCELAR",
     confirm: "CONFIRMAR",
+    watchAdEliminateButton: "Ver anuncio (elimina 3 letras)",
     gameOverMovie: "🌬️ ¡El telón se cerró!",
     gameOverLives: "💔 ¡Se acabaron las vidas!",
     tryAgain: "Volvamos a intentarlo...",
@@ -294,6 +299,7 @@ export const translations: Record<string, Translation> = {
     loseProgress: "You will lose the current game progress",
     cancel: "CANCEL",
     confirm: "CONFIRM",
+    watchAdEliminateButton: "Watch ad (remove 3 letters)",
     gameOverMovie: "🌬️ The curtain fell!",
     gameOverLives: "💔 Lives are over!",
     tryAgain: "Let's try again...",
@@ -405,6 +411,7 @@ export const translations: Record<string, Translation> = {
     loseProgress: "Você perderá o progresso atual do jogo",
     cancel: "CANCELAR",
     confirm: "CONFIRMAR",
+    watchAdEliminateButton: "Ver anúncio (elimina 3 letras)",
     gameOverMovie: "🌬️ A cortina caiu!",
     gameOverLives: "💔 As vidas acabaram!",
     tryAgain: "Vamos tentar novamente...",
@@ -516,6 +523,7 @@ export const translations: Record<string, Translation> = {
     loseProgress: "Vous perdrez la progression actuelle du jeu",
     cancel: "ANNULER",
     confirm: "CONFIRMER",
+    watchAdEliminateButton: "Voir une pub (retire 3 lettres)",
     gameOverMovie: "🌬️ Le rideau est tombé!",
     gameOverLives: "💔 Les vies sont finies!",
     tryAgain: "Essayons encore...",

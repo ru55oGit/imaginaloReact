@@ -663,6 +663,10 @@ const Game: React.FC = () => {
   const [revealedChars, setRevealedChars] = useState<boolean[]>([]);
   const [guessedLetters, setGuessedLetters] = useState<string[]>([]);
   const [wrongLetters, setWrongLetters] = useState<string[]>([]);
+  // Letras que el jugador sacó de encima viendo un anuncio (ver
+  // "Ver anuncio" en el teclado) — no cuestan vida ni cuentan como intento,
+  // solo quedan deshabilitadas para no tentarse a tocarlas.
+  const [eliminatedLetters, setEliminatedLetters] = useState<string[]>([]);
   const [lives, setLives] = useState(() => (getStoredLockoutRemaining() > 0 ? 0 : 3));
   const [showSuccessModal, setShowSuccessModal] = useState(false);
   const [showFailModal, setShowFailModal] = useState(() => getStoredLockoutRemaining() > 0);
@@ -673,6 +677,9 @@ const Game: React.FC = () => {
   // esperando poder escribir ahí, así que el banner ocupa ese lugar hasta
   // que tocan un casillero — ahí recién sube el teclado y lo tapa.
   const [keyboardOpen, setKeyboardOpen] = useState(false);
+  const [soundEnabled, setSoundEnabled] = useState(() => {
+    return localStorage.getItem("imaginalo_sound_enabled") !== "false";
+  });
 
   const categoryLabelByKey: Record<string, string> = {
     [ACERTIJOS]: t.categoryRiddles,
@@ -717,6 +724,7 @@ const Game: React.FC = () => {
     setRevealedChars(answerChars.map((char) => !isGuessableChar(char)));
     setGuessedLetters([]);
     setWrongLetters([]);
+    setEliminatedLetters([]);
     setShowSuccessModal(false);
     setKeyboardOpen(false);
     levelStartedAtRef.current = Date.now();
@@ -741,12 +749,56 @@ const Game: React.FC = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  const playErrorSound = () => {
+    try {
+      const ctx = new AudioContext();
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.type = "square";
+      osc.frequency.setValueAtTime(280, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(120, ctx.currentTime + 0.25);
+      gain.gain.setValueAtTime(0.25, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.25);
+      osc.start(ctx.currentTime);
+      osc.stop(ctx.currentTime + 0.25);
+    } catch {
+      // audio not supported
+    }
+  };
+
+  const playSuccessSound = () => {
+    try {
+      const ctx = new AudioContext();
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(523, ctx.currentTime);
+      osc.frequency.setValueAtTime(784, ctx.currentTime + 0.1);
+      osc.frequency.setValueAtTime(1047, ctx.currentTime + 0.2);
+      gain.gain.setValueAtTime(0.2, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.35);
+      osc.start(ctx.currentTime);
+      osc.stop(ctx.currentTime + 0.35);
+    } catch {
+      // audio not supported
+    }
+  };
+
   const handleGuess = useCallback(
     (key: string) => {
       if (showSuccessModal || showFailModal || !answer) return;
 
       const normalizedGuess = normalizeText(key).trim().charAt(0);
-      if (!normalizedGuess || guessedLetters.includes(normalizedGuess)) return;
+      if (
+        !normalizedGuess ||
+        guessedLetters.includes(normalizedGuess) ||
+        eliminatedLetters.includes(normalizedGuess)
+      )
+        return;
 
       let hasHit = false;
       const nextRevealed = [...revealedChars];
@@ -769,6 +821,7 @@ const Game: React.FC = () => {
       setRevealedChars(nextRevealed);
 
       if (hasHit) {
+        if (soundEnabled) playSuccessSound();
         if (isSolved) {
           const durationSec = Math.round((Date.now() - levelStartedAtRef.current) / 1000);
           track("level_complete", { level, mode: category, duration_sec: durationSec, hints_used: 0 });
@@ -777,6 +830,7 @@ const Game: React.FC = () => {
         return;
       }
 
+      if (soundEnabled) playErrorSound();
       setWrongLetters((prev) => [...prev, normalizedGuess]);
 
       const nextLives = lives - 1;
@@ -794,12 +848,14 @@ const Game: React.FC = () => {
       answer,
       answerChars,
       category,
+      eliminatedLetters,
       guessedLetters,
       level,
       lives,
       revealedChars,
       showFailModal,
       showSuccessModal,
+      soundEnabled,
     ],
   );
 
@@ -883,6 +939,40 @@ const Game: React.FC = () => {
     "imaginalo",
     currentLanguage,
     grantShareReward,
+  );
+
+  // Letras candidatas a eliminar: el alfabeto completo (Ñ solo en es, que
+  // es la única variante que la usa como tecla propia — ver VirtualKeyboard)
+  // menos las que ya están en la respuesta o ya se jugaron de algún modo.
+  const eliminatableLetters = useCallback(() => {
+    const isEsLocale = currentLanguage === "es" || currentLanguage === "es_sp";
+    const alphabet = `ABCDEFGHIJKLMNOPQRSTUVWXYZ${isEsLocale ? "Ñ" : ""}`;
+    const normalizedAnswer = normalizeText(answer);
+    return alphabet
+      .split("")
+      .filter(
+        (letter) =>
+          !normalizedAnswer.includes(letter) &&
+          !guessedLetters.includes(letter) &&
+          !eliminatedLetters.includes(letter),
+      );
+  }, [answer, currentLanguage, guessedLetters, eliminatedLetters]);
+
+  const grantEliminateLettersReward = useCallback(() => {
+    const candidates = eliminatableLetters();
+    const shuffled = [...candidates].sort(() => Math.random() - 0.5);
+    setEliminatedLetters((prev) => [...prev, ...shuffled.slice(0, 3)]);
+  }, [eliminatableLetters]);
+
+  // "Ver anuncio" del teclado (reemplaza el botón de pasapalabra/salir que
+  // este juego no tenía) — recompensa distinta a rewardedAd de arriba: en
+  // vez de vidas, elimina hasta 3 letras que seguro no están en la palabra.
+  const eliminateLettersAd = useRewardedAd(
+    "imaginalo-rewarded-eliminate-letters",
+    "imaginalo",
+    currentLanguage,
+    grantEliminateLettersReward,
+    "eliminate_letters",
   );
 
   // Arma un listener de un solo uso: espera a que la pestaña pase a oculta
@@ -1168,6 +1258,21 @@ const Game: React.FC = () => {
         onKeyPress={handleGuess}
         guessedLetters={guessedLetters}
         wrongLetters={wrongLetters}
+        eliminatedLetters={eliminatedLetters}
+        hasNumbers={/\d/.test(answer)}
+        hasPtAccents={/[áàâãéêíóôõúç]/i.test(answer)}
+        includeActionKeys
+        soundEnabled={soundEnabled}
+        onSoundToggle={() => {
+          setSoundEnabled((prev) => {
+            const next = !prev;
+            localStorage.setItem("imaginalo_sound_enabled", String(next));
+            return next;
+          });
+        }}
+        onWatchAd={eliminateLettersAd.requestAd}
+        canWatchAd={eliminateLettersAd.canShowAd && eliminatableLetters().length > 0}
+        watchAdLoading={eliminateLettersAd.loadingAd}
         open={keyboardOpen}
         gameSlug="imaginalo"
         locale={currentLanguage}
@@ -1300,6 +1405,20 @@ const Game: React.FC = () => {
         onConfirm={rewardedAd.handleAdWatched}
         onSkip={rewardedAd.handleAdSkipped}
         onImageClick={rewardedAd.handleImageClick}
+        confirmLabel={t.rewardedAdConfirmButton}
+        skipLabel={t.rewardedAdSkipButton}
+        waitLabel={t.rewardedAdWaitLabel}
+      />
+
+      <RewardedAdModal
+        locale={currentLanguage}
+        open={eliminateLettersAd.showingAd}
+        adCreative={eliminateLettersAd.adCreative}
+        canConfirmReward={eliminateLettersAd.canConfirmReward}
+        secondsUntilCanConfirm={eliminateLettersAd.secondsUntilCanConfirm}
+        onConfirm={eliminateLettersAd.handleAdWatched}
+        onSkip={eliminateLettersAd.handleAdSkipped}
+        onImageClick={eliminateLettersAd.handleImageClick}
         confirmLabel={t.rewardedAdConfirmButton}
         skipLabel={t.rewardedAdSkipButton}
         waitLabel={t.rewardedAdWaitLabel}
