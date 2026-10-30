@@ -93,6 +93,11 @@ export interface Translation {
   shareForLifeButton: string;
   shareForLifeCaption: string;
   shareRiddleText: string;
+  // Texto de share específico por categoría (peliculas/logos/escudos/etc) —
+  // más concreto que el genérico shareRiddleText. Categorías sin pregunta
+  // natural propia (acertijos, aleatorio, preguntas) no tienen entrada acá
+  // y caen al fallback genérico (ver game.tsx).
+  shareRiddleTextByCategory: Partial<Record<string, string>>;
   rewardedAdButton: string;
   rewardedAdConfirmButton: string;
   rewardedAdSkipButton: string;
@@ -201,6 +206,15 @@ export const translations: Record<string, Translation> = {
     shareForLifeButton: "Pedí ayuda",
     shareForLifeCaption: "Compartí este acertijo con un amigo y volvé para seguir jugando",
     shareRiddleText: "Ey, necesito ayuda con este acertijo 👀",
+    shareRiddleTextByCategory: {
+      peliculas: "¿Qué película es esta? 👀",
+      emojis: "¿Qué película es esta combinación de emojis? 👀",
+      logos: "¿Qué marca es este logo? 👀",
+      sombras: "¿Qué es esta silueta? 👀",
+      funkos: "¿Qué personaje es este funko? 👀",
+      escudos: "¿Qué equipo es este escudo? 👀",
+      banderas: "¿De qué país es esta bandera? 👀",
+    },
     rewardedAdButton: "Ver un anuncio para recuperar vidas",
     rewardedAdConfirmButton: "Reclamar recompensa",
     rewardedAdSkipButton: "Cerrar",
@@ -313,6 +327,15 @@ export const translations: Record<string, Translation> = {
     shareForLifeButton: "Ask for help",
     shareForLifeCaption: "Share this riddle with a friend and come back to keep playing",
     shareRiddleText: "Hey, I need help with this riddle 👀",
+    shareRiddleTextByCategory: {
+      peliculas: "What movie is this? 👀",
+      emojis: "What movie is this emoji combo? 👀",
+      logos: "What brand is this logo? 👀",
+      sombras: "What is this silhouette? 👀",
+      funkos: "What character is this funko? 👀",
+      escudos: "What team is this crest? 👀",
+      banderas: "What country is this flag from? 👀",
+    },
     rewardedAdButton: "Watch an ad to recover lives",
     rewardedAdConfirmButton: "Claim reward",
     rewardedAdSkipButton: "Close",
@@ -425,6 +448,15 @@ export const translations: Record<string, Translation> = {
     shareForLifeButton: "Peça ajuda",
     shareForLifeCaption: "Compartilhe este enigma com um amigo e volte para continuar jogando",
     shareRiddleText: "Ei, preciso de ajuda com este enigma 👀",
+    shareRiddleTextByCategory: {
+      peliculas: "Que filme é esse? 👀",
+      emojis: "Que filme é essa combinação de emojis? 👀",
+      logos: "Que marca é esse logo? 👀",
+      sombras: "Que silhueta é essa? 👀",
+      funkos: "Que personagem é esse funko? 👀",
+      escudos: "Que time é esse escudo? 👀",
+      banderas: "De que país é essa bandeira? 👀",
+    },
     rewardedAdButton: "Ver um anúncio para recuperar vidas",
     rewardedAdConfirmButton: "Resgatar recompensa",
     rewardedAdSkipButton: "Fechar",
@@ -537,6 +569,15 @@ export const translations: Record<string, Translation> = {
     shareForLifeButton: "Demande de l'aide",
     shareForLifeCaption: "Partagez cette énigme avec un ami et revenez pour continuer à jouer",
     shareRiddleText: "Hé, j'ai besoin d'aide avec cette énigme 👀",
+    shareRiddleTextByCategory: {
+      peliculas: "Quel est ce film ? 👀",
+      emojis: "Quel film se cache derrière ces emojis ? 👀",
+      logos: "Quelle marque est ce logo ? 👀",
+      sombras: "Qu'est-ce que cette silhouette ? 👀",
+      funkos: "Quel personnage est ce funko ? 👀",
+      escudos: "Quelle équipe est cet écusson ? 👀",
+      banderas: "De quel pays est ce drapeau ? 👀",
+    },
     rewardedAdButton: "Regarder une pub pour récupérer des vies",
     rewardedAdConfirmButton: "Réclamer la récompense",
     rewardedAdSkipButton: "Fermer",

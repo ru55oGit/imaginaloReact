@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Box } from "@mui/material";
 import VolumeUpRoundedIcon from "@mui/icons-material/VolumeUpRounded";
 import VolumeOffRoundedIcon from "@mui/icons-material/VolumeOffRounded";
+import KeyboardHideRoundedIcon from "@mui/icons-material/KeyboardHideRounded";
 import { useIsMobile } from "../../hooks/useIsMobile";
 import { useLanguage } from "../../i18n/LanguageContext";
 import { normalizeText } from "../../utils/textNormalization";
@@ -30,6 +31,10 @@ interface VirtualKeyboardProps {
   onWatchAd?: () => void;
   canWatchAd?: boolean;
   watchAdLoading?: boolean;
+  // Cierra el teclado — ocupa el espaciador invisible que quedaba a la
+  // izquierda de la fila Z-M en en/pt (no hay acento ni borrar que poner
+  // ahí, ver conversación).
+  onClose?: () => void;
   // Arranca cerrado (muestra un banner en su lugar) hasta que el juego pide
   // abrirlo — ver game.tsx, se abre cuando tocan un casillero en blanco.
   open?: boolean;
@@ -45,10 +50,11 @@ interface VirtualKeyboardProps {
 // 2. Este juego es "al estilo ahorcado" — una letra tocada revela o
 //    descuenta una vida al toque, no hay texto parcial que editar — así
 //    que no existe el concepto de borrar. Donde en enroscado iría el
-//    borrar (flanqueando la fila Z-M), acá va un espaciador invisible de
-//    mismo ancho: mantiene la alineación tipo iPhone (fila corta
-//    centrada bajo las 10 columnas de arriba) sin un botón que no haría
-//    nada.
+//    borrar (flanqueando la fila Z-M), a la izquierda va cerrar teclado
+//    en en/pt (no hay acento ni borrar que poner ahí) y a la derecha un
+//    espaciador invisible de mismo ancho: mantiene la alineación tipo
+//    iPhone (fila corta centrada bajo las 10 columnas de arriba) sin un
+//    segundo botón que no haría nada.
 const NUM_ROW = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 const ROW_1 = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"];
 const ES_ROW_2 = ["A", "S", "D", "F", "G", "H", "J", "K", "L", "Ñ"];
@@ -107,6 +113,7 @@ const VirtualKeyboard: React.FC<VirtualKeyboardProps> = ({
   onWatchAd,
   canWatchAd = true,
   watchAdLoading = false,
+  onClose,
   open = true,
   gameSlug = "imaginalo",
   locale = "es",
@@ -166,6 +173,18 @@ const VirtualKeyboard: React.FC<VirtualKeyboardProps> = ({
 
   const renderSpacer = (key: string) => (
     <Box key={key} aria-hidden sx={{ flex: 1.5, pointerEvents: "none" }} />
+  );
+
+  const renderCloseKeyboard = () => (
+    <Box
+      component="button"
+      type="button"
+      onClick={() => onClose?.()}
+      aria-label="Cerrar teclado"
+      sx={{ ...keyButtonSx("default"), flex: 1.5, backgroundColor: "#e74c3c", borderColor: "#c0392b" }}
+    >
+      <KeyboardHideRoundedIcon sx={{ fontSize: 18 }} />
+    </Box>
   );
 
   const renderPtAccentRows = () => (
@@ -230,7 +249,7 @@ const VirtualKeyboard: React.FC<VirtualKeyboardProps> = ({
               ´
             </Box>
           ) : (
-            renderSpacer("flank-left")
+            renderCloseKeyboard()
           )}
           {ROW_3.map((letter) => renderLetterKey(letter))}
           {renderSpacer("flank-right")}

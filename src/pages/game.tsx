@@ -1022,9 +1022,10 @@ const Game: React.FC = () => {
     // (por eso se prueba con dataWithFile más abajo), así que evitamos esa
     // combinación por las dudas en vez de depender de que el navegador la
     // soporte bien.
+    const riddleText = t.shareRiddleTextByCategory[category] ?? t.shareRiddleText;
     const shareData: ShareData = {
       title: t.appTitle,
-      text: `${t.shareRiddleText}\n${shareUrl}`,
+      text: `${riddleText}\n${shareUrl}`,
     };
 
     const imageFile = await captureSvgAsPngFile(imageBoxRef.current, "acertijo.png");
@@ -1273,6 +1274,7 @@ const Game: React.FC = () => {
         onWatchAd={eliminateLettersAd.requestAd}
         canWatchAd={eliminateLettersAd.canShowAd && eliminatableLetters().length > 0}
         watchAdLoading={eliminateLettersAd.loadingAd}
+        onClose={() => setKeyboardOpen(false)}
         open={keyboardOpen}
         gameSlug="imaginalo"
         locale={currentLanguage}
